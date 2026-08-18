@@ -4,5 +4,30 @@
  "title": "X-sup-2-sup-Localizer-Cross-grained-Alignment-for-Progressiv",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-18 14:31:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0f3d0f3e-c536-48b9-ae41-2953c09455fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0f3d0f3e-c536-48b9-ae41-2953c09455fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:18:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-view geo-localization",
+    "progressive video localization",
+    "multi-grained alignment",
+    "visual place recognition",
+    "swin transformer adapter",
+    "online re-localization"
+   ],
+   "field": "交叉视角视觉定位",
+   "innovations": [
+    "提出渐进式CVG任务与PCVG评估协议，支持任意时间预算与随机起点",
+    "设计非对称跨粒度对齐目标，联合全局prefix-to-aerial与token聚合frame-tile匹配并按预算自适应加权",
+    "引入滑动窗口重定位SWRL策略，周期性刷新候选区域实现无额外训练的在线恢复"
+   ],
+   "benchmarks": [
+    "GAMa val-day",
+    "GAMa val-long-distance (自建)"
+   ]
+  }
+ }
 }

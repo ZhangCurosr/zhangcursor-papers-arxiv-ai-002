@@ -4,5 +4,32 @@
  "title": "When-State-Becomes-an-Attack-Surface-State-Semantic-Injectio",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-18 14:31:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/28eb971c-c382-48de-90b0-6af2757549a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/28eb971c-c382-48de-90b0-6af2757549a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:19:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-Driven Embodied Agents",
+    "State Semantic Injection",
+    "ESTI",
+    "Indirect Prompt Injection",
+    "Planning-Execution Gap",
+    "Adversarial Attack",
+    "Embodied AI Security"
+   ],
+   "field": "具身智能体安全与鲁棒性",
+   "innovations": [
+    "提出ESTI攻击框架，将对抗目标编码为与规划器可见状态Schema兼容的虚假语义证据而非显式竞争指令",
+    "构建ESTI-Bench规划-执行闭环评测框架，显式区分P-ASR与E-ASR并量化规划-执行鸿沟",
+    "证明载体兼容性和表示层一致性是规划采纳的主要驱动因素，运行时重新定位仅提供微小增量收益"
+   ],
+   "benchmarks": [
+    "ProgPrompt/VirtualHome",
+    "VoxPoser/RLBench",
+    "AI2-THOR/iTHOR"
+   ]
+  }
+ }
 }
