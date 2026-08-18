@@ -4,5 +4,31 @@
  "title": "When-State-Becomes-an-Attack-Surface-State-Semantic-Injectio",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-18 02:55:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/28eb971c-c382-48de-90b0-6af2757549a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/28eb971c-c382-48de-90b0-6af2757549a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:00:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Embodied AI Security",
+    "State-Semantic Injection",
+    "Indirect Prompt Injection",
+    "Planning-to-Execution Attack",
+    "ESTI-Bench",
+    "LLM Agents"
+   ],
+   "field": "具身智能体安全与对抗鲁棒性",
+   "innovations": [
+    "首次隔离规划器可见状态语义完整性边界，提出组件作用域、谓词局部、模式保持的下游条件攻击模型",
+    "构建 ESTI-Bench 规划-执行闭环评测框架，分离 P-ASR 与 E-ASR 并量化 plan-execution 转移缺口",
+    "通过 dataset-level groundability 与 runtime re-grounding 的分离及消融揭示 carrier compatibility 与表示一致性为主导因素"
+   ],
+   "benchmarks": [
+    "ProgPrompt/VirtualHome",
+    "VoxPoser/RLBench",
+    "AI2-THOR/iTHOR"
+   ]
+  }
+ }
 }

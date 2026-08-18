@@ -4,5 +4,34 @@
  "title": "When-Context-Misleads-Intent-Guided-Decoding-for-Robust-Retr",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-18 02:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/46449fa2-8ec6-484f-8775-341608fba510.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/46449fa2-8ec6-484f-8775-341608fba510.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:59:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Factuality",
+    "Faithfulness",
+    "Decoding-time Intervention",
+    "Source Arbitration",
+    "Contextual Trust Calibration"
+   ],
+   "field": "检索增强生成的可靠性与忠实性",
+   "innovations": [
+    "提出意图感知的解码时源仲裁框架 IGD，通过答案级过滤与 Token 级校正双向平衡事实性与忠实性",
+    "仅当 context 与 memory 分支分布冲突时激活保守式干预，避免对正确检索内容的过度干扰",
+    "揭示更强的 snippet 定位器不一定提升下游 IGD 性能，指出局部化目标与生成器可靠性函数的错位问题"
+   ],
+   "benchmarks": [
+    "KILT-NQ",
+    "TriviaQA",
+    "SQuAD",
+    "ConflictBank",
+    "NQ-Swap",
+    "CounterFact"
+   ]
+  }
+ }
 }

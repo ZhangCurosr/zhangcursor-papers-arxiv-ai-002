@@ -4,5 +4,30 @@
  "title": "Topological-Attribution-Distance-TAD-Revealing-Segment-Level",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-18 02:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/a53542ba-1a36-4b12-9270-856057f9d66c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/a53542ba-1a36-4b12-9270-856057f9d66c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:52:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Topological Attribution",
+    "RAG Explainability",
+    "Persistent Homology",
+    "Incident Log Analysis",
+    "LLM Interpretability",
+    "Evidence Attribution",
+    "Wasserstein Distance"
+   ],
+   "field": "LLM可解释性与RAG归因",
+   "innovations": [
+    "首次将段级归因形式化为拓扑比较问题，建立同伦推理与嵌入几何的显式联系",
+    "提出TAD指标，通过层聚合Wasserstein距离量化检索段对LLM输出的几何影响",
+    "设计√N分组筛选-确认两阶段自适应策略，将计算复杂度从O(N)降至O(√N)"
+   ],
+   "benchmarks": [
+    "GOAD网络安全日志数据集（587条日志，20条ground-truth）"
+   ]
+  }
+ }
 }

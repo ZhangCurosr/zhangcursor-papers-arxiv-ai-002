@@ -4,5 +4,33 @@
  "title": "When-Do-Explanations-Help-In-Context-Learning-A-Comparative",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-18 02:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/95917cd3-e5c5-42f3-aae0-3065359056de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/95917cd3-e5c5-42f3-aae0-3065359056de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:59:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Natural Language Explanation",
+    "Faithfulness",
+    "Few-shot Prompting",
+    "Explainable NLP"
+   ],
+   "field": "可解释自然语言处理",
+   "innovations": [
+    "首次系统比较human/self/LLM三类NLE在ICL中的预测效用",
+    "揭示两种faithfulness度量约50%分歧率及其对选择策略的影响",
+    "提出in-domain/OOD rationale错位压力测试验证语义对齐重要性"
+   ],
+   "benchmarks": [
+    "ECQA",
+    "e-SNLI",
+    "SNARKS",
+    "Boolean Expressions",
+    "Causal Judgment",
+    "GSM8K"
+   ]
+  }
+ }
 }

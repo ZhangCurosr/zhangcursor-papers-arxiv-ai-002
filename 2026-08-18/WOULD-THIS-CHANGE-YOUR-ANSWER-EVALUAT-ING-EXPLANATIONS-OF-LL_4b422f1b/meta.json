@@ -4,5 +4,32 @@
  "title": "WOULD-THIS-CHANGE-YOUR-ANSWER-EVALUAT-ING-EXPLANATIONS-OF-LL",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-18 02:55:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8a87d86b-9ced-4696-9dfb-d47328c7ae41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8a87d86b-9ced-4696-9dfb-d47328c7ae41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:56:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual explanation",
+    "LLM interpretability",
+    "activation tools",
+    "self-explanation",
+    "auditing games",
+    "chain of thought faithfulness"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出CHIVE管道通过反事实编辑在野发现并解释LLM行为",
+    "发现三种激活读取工具在自然行为评估中无法提供预测提升",
+    "证明反事实预测训练可泛化到分布外设置"
+   ],
+   "benchmarks": [
+    "WildChat",
+    "PETRI",
+    "MMLU hint setting",
+    "AITA sycophancy setting"
+   ]
+  }
+ }
 }

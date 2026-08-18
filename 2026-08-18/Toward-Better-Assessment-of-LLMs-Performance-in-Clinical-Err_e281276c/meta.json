@@ -4,5 +4,31 @@
  "title": "Toward-Better-Assessment-of-LLMs-Performance-in-Clinical-Err",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-18 02:57:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ff943130-2547-4d33-8065-edfef512f621.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ff943130-2547-4d33-8065-edfef512f621.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:53:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "clinical error detection",
+    "pairwise evaluation",
+    "prompt bias",
+    "contrastive analysis",
+    "LLM benchmarking"
+   ],
+   "field": "临床NLP评测",
+   "innovations": [
+    "Both-Correct Rate配对评估指标揭示模型判别能力低于随机水平",
+    "Evidence Contrastive Analysis定位证据定位与判断断裂",
+    "独立比率量化配对内系统性预测依赖"
+   ],
+   "benchmarks": [
+    "MEDEC MS-Test",
+    "MedErrBench-EN",
+    "MedErrBench-CN",
+    "MedRECT-JA"
+   ]
+  }
+ }
 }

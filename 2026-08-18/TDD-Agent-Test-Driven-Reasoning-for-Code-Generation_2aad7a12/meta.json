@@ -4,5 +4,30 @@
  "title": "TDD-Agent-Test-Driven-Reasoning-for-Code-Generation",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-18 02:53:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/36661588-edab-4ffb-93c4-56ca31047f75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/36661588-edab-4ffb-93c4-56ca31047f75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:51:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码生成",
+    "测试驱动开发",
+    "大语言模型",
+    "智能体",
+    "仓库级代码补全",
+    "迭代精炼"
+   ],
+   "field": "代码生成与测试",
+   "innovations": [
+    "将测试驱动开发范式操作化为单智能体框架，测试生成作为可执行推理 artifact",
+    "双轨协同精炼同时迭代改进测试与代码，基于执行反馈纠正双方缺陷",
+    "在函数级与仓库级基准上验证 test-first reasoning 作为通用推理框架的有效性"
+   ],
+   "benchmarks": [
+    "LiveCodeBench",
+    "RepoEval"
+   ]
+  }
+ }
 }

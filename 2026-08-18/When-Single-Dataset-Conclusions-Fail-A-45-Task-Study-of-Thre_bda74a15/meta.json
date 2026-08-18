@@ -4,5 +4,30 @@
  "title": "When-Single-Dataset-Conclusions-Fail-A-45-Task-Study-of-Thre",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-08-18 02:58:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6156700a-142d-48a4-b5d2-2587e9272757.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6156700a-142d-48a4-b5d2-2587e9272757.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:59:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "类别不平衡",
+    "决策阈值调优",
+    "SMOTE",
+    "外部效度",
+    "嵌套交叉验证",
+    "信用卡欺诈检测"
+   ],
+   "field": "机器学习评估方法论",
+   "innovations": [
+    "首次通过45任务研究直接演示单一数据集结论的反转",
+    "发现阈值调优收益与不平衡比率呈倒U型关系",
+    "证伪校准误差作为阈值调优价值的预测指标"
+   ],
+   "benchmarks": [
+    "Kaggle信用卡欺诈数据集",
+    "45任务二分类套件（含14个真实数据集+30个合成数据集）"
+   ]
+  }
+ }
 }

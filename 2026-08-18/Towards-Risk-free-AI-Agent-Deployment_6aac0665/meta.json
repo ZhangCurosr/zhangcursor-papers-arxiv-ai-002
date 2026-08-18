@@ -4,5 +4,34 @@
  "title": "Towards-Risk-free-AI-Agent-Deployment",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-18 02:54:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/bfc847c8-c606-48a1-b385-b89f75e0eb40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/bfc847c8-c606-48a1-b385-b89f75e0eb40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:52:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Agent",
+    "软件测试",
+    "调试",
+    "轨迹分析",
+    "Agent部署风险",
+    "自进化",
+    "失败归因"
+   ],
+   "field": "AI Agent测试与调试",
+   "innovations": [
+    "系统提出以轨迹为中心的Agent测试与调试研究纲领",
+    "构建从故障归因到自进化的完整调试闭环方法论",
+    "提供组织级Agent部署就绪三阶段检查清单"
+   ],
+   "benchmarks": [
+    "OSWorld",
+    "μ-bench",
+    "Who&When",
+    "RootSE",
+    "MAST"
+   ]
+  }
+ }
 }

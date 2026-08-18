@@ -4,5 +4,33 @@
  "title": "VCE-Skill-Enhancing-Skill-Self-Evolution-with-Version-Change",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-18 02:57:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1e2dffb5-fb2c-48b1-aa56-e8a374914db3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1e2dffb5-fb2c-48b1-aa56-e8a374914db3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:55:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skills",
+    "skill self-evolution",
+    "version-change experience",
+    "adaptive attention",
+    "cross-model transfer",
+    "LLM agents"
+   ],
+   "field": "Agent 技能自演进",
+   "innovations": [
+    "首次将公共技能版本历史蒸馏为结构化演进先验，与轨迹驱动演化形成互补",
+    "提出三级经验蒸馏管道（事件→模式→见解）构建可复用经验库",
+    "设计溯源标记驱动的自适应注意力融合机制，动态调整外部经验与自提议权重"
+   ],
+   "benchmarks": [
+    "SearchQA",
+    "OfficeQA",
+    "ALFWorld",
+    "Spreadsheet",
+    "BFCL-v4"
+   ]
+  }
+ }
 }

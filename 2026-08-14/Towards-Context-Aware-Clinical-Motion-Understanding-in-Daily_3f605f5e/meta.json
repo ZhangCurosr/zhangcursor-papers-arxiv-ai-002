@@ -4,5 +4,10 @@
  "title": "Towards-Context-Aware-Clinical-Motion-Understanding-in-Daily",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-14 14:49:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b5e84846-fe10-4a48-9085-d4a8521138d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b5e84846-fe10-4a48-9085-d4a8521138d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:54:16",
+  "chunks": 1
+ }
 }

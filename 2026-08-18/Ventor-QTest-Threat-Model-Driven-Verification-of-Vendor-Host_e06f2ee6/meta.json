@@ -4,5 +4,31 @@
  "title": "Ventor-QTest-Threat-Model-Driven-Verification-of-Vendor-Host",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-18 02:54:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2592880b-39ac-4733-aa22-201a33a68c66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2592880b-39ac-4733-aa22-201a33a68c66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:55:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM API 审计",
+    "黑盒验证",
+    "保真度损失",
+    "coarsened KL",
+    "分布式服务稳定性",
+    "vendor-hosted model",
+    "长程 agent 任务"
+   ],
+   "field": "大语言模型部署验证与安全性",
+   "innovations": [
+    "复合黑盒审计框架同时报告均值 AFL 与尾部 EFL 两个互补统计量",
+    "纯文本 Dirichlet 后验 coarsened-KL 估计器无需目标 logprob",
+    "揭示 EFL 与长周期 Terminal-Bench 任务通过率的关联性"
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

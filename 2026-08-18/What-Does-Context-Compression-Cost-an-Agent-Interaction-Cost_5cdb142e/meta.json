@@ -4,5 +4,30 @@
  "title": "What-Does-Context-Compression-Cost-an-Agent-Interaction-Cost",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-18 02:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5dff7e01-95dc-4801-a021-8976bff873bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5dff7e01-95dc-4801-a021-8976bff873bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:57:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "context compression",
+    "agent evaluation",
+    "tool use cost",
+    "interaction budget",
+    "reacquisition",
+    "task completion"
+   ],
+   "field": "LLM Agent评估与上下文管理",
+   "innovations": [
+    "证明完成度是交互成本的有损投影，提出检索vs执行分解的诊断协议",
+    "保留干预分离'保留数量'与'保留内容有效性'的因果效应",
+    "环境依赖性边界发现：重新获取成本非压缩操作的固有属性"
+   ],
+   "benchmarks": [
+    "IRBench",
+    "ALFWorld"
+   ]
+  }
+ }
 }

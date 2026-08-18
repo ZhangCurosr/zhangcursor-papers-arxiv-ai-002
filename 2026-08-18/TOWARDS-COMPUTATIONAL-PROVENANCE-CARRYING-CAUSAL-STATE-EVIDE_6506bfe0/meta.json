@@ -4,5 +4,31 @@
  "title": "TOWARDS-COMPUTATIONAL-PROVENANCE-CARRYING-CAUSAL-STATE-EVIDE",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-18 02:55:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/37aba1ef-abbc-4e9d-b618-a7d1a0ba1b48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/37aba1ef-abbc-4e9d-b618-a7d1a0ba1b48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:52:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computational provenance",
+    "causal intervention",
+    "interpretability",
+    "text watermarking",
+    "concept bottleneck",
+    "verifiable AI"
+   ],
+   "field": "可解释AI与可信LLM",
+   "innovations": [
+    "提出计算溯源框架，将验证的因果状态编码到生成文本统计模式中",
+    "在两种架构上实现128/128端到端溯源验证且跨架构复用信号",
+    "揭示答案等价执行可通过措辞差异区分内部路径"
+   ],
+   "benchmarks": [
+    "custom arithmetic task (4,096 held-out inputs)",
+    "128 matched pairs public evaluation",
+    "128 matched pairs protected evaluation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Towards-Context-Aware-Clinical-Motion-Understanding-in-Daily",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-14 04:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b5e84846-fe10-4a48-9085-d4a8521138d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b5e84846-fe10-4a48-9085-d4a8521138d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:49:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Freezing of Gait",
+    "Egocentric Vision",
+    "Foundation Models",
+    "Clinical Motion Understanding",
+    "Parkinson's Disease",
+    "Multimodal Sensing"
+   ],
+   "field": "临床运动理解与神经退行性疾病数字生物标志物",
+   "innovations": [
+    "首次将自视角视觉作为上下文模态用于帕金森病患者家庭环境中冻结步态检测",
+    "系统评估预训练视频与时序基础模型冻结特征在FOG识别中的跨模态可比性",
+    "证明视觉上下文提供独立于IMU的FOG预测信息但未能显著缓解自愿停止混淆"
+   ],
+   "benchmarks": [
+    "LOSO-CV on 13 PD participants",
+    "Window-level F1/AUROC/AUPRC/FPR"
+   ]
+  }
+ }
 }

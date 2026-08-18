@@ -4,5 +4,31 @@
  "title": "UniTAC-Universal-Task-Aware-Compression-via-Weighted-Distort",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-18 02:54:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cd0d7722-4392-4031-b846-4e994c2de883.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cd0d7722-4392-4031-b846-4e994c2de883.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:55:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "任务感知压缩",
+    "加权率失真",
+    "Vision Transformer编解码器",
+    "语义通信",
+    "整合梯度",
+    "通用图像压缩"
+   ],
+   "field": "学习图像压缩与语义通信",
+   "innovations": [
+    "将任务感知压缩形式化为权重条件化压缩，通过注入重要性向量实现运行时任务切换无需重新训练",
+    "首次系统分析加权率失真任务一致性理论，推导雅可比对角线元素作为最优权重",
+    "设计ViT原生token级双机制条件化（邻域注意力加成+自门控、稀疏全局注意力概率采样）实现权重驱动比特分配"
+   ],
+   "benchmarks": [
+    "CelebA性别分类",
+    "CelebA嘴部状态分类",
+    "AffectNet训练集"
+   ]
+  }
+ }
 }

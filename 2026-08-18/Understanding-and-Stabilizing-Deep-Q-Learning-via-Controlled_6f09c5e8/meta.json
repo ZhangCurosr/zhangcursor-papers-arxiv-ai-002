@@ -4,5 +4,31 @@
  "title": "Understanding-and-Stabilizing-Deep-Q-Learning-via-Controlled",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-08-18 02:56:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5ec28113-ce13-4161-8f12-fdd4cf82194e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5ec28113-ce13-4161-8f12-fdd4cf82194e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:53:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deep Q-learning",
+    "training stability",
+    "Bellman bootstrapping",
+    "ensemble learning",
+    "distributional RL",
+    "parameter plasticity",
+    "Atari-100K"
+   ],
+   "field": "深度强化学习训练稳定性",
+   "innovations": [
+    "揭示reward-triggered self-reinforcing trap反馈机制并设计action decoupling约束",
+    "提出spike ratio诊断统计量监测参数失衡与网络可塑性退化",
+    "构建集成化稳定算法：cross-model decoupling + ensemble quantile regression + spike-triggered parameter reset"
+   ],
+   "benchmarks": [
+    "Atari-100K",
+    "Procgen (generalization)"
+   ]
+  }
+ }
 }

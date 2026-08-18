@@ -4,5 +4,31 @@
  "title": "Visualizing-Uncertainty-to-Action-Composition-for-Human-Over",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-18 02:53:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/bec788eb-9d8f-4748-971c-453ab30c1fe3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/bec788eb-9d8f-4748-971c-453ab30c1fe3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:56:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Uncertainty visualization",
+    "Human-AI decision-making",
+    "Process-transparency",
+    "Explainable AI",
+    "Action composition",
+    "Decision oversight"
+   ],
+   "field": "可解释AI与不确定性可视化",
+   "innovations": [
+    "不确定性到行动绑定框架：通过优先级策略将多源不确定性条件确定性地组合为单一监督响应",
+    "ActionCue过程透明化可视化：以标注优先级级联显式渲染不确定性组合过程",
+    "上下文安全修饰符：正交解耦行动与工作流强制力，通过风险修饰符提升高危场景响应强度"
+   ],
+   "benchmarks": [
+    "医疗健康案例(Case C)",
+    "信贷评估案例(Case CR)",
+    "灾害预测案例(Case DR)"
+   ]
+  }
+ }
 }

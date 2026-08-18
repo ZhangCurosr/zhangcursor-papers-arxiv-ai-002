@@ -4,5 +4,30 @@
  "title": "Walk-Before-You-Run-The-Importance-of-Data-Exploration-for-D",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-08-18 02:59:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b9113b60-efd2-4d25-beaf-e2690e0ff050.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b9113b60-efd2-4d25-beaf-e2690e0ff050.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:56:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Exploration",
+    "LLM data analysis",
+    "workbook understanding",
+    "schema recovery",
+    "agent benchmark",
+    "human-in-the-loop"
+   ],
+   "field": "LLM-based数据分析Agent",
+   "innovations": [
+    "首次将Data Exploration形式化为独立可评估的schema-fixed结构化artifact",
+    "构建双benchmark（真实Vitamin D工作簿+扩展DSBench）直接评估数据集理解质量",
+    "Control/Middle/Treatment三条件实验证明显式数据探索支持可提升下游正确率"
+   ],
+   "benchmarks": [
+    "DSBench",
+    "Vitamin D Workbook"
+   ]
+  }
+ }
 }

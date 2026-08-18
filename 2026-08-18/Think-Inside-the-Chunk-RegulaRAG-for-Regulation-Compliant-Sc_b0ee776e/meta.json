@@ -4,5 +4,31 @@
  "title": "Think-Inside-the-Chunk-RegulaRAG-for-Regulation-Compliant-Sc",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-18 02:55:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/16609ee0-f202-49fe-8045-e244c1387b6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/16609ee0-f202-49fe-8045-e244c1387b6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:51:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "法规合规",
+    "测试场景生成",
+    "SmartChunking",
+    "UN Regulation No. 152",
+    "AEBS",
+    "知识检索增强生成"
+   ],
+   "field": "法规合规自动化验证",
+   "innovations": [
+    "SmartChunking + BFS引用闭包富集，利用法规显式交叉引用结构替代通用知识图谱构建",
+    "规范感知检索与上下文组装：引用展开-去重-规范排序三步流程确保多段落多表格场景的完整检索",
+    "惩罚相似度评估框架：结合余弦相似度与正则化数值/类别匹配，有效检测LLM数值幻觉"
+   ],
+   "benchmarks": [
+    "UN Regulation No. 152 AEBS测试场景数据集（Hugging Face: vahidzolf/un_152）",
+    "8部UN汽车法规可扩展性测试"
+   ]
+  }
+ }
 }

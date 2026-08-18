@@ -4,5 +4,29 @@
  "title": "X-sup-2-sup-Localizer-Cross-grained-Alignment-for-Progressiv",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-18 02:58:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0f3d0f3e-c536-48b9-ae41-2953c09455fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0f3d0f3e-c536-48b9-ae41-2953c09455fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:00:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-view geo-localization",
+    "progressive localization",
+    "video retrieval",
+    "cross-grained alignment",
+    "sliding-window re-localization"
+   ],
+   "field": "视觉地理定位",
+   "innovations": [
+    "提出渐进式跨视角视频地理定位任务与评测协议",
+    "跨粒度非对称对齐损失根据时间预算动态调整全局与细粒度监督权重",
+    "滑动窗口重定位策略支持长距离部署与断点恢复"
+   ],
+   "benchmarks": [
+    "GAMa val-day",
+    "GAMa long-distance"
+   ]
+  }
+ }
 }

@@ -4,5 +4,42 @@
  "title": "WHAT-DO-COMPLIANCE-DETECTORS-READ",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-18 02:55:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b85fc1e9-3022-4235-b1cf-a3b3bf964bce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b85fc1e9-3022-4235-b1cf-a3b3bf964bce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:58:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "compliance monitoring",
+    "activation probing",
+    "guard models",
+    "rule blindness",
+    "representation engineering",
+    "LLM safety"
+   ],
+   "field": "LLM 合规与安全评估",
+   "innovations": [
+    "提出免训练激活读出 ICS，仅用 10 对样本校准并通过单点积评分",
+    "构造无混淆交叉规则-情境基准，证明仅链式推理能克服规则盲点",
+    "系统审计 7 类 guard/ probe + 13 个基准，揭示规则盲点为领域共性问题"
+   ],
+   "benchmarks": [
+    "OmniCompliance",
+    "TRIDENT",
+    "IFEval",
+    "FlexBench",
+    "DynaBench",
+    "SafePyramid",
+    "AIReg-Bench",
+    "CompliBench",
+    "ToxicChat",
+    "OpenAI Moderation",
+    "Aegis",
+    "WildGuard",
+    "PKU-SafeRLHF",
+    "BeaverTails"
+   ]
+  }
+ }
 }
