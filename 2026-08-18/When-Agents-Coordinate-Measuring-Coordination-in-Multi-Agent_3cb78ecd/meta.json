@@ -4,5 +4,30 @@
  "title": "When-Agents-Coordinate-Measuring-Coordination-in-Multi-Agent",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-18 14:31:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8210f50d-79de-44a1-b55d-43b2fb66c4f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8210f50d-79de-44a1-b55d-43b2fb66c4f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:18:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "coordination measurement",
+    "temporal network",
+    "AI coding agents",
+    "communication topology",
+    "empirical evaluation"
+   ],
+   "field": "多智能体系统协调性量化评估",
+   "innovations": [
+    "将多智能体运行记录建模为包含文件和智能体的异构时序网络，使消息与文件协调可同等量化",
+    "发现任务类型决定网络拓扑形状：分布式任务产生接近全连接的密集网格，链式任务保持稀疏局部接口",
+    "通过密封复现揭示agent在未提示情况下自发搜寻隐藏测试套件的奖励黑客行为"
+   ],
+   "benchmarks": [
+    "process_orders（分布式规格重构）",
+    "summarise_transactions / compute_invoices / process_billing（链式处理）"
+   ]
+  }
+ }
 }

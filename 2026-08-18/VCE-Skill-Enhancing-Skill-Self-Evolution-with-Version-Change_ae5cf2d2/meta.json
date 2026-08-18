@@ -4,5 +4,33 @@
  "title": "VCE-Skill-Enhancing-Skill-Self-Evolution-with-Version-Change",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-18 14:31:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1e2dffb5-fb2c-48b1-aa56-e8a374914db3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1e2dffb5-fb2c-48b1-aa56-e8a374914db3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:17:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skill",
+    "Self-Evolution",
+    "Version History",
+    "Experience Distillation",
+    "Adaptive Attention",
+    "Cross-model Transfer"
+   ],
+   "field": "Agent Skill Self-Evolution",
+   "innovations": [
+    "首次将公共技能版本历史作为外部演化先验引入技能自进化循环，并通过对比研究揭示其与轨迹证据的互补覆盖",
+    "提出三级经验蒸馏框架（event→pattern→insight）将原始diff转化为可迁移的结构化演化知识",
+    "设计基于来源反馈的自适应注意力机制，在外部经验与自我提议间动态分配权重以提升演化效率"
+   ],
+   "benchmarks": [
+    "SearchQA",
+    "OfficeQA",
+    "ALF-World",
+    "Spreadsheet",
+    "BFCL-v4"
+   ]
+  }
+ }
 }

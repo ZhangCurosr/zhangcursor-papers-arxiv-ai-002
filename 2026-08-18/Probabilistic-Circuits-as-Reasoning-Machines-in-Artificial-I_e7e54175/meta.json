@@ -4,5 +4,26 @@
  "title": "Probabilistic-Circuits-as-Reasoning-Machines-in-Artificial-I",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-18 14:31:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1eccf9b1-4733-4b49-aab7-976b559455e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1eccf9b1-4733-4b49-aab7-976b559455e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:19:06",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "概率电路",
+    "概率推理",
+    "可分解性",
+    "光滑性",
+    "统一框架",
+    "多项式时间推理"
+   ],
+   "field": "概率建模与推理",
+   "innovations": [
+    "提出概率电路作为AI统一推理语言，统一算术电路/和积网络/切割集网络等已有范式",
+    "通过可分解性与光滑性结构约束实现边缘化/条件化/MPE/期望计算的线性时间复杂度",
+    "构建推理-决策分层架构，明确区分分布计算与点估计的最优决策"
+   ]
+  }
+ }
 }

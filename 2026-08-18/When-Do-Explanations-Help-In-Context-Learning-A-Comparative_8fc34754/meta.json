@@ -4,5 +4,10 @@
  "title": "When-Do-Explanations-Help-In-Context-Learning-A-Comparative",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-18 14:31:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/95917cd3-e5c5-42f3-aae0-3065359056de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/95917cd3-e5c5-42f3-aae0-3065359056de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:19:13",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Protein-Structure-Prediction-From-Evolutionary-Constraints-t",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-08-18 14:31:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/e678e0c9-aef4-4114-a2cf-0d3c06c9c9ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/e678e0c9-aef4-4114-a2cf-0d3c06c9c9ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:18:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "protein structure prediction",
+    "diffusion models",
+    "protein language model",
+    "generative protein design",
+    "AlphaFold3",
+    "RFdifusion",
+    "heterogeneous molecular modeling"
+   ],
+   "field": "计算结构生物学与AI驱动蛋白质设计",
+   "innovations": [
+    "提出四阶段方法论框架（显式进化建模→端到端折叠→异构系统建模→生成式设计）",
+    "辨析预测范式与生成范式的本质区别并澄清概念混淆",
+    "从表示/架构/评估三维度交叉剖析领域演进逻辑"
+   ],
+   "benchmarks": [
+    "CASP",
+    "PDBbind",
+    "DockQ",
+    "ProteoBench",
+    "PDFBench",
+    "FoldBench"
+   ]
+  }
+ }
 }
