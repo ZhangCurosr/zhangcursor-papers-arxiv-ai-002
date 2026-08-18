@@ -4,5 +4,34 @@
  "title": "STEP-LEVEL-ON-POLICY-DISTILLATION-INTERPOLATING-BETWEEN-ON-P",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-18 02:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8aaaffa9-b7f9-4b54-a905-3ae357b9a3e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8aaaffa9-b7f9-4b54-a905-3ae357b9a3e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:32:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "step-level supervision",
+    "black-box distillation",
+    "SFT",
+    "reasoning",
+    "agent"
+   ],
+   "field": "大语言模型知识蒸馏",
+   "innovations": [
+    "提出SOPD融合SFT长程监督与OPD on-policy状态覆盖",
+    "建立SFT到OPD的步长插值理论联系",
+    "设计packed attention mask实现并行step-level蒸馏"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "AIME24",
+    "AIME25",
+    "HMMT25-Feb",
+    "HMMT25-Nov",
+    "DeepMath"
+   ]
+  }
+ }
 }

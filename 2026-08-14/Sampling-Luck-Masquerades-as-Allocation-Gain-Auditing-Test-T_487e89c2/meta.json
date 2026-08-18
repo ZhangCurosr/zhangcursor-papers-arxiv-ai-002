@@ -4,5 +4,28 @@
  "title": "Sampling-Luck-Masquerades-as-Allocation-Gain-Auditing-Test-T",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-14 14:49:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6afd7c6f-1de1-45f4-869b-3ba4f0a2907b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6afd7c6f-1de1-45f4-869b-3ba4f0a2907b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:24:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural combinatorial optimization",
+    "test-time compute",
+    "resource allocation",
+    "selection bias",
+    "optimizer's curse",
+    "pre-registration",
+    "evaluation methodology",
+    "best-of-k sampling"
+   ],
+   "field": "NCO 测试时预算分配与评估审计",
+   "innovations": [
+    "首次量化 NCO 测试时分配价值的 in-sample 选择偏差，证明分布内增益为零",
+    "提出 per-instance null 噪声底限与 d_split out-of-sample 校正流程",
+    "在分布偏移混合负载上测得 11–12% 真实分配增益（信号免费）与 3–5% 计费保留"
+   ]
+  }
+ }
 }

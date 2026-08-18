@@ -4,5 +4,36 @@
  "title": "Picking-the-Right-Image-to-Classify-Reliable-Input-Selection",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-08-18 02:55:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b0a368f4-72a1-48e7-b6a8-f842a64f1d67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b0a368f4-72a1-48e7-b6a8-f842a64f1d67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:29:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reliable-input selection",
+    "acquisition shift",
+    "teledermatology",
+    "frozen backbone",
+    "test-time selection",
+    "self-supervised representation",
+    "weighted F1",
+    "OOD detection"
+   ],
+   "field": "医学图像分析中的分布偏移与部署可靠性",
+   "innovations": [
+    "首次定义并基准测试 reliable-input selection 任务，提出训练数据无关与参考集两类选择器",
+    "量化 oracle 上界（加权F1增益约20pp）并证明现有选择器仅恢复约1/4，揭示任务结构困难",
+    "系统评测九种冻结骨干在六个皮肤镜数据集上的表现，确认困难源于编码器缺乏per-image可靠性信号而非模型"
+   ],
+   "benchmarks": [
+    "PASSION",
+    "DermaCon-IN",
+    "SCIN",
+    "derm7pt",
+    "HAM10000",
+    "PAD-UFES-20"
+   ]
+  }
+ }
 }

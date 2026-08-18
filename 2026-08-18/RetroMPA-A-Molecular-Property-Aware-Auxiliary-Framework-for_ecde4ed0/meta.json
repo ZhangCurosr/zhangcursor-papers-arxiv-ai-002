@@ -4,5 +4,30 @@
  "title": "RetroMPA-A-Molecular-Property-Aware-Auxiliary-Framework-for",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-08-18 02:58:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9903d926-d44a-4aeb-93ab-8617ec417821.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9903d926-d44a-4aeb-93ab-8617ec417821.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:31:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "逆合成预测",
+    "分子性质嵌入",
+    "多模态预训练",
+    "即插即用框架",
+    "对比学习",
+    "分子表征学习"
+   ],
+   "field": "计算化学与逆合成AI",
+   "innovations": [
+    "提出免重训练的分子性质感知即插即用辅助框架",
+    "多模态预训练对齐分子-文本生成性质嵌入",
+    "双先验对比学习缓解假负样本问题"
+   ],
+   "benchmarks": [
+    "USPTO-50K",
+    "USPTO-Full"
+   ]
+  }
+ }
 }

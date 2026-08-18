@@ -4,5 +4,32 @@
  "title": "Who-Speaks-Matters-Authority-Aware-Multi-View-RAG-over-Itali",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-14 04:10:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/980b333f-cdc3-4c4f-8612-fdd354ac5919.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/980b333f-cdc3-4c4f-8612-fdd354ac5919.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:28:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Parliamentary NLP",
+    "Authority Modeling",
+    "Multi-View Summarization",
+    "Quotation Faithfulness",
+    "Knowledge Graphs",
+    "Expert Finding"
+   ],
+   "field": "政治信息检索与多视角RAG",
+   "innovations": [
+    "主题依赖的可解释权威性模型，聚合专业、教育、委员会、立法活动等信号并施以时间衰减",
+    "双通道检索（稠密语义+图谱遍历）以区分边缘发言者与实质性立法专家",
+    "基于字符偏移量的结构保证逐字引用机制，实现Quotation Faithfulness=1.00"
+   ],
+   "benchmarks": [
+    "15个意大利政策主题（8大领域）",
+    "Google NotebookLM (Gemini 3.0) 作为商业基线",
+    "6位领域专家盲测A/B评估（N=67对）"
+   ]
+  }
+ }
 }

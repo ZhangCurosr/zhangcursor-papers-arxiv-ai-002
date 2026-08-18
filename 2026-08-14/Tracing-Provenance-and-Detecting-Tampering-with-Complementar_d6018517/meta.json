@@ -4,5 +4,30 @@
  "title": "Tracing-Provenance-and-Detecting-Tampering-with-Complementar",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-08-14 14:49:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/2c7e5d85-34fa-4cab-8b66-e8722a4e6161.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/2c7e5d85-34fa-4cab-8b66-e8722a4e6161.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:26:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM水印",
+    "溯源",
+    "篡改检测",
+    "无偏重加权",
+    "搭车伪造",
+    "多信号水印"
+   ],
+   "field": "大语言模型内容安全",
+   "innovations": [
+    "提出Cocktail双信号联合嵌入框架，用无偏tournament重加权在同一文本中同时服务溯源与篡改检测",
+    "以归一化读者可见文本而非token-ID锚定种子，使篡改检测针对可见内容",
+    "构建二维评分空间支持三态决策（完整/篡改/无水印），通过周期轮次分配调控双信号强度比"
+   ],
+   "benchmarks": [
+    "C4 realnewslike",
+    "LFQA"
+   ]
+  }
+ }
 }

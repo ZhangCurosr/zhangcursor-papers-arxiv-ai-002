@@ -4,5 +4,35 @@
  "title": "Synthetic-Data-Augmentation-for-Satellite-Based-Analysis-of",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-18 02:58:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b930f39a-fdcf-46d2-b929-bd2add06e89c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b930f39a-fdcf-46d2-b929-bd2add06e89c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:33:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Synthetic Data Augmentation",
+    "Conditional GAN",
+    "Conditional DDPM",
+    "Satellite Image Classification",
+    "Battle-Damaged Agricultural Fields",
+    "Remote Sensing",
+    "Imbalanced Learning",
+    "Vision Transformer"
+   ],
+   "field": "遥感图像生成与分类",
+   "innovations": [
+    "在相同真实训练集下系统对比条件GAN与条件DDPM用于战损农田卫星图像增强",
+    "提出平衡增强与成比例翻倍双策略并证实定向纠偏优于等比扩容",
+    "构建面向小样本遥感的多维生成质量评估体系（KID/GMM/Mahalanobis/Precision-Recall/重复率）"
+   ],
+   "benchmarks": [
+    "Real-only ViT baseline",
+    "Real + Balanced GAN",
+    "Real + Balanced DDPM",
+    "Real + Doubled GAN",
+    "Real + Doubled DDPM"
+   ]
+  }
+ }
 }

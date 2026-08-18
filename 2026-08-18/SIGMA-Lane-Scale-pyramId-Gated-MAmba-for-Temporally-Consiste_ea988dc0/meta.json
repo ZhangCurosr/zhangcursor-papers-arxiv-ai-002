@@ -4,5 +4,29 @@
  "title": "SIGMA-Lane-Scale-pyramId-Gated-MAmba-for-Temporally-Consiste",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-08-18 02:55:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/de9c31a8-8425-456d-92e6-10a9a13eef42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/de9c31a8-8425-456d-92e6-10a9a13eef42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:32:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Lane Detection",
+    "State Space Model",
+    "Temporal Consistency",
+    "Occlusion Handling",
+    "Mamba",
+    "Recurrent Vision"
+   ],
+   "field": "自动驾驶视觉感知",
+   "innovations": [
+    "提出状态污染（state contamination）视角下的 SSM 双门控机制，直接控制写入与残差融合路径阻断遮挡污染",
+    "坐标一致性仿射对齐+结构化空间检索（SSR）双路径聚合，分离时序滤波与空间恢复"
+   ],
+   "benchmarks": [
+    "VIL-100",
+    "OpenLane-V"
+   ]
+  }
+ }
 }

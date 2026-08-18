@@ -4,5 +4,32 @@
  "title": "Who-Speaks-Matters-Authority-Aware-Multi-View-RAG-over-Itali",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-14 14:48:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/980b333f-cdc3-4c4f-8612-fdd354ac5919.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/980b333f-cdc3-4c4f-8612-fdd354ac5919.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:28:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Parliamentary NLP",
+    "Authority Modeling",
+    "Knowledge Graphs",
+    "Quotation Faithfulness",
+    "Multi-View Summarization",
+    "Fairness in Retrieval"
+   ],
+   "field": "可信RAG与政治NLP",
+   "innovations": [
+    "首个整合议会知识图谱与查询依赖权威建模的统一RAG架构",
+    "由构造保证的逐字引文溯源机制（字符偏移量确定性提取）",
+    "双通道检索（密集语义+图谱遍历）结合权威感知重排序"
+   ],
+   "benchmarks": [
+    "Italian Chamber of Deputies Proceedings (XIX Legislature)",
+    "15-policy-topic benchmark",
+    "Google NotebookLM baseline"
+   ]
+  }
+ }
 }

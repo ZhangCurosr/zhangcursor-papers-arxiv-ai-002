@@ -4,5 +4,30 @@
  "title": "Physics-of-Agents-Statistical-Mechanics-Predicts-Collective",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-18 02:59:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f0220ff5-099f-4ff4-b0fe-5b5badbf649f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f0220ff5-099f-4ff4-b0fe-5b5badbf649f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:28:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "统计力学",
+    "意见动态",
+    "Ising模型",
+    "集体智能",
+    "多智能体交互"
+   ],
+   "field": "多智能体系统与AI安全",
+   "innovations": [
+    "基于Ising模型与Glauber动力学建立LLM智能体意见更新的统计力学框架",
+    "引入三耦合参数区分共识边、分歧边与连接强度，揭示吸引-排斥非对称性",
+    "通过临界温度与五耦合模型定量解释信念积累与真理寻求机制"
+   ],
+   "benchmarks": [
+    "MATH数学推理数据集",
+    "Political Questions Dataset政治立场评估"
+   ]
+  }
+ }
 }

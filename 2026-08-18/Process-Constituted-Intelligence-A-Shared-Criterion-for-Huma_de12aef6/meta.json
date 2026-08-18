@@ -4,5 +4,27 @@
  "title": "Process-Constituted-Intelligence-A-Shared-Criterion-for-Huma",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-08-18 02:54:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/27033ae9-57ec-4458-aa05-8b3d5e6ea4af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/27033ae9-57ec-4458-aa05-8b3d5e6ea4af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:31:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "过程构成的智能",
+    "强等价",
+    "AI评估",
+    "过程审计",
+    "人机认知",
+    "生成式AI",
+    "认知卸载"
+   ],
+   "field": "AI对齐与评估",
+   "innovations": [
+    "提出七个过程特征作为人与机器智能的共享判定标准",
+    "建立弱/强/硬三级等价框架，区分过程匹配与算法匹配",
+    "设计可操作的process audit协议以实证检验强等价假设"
+   ]
+  }
+ }
 }

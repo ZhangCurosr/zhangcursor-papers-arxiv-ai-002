@@ -4,5 +4,10 @@
  "title": "STAIR-Semantic-Temporal-Automaton-for-Interpretable-Reasonin",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-08-18 02:54:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6c39d179-5326-49a5-b66c-e9cd5f0df7be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6c39d179-5326-49a5-b66c-e9cd5f0df7be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:32:10",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Software-Engineering-for-AI-driven-Building-Operation",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-08-18 02:54:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/70a0b0ed-f44d-41ab-a7d3-3b25f9a94ebf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/70a0b0ed-f44d-41ab-a7d3-3b25f9a94ebf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:33:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SE4AI",
+    "赛博物理系统",
+    "建筑运行优化",
+    "数字孪生",
+    "物理AI",
+    "数据极简主义",
+    "Sim-to-real gap"
+   ],
+   "field": "AI软件工程与物理系统部署",
+   "innovations": [
+    "首次系统归纳SE4AI在建筑CPS场景的六大缺失视角并提出五大工程最佳实践",
+    "提出以数字孪生为核心枢纽的统一测试、探索与可解释性框架",
+    "倡导数据极简主义与信任优先的工程原则，推动SE4AI向SE4CPS演进"
+   ],
+   "benchmarks": [
+    "BOPTEST"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ParaTempo-Eficient-Parallel-Reasoning-via-Temporal-Confidenc",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-18 02:54:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1ed5c32f-e5b2-4a5a-8f9b-f930fa094dce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1ed5c32f-e5b2-4a5a-8f9b-f930fa094dce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:28:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "并行推理",
+    "测试时扩展",
+    "时间置信度",
+    "异步控制",
+    "自洽性",
+    "推理效率"
+   ],
+   "field": "大语言模型推理效率优化",
+   "innovations": [
+    "提出时间置信度作为分支局部收敛信号，通过滑动窗口聚合时序答案分布",
+    "构建训练自由的异步并行推理框架，实现剪枝/退役/分叉/全局早停的无同步控制"
+   ],
+   "benchmarks": [
+    "AIME 2026",
+    "HMMT November 2025",
+    "HMMT February 2026",
+    "GPQA Diamond"
+   ]
+  }
+ }
 }

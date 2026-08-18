@@ -4,5 +4,33 @@
  "title": "Policy-Iteration-with-Human-Feedback-Bringing-Post-Training",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-18 02:55:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/77829066-2d5a-4d0b-a405-17a60f875ec7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/77829066-2d5a-4d0b-a405-17a60f875ec7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:29:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Policy Iteration",
+    "In-context Learning",
+    "Human Feedback",
+    "Rare Disease Diagnosis",
+    "Process-feedback RL",
+    "Prompt Engineering",
+    "Agentic AI"
+   ],
+   "field": "大语言模型对齐与推理增强",
+   "innovations": [
+    "将策略迭代从权重空间迁移到外部自然语言策略artifact，实现固定权重执行器的持续改进",
+    "分离过程反馈与终端验证的双轨机制，critic定位失败环节+Recall@k验证诊断结局",
+    "策略跨执行器零成本迁移，在3B至49B参数模型上保持一致的recall提升"
+   ],
+   "benchmarks": [
+    "liteOdyssey rare-disease benchmark (1,243 cases)",
+    "Undiagnosed Diseases Network panel",
+    "GPT-5.4 proprietary executor",
+    "Qwen3.6-35B open-weight executor"
+   ]
+  }
+ }
 }

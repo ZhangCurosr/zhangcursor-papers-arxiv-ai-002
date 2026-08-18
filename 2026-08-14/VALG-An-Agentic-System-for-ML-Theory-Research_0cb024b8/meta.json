@@ -4,5 +4,30 @@
  "title": "VALG-An-Agentic-System-for-ML-Theory-Research",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-14 04:09:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6e059650-e69a-4cbc-8bed-0fcc96a60f8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6e059650-e69a-4cbc-8bed-0fcc96a60f8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:27:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine learning theory",
+    "agentic system",
+    "theorem proving",
+    "open problems",
+    "COLT 2026",
+    "proof dependency graph",
+    "formalization"
+   ],
+   "field": "机器学习理论自动推理",
+   "innovations": [
+    "源相对定理分支的层级诊断与定向修订机制",
+    "全局-局部分离的证明依赖图开发流水线",
+    "COLT 2026 开放问题的系统性智能体探索与部分解答"
+   ],
+   "benchmarks": [
+    "COLT 2026 Open Problems"
+   ]
+  }
+ }
 }

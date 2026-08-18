@@ -4,5 +4,38 @@
  "title": "Palmyra-x6-Technical-Report-An-Agentic-Tool-Use-Model-Post-T",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-18 02:56:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/832ac77a-a49f-4169-8522-a25a36eece18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/832ac77a-a49f-4169-8522-a25a36eece18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:28:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic 模型",
+    "锚定监督微调",
+    "ASFT",
+    "Muon 优化器",
+    "工具调用",
+    "MoE 架构",
+    "合成数据生成"
+   ],
+   "field": "大语言模型后训练与 Agentic 系统",
+   "innovations": [
+    "提出 ASFT 方法，结合 DFT 概率加权与 KL 锚定损失，在 744B 参数模型上仅用 626 条轨迹实现 Agentic 能力提升且保持基座能力",
+    "Muon+Adam 混合优化器适配 MoE+MLA 架构，通过 Muon Split 变体保留 MLA 预训练几何结构",
+    "端到端合成数据管线含消毒、效率上限、验证器评分与作弊过滤多层门控，确保轨迹质量"
+   ],
+   "benchmarks": [
+    "MCP-Atlas",
+    "FinanceBench",
+    "IFBench",
+    "BFCL Core",
+    "FORTRESS",
+    "Washington Post ModelSlant",
+    "TruthfulQA",
+    "BBQ",
+    "OR-Bench"
+   ]
+  }
+ }
 }

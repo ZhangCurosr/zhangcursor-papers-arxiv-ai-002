@@ -4,5 +4,29 @@
  "title": "Uniform-Herding-Exemplar-Replay-with-Representation-Refresh",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-14 14:49:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/fb07eed9-49f3-4322-804c-0adb75a08683.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/fb07eed9-49f3-4322-804c-0adb75a08683.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:27:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "class-incremental learning",
+    "experience replay",
+    "exemplar selection",
+    "uniform herding",
+    "representation refresh",
+    "catastrophic forgetting"
+   ],
+   "field": "类增量学习与持续学习",
+   "innovations": [
+    "任务边界均匀配额 + 当前特征空间重 herding 刷新每类 exemplar",
+    "活跃回放集与有界候选池分离设计",
+    "端到端对比 iCaRL 与静态库并提供组件消融"
+   ],
+   "benchmarks": [
+    "CIFAR-100, 10-task class-incremental"
+   ]
+  }
+ }
 }

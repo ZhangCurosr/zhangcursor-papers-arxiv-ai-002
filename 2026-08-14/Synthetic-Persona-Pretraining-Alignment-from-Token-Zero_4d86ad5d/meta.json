@@ -4,5 +4,10 @@
  "title": "Synthetic-Persona-Pretraining-Alignment-from-Token-Zero",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-14 14:48:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/2ce4a9f4-1b4c-40f4-8632-6e86365f67ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/2ce4a9f4-1b4c-40f4-8632-6e86365f67ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:26:09",
+  "chunks": 4
+ }
 }

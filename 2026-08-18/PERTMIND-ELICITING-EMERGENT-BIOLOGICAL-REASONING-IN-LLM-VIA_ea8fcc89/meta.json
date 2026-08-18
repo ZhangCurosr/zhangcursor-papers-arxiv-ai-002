@@ -4,5 +4,37 @@
  "title": "PERTMIND-ELICITING-EMERGENT-BIOLOGICAL-REASONING-IN-LLM-VIA",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-18 02:58:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/483355fa-1cef-4d4f-8148-2a7594aa867d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/483355fa-1cef-4d4f-8148-2a7594aa867d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:28:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "perturbation-derived reinforcement learning",
+    "emergent biological reasoning",
+    "GRPO",
+    "cellular perturbation atlas",
+    "cross-task transfer",
+    "biological representation",
+    "reward design"
+   ],
+   "field": "生物信息学与大模型交叉",
+   "innovations": [
+    "利用公共扰动图谱的离散终点作为 RL 奖励替代人工标注，实现规模化训练",
+    "基因级终端奖励与 outcome‑independent 的通路级中间奖励结合，并通过 BFT‑SFT 稳定初始化",
+    "在单一正向扰动任务上涌现出反向扰动推理、双扰动、表型筛选与多尺度表示等跨任务能力"
+   ],
+   "benchmarks": [
+    "VCWorld/GeneTAK",
+    "AssayBench",
+    "GeneAgent",
+    "Schmidt T‑cell CRISPRa/i",
+    "Norman Perturb‑seq",
+    "Geneformer/scProtoTransformer 基因属性映射",
+    "STATE 细胞扰动预测",
+    "scTransMIL 供体映射"
+   ]
+  }
+ }
 }

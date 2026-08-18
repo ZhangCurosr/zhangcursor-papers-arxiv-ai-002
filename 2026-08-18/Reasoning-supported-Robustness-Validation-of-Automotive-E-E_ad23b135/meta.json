@@ -4,5 +4,30 @@
  "title": "Reasoning-supported-Robustness-Validation-of-Automotive-E-E",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-18 02:54:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6171b749-03a0-4ddf-9a0c-98d8eb30d2ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6171b749-03a0-4ddf-9a0c-98d8eb30d2ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:30:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "鲁棒性验证",
+    "任务轮廓",
+    "本体推理",
+    "汽车电子",
+    "知识图谱",
+    "分析选择"
+   ],
+   "field": "汽车系统工程与验证",
+   "innovations": [
+    "提出MP到OWL映射机制实现语义化查询",
+    "基于OWL推理自动选择分析类型",
+    "利用属性链实现相邻组件特性传播"
+   ],
+   "benchmarks": [
+    "FTCO3V455A1逆变器模块",
+    "HV RV Handbook基准"
+   ]
+  }
+ }
 }
