@@ -4,5 +4,32 @@
  "title": "Probabilistic-Circuits-as-Reasoning-Machines-in-Artificial-I",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-18 02:58:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1eccf9b1-4733-4b49-aab7-976b559455e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1eccf9b1-4733-4b49-aab7-976b559455e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:53:55",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "概率电路",
+    "可处理推理",
+    "概率图模型",
+    "测度论",
+    "连续潜变量",
+    "知识编译",
+    "侧信道攻击"
+   ],
+   "field": "概率机器学习与可处理推理",
+   "innovations": [
+    "概率电路统一框架保证多项式时间精确推理",
+    "积分节点扩展连续域无限混合建模",
+    "决策树与知识图谱嵌入到PC的可逆转换"
+   ],
+   "benchmarks": [
+    "SASCA侧信道攻击成功率",
+    "随机森林生成模型转换",
+    "KGE最大似然训练"
+   ]
+  }
+ }
 }
