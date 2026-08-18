@@ -4,5 +4,31 @@
  "title": "Motion-as-Prompt-Enhancing-Motion-Reasoning-in-Multimodal-La",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-08-13 14:55:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f4fe24a-9656-4ee2-845e-d6357be0acea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f4fe24a-9656-4ee2-845e-d6357be0acea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:32:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Motion Reasoning",
+    "Multimodal LLM",
+    "Visual Prompting",
+    "Keyframe Sampling",
+    "Trajectory Tracking",
+    "Video Understanding"
+   ],
+   "field": "多模态视频推理",
+   "innovations": [
+    "跨帧轨迹标记恢复稀疏采样丢失的运动信息",
+    "运动能量驱动的关键帧选择机制",
+    "训练-free的视觉提示增强方案"
+   ],
+   "benchmarks": [
+    "CLEVRER",
+    "Something-Something-v2",
+    "TempCompass"
+   ]
+  }
+ }
 }

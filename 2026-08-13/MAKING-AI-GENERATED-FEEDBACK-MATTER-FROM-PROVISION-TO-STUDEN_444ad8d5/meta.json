@@ -4,5 +4,32 @@
  "title": "MAKING-AI-GENERATED-FEEDBACK-MATTER-FROM-PROVISION-TO-STUDEN",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-08-13 14:56:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/58f8cd68-0415-4c9c-8cce-a2f7a36a1cc7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/58f8cd68-0415-4c9c-8cce-a2f7a36a1cc7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:30:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated feedback",
+    "feedback literacy",
+    "enacted feedback",
+    "evaluative judgement",
+    "workflow design",
+    "self-regulated learning",
+    "higher education"
+   ],
+   "field": "教育AI与反馈技术",
+   "innovations": [
+    "首次大规模实证比较三种AI反馈工作流（静态/可选对话/结构化 enacted）",
+    "提出并验证 Enacted Feedback 工作流显著提升采纳率26.2%、修订量与作品质量",
+    "揭示可选AI对话因缺乏结构支撑导致 uptake 仅0.1%的核心发现"
+   ],
+   "benchmarks": [
+    "RiPPLE平台 13,037学生 51,296资源",
+    "peer moderation score 0–5",
+    "self-assessment confidence 1–5 ordinal"
+   ]
+  }
+ }
 }

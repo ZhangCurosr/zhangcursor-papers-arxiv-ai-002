@@ -4,5 +4,30 @@
  "title": "Machine-Learning-Based-Cyber-Defense-for-Cloud-Infrastructur",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-13 14:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e0bd3d3-8230-4440-99c0-639a757930be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e0bd3d3-8230-4440-99c0-639a757930be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:32:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reinforcement Learning",
+    "Deep Q-Network",
+    "Intrusion Detection",
+    "Cloud Security",
+    "CICIDS2017",
+    "UNSW-NB15",
+    "Adaptive Cyber Defense"
+   ],
+   "field": "云安全与网络入侵检测",
+   "innovations": [
+    "提出基于DQN的动态云防御框架，将入侵检测与自动化响应统一为强化学习序贯决策问题",
+    "在两数据集上系统性对比RL与5种主流监督学习基线，量化RL在动态防御中的实际增益"
+   ],
+   "benchmarks": [
+    "CICIDS2017",
+    "UNSW-NB15"
+   ]
+  }
+ }
 }

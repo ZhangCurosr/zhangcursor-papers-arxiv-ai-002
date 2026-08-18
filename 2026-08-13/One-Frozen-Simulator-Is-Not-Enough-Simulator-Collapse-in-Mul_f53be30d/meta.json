@@ -4,5 +4,31 @@
  "title": "One-Frozen-Simulator-Is-Not-Enough-Simulator-Collapse-in-Mul",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:55:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f0653d2-76f2-40a1-b2b4-aa64464ee0e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f0653d2-76f2-40a1-b2b4-aa64464ee0e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:34:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模拟器坍缩",
+    "多智能体强化学习",
+    "LLM用户模拟",
+    "协同训练",
+    "Verbalized Sampling",
+    "多轮对话RL"
+   ],
+   "field": "多智能体强化学习",
+   "innovations": [
+    "形式化揭示单一冻结LLM模拟器导致的策略熵坍缩机制并提出梯度偏置理论界",
+    "推理时语言化采样与训练时协同训练两种互补解决方案打破模态集中",
+    "开源SCOPE框架统一支持异构模拟器轮换、检查点池与协同训练"
+   ],
+   "benchmarks": [
+    "Persuasion for Good",
+    "τ2-bench",
+    "CooperBench"
+   ]
+  }
+ }
 }

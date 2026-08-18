@@ -4,5 +4,31 @@
  "title": "Who-Thinks-Best-Depends-on-How-Long-You-Let-Them-Budget-Depe",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-13 14:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0ff5d4e-165e-431e-b493-3bd3f01bf899.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0ff5d4e-165e-431e-b493-3bd3f01bf899.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:41:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM evaluation",
+    "test-time compute scaling",
+    "model routing",
+    "overthinking",
+    "budget-dependent ranking",
+    "model complementarity"
+   ],
+   "field": "大语言模型评估与方法论",
+   "innovations": [
+    "首次系统揭示LLM模型排名随token budget变化的反转现象",
+    "提出item-level行为分类学量化overthinking的模型特异性",
+    "设计budget-aware routing捕获14.1% oracle gap"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

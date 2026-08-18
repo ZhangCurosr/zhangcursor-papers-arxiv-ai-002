@@ -4,5 +4,31 @@
  "title": "Rubric-Dropout-A-Simple-Way-to-Mitigate-Reward-Hacking-in-Ru",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-08-13 14:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/294e5859-efba-4e88-9079-2dc45a575f76.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/294e5859-efba-4e88-9079-2dc45a575f76.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:37:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rubric-as-reward",
+    "reward hacking",
+    "reinforcement learning",
+    "LLM alignment",
+    "dropout regularization",
+    "GRPO",
+    "OOD generalization"
+   ],
+   "field": "大语言模型强化学习与对齐",
+   "innovations": [
+    "Rubric Dropout：通过group-shared随机mask在每个训练步骤丢弃部分rubric准则，使策略无法针对固定标准优化",
+    "In-loop双judge OOD测量协议：每20步用proxy和gold judge同时评估，以proxy-gold gap和overclaim fraction检测reward hacking",
+    "证明group-shared mask下归一化因子在GRPO advantage中自动消去，无需调参"
+   ],
+   "benchmarks": [
+    "HealthBench-Hard",
+    "ResearchQA"
+   ]
+  }
+ }
 }

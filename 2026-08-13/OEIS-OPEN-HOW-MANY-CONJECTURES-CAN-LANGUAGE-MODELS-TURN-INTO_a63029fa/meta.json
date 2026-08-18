@@ -4,5 +4,10 @@
  "title": "OEIS-OPEN-HOW-MANY-CONJECTURES-CAN-LANGUAGE-MODELS-TURN-INTO",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 14:55:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5326e8f-5aea-4011-a94f-c76f08dfb21c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5326e8f-5aea-4011-a94f-c76f08dfb21c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:34:06",
+  "chunks": 1
+ }
 }

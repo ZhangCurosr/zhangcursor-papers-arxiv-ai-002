@@ -4,5 +4,34 @@
  "title": "MOON-Multi-Objective-OrthoNormalized-Updates-for-Multitask-L",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 14:55:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0ee44dc-85e1-40bc-ada5-32837da6845a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0ee44dc-85e1-40bc-ada5-32837da6845a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:31:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多目标优化",
+    "多任务学习",
+    "矩阵感知优化",
+    "谱-核范数",
+    "正交归一化",
+    "Muon",
+    "Transformer"
+   ],
+   "field": "多目标/多任务学习优化",
+   "innovations": [
+    "在谱-核范数几何下推导多目标最速下降，提出 MOON 框架",
+    "证明核范数加权不大于欧氏最小范数加权，提供更紧的 Pareto 平稳性证书",
+    "结合动量、Newton-Schulz 近似和在线对偶权重实现高效可实践算法"
+   ],
+   "benchmarks": [
+    "MultiMNIST",
+    "NYU-v2",
+    "CityScapes",
+    "QM9",
+    "CelebA"
+   ]
+  }
+ }
 }

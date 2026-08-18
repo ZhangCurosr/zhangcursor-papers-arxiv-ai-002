@@ -4,5 +4,10 @@
  "title": "REOPD-Reliability-Adaptive-Reward-Extrapolation-for-On-Polic",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-08-13 14:55:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/81f03a4a-9bb8-40f1-ba04-2618d9ea6ec4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/81f03a4a-9bb8-40f1-ba04-2618d9ea6ec4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:35:59",
+  "chunks": 1
+ }
 }

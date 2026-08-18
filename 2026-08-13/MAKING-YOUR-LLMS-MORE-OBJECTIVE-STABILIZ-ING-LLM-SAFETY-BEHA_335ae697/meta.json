@@ -4,5 +4,39 @@
  "title": "MAKING-YOUR-LLMS-MORE-OBJECTIVE-STABILIZ-ING-LLM-SAFETY-BEHA",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-08-13 14:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60db474c-8fc6-483f-9d89-791f3008b46a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60db474c-8fc6-483f-9d89-791f3008b46a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:32:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "特质不变性",
+    "自蒸馏微调",
+    "表征分析",
+    "拒绝行为",
+    "系统提示鲁棒性"
+   ],
+   "field": "LLM安全对齐与鲁棒性",
+   "innovations": [
+    "提出TID和TFR度量体系量化跨特质安全决策一致性",
+    "发现特质诱导偏移集中在低维特质子空间（rank-4≈78%方差）",
+    "提出TraSN子空间局部化自蒸馏方法，在保持通用能力的同时提升安全稳定性"
+   ],
+   "benchmarks": [
+    "DAN",
+    "WildGuard-Test",
+    "WJB-Harmful",
+    "MaliciousInstruct",
+    "SafeRLHF-Safe",
+    "TrustLLM",
+    "JBB-Benign",
+    "MMLU",
+    "GPQA",
+    "IFEval",
+    "MATH-500"
+   ]
+  }
+ }
 }

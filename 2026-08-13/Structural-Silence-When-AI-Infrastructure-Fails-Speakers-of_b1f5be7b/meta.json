@@ -4,5 +4,33 @@
  "title": "Structural-Silence-When-AI-Infrastructure-Fails-Speakers-of",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/333001c7-c017-4671-8e55-ecafc3aabf2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/333001c7-c017-4671-8e55-ecafc3aabf2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:38:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "孟加拉语NLP",
+    "AI语言公平",
+    "结构沉默",
+    "离线优先设计",
+    "数字鸿沟",
+    "分词效率",
+    "教育技术"
+   ],
+   "field": "低资源语言NLP与AI公平性",
+   "innovations": [
+    "提出'结构沉默'概念，将低资源语言AI排除归因于基础设施设计累积而非技术不足",
+    "识别四个相互强化的结构性失败（网络存在缺口、token赤字、分词惩罚、连接性排斥）",
+    "论证离线优先设计为公平架构而非技术妥协"
+   ],
+   "benchmarks": [
+    "BenLLM-Eval",
+    "Sangraha语料库",
+    "Common Corpus"
+   ]
+  }
+ }
 }

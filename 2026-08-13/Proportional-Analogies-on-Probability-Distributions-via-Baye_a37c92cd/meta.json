@@ -4,5 +4,30 @@
  "title": "Proportional-Analogies-on-Probability-Distributions-via-Baye",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-08-13 14:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/36b4c60b-47ed-4036-a718-0670773aeac4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/36b4c60b-47ed-4036-a718-0670773aeac4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:34:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "比例类比",
+    "概率分布",
+    "贝叶斯更新",
+    "指数族",
+    "自然参数",
+    "Wasserstein距离",
+    "近似贝叶斯计算"
+   ],
+   "field": "概率分布类比推理",
+   "innovations": [
+    "提出基于贝叶斯更新的比例类比定义，满足公理且可推广至任意分布",
+    "证明指数族分布类比等价于自然参数的算术类比",
+    "设计重要性采样+贝叶斯优化的近似求解器求解分布类比方程"
+   ],
+   "benchmarks": [
+    "Synthetic linear regression analogy benchmark"
+   ]
+  }
+ }
 }

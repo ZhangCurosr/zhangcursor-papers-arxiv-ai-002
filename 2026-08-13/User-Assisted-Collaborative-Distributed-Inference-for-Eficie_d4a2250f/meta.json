@@ -4,5 +4,31 @@
  "title": "User-Assisted-Collaborative-Distributed-Inference-for-Eficie",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 14:55:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/409def95-81de-4aab-bee6-244074b931bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/409def95-81de-4aab-bee6-244074b931bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:40:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分布式AI推理",
+    "志愿计算",
+    "生成式马尔可夫模型",
+    "QoS感知调度",
+    "资源弹性扩展"
+   ],
+   "field": "分布式AI推理系统",
+   "innovations": [
+    "提出专用服务器+用户志愿设备的协作式分布式推理架构，通过基线容量保障QoS",
+    "开发高维生成式马尔可夫模型，通过结构化时间因式分解支持可处理的系统模拟和调度优化"
+   ],
+   "benchmarks": [
+    "用户数100-10000",
+    "服务器容量10×-100×",
+    "P99延迟",
+    "请求完成率",
+    "专用资源消耗"
+   ]
+  }
+ }
 }

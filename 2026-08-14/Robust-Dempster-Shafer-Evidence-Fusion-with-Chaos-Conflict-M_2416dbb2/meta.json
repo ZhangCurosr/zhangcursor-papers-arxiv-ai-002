@@ -4,5 +4,32 @@
  "title": "Robust-Dempster-Shafer-Evidence-Fusion-with-Chaos-Conflict-M",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-14 14:49:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/4c89c378-7cb2-411d-a45f-22423c3a884a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/4c89c378-7cb2-411d-a45f-22423c3a884a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:41:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dempster-Shafer theory",
+    "evidence fusion",
+    "conflict measurement",
+    "regret theory",
+    "spectral clustering",
+    "uncertainty quantification",
+    "multi-source decision making"
+   ],
+   "field": "证据融合与不确定性推理",
+   "innovations": [
+    "提出混沌冲突测量（CCM）联合量化证据间冲突与证据内非特异性，具有五个形式化性质",
+    "引入历史经验驱动的权重机制，结合谱聚类与后悔理论学习上下文特定的证据可靠性分布",
+    "设计冲突自适应的混合组合规则，通过GCCD自适应平衡Dubois保守项与加权共识项"
+   ],
+   "benchmarks": [
+    "UCI ML Repository",
+    "NIH-CIP Repository",
+    "16个真实基准数据集"
+   ]
+  }
+ }
 }

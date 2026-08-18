@@ -4,5 +4,30 @@
  "title": "Redistribution-based-Cost-Inference-Improves-Sparse-Safe-Off",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3e34074-76cc-4531-9222-dff054d50026.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3e34074-76cc-4531-9222-dff054d50026.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:37:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offline reinforcement learning",
+    "safe RL",
+    "cost inference",
+    "return decomposition",
+    "constrained MDP",
+    "credit assignment"
+   ],
+   "field": "安全离线强化学习",
+   "innovations": [
+    "提出 RCI 框架，通过回报分解将轨迹级停止反馈转化为密集每步成本",
+    "证明回报等价重分配保持 CMDP 可行策略集与最优 Lagrangian 不变",
+    "在 HighwayEnv 与 Safe-FetchReach 上将违规率降低约五倍且未显著损失任务返回"
+   ],
+   "benchmarks": [
+    "HighwayEnv",
+    "Safe-FetchReach"
+   ]
+  }
+ }
 }

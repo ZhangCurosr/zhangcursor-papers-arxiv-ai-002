@@ -4,5 +4,29 @@
  "title": "MBA-Multimodal-Benchmark-and-Agents-for-Real-World-Business",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-08-13 14:56:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ca57983-0680-45cf-98a9-996ecdb43705.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ca57983-0680-45cf-98a9-996ecdb43705.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:31:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态商业构想",
+    "MBA-Bench",
+    "GRPO",
+    "RLHF",
+    "多模态大语言模型",
+    "创意生成"
+   ],
+   "field": "多模态人工智能与应用",
+   "innovations": [
+    "首个多模态商业构想基准MBA-Bench，覆盖6个视觉特征域共30K样本",
+    "提出MBA-b/MBA-k双模式专用Agent，分别适配盲评估与已知评估场景",
+    "构建MBA-Library外部知识底座，结合FAISS与FActScore实现可行性的事实级评估"
+   ],
+   "benchmarks": [
+    "MBA-Bench"
+   ]
+  }
+ }
 }

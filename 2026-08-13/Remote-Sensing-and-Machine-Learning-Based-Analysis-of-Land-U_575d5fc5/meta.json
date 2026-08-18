@@ -4,5 +4,32 @@
  "title": "Remote-Sensing-and-Machine-Learning-Based-Analysis-of-Land-U",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 14:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/58bc097f-6e32-4154-8f50-d16cc656bbb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/58bc097f-6e32-4154-8f50-d16cc656bbb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:37:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Land Cover Change",
+    "Remote Sensing",
+    "Machine Learning",
+    "NDVI",
+    "Sentinel-2",
+    "Google Earth Engine",
+    "Urban Expansion"
+   ],
+   "field": "遥感与城市土地利用变化监测",
+   "innovations": [
+    "DT/KNN/RF三分类器在达卡城区的系统对比与外部WorldCover基准交叉验证",
+    "ML像素分类与NDVI/NDBI/NDWI指数法双轨校验的城市变化检测框架",
+    "基于GEE与FAO/ESA公开数据的端到端低资源城市LULC变化监测工作流"
+   ],
+   "benchmarks": [
+    "ESA WorldCover 10m 2021",
+    "FAO UN GAUL行政区划边界",
+    "Sentinel-2 MSI多时相复合"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "ROBUST-AND-EFFICIENT-NOISY-LABEL-TIME-SERIES-CLASSIFICATION",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-13 14:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/af556234-6c82-4830-95a0-eb76a09902e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/af556234-6c82-4830-95a0-eb76a09902e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:36:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列分类",
+    "动态时间规整",
+    "颗粒球计算",
+    "标签噪声",
+    "最近邻分类",
+    "鲁棒学习",
+    "DTW",
+    "Granular Ball Computing"
+   ],
+   "field": "时序数据分类与噪声鲁棒学习",
+   "innovations": [
+    "首次在DTW距离空间中构建颗粒球实现时间序列的颗粒级表示与分类",
+    "提出标签感知的递归分裂策略DTW-GBC-L使颗粒更紧凑且性能更优",
+    "通过颗粒级1-NN分类同时提升对称标签噪声鲁棒性与推理效率"
+   ],
+   "benchmarks": [
+    "SyntheticControl",
+    "ECG5000",
+    "JapaneseVowels",
+    "ArticularyWordRecognition"
+   ]
+  }
+ }
 }

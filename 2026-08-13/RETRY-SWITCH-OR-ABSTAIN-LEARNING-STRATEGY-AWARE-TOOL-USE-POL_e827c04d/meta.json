@@ -4,5 +4,31 @@
  "title": "RETRY-SWITCH-OR-ABSTAIN-LEARNING-STRATEGY-AWARE-TOOL-USE-POL",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 14:56:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b9d2e180-208e-42b4-8a56-eb8e06b63f8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b9d2e180-208e-42b4-8a56-eb8e06b63f8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:35:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-use robustness",
+    "reinforcement learning",
+    "agent recovery",
+    "failure injection",
+    "Bayesian Tool Memory"
+   ],
+   "field": "工具使用大模型鲁棒性",
+   "innovations": [
+    "BENCH2ROBUST场景可控故障注入框架（S1/S2/S3）",
+    "贝叶斯工具记忆（BTM）提供运行时恢复上下文",
+    "课程化DAPO训练实现retry/switch/abstain策略学习"
+   ],
+   "benchmarks": [
+    "tau2-bench",
+    "Retail-3I",
+    "Airline-3I",
+    "BFCL"
+   ]
+  }
+ }
 }

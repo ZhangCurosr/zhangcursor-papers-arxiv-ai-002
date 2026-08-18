@@ -4,5 +4,32 @@
  "title": "PREFERENCE-TREE-OPTIMIZATION-ENHANCING-GOAL-ORIENTED-DIALOGU",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-13 14:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a85eb86-c9a0-4c79-9a5d-83a9cbab74b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a85eb86-c9a0-4c79-9a5d-83a9cbab74b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:33:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Preference Tree Optimization",
+    "Direct Preference Optimization",
+    "Goal-Oriented Dialogue",
+    "Motivational Interviewing",
+    "Look-Ahead Simulation",
+    "Synthetic Data Generation"
+   ],
+   "field": "目标导向对话系统",
+   "innovations": [
+    "Preference Tree with Look-Ahead: 通过多步对话模拟生成偏好对，使智能体能预见长期交互后果",
+    "PTO框架: 结合树状探索与DPO的离线迭代优化，无需额外奖励模型",
+    "在MI领域验证: 显著提升会话满意度、工作联盟及对话效率，且前瞻深度带来稳定性增益"
+   ],
+   "benchmarks": [
+    "Session Satisfaction (Q1)",
+    "Working Alliance (Q2)",
+    "Final Score (平均得分)",
+    "Conversation Length"
+   ]
+  }
+ }
 }

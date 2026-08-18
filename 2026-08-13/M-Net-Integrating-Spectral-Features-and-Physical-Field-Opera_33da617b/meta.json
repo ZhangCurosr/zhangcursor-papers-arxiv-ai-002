@@ -4,5 +4,32 @@
  "title": "M-Net-Integrating-Spectral-Features-and-Physical-Field-Opera",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-13 14:55:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c7575d2-ca7a-47ff-a692-cf70bf70e80f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c7575d2-ca7a-47ff-a692-cf70bf70e80f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:31:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical image segmentation",
+    "U-Net",
+    "condition number",
+    "spectral features",
+    "physics-informed deep learning",
+    "inductive bias",
+    "Math-Attention Gate"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "提出基于中心局部像素矩阵条件的连续谱特征",
+    "引入散度与离散类旋度物理场算子作为归纳偏置",
+    "设计Math-Attention Gate实现数学特征与CNN特征的自适应融合"
+   ],
+   "benchmarks": [
+    "LiTS liver segmentation",
+    "KiTS kidney segmentation",
+    "BraTS brain tumor segmentation"
+   ]
+  }
+ }
 }

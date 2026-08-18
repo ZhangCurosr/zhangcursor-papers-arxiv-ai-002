@@ -4,5 +4,10 @@
  "title": "The-Sleeping-Agent-What-Gist-Based-Context-Compression-Loses",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 14:55:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c86be15d-686b-4cba-bed0-1105d79c623b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c86be15d-686b-4cba-bed0-1105d79c623b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:39:18",
+  "chunks": 1
+ }
 }
