@@ -4,5 +4,26 @@
  "title": "The-data-geometry-of-masking-difusion-Certified-optimal-sche",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-14 04:11:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0eca4872-2c2e-446f-80a7-e2b57b900b1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0eca4872-2c2e-446f-80a7-e2b57b900b1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:22:36",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "diffusion model",
+    "masking schedule",
+    "uncertainty growth",
+    "XORSAT",
+    "information geometry",
+    "denoising"
+   ],
+   "field": "扩散模型理论分析",
+   "innovations": [
+    "首次定义并分析扩散掩码调度的不确定性增长（UGC）度量",
+    "建立XORSAT布尔矩阵行空间与扩散熵变的理论联系，证明分块调度可达O(√(d log d)) UGC上界",
+    "提出pre/trans/post三层区间划分及期望恒等式E[h(s)-h(t)]/(d log 2)=E[g(M_t)-g(M_s)]作为通用分析工具"
+   ]
+  }
+ }
 }

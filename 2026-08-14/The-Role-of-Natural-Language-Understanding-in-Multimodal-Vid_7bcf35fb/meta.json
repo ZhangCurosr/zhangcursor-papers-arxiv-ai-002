@@ -4,5 +4,33 @@
  "title": "The-Role-of-Natural-Language-Understanding-in-Multimodal-Vid",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-08-14 04:11:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/fa91b79b-1290-4cf6-809a-f2242ff1d6cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/fa91b79b-1290-4cf6-809a-f2242ff1d6cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:20:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Model",
+    "CLIP",
+    "Mosquito Behavior Analysis",
+    "Dengue Diagnosis",
+    "Contrastive Learning",
+    "Prompt-Based Inference",
+    "Biomedical Video Analysis"
+   ],
+   "field": "多模态生物医学分析",
+   "innovations": [
+    "YOLO+CLIP多模态框架用于蚊子感染行为分类",
+    "基于生物语义提示的监督双向对比学习",
+    "帧级图像-文本相似度驱动的细粒度视频分类"
+   ],
+   "benchmarks": [
+    "Frame-level accuracy",
+    "Sensitivity",
+    "Specificity",
+    "F1-score"
+   ]
+  }
+ }
 }

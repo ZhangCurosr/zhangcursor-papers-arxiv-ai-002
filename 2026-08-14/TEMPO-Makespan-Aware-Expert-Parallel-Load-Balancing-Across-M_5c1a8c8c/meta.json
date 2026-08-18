@@ -4,5 +4,33 @@
  "title": "TEMPO-Makespan-Aware-Expert-Parallel-Load-Balancing-Across-M",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-14 14:49:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/801026ba-033a-428f-be1e-6337a039c984.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/801026ba-033a-428f-be1e-6337a039c984.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:18:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Expert Parallelism",
+    "Load Balancing",
+    "MoE Serving",
+    "Makespan Optimization",
+    "Inference Acceleration"
+   ],
+   "field": "MoE推理负载均衡",
+   "innovations": [
+    "两段式max-affine成本模型量化HBM权重流式传输与compute padding双regime",
+    "固定费用makespan调度问题的NP-hardness证明与additive近似保证",
+    "零边际内图成本的SGLang集成与拓扑感知两阶段source-replica分配"
+   ],
+   "benchmarks": [
+    "Qwen3-235B-FP8",
+    "DeepSeek-V3",
+    "Testbed A(8-GPU)",
+    "Testbed B(2-node EP16)",
+    "DeepGEMM fp8 grouped GEMM"
+   ]
+  }
+ }
 }

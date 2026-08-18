@@ -4,5 +4,32 @@
  "title": "Rules-or-Character-Scaling-Laws-for-AI-Safety-Design",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-14 04:08:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e76573ec-1942-4e23-814d-6bb014c89365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e76573ec-1942-4e23-814d-6bb014c89365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:13:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI安全",
+    "安全架构设计",
+    "缩放定律",
+    "性格塑造",
+    "规则执行",
+    "尾部风险",
+    "共模故障"
+   ],
+   "field": "AI安全与对齐",
+   "innovations": [
+    "首次形式化安全设计为性格塑造与规则执行的连续资源分配谱，并推导最优配比随部署规模的变化规律",
+    "引入基础性格脆弱率p_frag^(0)作为决定最优安全架构的最强参数，统一刻画欺骗性对齐与分布迁移两类失败模式",
+    "证明在α分离尾部模型类中CVaR与期望伤害最优设计收敛，且对Pareto尾部指数无关"
+   ],
+   "benchmarks": [
+    "Optimistic场景",
+    "Moderate场景",
+    "Pessimistic场景"
+   ]
+  }
+ }
 }

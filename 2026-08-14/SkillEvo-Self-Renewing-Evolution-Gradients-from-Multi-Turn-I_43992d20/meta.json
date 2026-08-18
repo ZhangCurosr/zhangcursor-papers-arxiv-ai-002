@@ -4,5 +4,30 @@
  "title": "SkillEvo-Self-Renewing-Evolution-Gradients-from-Multi-Turn-I",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-14 04:10:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b0fc14f0-89b5-465f-a00e-862547d8a3e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b0fc14f0-89b5-465f-a00e-862547d8a3e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:15:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skill",
+    "multi-turn interaction",
+    "self-evolving agent",
+    "user simulation",
+    "knowledge base maintenance",
+    "trustworthy feedback",
+    "controllable governance"
+   ],
+   "field": "Agent Skill 自进化与知识维护",
+   "innovations": [
+    "将多轮用户模拟从评估终点重构为可持续生成进化梯度的反馈生成器",
+    "提出可信反馈三条件（覆盖度/准确性/可归因性）与双面正交评估机制",
+    "引入双锚事实一致性检查与图结构治理的软硬分层治理框架"
+   ],
+   "benchmarks": [
+    "腾讯云生产技术支持场景（6类云产品，9个Skill，98个引用文件，2000张工单）"
+   ]
+  }
+ }
 }

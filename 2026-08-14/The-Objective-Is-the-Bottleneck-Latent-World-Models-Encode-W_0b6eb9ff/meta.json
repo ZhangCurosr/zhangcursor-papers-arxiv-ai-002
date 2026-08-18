@@ -4,5 +4,30 @@
  "title": "The-Objective-Is-the-Bottleneck-Latent-World-Models-Encode-W",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-08-14 14:49:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1a68148c-4ea6-4137-b4d6-16add665bdcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1a68148c-4ea6-4137-b4d6-16add665bdcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:19:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent world model",
+    "planning objective",
+    "reachability",
+    "joint-embedding predictive architecture",
+    "Cross-Entropy Method",
+    "representation learning"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "证明 latent world model 长程规划瓶颈在目标函数而非预测器，squared latent distance 在远距离饱和反转",
+    "提出无需重训练的 planner objective 替换方案（decoded position / learned temporal cost），将 offset-100 成功率从 26% 提升至 98%",
+    "揭示 reachability 优于 proximity 的规划代价设计原则，建立 accuracy/planning dissociation 的机制解释"
+   ],
+   "benchmarks": [
+    "TwoRoom",
+    "LeWorldModel reproduction"
+   ]
+  }
+ }
 }

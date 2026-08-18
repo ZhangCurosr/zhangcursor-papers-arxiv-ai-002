@@ -4,5 +4,32 @@
  "title": "TopoIntent-Compiling-Security-Intent-into-Executable-Complia",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-14 04:09:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ffd502d7-874f-49f8-8ec5-cfa70e6b02ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ffd502d7-874f-49f8-8ec5-cfa70e6b02ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:21:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Intent Networking",
+    "Topology Generation",
+    "Compliance Checking",
+    "RAG",
+    "Network Security",
+    "CIS Controls",
+    "Mininet Emulation"
+   ],
+   "field": "意图驱动网络安全拓扑生成",
+   "innovations": [
+    "将自然语言安全意图编译为Schema约束的可执行拓扑，通过检索增强模板融合与CIS合规检查实现结构化设计",
+    "提出添加式修复策略，仅增量添加拓扑元素以满足合规要求而不删除已有设计，平均少于1.5轮达成100%结构化CIS满意度",
+    "构建闭环诊断反馈机制，将Mininet+iptables可执行验证的ACL/路径失败分类反馈至拓扑修复阶段，Post-ACL通过率提升10个百分点"
+   ],
+   "benchmarks": [
+    "自建安全架构图基准（22参考模板+44意图，7评估模板+14意图），按场景级别留出",
+    "CIS Controls v8.1.2拓扑可见保护措施子集（22项），按IG2/IG3分级",
+    "Mininet+iptables策略测试（节点-链路可达性、Pre-ACL路径可达性、Post-ACL策略通过率）"
+   ]
+  }
+ }
 }

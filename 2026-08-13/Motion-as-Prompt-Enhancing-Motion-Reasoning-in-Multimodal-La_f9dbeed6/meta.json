@@ -4,5 +4,30 @@
  "title": "Motion-as-Prompt-Enhancing-Motion-Reasoning-in-Multimodal-La",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f4fe24a-9656-4ee2-845e-d6357be0acea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f4fe24a-9656-4ee2-845e-d6357be0acea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:12:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频推理",
+    "多模态大语言模型",
+    "运动理解",
+    "视觉提示",
+    "关键帧采样"
+   ],
+   "field": "多模态视频理解",
+   "innovations": [
+    "首次将帧间运动丢失定义为稀疏采样 MLLM 的输入侧瓶颈，提出跨帧运动恢复提示",
+    "设计免训练的运动引导跨帧视觉提示框架 MaP，无需修改模型即可增强运动推理",
+    "提出运动能量度量与自适应采样结合轨迹标记的完整方案"
+   ],
+   "benchmarks": [
+    "CLEVRER",
+    "Something-Something-v2",
+    "TempCompass"
+   ]
+  }
+ }
 }

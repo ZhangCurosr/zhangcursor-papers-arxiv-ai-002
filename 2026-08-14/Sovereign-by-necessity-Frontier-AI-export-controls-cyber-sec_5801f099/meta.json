@@ -4,5 +4,32 @@
  "title": "Sovereign-by-necessity-Frontier-AI-export-controls-cyber-sec",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-14 04:12:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ed198fc0-89e8-41ff-9f81-fb900624bb29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ed198fc0-89e8-41ff-9f81-fb900624bb29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:16:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "frontier AI",
+    "export controls",
+    "sovereign AI",
+    "cybersecurity",
+    "open-weight models",
+    "AI governance",
+    "offense-defense balance"
+   ],
+   "field": "AI安全与政策",
+   "innovations": [
+    "提出训练主权与推理主权的分层框架，论证后者对多数国家更为可行",
+    "以2026年6月Anthropic出口管制事件为实证，揭示已运行API服务同样受出口管制约束的政策新范式",
+    "构建开放权重模型作为访问对冲工具的'双重依赖'悖论分析"
+   ],
+   "benchmarks": [
+    "ExploitBench",
+    "NCSC 32-step simulated enterprise attack",
+    "DARPA AI Cyber Challenge"
+   ]
+  }
+ }
 }

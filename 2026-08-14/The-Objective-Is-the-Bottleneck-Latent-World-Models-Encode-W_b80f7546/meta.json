@@ -4,5 +4,30 @@
  "title": "The-Objective-Is-the-Bottleneck-Latent-World-Models-Encode-W",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-08-14 04:12:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1a68148c-4ea6-4137-b4d6-16add665bdcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1a68148c-4ea6-4137-b4d6-16add665bdcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:20:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Latent World Models",
+    "Planning Bottleneck",
+    "Objective Function",
+    "Reachability Metric",
+    "CEM Planning",
+    "Model-Based RL"
+   ],
+   "field": "基于模型的控制与规划",
+   "innovations": [
+    "证明长距离规划瓶颈在于目标函数饱和而非预测器退化",
+    "提出无需重训练的代价函数修复方案",
+    "揭示精度与规划性能的解耦机制"
+   ],
+   "benchmarks": [
+    "TwoRoom Environment",
+    "LeWorldModel Reproduction"
+   ]
+  }
+ }
 }

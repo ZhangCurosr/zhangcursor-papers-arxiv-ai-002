@@ -4,5 +4,32 @@
  "title": "NetlistBench-Evaluating-LLM-Reliability-in-SPICE-Netlist-Rec",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/711eea85-ce8f-43cd-946b-d2c54bddc9b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/711eea85-ce8f-43cd-946b-d2c54bddc9b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:12:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SPICE netlist",
+    "LLM reliability",
+    "circuit representation",
+    "netlist manipulation",
+    "benchmark evaluation",
+    "structural verification",
+    "long-horizon editing"
+   ],
+   "field": "EDA AI / 电路设计自动化",
+   "innovations": [
+    "提出 NetlistBench 基准，首次量化评估 LLM 在 SPICE 网表识别与操作中的结构保留可靠性",
+    "开发基于规范 IR 的结构感知评估管道，突破传统文本匹配局限",
+    "揭示长视界复合编辑的可靠性衰减模式，证明推理模式无法根本解决结构保留瓶颈"
+   ],
+   "benchmarks": [
+    "NetlistBench",
+    "AnalogGenie",
+    "ALIGN"
+   ]
+  }
+ }
 }

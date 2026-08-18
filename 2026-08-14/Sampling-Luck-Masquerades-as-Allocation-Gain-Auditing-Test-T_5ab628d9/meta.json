@@ -4,5 +4,35 @@
  "title": "Sampling-Luck-Masquerades-as-Allocation-Gain-Auditing-Test-T",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-14 04:12:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6afd7c6f-1de1-45f4-869b-3ba4f0a2907b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6afd7c6f-1de1-45f4-869b-3ba4f0a2907b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:14:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Combinatorial Optimization",
+    "test-time compute",
+    "resource allocation",
+    "selection bias",
+    "optimizer's curse",
+    "pre-registration",
+    "evaluation methodology",
+    "TSP"
+   ],
+   "field": "神经网络组合优化评估方法",
+   "innovations": [
+    "首次量化 NCO 测试时分配增益的 in-sample 选择偏倚（约 2% 虚假增益，不随数据量减小）",
+    "提出实例级零假设校正程序，双向验证：压制分布内虚假增益同时保留分布外 11-12% 真实增益",
+    "预注册确认实验证明分布外分配增益 11.5%（AM）/12.0%（SymNCO），负对照 POMO 为零；收费探针策略保留 3-5%"
+   ],
+   "benchmarks": [
+    "TSP-100 uniform",
+    "TSP-100 clustered (4 Gaussian clusters, sigma=0.06)",
+    "POMO",
+    "Attention Model (AM)",
+    "SymNCO"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "TopoIntent-Compiling-Security-Intent-into-Executable-Complia",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-14 14:48:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ffd502d7-874f-49f8-8ec5-cfa70e6b02ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ffd502d7-874f-49f8-8ec5-cfa70e6b02ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:21:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Intent Networking",
+    "Topology Generation",
+    "CIS Controls",
+    "RAG",
+    "Network Security",
+    "Compliance Checking",
+    "Mininet"
+   ],
+   "field": "网络安全拓扑生成",
+   "innovations": [
+    "将安全拓扑设计分解为编译式五阶段流水线（契约约束→模板检索→意图融合→CIS合规检查与加法修复→Mininet可执行验证）",
+    "首次将CIS Controls v8.1.2拓扑可见safeguard集成进LLM辅助的安全拓扑自动生成与验证流程",
+    "构建首个需求到安全拓扑的benchmark（22模板/44参考意图/14held-out意图），采用多模型共识管线构建"
+   ],
+   "benchmarks": [
+    "自建安全拓扑生成benchmark（Finance/Government场景held-out）"
+   ]
+  }
+ }
 }

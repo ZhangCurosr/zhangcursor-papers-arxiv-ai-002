@@ -4,5 +4,30 @@
  "title": "Self-Referential-Induction-Increases-Response-Instability-Re",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-14 04:11:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/dc6dd9f5-201d-4250-8c12-cfb2167ab74a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/dc6dd9f5-201d-4250-8c12-cfb2167ab74a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:14:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-referential prompting",
+    "response instability",
+    "LLM subjective experience",
+    "semantic similarity",
+    "Gemini",
+    "experimental evaluation"
+   ],
+   "field": "大语言模型自我报告与意识研究",
+   "innovations": [
+    "提出语义不稳定性量化指标（1−平均成对余弦相似度）评估LLM自指报告的一致性",
+    "构建三组对照问题（自指/哲学/可验证）揭示自指诱导的独特不稳定性效应",
+    "首次将稳定性分析与哲学不确定性对照结合，证明自指报告占据不同于普通开放问题的输出分布区域"
+   ],
+   "benchmarks": [
+    "Semantic Instability Metric (自定义)",
+    "Sentence-BERT Embedding Similarity"
+   ]
+  }
+ }
 }

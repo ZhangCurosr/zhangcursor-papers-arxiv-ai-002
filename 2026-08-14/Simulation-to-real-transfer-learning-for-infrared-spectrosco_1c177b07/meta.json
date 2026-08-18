@@ -4,5 +4,34 @@
  "title": "Simulation-to-real-transfer-learning-for-infrared-spectrosco",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-14 14:49:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/97b704b0-cd62-47a4-b80a-5190906231ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/97b704b0-cd62-47a4-b80a-5190906231ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:15:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "infrared spectroscopy",
+    "foundation model",
+    "simulation-to-real transfer",
+    "spectral reconstruction",
+    "molecular structure elucidation",
+    "chemical sensing"
+   ],
+   "field": "光谱分析与化学信息学",
+   "innovations": [
+    "提出UltraIR红外光谱基础模型，通过约6000万模拟光谱预训练实现跨任务可迁移表征",
+    "设计波域重建+分子指纹相似性对齐+官能团预测三目标预训练框架",
+    "在低至1%标注数据及跨仪器零样本场景下显著优于专用深度学习基线"
+   ],
+   "benchmarks": [
+    "NIST",
+    "SDBS",
+    "USPTO",
+    "DeepMIR",
+    "Open Soil Spectral Library (OSSL)",
+    "Green-snow bacterial FTIR dataset"
+   ]
+  }
+ }
 }

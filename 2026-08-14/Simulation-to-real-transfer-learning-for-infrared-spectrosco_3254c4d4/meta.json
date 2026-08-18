@@ -4,5 +4,37 @@
  "title": "Simulation-to-real-transfer-learning-for-infrared-spectrosco",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-14 04:13:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/97b704b0-cd62-47a4-b80a-5190906231ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/97b704b0-cd62-47a4-b80a-5190906231ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:15:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "红外光谱",
+    "基础模型",
+    "仿真到真实迁移学习",
+    "多目标预训练",
+    "分子结构推导",
+    "混合物分析",
+    "化学传感"
+   ],
+   "field": "光谱分析与化学信息学",
+   "innovations": [
+    "提出首个红外光谱基础模型 UltraIR，通过约6000万条模拟谱多目标预训练实现跨任务共享表征",
+    "设计小波域重构+分子指纹对比+官能团预测三目标联合预训练，捕获谱图多尺度形态与化学语义",
+    "系统验证 simulation-to-real 迁移在低至1%标注数据与跨仪器零样本场景下的数据效率与泛化能力"
+   ],
+   "benchmarks": [
+    "NIST",
+    "SDBS",
+    "USPTO",
+    "DeepMIR liquid-mixture",
+    "FTIR mixture dataset",
+    "Green-snow bacterial FTIR",
+    "Open Soil Spectral Library (OSSL)",
+    "Microplastics IR dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "The-data-geometry-of-masking-difusion-Certified-optimal-sche",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-14 14:48:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0eca4872-2c2e-446f-80a7-e2b57b900b1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0eca4872-2c2e-446f-80a7-e2b57b900b1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:22:25",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "discrete diffusion",
+    "unmasking scheduling",
+    "information geometry",
+    "KL discretization error",
+    "certified optimization",
+    "XORSAT"
+   ],
+   "field": "离散扩散模型与调度优化",
+   "innovations": [
+    "提出UGC几何度量刻画离散采样路径信息增长",
+    "推导KL误差上界并设计认证最优自适应调度器",
+    "证明非均匀数据分布下自适应调度可达Ω(√d)计算增益"
+   ],
+   "benchmarks": [
+    "Noisy repeated bits",
+    "Discrete mixture model",
+    "XORSAT/global parity"
+   ]
+  }
+ }
 }

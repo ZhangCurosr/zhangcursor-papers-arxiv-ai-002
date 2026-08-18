@@ -4,5 +4,30 @@
  "title": "Teach-the-Magnitude-Not-the-Direction-Verifier-Bounded-Credi",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-14 14:49:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f7a6f8c9-5906-4224-92c7-f89c215a106b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f7a6f8c9-5906-4224-92c7-f89c215a106b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:20:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "verifier-bounded RL",
+    "credit assignment",
+    "on-policy self-distillation",
+    "multi-turn agents",
+    "entropy-gated modulation",
+    "hierarchical advantage"
+   ],
+   "field": "Agentic RL Training",
+   "innovations": [
+    "Verifies teacher as magnitude modulator only, preserving verifier-bounded ceiling while providing dense token-level signals",
+    "Hierarchical credit decomposition into turn-segmented advantages and entropy-gated self-teacher modulation",
+    "Two-level complementary design prevents cross-turn dilution and intra-turn gradient concentration collapse"
+   ],
+   "benchmarks": [
+    "BFCL V3",
+    "WildToolBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SkillEvo-Self-Renewing-Evolution-Gradients-from-Multi-Turn-I",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-14 14:49:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b0fc14f0-89b5-465f-a00e-862547d8a3e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b0fc14f0-89b5-465f-a00e-862547d8a3e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:15:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skill",
+    "self-evolving knowledge base",
+    "multi-turn evaluation feedback",
+    "controllable governance",
+    "cloud customer support"
+   ],
+   "field": "Agent 技能演化与知识库维护",
+   "innovations": [
+    "将多轮用户模拟从评估终点重构为持续生成演化梯度的反馈源",
+    "以 coverage/accuracy/attribution 三条件定义可信反馈并实现双边正交评估",
+    "以双锚点事实一致性与图结构诊断构成可控治理层，实现主动修复而非标量拒绝"
+   ],
+   "benchmarks": [
+    "Tencent Cloud production skills (9 skills, 98 reference files, 2000 escalated tickets)",
+    "TSR on held-out evaluation set"
+   ]
+  }
+ }
 }

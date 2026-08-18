@@ -4,5 +4,31 @@
  "title": "Toward-a-Gricean-Retreat-Probing-LLMs-for-Knowledge-Boundari",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-14 04:07:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6b13b95b-f703-49d3-acd0-01b9ffd83de9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6b13b95b-f703-49d3-acd0-01b9ffd83de9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:22:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉",
+    "知识边界",
+    "Gricean原则",
+    "探针分析",
+    "具体性",
+    "LLM对齐"
+   ],
+   "field": "大语言模型可信性与可解释性",
+   "innovations": [
+    "提出首个面向 Gricean retreat 行为的 LLM 评估基准，系统变化实体熟悉度与具体性",
+    "揭示 LLM 激活层编码知识边界与具体性双重信号但生成策略未整合的表征-策略鸿沟",
+    "通过 surprisal 对照实验证明即使存在正确泛化选项，模型仍压倒性偏好错误具体补全"
+   ],
+   "benchmarks": [
+    "T-REx/LAMA",
+    "Pythia-1.4b-deduped",
+    "Pythia-12b-deduped"
+   ]
+  }
+ }
 }

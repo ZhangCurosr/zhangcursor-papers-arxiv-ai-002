@@ -4,5 +4,10 @@
  "title": "SPADE-Speculative-Decoding-for-Precise-and-Low-Cost-Distribu",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-14 14:49:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d6df94da-44d5-499b-b14e-79e777a54d5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d6df94da-44d5-499b-b14e-79e777a54d5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:13:56",
+  "chunks": 1
+ }
 }

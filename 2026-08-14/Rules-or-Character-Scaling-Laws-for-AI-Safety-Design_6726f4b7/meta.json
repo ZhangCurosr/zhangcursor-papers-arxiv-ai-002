@@ -4,5 +4,31 @@
  "title": "Rules-or-Character-Scaling-Laws-for-AI-Safety-Design",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-14 14:49:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e76573ec-1942-4e23-814d-6bb014c89365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e76573ec-1942-4e23-814d-6bb014c89365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:13:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI安全",
+    "缩放定律",
+    "性格塑造",
+    "规则执行",
+    "脆弱性",
+    "风险建模",
+    "资源分配",
+    "CVaR"
+   ],
+   "field": "AI安全系统设计",
+   "innovations": [
+    "提出性格塑造与规则执行资源分配连续谱模型，整合过滤器退化、共模故障与性格脆弱性",
+    "发现基线性格脆弱率是主导安全架构最优设计的最强参数",
+    "证明最优性格权重随部署规模弱非降，且对风险准则与损害尾厚度鲁棒"
+   ],
+   "benchmarks": [
+    "参数化场景（乐观/中等/悲观）"
+   ]
+  }
+ }
 }

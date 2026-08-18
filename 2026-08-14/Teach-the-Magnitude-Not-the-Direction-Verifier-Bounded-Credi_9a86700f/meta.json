@@ -4,5 +4,31 @@
  "title": "Teach-the-Magnitude-Not-the-Direction-Verifier-Bounded-Credi",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-14 04:14:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f7a6f8c9-5906-4224-92c7-f89c215a106b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f7a6f8c9-5906-4224-92c7-f89c215a106b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:19:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "credit assignment",
+    "on-policy distillation",
+    "multi-turn agent",
+    "self-teacher",
+    "entropy gating",
+    "tool-use LLM"
+   ],
+   "field": "多轮多步 Agent 强化学习",
+   "innovations": [
+    "提出 CREST 框架，将教师信号从梯度方向决定者降维为幅度调制器，突破教师边界限制",
+    "设计方向门+熵门双重稳定机制，实现验证器边界性能上限与密集 token 级监督的兼顾",
+    "形式化并解决多轮多步 Agent 的两级信用分配问题（跨轮次稀释与轮次内 token 均匀性）"
+   ],
+   "benchmarks": [
+    "BFCL V3",
+    "WildToolBench"
+   ]
+  }
+ }
 }

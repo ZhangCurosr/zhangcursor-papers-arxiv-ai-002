@@ -4,5 +4,36 @@
  "title": "StateBridge-Training-free-Hidden-state-Alignment-for-Latent",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-14 14:49:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/dac3620a-defe-4855-a88c-2dc7b0ee5a79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/dac3620a-defe-4855-a88c-2dc7b0ee5a79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:17:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "latent communication",
+    "hidden state alignment",
+    "training-free",
+    "Procrustes alignment",
+    "LLM"
+   ],
+   "field": "多智能体系统通信",
+   "innovations": [
+    "提出无训练的 Procrustes 闭式对齐接口解决隐藏状态与输入嵌入的几何失配",
+    "证明正交对齐相比岭回归能更好地保持语义几何结构",
+    "跨模型族（Qwen3/OLMo3）验证隐式通信的可迁移性"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "AIME24",
+    "AIME25",
+    "GPQA-Diamond",
+    "ARC-Challenge",
+    "MedQA",
+    "MBPP+",
+    "HumanEval+"
+   ]
+  }
+ }
 }

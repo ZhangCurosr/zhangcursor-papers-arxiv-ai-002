@@ -4,5 +4,10 @@
  "title": "TEMPO-Makespan-Aware-Expert-Parallel-Load-Balancing-Across-M",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-14 04:09:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/801026ba-033a-428f-be1e-6337a039c984.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/801026ba-033a-428f-be1e-6337a039c984.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:18:48",
+  "chunks": 1
+ }
 }

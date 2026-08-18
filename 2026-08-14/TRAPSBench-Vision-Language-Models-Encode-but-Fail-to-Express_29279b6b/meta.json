@@ -4,5 +4,10 @@
  "title": "TRAPSBench-Vision-Language-Models-Encode-but-Fail-to-Express",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-14 14:49:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8d9b6f93-4260-4b69-914a-cfc1e3b11399.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8d9b6f93-4260-4b69-914a-cfc1e3b11399.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:18:47",
+  "chunks": 1
+ }
 }

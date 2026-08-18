@@ -4,5 +4,36 @@
  "title": "Spatial-Memory-Agent-Experience-Grounded-Procedure-Memory-fo",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-08-14 04:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/bb504f46-8dee-47c8-a879-6ec111c1c6c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/bb504f46-8dee-47c8-a879-6ec111c1c6c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:16:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial intelligence",
+    "vision-language models",
+    "memory-augmented agents",
+    "parameter-update-free",
+    "self-evolution",
+    "transfer reliability score",
+    "procedure memory"
+   ],
+   "field": "空间推理与视觉语言模型",
+   "innovations": [
+    "提出免参数更新的VLM空间自我进化框架SMA，通过verifier-guided reflection将经验蒸馏为可迁移lesson",
+    "设计TRS访问证据校准机制，以后续检索结果动态估计记忆转移可靠性",
+    "两阶段检索结合语义过滤与相似度-TRS组合排序，打破纯语义匹配局限"
+   ],
+   "benchmarks": [
+    "RoboSpatial",
+    "ERQA",
+    "Omni3D",
+    "SAT",
+    "EmbSpatial",
+    "SITE-image",
+    "ViewSpatial"
+   ]
+  }
+ }
 }

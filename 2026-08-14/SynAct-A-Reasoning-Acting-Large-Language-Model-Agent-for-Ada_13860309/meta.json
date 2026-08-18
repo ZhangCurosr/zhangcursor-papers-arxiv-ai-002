@@ -4,5 +4,32 @@
  "title": "SynAct-A-Reasoning-Acting-Large-Language-Model-Agent-for-Ada",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-08-14 04:13:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b8ad6771-ee46-4304-93d3-d2d52216d0ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b8ad6771-ee46-4304-93d3-d2d52216d0ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:17:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "逻辑综合",
+    "大语言模型 Agent",
+    "贝叶斯优化",
+    "GraphRAG",
+    "GrammarVAE",
+    "EDA 自动化",
+    "PPA 优化"
+   ],
+   "field": "电子设计自动化中的大语言模型应用",
+   "innovations": [
+    "闭环 LLM 推理-行动 Agent 迭代优化商业综合工具 PPA",
+    "三层 GraphRAG 结构化知识检索替代向量相似度检索",
+    "GrammarVAE 隐空间贝叶斯优化复用历史综合经验"
+   ],
+   "benchmarks": [
+    "OpenCores 14 个开源 RTL 设计",
+    "ASAP7 7nm PDK",
+    "AltiSyn® 商业综合工具"
+   ]
+  }
+ }
 }

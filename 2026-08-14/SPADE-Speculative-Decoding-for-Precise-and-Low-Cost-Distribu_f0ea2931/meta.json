@@ -4,5 +4,29 @@
  "title": "SPADE-Speculative-Decoding-for-Precise-and-Low-Cost-Distribu",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-14 04:09:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d6df94da-44d5-499b-b14e-79e777a54d5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d6df94da-44d5-499b-b14e-79e777a54d5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:13:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Speculative Decoding",
+    "Distributed Inference",
+    "Edge-Cloud",
+    "LLM Deployment",
+    "Low-Cost Inference"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "将投机解码首次系统性地应用于边缘–云分布式推理场景",
+    "零精度损失的即插即用架构，无需重新训练即可削减76%云端调用",
+    "草稿长度d的工程化调参策略与边缘–通信–计算权衡分析"
+   ],
+   "benchmarks": [
+    "SpecBench",
+    "CNN/DailyMail"
+   ]
+  }
+ }
 }

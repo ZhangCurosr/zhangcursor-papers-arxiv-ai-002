@@ -4,5 +4,32 @@
  "title": "Sovereign-by-necessity-Frontier-AI-export-controls-cyber-sec",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-14 14:49:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ed198fc0-89e8-41ff-9f81-fb900624bb29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ed198fc0-89e8-41ff-9f81-fb900624bb29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:16:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "前沿AI",
+    "出口管制",
+    "网络防御",
+    "主权AI",
+    "开放权重模型",
+    "网络攻防平衡",
+    "技术依赖"
+   ],
+   "field": "AI政策与国家安全",
+   "innovations": [
+    "提出分层主权框架将AI主权解构为训练/推理/数据/人才四层",
+    "论证推理主权比训练主权对依赖国更具可行性与战略价值",
+    "揭示开放权重作为对冲策略的双刃性及其政治暴露风险"
+   ],
+   "benchmarks": [
+    "NCSC网络攻击模拟评估",
+    "ExploitBench",
+    "Kimi K3 cyber capability assessment"
+   ]
+  }
+ }
 }
