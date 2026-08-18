@@ -4,5 +4,28 @@
  "title": "TRACE-Bench-Decomposing-and-Diagnosing-Multi-Reference-Image",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-18 14:31:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0c983ab3-f588-4f1a-a0f7-cc46b681b1af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0c983ab3-f588-4f1a-a0f7-cc46b681b1af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:12:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多参考图像生成",
+    "基准评测",
+    "能力分解",
+    "VLM judge",
+    "诊断树",
+    "组合公式"
+   ],
+   "field": "多模态图像生成评测",
+   "innovations": [
+    "将多参考生成分解为Anchor/Disentangle/Apply/Compose四原子算子并用组合公式统一表征",
+    "提出基于诊断树的递归失败定位方法，区分孤立能力缺陷与组合干扰效应"
+   ],
+   "benchmarks": [
+    "TRACE-Bench"
+   ]
+  }
+ }
 }

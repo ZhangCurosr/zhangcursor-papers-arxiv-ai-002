@@ -4,5 +4,39 @@
  "title": "Palmyra-x6-Technical-Report-An-Agentic-Tool-Use-Model-Post-T",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-18 14:31:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/832ac77a-a49f-4169-8522-a25a36eece18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/832ac77a-a49f-4169-8522-a25a36eece18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:08:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic LLM",
+    "Anchored SFT",
+    "Muon optimizer",
+    "tool-use",
+    "self-distillation",
+    "MoE post-training",
+    "synthetic trajectory",
+    "model safety"
+   ],
+   "field": "Agentic 大模型微调",
+   "innovations": [
+    "ASFT锚定微调在626条轨迹上成功微调744B MoE模型而不损伤基座能力",
+    "Muon+Adam混合优化器适配GLM-5.2 GlmMoeDsa架构的post-training实践",
+    "自蒸馏式多轮工具调用合成数据生成管线（verifier+cheating filter双重门控）"
+   ],
+   "benchmarks": [
+    "MCP-Atlas",
+    "FinanceBench",
+    "IFBench",
+    "BFCL Core",
+    "FORTRESS",
+    "Washington Post ModelSlant",
+    "BBQ",
+    "TruthfulQA",
+    "OR-Bench"
+   ]
+  }
+ }
 }

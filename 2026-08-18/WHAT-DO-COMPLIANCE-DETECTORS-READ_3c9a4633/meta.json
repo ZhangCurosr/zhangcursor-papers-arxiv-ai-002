@@ -4,5 +4,42 @@
  "title": "WHAT-DO-COMPLIANCE-DETECTORS-READ",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-18 14:31:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b85fc1e9-3022-4235-b1cf-a3b3bf964bce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b85fc1e9-3022-4235-b1cf-a3b3bf964bce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:14:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "compliance monitoring",
+    "activation probing",
+    "guard models",
+    "rule blindness",
+    "representation engineering",
+    "counterfactual evaluation"
+   ],
+   "field": "LLM 合规监测与可解释性",
+   "innovations": [
+    "提出训练免费的 Internal Compliance Score，仅需10对校准样本和一次点积即可读取合规风险",
+    "通过交叉规则-场景基准和预注册门控首次系统性证明所有高效检测器的规则盲视",
+    "建立词汇地板和预算匹配选择零假设的基准退化诊断框架"
+   ],
+   "benchmarks": [
+    "OmniCompliance",
+    "TRIDENT",
+    "IFEval",
+    "FlexBench",
+    "DynaBench",
+    "SafePyramid",
+    "AIReg-Bench",
+    "CompliBench",
+    "ToxicChat",
+    "OpenAI Moderation",
+    "Aegis",
+    "WildGuard",
+    "PKU-SafeRLHF",
+    "BeaverTails"
+   ]
+  }
+ }
 }

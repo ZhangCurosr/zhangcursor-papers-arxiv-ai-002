@@ -4,5 +4,29 @@
  "title": "Think-Inside-the-Chunk-RegulaRAG-for-Regulation-Compliant-Sc",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-18 14:31:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/16609ee0-f202-49fe-8045-e244c1387b6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/16609ee0-f202-49fe-8045-e244c1387b6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:12:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "Regulation Compliance",
+    "Scenario Generation",
+    "SmartChunking",
+    "Knowledge Graph Proxy",
+    "Automotive Testing"
+   ],
+   "field": "法规驱动的场景生成与RAG检索增强",
+   "innovations": [
+    "引用感知BFS闭包增强使跨段落与跨页表格证据一次性召回",
+    "Smart Retrieve & Rerank 按法规层级规范排序与跨chunk去重",
+    "正则数值/条件惩罚打分与Meta-Score评估合规场景质量"
+   ],
+   "benchmarks": [
+    "UN Regulation No. 152 AEBS测试场景数据集 vahidzolf/un_152"
+   ]
+  }
+ }
 }

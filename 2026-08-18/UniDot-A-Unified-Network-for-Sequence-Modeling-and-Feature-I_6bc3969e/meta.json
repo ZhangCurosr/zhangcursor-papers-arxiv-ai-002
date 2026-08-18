@@ -4,5 +4,30 @@
  "title": "UniDot-A-Unified-Network-for-Sequence-Modeling-and-Feature-I",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-18 14:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9ef62d62-f023-4fe7-a78e-a41c5d25884f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9ef62d62-f023-4fe7-a78e-a41c5d25884f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:13:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recommender systems",
+    "feature interaction",
+    "sequence modeling",
+    "CTR/CVR prediction",
+    "factorization machine",
+    "token mixing",
+    "multi-path mutual learning"
+   ],
+   "field": "推荐系统统一架构",
+   "innovations": [
+    "以 FM 内积为统一原语，双总线并行显式保留二阶交互（FM Highway）",
+    "共享 token 空间下的多域行为序列一次性嵌入与 DIN-style 条件 SwiGLU 过滤",
+    "多路径互学习共享稀疏嵌入，单路径 1× 成本仍达亚军水平"
+   ],
+   "benchmarks": [
+    "TAAC × KDD Cup 2026 Industrial track (conversion AUC)"
+   ]
+  }
+ }
 }

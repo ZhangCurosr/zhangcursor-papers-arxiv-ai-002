@@ -4,5 +4,30 @@
  "title": "Time-to-Reason-Scalable-Neurosymbolic-Learning-for-LTLf-via",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-18 14:31:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ca42e787-83f4-46d8-b7c7-97bb72532349.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ca42e787-83f4-46d8-b7c7-97bb72532349.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:12:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neurosymbolic AI",
+    "LTLf",
+    "fuzzy semantics",
+    "temporal reasoning",
+    "scalable learning",
+    "weak supervision"
+   ],
+   "field": "时间神经符号学习",
+   "innovations": [
+    "提出∂LTLf框架，直接对LTLf公式进行模糊语义评估，避免自动机编译",
+    "系统比较Gödel/Product/Łukasiewicz三种语义在时间神经符号学习中的性能",
+    "设计仅依赖序列级标签的可扩展评估协议，分离公式复杂度与序列长度影响"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion-MNIST"
+   ]
+  }
+ }
 }

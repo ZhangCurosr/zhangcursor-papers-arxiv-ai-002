@@ -4,5 +4,10 @@
  "title": "What-Does-Context-Compression-Cost-an-Agent-Interaction-Cost",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-18 14:31:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5dff7e01-95dc-4801-a021-8976bff873bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5dff7e01-95dc-4801-a021-8976bff873bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:14:59",
+  "chunks": 1
+ }
 }

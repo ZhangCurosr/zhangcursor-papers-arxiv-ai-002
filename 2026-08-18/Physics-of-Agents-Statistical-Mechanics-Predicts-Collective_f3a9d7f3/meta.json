@@ -4,5 +4,31 @@
  "title": "Physics-of-Agents-Statistical-Mechanics-Predicts-Collective",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-18 14:31:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f0220ff5-099f-4ff4-b0fe-5b5badbf649f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f0220ff5-099f-4ff4-b0fe-5b5badbf649f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:08:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "statistical mechanics",
+    "Ising model",
+    "opinion dynamics",
+    "collective intelligence",
+    "LLM agents",
+    "signed networks"
+   ],
+   "field": "多智能体系统与集体智能",
+   "innovations": [
+    "将多代理意见动力学建模为带符号Ising模型并推导logistic更新规则",
+    "提出三耦合机制分离友好/敌对/存在边效应，显著提升集体行为预测力",
+    "通过临界温度与耦合参数解释共识形成与求真倾向的微观机制"
+   ],
+   "benchmarks": [
+    "MATH",
+    "Political Questions Dataset for LLM Bias Evaluation"
+   ]
+  }
+ }
 }

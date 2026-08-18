@@ -4,5 +4,10 @@
  "title": "TDD-Agent-Test-Driven-Reasoning-for-Code-Generation",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-18 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/36661588-edab-4ffb-93c4-56ca31047f75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/36661588-edab-4ffb-93c4-56ca31047f75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:12:30",
+  "chunks": 1
+ }
 }

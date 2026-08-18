@@ -4,5 +4,38 @@
  "title": "RagGAD-Rationale-Aware-Conditional-Gaussian-Mixture-Normaliz",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-08-18 14:31:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b7eea34e-d1f6-4405-af71-0b89d0ae4980.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b7eea34e-d1f6-4405-af71-0b89d0ae4980.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:10:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图异常检测",
+    "无监督学习",
+    "归一化流",
+    "理由解耦",
+    "高斯混合模型",
+    "同质性陷阱"
+   ],
+   "field": "图机器学习异常检测",
+   "innovations": [
+    "提出自适应理由解耦器分离稳定理由与非理由相关性，解决同质性陷阱问题",
+    "设计节点级条件高斯混合归一化流模型，支持正常/异常数据共存训练",
+    "将理由分解为稳健与脆弱成分，细粒度建模正常节点的多样性行为"
+   ],
+   "benchmarks": [
+    "BlogCatalog",
+    "ACM",
+    "Amazon",
+    "Facebook",
+    "Reddit",
+    "YelpChi",
+    "Amazon-all",
+    "YelpChi-all",
+    "T-Finance",
+    "OGB-Proteins"
+   ]
+  }
+ }
 }

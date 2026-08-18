@@ -4,5 +4,10 @@
  "title": "Quipu-A-Governed-Bitemporal-Knowledge-Graph-Store",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-18 14:31:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cb74f5cc-2b40-46e0-9d48-99e378c3d6b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cb74f5cc-2b40-46e0-9d48-99e378c3d6b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:09:52",
+  "chunks": 1
+ }
 }

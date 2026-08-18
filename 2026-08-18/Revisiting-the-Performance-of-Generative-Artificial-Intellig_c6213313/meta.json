@@ -4,5 +4,31 @@
  "title": "Revisiting-the-Performance-of-Generative-Artificial-Intellig",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-18 14:31:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/20149892-3922-4b24-8e0c-4d87a799fb7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/20149892-3922-4b24-8e0c-4d87a799fb7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:10:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generative AI",
+    "Large Language Models",
+    "Object-Oriented Programming",
+    "Code Generation",
+    "Programming Education",
+    "Longitudinal Evaluation"
+   ],
+   "field": "编程教育中的AI能力评估",
+   "innovations": [
+    "在真实Java OO课程中与历史学生成绩及上一年AI结果进行纵向复测",
+    "首次响应、无提示工程的标准化多模型对比评估",
+    "系统归纳接口/抽象类与图形推理等顽固错误谱系"
+   ],
+   "benchmarks": [
+    "Programming Test 1",
+    "Programming Test 2",
+    "Final Examination"
+   ]
+  }
+ }
 }

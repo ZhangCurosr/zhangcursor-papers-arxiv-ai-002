@@ -4,5 +4,35 @@
  "title": "Proteus-Incremental-Memory-Activation-for-Long-Context-Seque",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-18 14:31:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f5054292-0d7f-43f4-a513-dc24e70d6f28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f5054292-0d7f-43f4-a513-dc24e70d6f28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:09:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "增量记忆激活",
+    "长上下文建模",
+    "关联记忆",
+    "RNN",
+    "线性注意力",
+    "Proteus"
+   ],
+   "field": "长上下文序列建模",
+   "innovations": [
+    "提出增量记忆激活范式，通过逐步扩展记忆有效容量解决静态容量早期过拟合与后期干扰的双重缺陷",
+    "设计Proteus分块门控机制，零额外开销嵌入多种记忆架构（SWLA/Comba/Titans/Hope-Attention）",
+    "从Nested Learning视角将容量调度拓展至MLP参数，统一处理记忆状态与模型参数"
+   ],
+   "benchmarks": [
+    "Wikitext",
+    "LAMBADA",
+    "Needle-in-a-Haystack (NIAH)",
+    "LongBench",
+    "PIQA",
+    "HellaSwag",
+    "WinoGrande"
+   ]
+  }
+ }
 }

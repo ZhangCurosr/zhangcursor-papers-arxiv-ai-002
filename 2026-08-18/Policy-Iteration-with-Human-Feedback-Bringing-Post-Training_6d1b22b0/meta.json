@@ -4,5 +4,32 @@
  "title": "Policy-Iteration-with-Human-Feedback-Bringing-Post-Training",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-18 14:31:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/77829066-2d5a-4d0b-a405-17a60f875ec7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/77829066-2d5a-4d0b-a405-17a60f875ec7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:08:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Policy Iteration",
+    "In-Context Learning",
+    "Human Feedback",
+    "RLHF",
+    "Rare Disease Diagnosis",
+    "Process Supervision",
+    "External Policy Artifact"
+   ],
+   "field": "大语言模型后训练与策略迭代",
+   "innovations": [
+    "将策略迭代映射到外部版本化自然语言策略artifact，实现权重冻结下的持续改进",
+    "LLM批评者+临床专家双阶段审查机制，分离过程反馈与终端结果验证",
+    "跨多模型executor验证策略artifact的可迁移性，展示解耦执行的泛化潜力"
+   ],
+   "benchmarks": [
+    "Rare-Disease Diagnosis Benchmark (1,243 cases)",
+    "GPT-5.4 proprietary executor",
+    "Qwen3.6-35B open-weight executor"
+   ]
+  }
+ }
 }

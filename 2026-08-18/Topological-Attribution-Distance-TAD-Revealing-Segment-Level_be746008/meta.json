@@ -4,5 +4,33 @@
  "title": "Topological-Attribution-Distance-TAD-Revealing-Segment-Level",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-18 14:31:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/a53542ba-1a36-4b12-9270-856057f9d66c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/a53542ba-1a36-4b12-9270-856057f9d66c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:13:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Topological Attribution Distance",
+    "Segment-level Attribution",
+    "Persistent Homology",
+    "RAG Explainability",
+    "Incident Log Analysis",
+    "Wasserstein Distance",
+    "Vietoris-Rips Complex",
+    "Cybersecurity"
+   ],
+   "field": "可解释AI / 网络安全",
+   "innovations": [
+    "提出TAD度量，通过持久同调几何变形量化段级归因",
+    "设计√N分批筛选-确认策略降低O(N)至O(√N)复杂度",
+    "首次将同伦推理与LLM嵌入空间几何联系用于RAG溯源"
+   ],
+   "benchmarks": [
+    "GOAD真实攻击日志数据集",
+    "Direct/Regular/Indirect三难度场景",
+    "Qwen3-4B, Gemma3-4B, Qwen2.5-7B, Granite4.1-8B"
+   ]
+  }
+ }
 }

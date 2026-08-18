@@ -4,5 +4,29 @@
  "title": "RISE-Roadside-Infrastructure-Sequence-Understanding-across-3",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-18 14:31:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f022ba92-bb41-4de3-8104-16c78df2821d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f022ba92-bb41-4de3-8104-16c78df2821d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:09:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Roadside Perception",
+    "Multi-view 3D Tracking",
+    "Vision-Language Reasoning",
+    "Predictive VQA",
+    "Dataset and Benchmark"
+   ],
+   "field": "道路侧感知与结构化视觉语言推理",
+   "innovations": [
+    "训练自由的多视角 3D 跟踪：结合 SAM3 视频 ID 与校准几何、MWIS 消歧，无需 3D 训练即可跨路口部署",
+    "Oracle 约束的结构化 VQA 构造：观察-监督分离，bbox 锚定并预测未来 box/坐标/交互集合",
+    "交叉路口 held-out 评估协议：阻断共享布局与相机上下文，测量跨路口泛化"
+   ],
+   "benchmarks": [
+    "RISE-Bench",
+    "RISE-VQA"
+   ]
+  }
+ }
 }

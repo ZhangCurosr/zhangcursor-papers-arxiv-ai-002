@@ -4,5 +4,31 @@
  "title": "Ventor-QTest-Threat-Model-Driven-Verification-of-Vendor-Host",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-18 14:31:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2592880b-39ac-4733-aa22-201a33a68c66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2592880b-39ac-4733-aa22-201a33a68c66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:14:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM API 审计",
+    "黑盒验证",
+    "部署可信性",
+    "分布偏离度量",
+    "长序列保真度",
+    "托管模型路由"
+   ],
+   "field": "LLM 系统安全与可靠性",
+   "innovations": [
+    "将托管推理形式化为路由级随机过程并分离持久均值偏差与间歇极端偏差",
+    "仅从文本重建共粗化KL分布的AFL估计器（零偏校正Dirichlet后验）",
+    "保留完整经验上尾分布的EFL长序列探针（非坍缩报告）"
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "Terminal-Bench 2.1",
+    "DeepSeek V4 Flash 0731 七路由快照"
+   ]
+  }
+ }
 }

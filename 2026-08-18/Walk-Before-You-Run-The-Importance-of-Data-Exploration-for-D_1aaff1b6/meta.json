@@ -4,5 +4,31 @@
  "title": "Walk-Before-You-Run-The-Importance-of-Data-Exploration-for-D",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-08-18 14:31:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b9113b60-efd2-4d25-beaf-e2690e0ff050.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b9113b60-efd2-4d25-beaf-e2690e0ff050.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:14:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Exploration",
+    "LLM data analysis",
+    "worksheet understanding",
+    "benchmark evaluation",
+    "human-in-the-loop",
+    "structured artifact",
+    "schema-fixed"
+   ],
+   "field": "LLM驱动的数据分析Agent",
+   "innovations": [
+    "提出Schema-fixed Data Exploration benchmark，首次将数据集理解作为独立可测的一等评估维度",
+    "Control/Middle/Treatment三层消融证明显式探索支持普遍提升下游正确率（困难组+13%）",
+    "揭示隐性结构恢复（多实体分解、矩阵布局→逻辑表）是当前系统主要失败模式"
+   ],
+   "benchmarks": [
+    "DSBench（12任务子集）",
+    "Vitamin D multi-sheet workbook"
+   ]
+  }
+ }
 }

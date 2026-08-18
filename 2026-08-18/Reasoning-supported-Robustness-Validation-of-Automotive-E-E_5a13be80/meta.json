@@ -4,5 +4,29 @@
  "title": "Reasoning-supported-Robustness-Validation-of-Automotive-E-E",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-18 14:31:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6171b749-03a0-4ddf-9a0c-98d8eb30d2ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6171b749-03a0-4ddf-9a0c-98d8eb30d2ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:09:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Robustness Validation",
+    "Mission Profile",
+    "OWL Ontology",
+    "Semantic Reasoning",
+    "Automotive E/E",
+    "Knowledge-Based Engineering",
+    "Mounting Point Propagation"
+   ],
+   "field": "汽车电子系统工程的稳健性验证",
+   "innovations": [
+    "基于OWL本体和语义推理自动化RV流程的分析选择与数据Provisioning",
+    "使用复杂角色包含公理实现邻近组件安装点特性（如EMI）的自动传播推理"
+   ],
+   "benchmarks": [
+    "Fairchild FTCO3V455A1三相逆变功率模块工业用例"
+   ]
+  }
+ }
 }

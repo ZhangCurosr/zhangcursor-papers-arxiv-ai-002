@@ -4,5 +4,34 @@
  "title": "STEP-LEVEL-ON-POLICY-DISTILLATION-INTERPOLATING-BETWEEN-ON-P",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-18 14:31:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8aaaffa9-b7f9-4b54-a905-3ae357b9a3e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8aaaffa9-b7f9-4b54-a905-3ae357b9a3e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:11:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "knowledge distillation",
+    "SFT",
+    "agent",
+    "mathematical reasoning",
+    "black-box distillation"
+   ],
+   "field": "大语言模型蒸馏与训练",
+   "innovations": [
+    "提出 Step-Level On-Policy Distillation (SOPD)，在自然步骤粒度上提供连贯的多 token 教师纠正",
+    "建立 SOPD 与 SFT/OPD 的理论连接，形成监督粒度的统一视角",
+    "设计 packed attention mask 实现多 step-level 监督实例的并行高效训练"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "AIME24",
+    "AIME25",
+    "HMMT25-Feb",
+    "HMMT25-Nov",
+    "DeepMath"
+   ]
+  }
+ }
 }

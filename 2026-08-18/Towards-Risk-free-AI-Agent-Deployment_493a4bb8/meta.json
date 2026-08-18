@@ -4,5 +4,30 @@
  "title": "Towards-Risk-free-AI-Agent-Deployment",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-18 14:31:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/bfc847c8-c606-48a1-b385-b89f75e0eb40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/bfc847c8-c606-48a1-b385-b89f75e0eb40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:13:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Agent",
+    "Software Testing",
+    "Debugging",
+    "Trajectory Analysis",
+    "Deployment Risk",
+    "LLM Agent"
+   ],
+   "field": "AI Agent 测试与调试",
+   "innovations": [
+    "提出基于轨迹（trajectory）的 agent 测试与调试统一框架，将轨迹作为 model-agnostic 的核心可观测 artifact",
+    "系统梳理 agent 测试七大挑战并构建部署全生命周期准备度检查清单",
+    "明确形式化充分性指标、长轨迹根因归因、自进化 agent 可信性三个关键开放问题"
+   ],
+   "benchmarks": [
+    "OSWorld",
+    "Web-Bench"
+   ]
+  }
+ }
 }

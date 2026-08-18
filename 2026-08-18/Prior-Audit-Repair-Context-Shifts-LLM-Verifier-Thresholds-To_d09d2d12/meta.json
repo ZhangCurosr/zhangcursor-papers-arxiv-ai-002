@@ -4,5 +4,30 @@
  "title": "Prior-Audit-Repair-Context-Shifts-LLM-Verifier-Thresholds-To",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-08-18 14:31:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/08baa704-c8c7-4c0a-8cab-034ac62c975f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/08baa704-c8c7-4c0a-8cab-034ac62c975f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:09:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM verifier",
+    "false alarm rate",
+    "signal detection theory",
+    "in-context bias",
+    "ProcessBench",
+    "audit-repair pipeline",
+    "threshold shift"
+   ],
+   "field": "LLM-as-judge 与验证器评估",
+   "innovations": [
+    "发现已完成的audit→repair episode系统性降低LLM verifier假警报率（2.8-11.5pp）",
+    "证明效应源于决策阈值移动而非辨别力提升，且方向与极性漂移预测相反",
+    "提出byte-identical任务约束+episode冻结重用的因果推断设计隔离context效应"
+   ],
+   "benchmarks": [
+    "ProcessBench"
+   ]
+  }
+ }
 }
