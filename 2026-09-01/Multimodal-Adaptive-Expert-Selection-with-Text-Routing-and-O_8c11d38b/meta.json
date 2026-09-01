@@ -4,5 +4,30 @@
  "title": "Multimodal-Adaptive-Expert-Selection-with-Text-Routing-and-O",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-01 17:35:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8afbca61-3002-494d-abe5-43632c45e894.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8afbca61-3002-494d-abe5-43632c45e894.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:16:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态情感分析",
+    "混合专家",
+    "动态路由",
+    "对比学习",
+    "序数回归",
+    "特征解耦"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "文本引导的混合MoE动态路由机制，打破静态计算图瓶颈",
+    "序数感知原型对比学习O-PCL，注入距离惩罚尊重情感层次",
+    "解耦表征与动态增强结合的可解释多模态融合范式"
+   ],
+   "benchmarks": [
+    "CMU-MOSI",
+    "CMU-MOSEI"
+   ]
+  }
+ }
 }

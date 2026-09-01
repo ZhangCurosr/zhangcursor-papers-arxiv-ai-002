@@ -4,5 +4,38 @@
  "title": "LightNav-0-Eliciting-VLM-Spatial-Intelligence-for-Generalist",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-01 07:15:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/848b7f19-e104-4fee-8e21-e530678f392e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/848b7f19-e104-4fee-8e21-e530678f392e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:14:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied navigation",
+    "vision-language model",
+    "residual vector quantization",
+    "dual-channel pointing",
+    "GRPO",
+    "generalist robot policy"
+   ],
+   "field": "具身导航与VLA",
+   "innovations": [
+    "双通道指向作为任务/平台无关的统一空间意图接口",
+    "RVQ三级256码本在LM head内解码10步SE(2)轨迹实现高精度连续控制",
+    "ER中期训练+SFT/DAgger+在线GRPO的三阶段对齐课程"
+   ],
+   "benchmarks": [
+    "R2R",
+    "RxR",
+    "MP3D ObjectNav",
+    "HM3D v1/v2",
+    "HM3D-OVON",
+    "EVT-Bench",
+    "Point-Bench",
+    "RefSpatial",
+    "RoboSpatial",
+    "INSIGHT-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Zero-Shot-Self-Orchestration-with-Ledger-Based-Control-for-I",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-08-28 23:24:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/113a91f8-0946-4c83-9886-10ada3f31271.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/113a91f8-0946-4c83-9886-10ada3f31271.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:14:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "zero-shot orchestration",
+    "manager-worker scaffold",
+    "code generation",
+    "LiveCodeBench",
+    "cost-effectiveness",
+    "shared workspace"
+   ],
+   "field": "多智能体大模型系统与代码生成",
+   "innovations": [
+    "训练无关的零样本 manager-worker 编排框架，动态任务分配无学习组件",
+    "共享文件系统账本外化 agent 状态，配合 sample-test verifier 与截断摘要器",
+    "系统量化 scaffold 的成本-精度 tradeoff，证明以更低成本逼近顶级模型"
+   ],
+   "benchmarks": [
+    "LiveCodeBench v6 hard split (LCB-100)"
+   ]
+  }
+ }
 }

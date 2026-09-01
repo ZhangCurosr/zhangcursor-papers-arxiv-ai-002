@@ -4,5 +4,36 @@
  "title": "VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual-R",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-27 23:34:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9965bbd9-d555-44ec-92b4-01f8e2837c36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9965bbd9-d555-44ec-92b4-01f8e2837c36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:12:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "native visual reasoning",
+    "verifiable reward",
+    "visual generation",
+    "reinforcement learning",
+    "multimodal benchmark",
+    "chain-of-step"
+   ],
+   "field": "视觉推理与生成式AI",
+   "innovations": [
+    "首个面向原生视觉推理的300任务可扩展可验证闭环测试平台",
+    "基于语义提取的任务特定确定性评分器，实现零波动可复现评估",
+    "CPS采样结合可验证奖励的多任务强化学习，显著提升视觉推理性能与迁移能力"
+   ],
+   "benchmarks": [
+    "VBVR-Pro-Bench",
+    "RISE-Video",
+    "V-ReasonBench",
+    "RULER-Bench",
+    "MME-CoF-Pro",
+    "VideoThinkBench",
+    "BabyVision-Gen",
+    "IntelligentVBench"
+   ]
+  }
+ }
 }

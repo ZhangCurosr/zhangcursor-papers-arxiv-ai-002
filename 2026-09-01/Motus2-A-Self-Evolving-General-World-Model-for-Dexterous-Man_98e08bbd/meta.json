@@ -4,5 +4,35 @@
  "title": "Motus2-A-Self-Evolving-General-World-Model-for-Dexterous-Man",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-01 07:20:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bcc8aae2-ce92-40ad-9eca-c89dbd6730b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bcc8aae2-ce92-40ad-9eca-c89dbd6730b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:16:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "general world model",
+    "dexterous manipulation",
+    "model-based reinforcement learning",
+    "egocentric data",
+    "self-evolving policy",
+    "value-guided planning"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "单一共享参数模型暴露策略-模拟器-评估器三接口并通过动作优先掩码实现因子分解",
+    "轨迹依赖监督路由区分成功示范与失败交互的价值",
+    "基于DiffusionNFT的价值引导闭环自进化方法"
+   ],
+   "benchmarks": [
+    "Place Ball",
+    "Multi-Finger",
+    "Attach Eraser",
+    "Screw Bulb",
+    "Put Phone",
+    "Find Square",
+    "Press Button"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "MedAgent-R1-Faithfulness-Aware-Reinforcement-Learning-for-Ev",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-01 07:15:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f5972596-5000-4c24-812c-fe898055621b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f5972596-5000-4c24-812c-fe898055621b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:16:39",
+  "chunks": 1
+ }
 }

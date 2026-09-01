@@ -4,5 +4,10 @@
  "title": "Zero-Shot-Self-Orchestration-with-Ledger-Based-Control-for-I",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-08-28 13:49:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f4b9bd68-d900-40d8-a597-49c429216d35.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f4b9bd68-d900-40d8-a597-49c429216d35.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:14:15",
+  "chunks": 1
+ }
 }

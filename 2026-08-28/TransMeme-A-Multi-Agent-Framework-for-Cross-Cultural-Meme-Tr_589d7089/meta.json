@@ -4,5 +4,10 @@
  "title": "TransMeme-A-Multi-Agent-Framework-for-Cross-Cultural-Meme-Tr",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-28 23:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2b9b5e47-334a-4d8b-b8bb-37db485d4df2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2b9b5e47-334a-4d8b-b8bb-37db485d4df2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:13:08",
+  "chunks": 1
+ }
 }

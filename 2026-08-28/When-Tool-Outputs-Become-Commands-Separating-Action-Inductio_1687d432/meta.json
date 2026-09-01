@@ -4,5 +4,10 @@
  "title": "When-Tool-Outputs-Become-Commands-Separating-Action-Inductio",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-28 13:48:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c295bf4c-2c30-4fe6-a214-de67f65b2364.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c295bf4c-2c30-4fe6-a214-de67f65b2364.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:13:39",
+  "chunks": 1
+ }
 }

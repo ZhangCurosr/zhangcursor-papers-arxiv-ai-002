@@ -4,5 +4,44 @@
  "title": "MNIST-PRO-MNIST-is-Back-as-a-Partiall-sub-y-sub-Ob-sub-serva",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-01 17:35:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e150c319-a104-4c40-b890-66a98303d954.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e150c319-a104-4c40-b890-66a98303d954.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:16:08",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Partially Observable",
+    "Active Perception",
+    "Vision-Language Model",
+    "Overoptimistic Stopping",
+    "MNIST-PRO",
+    "Agent Benchmark",
+    "Glimpse-based Reasoning"
+   ],
+   "field": "多模态智能体主动感知与部分可观测推理",
+   "innovations": [
+    "提出 MNIST-PRO benchmark 引入严格视觉预算与历史限制评估部分可观测主动感知",
+    "揭示主流 VLM 的过度乐观停止行为并剖析先验与校准偏差成因",
+    "验证 Programmatic Consolidation 策略并分离感知获取与状态解释瓶颈"
+   ],
+   "benchmarks": [
+    "MNIST-PRO",
+    "MMBench",
+    "MMMU",
+    "MM-Vet",
+    "SEED-Bench",
+    "BLINK",
+    "MMT-Bench",
+    "ActiView",
+    "ActiveVision",
+    "V*",
+    "ALFRED",
+    "SpatialBench",
+    "VSI-Bench",
+    "OSWorld",
+    "ScrambleToolBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Measure-Before-You-Manage-Evaluating-Agent-Working-Memory-in",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-01 07:15:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/58160075-908f-4bdc-8940-3454c77fe337.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/58160075-908f-4bdc-8940-3454c77fe337.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:15:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent working memory",
+    "semantic heterogeneity",
+    "memory management",
+    "coding agent",
+    "object-aware compression",
+    "evaluation framework",
+    "SWE-bench"
+   ],
+   "field": "AI Agent 系统与记忆管理",
+   "innovations": [
+    "揭示编码Agent工作记忆的语义异构性并通过类型化对象会计量化",
+    "提出四级评估框架区分存储状态、交付上下文、管理工作与任务结果",
+    "展示校准增益在保留任务上不转移，名义预算不等价于实际交付上下文"
+   ],
+   "benchmarks": [
+    "SWE-bench Lite",
+    "Terminal-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "V-Rubrics-Visual-Faithfulness-via-Rubric-Based-Reinforcement",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-27 23:35:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/72f17dd5-7d2d-4572-8580-dd843eea3e2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/72f17dd5-7d2d-4572-8580-dd843eea3e2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:12:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "强化学习",
+    "视觉忠实性",
+    "量规奖励",
+    "GRPO",
+    "多模态推理",
+    "credit-assignment"
+   ],
+   "field": "多模态大模型后训练",
+   "innovations": [
+    "将视觉忠实性形式化为细粒度RL信用分配问题，提出component-wise prefix-localized rubric credit",
+    "构造V-Rubrics 50K数据集，将参考答案分解为原子化VF/RC/IF准则并自动标注",
+    "在GRPO中实现量规项独立标准化与前缀局部化优势，显著提升视觉推理任务性能"
+   ],
+   "benchmarks": [
+    "MMMU",
+    "MMMU-Pro",
+    "MathVista",
+    "MathVision",
+    "DynaMath",
+    "WeMath",
+    "LogicVista",
+    "CharXiv",
+    "MMBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "MNIST-PRO-MNIST-is-Back-as-a-Partiall-sub-y-sub-Ob-sub-serva",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-01 07:15:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e853aa98-2854-4981-b976-b15c404d05f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e853aa98-2854-4981-b976-b15c404d05f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:16:02",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "部分可观测强化学习",
+    "MNIST-PRO",
+    "基准评测",
+    "样本效率",
+    "记忆增强",
+    "POMDP"
+   ],
+   "field": "部分可观测强化学习基准",
+   "innovations": [
+    "提出MNIST-PRO部分可观测基准，构建可控难度梯度",
+    "设计标准化评估协议覆盖样本效率与分布外泛化",
+    "揭示记忆增强模块对部分可观测性能的关键提升作用"
+   ],
+   "benchmarks": [
+    "MNIST-PRO",
+    "MNIST"
+   ]
+  }
+ }
 }

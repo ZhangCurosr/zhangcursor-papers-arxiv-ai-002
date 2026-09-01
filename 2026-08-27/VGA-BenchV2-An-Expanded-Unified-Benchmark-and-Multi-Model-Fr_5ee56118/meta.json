@@ -4,5 +4,35 @@
  "title": "VGA-BenchV2-An-Expanded-Unified-Benchmark-and-Multi-Model-Fr",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-27 23:35:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e4ff1021-451d-477c-b13a-befcc5285bd2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e4ff1021-451d-477c-b13a-befcc5285bd2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:12:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频美学评估",
+    "text-to-video benchmark",
+    "human-aligned evaluation",
+    "vision-language model evaluator",
+    "reinforcement learning for generation",
+    "VGA-BenchV2"
+   ],
+   "field": "视频生成评测与优化",
+   "innovations": [
+    "大规模人标注扩展（36,000 条，最高 13.46×）支撑混合评估器训练",
+    "VAQA-Net 连续美学回归 + VTag/VGQA LVLM 语义推理的混合评估器架构",
+    "首个将美学评估器作为 reward 接入 Flow-GRPO 实现 video generator RL 微调的闭环"
+   ],
+   "benchmarks": [
+    "VGA-BenchV2",
+    "VADB",
+    "V-Bench",
+    "V-Bench2",
+    "ChronoMagic-Bench",
+    "T2V-CompBench",
+    "StoryEval"
+   ]
+  }
+ }
 }

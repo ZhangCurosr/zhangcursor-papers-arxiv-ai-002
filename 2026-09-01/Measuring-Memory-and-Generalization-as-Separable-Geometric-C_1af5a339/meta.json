@@ -4,5 +4,31 @@
  "title": "Measuring-Memory-and-Generalization-as-Separable-Geometric-C",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-01 07:15:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/004df2ab-01da-4bad-9f33-8f6764feabc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/004df2ab-01da-4bad-9f33-8f6764feabc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:16:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "标签噪声学习",
+    "记忆与泛化",
+    "拓扑数据分析",
+    "持久同调",
+    "可解释性",
+    "因果干预"
+   ],
+   "field": "深度学习理论与可解释性",
+   "innovations": [
+    "提出Topo²框架，将记忆与泛化解耦为可分离的拓扑通道H1_within和H1_cross",
+    "设计FM0因果干预从第0epoch隔离噪声记忆，实现泛化-记忆解耦测量",
+    "建立记忆-泛化拓扑分层(TLS)定律，提出可量化的记忆成本公式va=va_FM0-C*(η/(1-η))*mem"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "SVHN",
+    "CIFAR-100"
+   ]
+  }
+ }
 }

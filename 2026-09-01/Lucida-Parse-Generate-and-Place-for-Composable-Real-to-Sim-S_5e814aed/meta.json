@@ -4,5 +4,33 @@
  "title": "Lucida-Parse-Generate-and-Place-for-Composable-Real-to-Sim-S",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-01 07:19:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/28ea6bb4-65eb-4a75-9440-51b1a2c8b8eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/28ea6bb4-65eb-4a75-9440-51b1a2c8b8eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:15:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "composable scene modeling",
+    "real-to-sim",
+    "3D object detection",
+    "pose estimation",
+    "VLM agent",
+    "gizmo interaction",
+    "amodal generation"
+   ],
+   "field": "3D场景理解与重建",
+   "innovations": [
+    "将3D定位重新定义为VLM多轮GUI闭环交互，通过gizmo操作精化9-DoF姿态",
+    "多视角证据包+场景图构建，使每步仅消费真实捕捉可靠提供的输入",
+    "误差注入+恢复训练结合RL量化奖励，容忍资产-观测几何失配"
+   ],
+   "benchmarks": [
+    "R2S-Scene",
+    "R2S-Object",
+    "CA-1M",
+    "ADT"
+   ]
+  }
+ }
 }

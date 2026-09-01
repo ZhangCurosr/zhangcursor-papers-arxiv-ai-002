@@ -4,5 +4,32 @@
  "title": "MR-JEPA-A-General-Purpose-Video-Foundation-Model-for-Cardiac",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-01 07:15:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/98eb20a7-c1df-441b-8483-d56cb70cfc6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/98eb20a7-c1df-441b-8483-d56cb70cfc6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:15:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cardiac MRI",
+    "Video Foundation Model",
+    "Self-Supervised Learning",
+    "JEPA",
+    "Strain Regression",
+    "Disease Detection"
+   ],
+   "field": "医学视频表示学习",
+   "innovations": [
+    "将 LeJEPA 扩展至 3D CMR 视频预训练",
+    "在无文本标注下实现多序列 CMR 的统一时空表征学习",
+    "基于 2D CMR 基础的 3D 时空权重初始化策略"
+   ],
+   "benchmarks": [
+    "LV EF prediction",
+    "RV EF prediction",
+    "Myocardial strain regression",
+    "Cardiac disease classification"
+   ]
+  }
+ }
 }

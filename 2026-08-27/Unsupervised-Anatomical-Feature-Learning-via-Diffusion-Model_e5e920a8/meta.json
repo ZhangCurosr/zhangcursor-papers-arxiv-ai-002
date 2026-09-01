@@ -4,5 +4,31 @@
  "title": "Unsupervised-Anatomical-Feature-Learning-via-Diffusion-Model",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-27 23:35:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/350d976a-a465-4da7-998f-1b0e06e5afe9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/350d976a-a465-4da7-998f-1b0e06e5afe9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:11:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Models",
+    "Medical Image Segmentation",
+    "Unsupervised Learning",
+    "Transfer Learning",
+    "Anatomical Feature Learning",
+    "DDPM",
+    "U-Net",
+    "Low-Data Segmentation"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "无监督DDPM预训练提取解剖特征并迁移至分割编码器",
+    "冻结预训练编码器无需标注即达微调模型86.9%肝脏分割性能",
+    "扩散预训练使边界精度提升45-68%并降低方差47-68%"
+   ],
+   "benchmarks": [
+    "BTCV Multi-Organ Abdominal CT Dataset"
+   ]
+  }
+ }
 }

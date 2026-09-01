@@ -4,5 +4,29 @@
  "title": "Saliency-Depth-Conditioning-for-Zero-Shot-Segmentation-of-Co",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-27 23:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/054554a5-622b-46bf-bf3e-1ceb5fabe33e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/054554a5-622b-46bf-bf3e-1ceb5fabe33e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:11:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot segmentation",
+    " UAV imagery",
+    "communication tower inspection",
+    "saliency-depth conditioning",
+    "Grounded-SAM",
+    "SAM 3"
+   ],
+   "field": "基础设施视觉检测与零样本分割",
+   "innovations": [
+    "显著性-深度前景 conditioning 策略：外观显著性与单目深度联合构建塔结构先验以抑制杂乱背景",
+    "SD-Grounded-SAM 盒精炼：基于塔相对尺寸、成对包含与深度阈值的候选框后处理降低误检",
+    "跨架构验证：同一 conditioning 模块同时提升 Grounded-SAM 与 SAM 3 的实例与语义分割性能"
+   ],
+   "benchmarks": [
+    "TOW-300"
+   ]
+  }
+ }
 }

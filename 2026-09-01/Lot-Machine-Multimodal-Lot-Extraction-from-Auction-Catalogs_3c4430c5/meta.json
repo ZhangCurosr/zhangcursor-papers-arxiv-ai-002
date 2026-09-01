@@ -4,5 +4,33 @@
  "title": "Lot-Machine-Multimodal-Lot-Extraction-from-Auction-Catalogs",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-01 07:15:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9b4086de-4d6e-47e5-bb72-0971531b7e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9b4086de-4d6e-47e5-bb72-0971531b7e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:14:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Key Information Extraction",
+    "Vision-Language Models",
+    "Cultural Heritage",
+    "Provenance Research",
+    "Constrained Decoding",
+    "Mixture of Experts",
+    "Historical Documents"
+   ],
+   "field": "多模态文档理解与文化遗产数字化",
+   "innovations": [
+    "首个German Sales拍卖目录结构化提取基准（152页/1,378标注物品）",
+    "跨商业API/机构网关/本地边缘三模式系统性VLM部署评估",
+    "双指标（ANLS*+rouge-1）字段级分析方法揭示历史文本主观性误差模式"
+   ],
+   "benchmarks": [
+    "German Sales Auction Catalog Benchmark",
+    "ANLS*",
+    "CER",
+    "rouge-1"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "pro-team-at-LLMs4OL-2026-Tasks-Flagship-and-Reuse-Retrieval",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-28 23:23:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/dac1a8de-c20e-4812-a3a2-e3ea6f03d2ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/dac1a8de-c20e-4812-a3a2-e3ea6f03d2ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:14:40",
+  "chunks": 1
+ }
 }
