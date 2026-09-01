@@ -4,5 +4,32 @@
  "title": "Tlow-Flow-based-Item-Tokenizer-for-Recommendation",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-08-26 03:05:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4039ef4e-926b-4d06-95a8-0e88a868e6a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4039ef4e-926b-4d06-95a8-0e88a868e6a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:16:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Item Tokenizer",
+    "Flow-based Model",
+    "Generative Recommendation",
+    "Product Quantization",
+    "Cold-start Recommendation",
+    "Cross-domain Recommendation",
+    "Multi-modal Recommendation"
+   ],
+   "field": "推荐系统",
+   "innovations": [
+    "提出基于流模型的分布变换分词器Tlow，将语义嵌入映射到标准正态空间以实现维度独立的精准PQ分词",
+    "首次设计codebook-guidance损失，全局对齐token embedding空间与码本空间以提升语义区分度",
+    "在通用/跨域/多模态/冷启动及工业在线场景（微信）全面验证，取得SOTA并新物品UCTR提升11.64%"
+   ],
+   "benchmarks": [
+    "Amazon Reviews (Sports, Beauty, Toys, CDs)",
+    "Cloth-Sports Cross-domain",
+    "Multi-modal Image-Text Retrieval on WeChat"
+   ]
+  }
+ }
 }

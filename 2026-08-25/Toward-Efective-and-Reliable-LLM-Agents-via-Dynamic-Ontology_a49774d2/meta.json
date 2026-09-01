@@ -4,5 +4,31 @@
  "title": "Toward-Efective-and-Reliable-LLM-Agents-via-Dynamic-Ontology",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-25 14:42:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/79d771e6-e99f-4e1f-a77a-2812ca94778b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/79d771e6-e99f-4e1f-a77a-2812ca94778b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:13:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Ontology",
+    "Knowledge Graph",
+    "Multi-step Reasoning",
+    "Iterative Refinement",
+    "Tool Use"
+   ],
+   "field": "LLM Agent 可靠性与可解释性",
+   "innovations": [
+    "提出本体即内核（Ontology-as-a-Kernel）范式，将 Schema、知识图谱和类型化推理函数绑定为 Agent 的唯一数据通道",
+    "设计 Judge 驱动的迭代修复循环，利用任务评分和执行轨迹对 Schema 和函数进行 add/delete/modify 修复",
+    "通用算子库 + LLM 函数组合的编程化推理，降低 Agent 多步幻觉风险"
+   ],
+   "benchmarks": [
+    "TravelPlanner",
+    "CRMArenaPro",
+    "ToolQA"
+   ]
+  }
+ }
 }

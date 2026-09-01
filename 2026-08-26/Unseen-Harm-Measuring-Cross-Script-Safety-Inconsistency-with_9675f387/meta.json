@@ -4,5 +4,10 @@
  "title": "Unseen-Harm-Measuring-Cross-Script-Safety-Inconsistency-with",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-26 14:42:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9e4fbeda-b045-4f14-9bf8-e645266bbf82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9e4fbeda-b045-4f14-9bf8-e645266bbf82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:17:15",
+  "chunks": 1
+ }
 }

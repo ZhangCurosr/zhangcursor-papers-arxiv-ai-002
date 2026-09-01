@@ -4,5 +4,35 @@
  "title": "When-Do-Supervised-UQ-Ensembles-Improve-LLM-Hallucination-De",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-26 14:42:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1cbd3768-1e7b-4faf-b15c-47cbcbc9dd67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1cbd3768-1e7b-4faf-b15c-47cbcbc9dd67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:18:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉检测",
+    "不确定性量化",
+    "集成学习",
+    "LLM可靠性",
+    "闭卷生成"
+   ],
+   "field": "大语言模型可信性",
+   "innovations": [
+    "系统性三维鲁棒性分析框架",
+    "黑盒集成几乎等同全量集成发现",
+    "逻辑回归在性能与收敛速度间的最佳平衡"
+   ],
+   "benchmarks": [
+    "OpenR1-Math",
+    "Big-Math",
+    "HotpotQA",
+    "SimpleQA",
+    "DROP",
+    "LiveCodeBench",
+    "FactScore-Rivers",
+    "FactScore-Mushrooms"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "When-Less-Is-More-An-Empirical-Study-of-Minimal-Responses-in",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-08-26 03:03:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/888e8ea9-830d-4e18-ac57-8041125d6d35.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/888e8ea9-830d-4e18-ac57-8041125d6d35.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:18:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "minimal responses",
+    "counseling dialogue",
+    "LLM-as-judge",
+    "synthetic data",
+    "backchannel",
+    "psychological counseling",
+    "interaction quality"
+   ],
+   "field": "对话系统与咨询AI",
+   "innovations": [
+    "提出两阶段规则+LLM验证的最小化回应识别流水线",
+    "揭示LLM合成数据中minimal response几乎缺失的分布偏差",
+    "证明LLM质量评估与打断风险正相关、与MR率负相关的隐性偏见"
+   ],
+   "benchmarks": [
+    "AnnoMI",
+    "PsyDial-D4",
+    "KokoroChat",
+    "CACTUS",
+    "CPsyCounD",
+    "SmileChat",
+    "PsyDTCorpus"
+   ]
+  }
+ }
 }

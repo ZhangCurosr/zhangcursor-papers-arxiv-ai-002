@@ -4,5 +4,29 @@
  "title": "What-Guides-the-Agent-Adjudicating-Unauthorized-Behavior-via",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-08-26 14:42:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/81792ccb-6ca1-4029-924b-ba85f554d660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/81792ccb-6ca1-4029-924b-ba85f554d660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:18:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent安全",
+    "提示注入防御",
+    "注意力归因",
+    "行为指导指令定位",
+    "运行时监控"
+   ],
+   "field": "LLM Agent安全与可解释性",
+   "innovations": [
+    "将行为指导指令定位建模为注意力矩阵上的1-D目标检测任务",
+    "提出sink-aware正则化抑制注意力噪声",
+    "定位与裁决解耦支持策略适配的运行时防御框架"
+   ],
+   "benchmarks": [
+    "MCPTox",
+    "InjecAgent"
+   ]
+  }
+ }
 }

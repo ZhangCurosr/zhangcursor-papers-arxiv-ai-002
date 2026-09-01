@@ -4,5 +4,31 @@
  "title": "Toward-Efective-and-Reliable-LLM-Agents-via-Dynamic-Ontology",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-25 03:01:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/79d771e6-e99f-4e1f-a77a-2812ca94778b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/79d771e6-e99f-4e1f-a77a-2812ca94778b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:12:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Ontology",
+    "Knowledge Graph",
+    "Dynamic Schema",
+    "ReAct",
+    "Iterative Refinement",
+    "Reliable Agent"
+   ],
+   "field": "LLM Agent 可靠性与知识增强",
+   "innovations": [
+    "提出本体论即内核（OaK），将任务导向 schema 与可执行推理函数耦合为 agent 的唯一数据接口",
+    "通过 HermiT 形式化验证保证自动生成 schema 的逻辑一致性，并以 judge-driven 迭代修复闭环精炼本体与函数"
+   ],
+   "benchmarks": [
+    "TravelPlanner",
+    "CRMArenaPro",
+    "ToolQA"
+   ]
+  }
+ }
 }

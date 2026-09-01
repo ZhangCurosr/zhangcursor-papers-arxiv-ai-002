@@ -4,5 +4,35 @@
  "title": "VisCache-Visual-KV-Cache-Pruning-for-Efficient-Vision-Large",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-08-26 14:42:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f6d5ca80-83a2-4621-9454-4c425d4ec37c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f6d5ca80-83a2-4621-9454-4c425d4ec37c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:17:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Large Language Model",
+    "KV Cache Compression",
+    "Visual Token Pruning",
+    "Efficient Inference",
+    "Video Understanding",
+    "Plug-and-play Framework",
+    "Asymmetric Key-Value Update"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "提出无训练即插即用的双阶段VisCache框架，联合时序帧过滤与分层KV压缩",
+    "设计PruneKV算法，引入抛物线预算分配与非对称键值融合机制",
+    "在激进压缩（19-28% RR）下实现最高2.35×加速且性能超越或接近全缓存"
+   ],
+   "benchmarks": [
+    "MVBench",
+    "ActivityNet Captions",
+    "DREAM1K",
+    "NExTQA",
+    "ActivityNet-QA",
+    "EgoSchema"
+   ]
+  }
+ }
 }

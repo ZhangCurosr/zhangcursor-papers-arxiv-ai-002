@@ -4,5 +4,31 @@
  "title": "VideoHarness-RSI-Recursive-Harness-Self-Improvement-for-Long",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-26 03:04:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8c4f4766-0ac1-46c3-aefd-91f79564707e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8c4f4766-0ac1-46c3-aefd-91f79564707e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:17:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-video understanding",
+    "context construction",
+    "frozen VLM",
+    "recursive self-improvement",
+    "automated harness search",
+    "Write-Read-Pack"
+   ],
+   "field": "长视频理解",
+   "innovations": [
+    "将可执行上下文构造程序作为外层搜索目标，冻结 VLM 实现递归自改进",
+    "提供 propose-execute-evaluate-retains 基线及完整审计档案",
+    "提出 Write-Read-Pack 分解框架分析上下文构造机制"
+   ],
+   "benchmarks": [
+    "LVBench",
+    "Video-MME",
+    "MLVU"
+   ]
+  }
+ }
 }

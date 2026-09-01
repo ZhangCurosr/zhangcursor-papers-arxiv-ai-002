@@ -4,5 +4,28 @@
  "title": "Syn2RealTrack-Bridging-the-Gap-Between-Synthetic-and-Real-Wo",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-08-26 14:42:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/7db62437-54a7-400d-bd71-044d7844ea9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/7db62437-54a7-400d-bd71-044d7844ea9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:14:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-camera tracking",
+    "synthetic-to-real transfer",
+    "multi-target multi-view tracking",
+    "3D perception",
+    "domain adaptation"
+   ],
+   "field": "多相机3D多目标跟踪",
+   "innovations": [
+    "将合成-真实差距分解为标定、形状先验、数量假设三个独立接口分别处理",
+    "可见性加权可放弃跨视图关联机制避免遮挡部分强制匹配",
+    "单目闭式人员高度估计替代合成先验并结合DA3点云精化3D框"
+   ],
+   "benchmarks": [
+    "AI City Challenge 2026 Track 1"
+   ]
+  }
+ }
 }

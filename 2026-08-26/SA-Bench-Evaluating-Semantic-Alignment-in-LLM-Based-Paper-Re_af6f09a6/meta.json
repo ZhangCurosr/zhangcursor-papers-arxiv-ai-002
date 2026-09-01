@@ -4,5 +4,28 @@
  "title": "SA-Bench-Evaluating-Semantic-Alignment-in-LLM-Based-Paper-Re",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-26 03:02:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/214fd4a1-a781-4fac-ae6c-29e1774f5b3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/214fd4a1-a781-4fac-ae6c-29e1774f5b3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:12:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Semantic Alignment",
+    "Paper Reproduction",
+    "LLM Agent",
+    "Benchmark",
+    "Semantic Drift"
+   ],
+   "field": "代码生成与评估",
+   "innovations": [
+    "提出SAU原子化断言与D1-D4漂移分类体系，将论文复现评估从可执行性转向语义忠实度",
+    "构建首个含1491个SAU的多维诊断基准，揭示系统性语义漂移（最强配置仅0.301分）",
+    "证明执行导向scaffold对科学复现增益有限，提出语义规范验证是关键方向"
+   ],
+   "benchmarks": [
+    "SA-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-Agen",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-26 14:41:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f222b2e1-13f4-4624-b1e2-bad2611167e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f222b2e1-13f4-4624-b1e2-bad2611167e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:14:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "asynchronous agentic RL",
+    "single-stream policy optimization",
+    "action-token measure",
+    "event-time memory",
+    "SPO++",
+    "reward curve area"
+   ],
+   "field": "异步 Agent 强化学习",
+   "innovations": [
+    "action-token-measure normalization 对齐持久优势与 token-mean actor loss 测度",
+    "dispatch-causal event-time prompt memory 实现 receipt-order invariance"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "Math-TIR"
+   ]
+  }
+ }
 }

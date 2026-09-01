@@ -4,5 +4,32 @@
  "title": "StrokeGuard-A-Multi-Agent-Guided-System-for-Prehospital-Stro",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-26 14:42:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/dfa5912f-0402-4025-8646-a57834ee1cad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/dfa5912f-0402-4025-8646-a57834ee1cad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:14:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "院前卒中评估",
+    "多Agent系统",
+    "双通道交互",
+    "结构化交接",
+    "用户体验评估",
+    "MATES-9",
+    "Fast筛查",
+    "证据感知编排"
+   ],
+   "field": "医疗AI人机交互",
+   "innovations": [
+    "双通道Agent机制分离正式评估与支持性对话",
+    "证据感知编排与分阶段本地恢复保障评估流程可靠性",
+    "MATES-9探索性用户体验量表用于多步AI引导任务评估"
+   ],
+   "benchmarks": [
+    "MATES-9总分",
+    "评估时间"
+   ]
+  }
+ }
 }

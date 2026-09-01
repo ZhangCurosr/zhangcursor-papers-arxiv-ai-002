@@ -4,5 +4,30 @@
  "title": "Structured-Frequency-Domain-Evidence-for-LLM-Based-Time-Seri",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-08-26 14:42:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1e5f34e8-77c2-4f29-87c1-261dcf480066.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1e5f34e8-77c2-4f29-87c1-261dcf480066.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:14:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time-series anomaly detection",
+    "LLM-based TSAD",
+    "frequency-domain evidence",
+    "zero-shot detection",
+    "FFT",
+    "structured prompting"
+   ],
+   "field": "时序异常检测与大模型",
+   "innovations": [
+    "揭示LLM-based TSAD表征级频域证据缺口并提出显式输入级解决方案",
+    "构造全局+局部双粒度FFT摘要作为辅助证据",
+    "在AnomLLM与TSB-AD-U上验证跨多LLM的通用增益"
+   ],
+   "benchmarks": [
+    "AnomLLM",
+    "TSB-AD-U"
+   ]
+  }
+ }
 }

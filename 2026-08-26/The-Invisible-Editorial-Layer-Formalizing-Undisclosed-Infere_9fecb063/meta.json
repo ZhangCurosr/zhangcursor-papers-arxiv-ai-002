@@ -4,5 +4,27 @@
  "title": "The-Invisible-Editorial-Layer-Formalizing-Undisclosed-Infere",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-26 03:03:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0e7ffbe0-836b-4c93-adb5-8b558b005d1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0e7ffbe0-836b-4c93-adb5-8b558b005d1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:15:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inference-time steering",
+    "logit-level intervention",
+    "probabilistic framing",
+    "AI governance",
+    "attribution problem",
+    "black-box auditing",
+    "probability placement"
+   ],
+   "field": "LLM 部署治理与安全审计",
+   "innovations": [
+    "形式化推理时未披露干预为部署层干预并提出推理归因问题",
+    "提出概率植入作为商业化干预的理论原语",
+    "提出推理策略透明性治理原则与密码学凭证方案"
+   ]
+  }
+ }
 }

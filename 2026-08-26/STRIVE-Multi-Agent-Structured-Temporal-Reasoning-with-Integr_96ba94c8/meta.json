@@ -4,5 +4,30 @@
  "title": "STRIVE-Multi-Agent-Structured-Temporal-Reasoning-with-Integr",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-26 03:05:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d66e498f-baa5-4f23-932a-e42fbe9c194e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d66e498f-baa5-4f23-932a-e42fbe9c194e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:14:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "纵向放射报告生成",
+    "多智能体推理",
+    "时序推理",
+    "强化学习",
+    "医学影像",
+    "可验证奖励"
+   ],
+   "field": "医疗视觉语言模型",
+   "innovations": [
+    "多智能体显式分解诊断-属性-时序变化推理",
+    "Progression-Aware GRPO 分层奖励捕捉有序方向结构",
+    "两级验证机制（一致性门+验证智能体）确保报告忠实于结构化证据"
+   ],
+   "benchmarks": [
+    "Longitudinal-MIMIC",
+    "ReXrank"
+   ]
+  }
+ }
 }

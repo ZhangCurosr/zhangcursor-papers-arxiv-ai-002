@@ -4,5 +4,10 @@
  "title": "The-RAT-A-Unified-Bayesian-Model-for-RAG-Evaluation",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-26 14:41:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/071552ab-7e4e-49d1-849b-2b0f11531677.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/071552ab-7e4e-49d1-849b-2b0f11531677.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:15:57",
+  "chunks": 1
+ }
 }
