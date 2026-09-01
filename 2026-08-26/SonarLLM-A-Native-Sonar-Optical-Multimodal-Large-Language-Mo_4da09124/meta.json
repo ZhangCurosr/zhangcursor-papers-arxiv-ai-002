@@ -4,5 +4,33 @@
  "title": "SonarLLM-A-Native-Sonar-Optical-Multimodal-Large-Language-Mo",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-26 03:06:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b1dbe3e9-40b0-4990-8147-7b64c7031bb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b1dbe3e9-40b0-4990-8147-7b64c7031bb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:03:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Model",
+    "Underwater Perception",
+    "Sonar-Optical Fusion",
+    "Reliability-Aware Fusion",
+    "Cross-Modal Alignment",
+    "Heterogeneous Sensor Fusion"
+   ],
+   "field": "水下多模态感知与语言理解",
+   "innovations": [
+    "声纳原生编码器 PSVT（多尺度 Stem + 范围-方位位置编码）",
+    "模态特定物理感知增强（Optical-VFE / Acoustic-VFE）",
+    "可靠性感知分层融合 AGFM（全局门控 + 均值保持 token 调制 + DeepStack 注入）"
+   ],
+   "benchmarks": [
+    "SonarBench",
+    "RGBS50",
+    "UMOD",
+    "UATD",
+    "SCTD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "XTC-Head-Aware-Sampling-by-Excluding-Top-Choices",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-08-25 03:01:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5022f29e-c186-4b96-a656-c63cbe2742a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5022f29e-c186-4b96-a656-c63cbe2742a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:59:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decoding strategy",
+    "text diversity",
+    "language model sampling",
+    "head-ambiguity",
+    "autoregressive generation",
+    "instruction following"
+   ],
+   "field": "文本生成解码策略",
+   "innovations": [
+    "提出XTC头感知解码算子，专门针对模型对多个合理候选均有高概率分配但仍过度集中于最通用选项的头歧义场景",
+    "证明XTC与温度缩放、min-p等尾部控制算子作用域正交、效果近似可加，组合后Distinct-2最大提升38%",
+    "建立跨厂商LLM判官+人工盲评+IFEval指令遵循的多层级质量验证闭环，证明多样性增益不以质量换取"
+   ],
+   "benchmarks": [
+    "Creative Writing Bench v3",
+    "IFEval",
+    "EQ-Bench creative writing prompt set"
+   ]
+  }
+ }
 }

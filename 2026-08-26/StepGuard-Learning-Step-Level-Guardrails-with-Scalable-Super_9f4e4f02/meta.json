@@ -4,5 +4,37 @@
  "title": "StepGuard-Learning-Step-Level-Guardrails-with-Scalable-Super",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-26 14:41:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1eb93ed2-81c3-4b62-b514-1fae821453ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1eb93ed2-81c3-4b62-b514-1fae821453ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:05:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent safety",
+    "guardrail",
+    "step-level guard",
+    "GRPO",
+    "synthetic data generation",
+    "safety-utility tradeoff",
+    "tool-use safety"
+   ],
+   "field": "Agent安全与护栏",
+   "innovations": [
+    "提出StepGen前缀对齐数据引擎，自动构建共享执行前缀的安全/不安全对比轨迹对并提供步骤级监督",
+    "提出Balance-GRPO训练算法，根据类间准确率差距动态重加权GRPO优势以减小防御偏差",
+    "构建4B步级防护模型StepGuard，在执行前检查与事后审计双重模式下实现开源模型最优的安全-效用平衡"
+   ],
+   "benchmarks": [
+    "ATBench",
+    "R-Judge",
+    "ASSE Security",
+    "TS-Bench-Dojo",
+    "TS-Bench-Harm",
+    "AgentDojo",
+    "AgentDyn",
+    "AgentHarm"
+   ]
+  }
+ }
 }

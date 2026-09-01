@@ -4,5 +4,35 @@
  "title": "Your-AI-On-a-Dial-Controlling-Investment-Bias-in-LLMs-with-a",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-08-25 14:42:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a9839208-c3ad-4203-99e1-5cade685bf82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a9839208-c3ad-4203-99e1-5cade685bf82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:59:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "investment bias",
+    "neuron intervention",
+    "activation steering",
+    "LLM finance",
+    "inference-time control",
+    "monotonic calibration"
+   ],
+   "field": "金融AI与模型可解释性",
+   "innovations": [
+    "提出单神经元推理时干预实现连续投资立场控制",
+    "建立两阶段坐标选择框架（梯度敏感性+跨集RMSE校准）",
+    "验证旋钮在代理检索、长上下文、投资组合等多层下游的传导效应"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K",
+    "ARC-C",
+    "TruthfulQA",
+    "RACE",
+    "FinQA",
+    "Financial PhraseBank"
+   ]
+  }
+ }
 }

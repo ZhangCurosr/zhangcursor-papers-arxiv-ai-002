@@ -4,5 +4,30 @@
  "title": "Think-Only-When-Needed-Prompt-Authority-Control-for-Selectiv",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-25 02:59:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2012d388-4fe7-4a7c-bdfc-60aa77a1aaab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2012d388-4fe7-4a7c-bdfc-60aa77a1aaab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:58:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "prompt authority",
+    "frozen policy",
+    "retrieval augmentation",
+    "prompt-form collapse",
+    "selective slow-path"
+   ],
+   "field": "具身AI推理时增强",
+   "innovations": [
+    "提出提示权限控制问题形式化，分离候选生成与授权决策",
+    "发现并命名提示形式崩溃：改变指令形式比语义内容主导VLA执行",
+    "设计可审计的精确Base恢复接口，拒绝路由bit-identical回滚"
+   ],
+   "benchmarks": [
+    "LIBERO-Plus",
+    "PiPER物理机器人"
+   ]
+  }
+ }
 }

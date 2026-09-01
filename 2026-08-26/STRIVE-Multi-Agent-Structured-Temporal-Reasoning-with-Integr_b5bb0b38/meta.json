@@ -4,5 +4,29 @@
  "title": "STRIVE-Multi-Agent-Structured-Temporal-Reasoning-with-Integr",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-26 14:42:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d66e498f-baa5-4f23-932a-e42fbe9c194e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d66e498f-baa5-4f23-932a-e42fbe9c194e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:01:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Longitudinal Radiology Report Generation",
+    "Multi-Agent System",
+    "Temporal Reasoning",
+    "RLVR",
+    "Medical Report Generation",
+    "Structured Clinical State"
+   ],
+   "field": "医学影像报告生成",
+   "innovations": [
+    "多智能体显式分解诊断/属性/时序变化推理并产出结构化中间证据",
+    "Progression-Aware GRPO三层次形状化奖励编码纵向进展方向关系",
+    "Consistency Gate+Validation Agent双阶段验证确保报告忠实于临床证据"
+   ],
+   "benchmarks": [
+    "Longitudinal-MIMIC"
+   ]
+  }
+ }
 }

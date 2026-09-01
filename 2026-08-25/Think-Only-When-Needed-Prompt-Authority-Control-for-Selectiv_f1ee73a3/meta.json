@@ -4,5 +4,30 @@
  "title": "Think-Only-When-Needed-Prompt-Authority-Control-for-Selectiv",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-25 14:42:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2012d388-4fe7-4a7c-bdfc-60aa77a1aaab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2012d388-4fe7-4a7c-bdfc-60aa77a1aaab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:58:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "prompt authority",
+    "frozen policy",
+    "prompt-form collapse",
+    "selective slow-path",
+    "retrieval augmentation"
+   ],
+   "field": "视觉-语言-动作模型的推理时接口控制",
+   "innovations": [
+    "提出prompt-form collapse现象并证明直接注入检索文本导致冻结VLA策略崩溃",
+    "TOWN-VLA接口分离候选生成与授权决策，拒绝时精确恢复Base提示",
+    "在LIBERO-Plus和物理PiPER上无需重训即可分别提升3.61点和26.00点成功率"
+   ],
+   "benchmarks": [
+    "LIBERO-Plus",
+    "PiPER物理实验"
+   ]
+  }
+ }
 }

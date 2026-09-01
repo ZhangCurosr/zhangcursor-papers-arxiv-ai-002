@@ -4,5 +4,36 @@
  "title": "Write-Once-Run-Everywhere-The-Axon-DSL-for-Shape-Safe-and-Fr",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-21 14:33:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fc5513e0-80b6-4004-af64-b683a496baed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fc5513e0-80b6-4004-af64-b683a496baed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:57:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM架构",
+    "领域特定语言",
+    "跨后端编译",
+    "推理优化",
+    "形状安全",
+    "JAX",
+    "vLLM",
+    "MLX"
+   ],
+   "field": "大语言模型编译与部署",
+   "innovations": [
+    "提出强类型DSL Axon 实现跨后端统一架构定义",
+    "三阶段编译器管线生成5个后端的独立高效实现",
+    "通过单一Graph IR保障跨后端优化一致性与形状安全"
+   ],
+   "benchmarks": [
+    "PyTorch inference",
+    "Triton inference",
+    "JAX inference",
+    "MLX inference",
+    "vLLM native serving",
+    "Transformers baseline"
+   ]
+  }
+ }
 }

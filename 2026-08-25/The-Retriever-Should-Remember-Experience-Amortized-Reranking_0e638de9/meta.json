@@ -4,5 +4,29 @@
  "title": "The-Retriever-Should-Remember-Experience-Amortized-Reranking",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-08-25 02:58:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5f8a92c1-6e51-4c39-9f12-5e5de295129c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5f8a92c1-6e51-4c39-9f12-5e5de295129c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:57:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent memory",
+    "retrieval",
+    "LLM reranking",
+    "matrix completion",
+    "amortized inference",
+    "long-term memory"
+   ],
+   "field": "长期Agent记忆与检索",
+   "innovations": [
+    "将LLM相关性分数作为持久化检索经验存入因果查询-记忆矩阵",
+    "分层锚点采样结合在线偏置低秩矩阵补全，实现跨查询评分预算摊销",
+    "混合观测-估计排名并支持候选扩展，使语义检索成为软边界"
+   ],
+   "benchmarks": [
+    "LoCoMo"
+   ]
+  }
+ }
 }

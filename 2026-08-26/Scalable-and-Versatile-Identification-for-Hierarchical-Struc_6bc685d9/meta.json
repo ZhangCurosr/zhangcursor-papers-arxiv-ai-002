@@ -4,5 +4,30 @@
  "title": "Scalable-and-Versatile-Identification-for-Hierarchical-Struc",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-26 03:05:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/6f9f6960-9242-4b3f-9678-e37bcc498567.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/6f9f6960-9242-4b3f-9678-e37bcc498567.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:02:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hierarchical Structural Causal Models",
+    "Causal Identification",
+    "Do-calculus",
+    "Abstract Syntax Tree",
+    "Project STAR",
+    "Interventional Distribution",
+    "Numerical Stability"
+   ],
+   "field": "层次结构因果推断",
+   "innovations": [
+    "首个端到端可扩展的HSCM符号识别与数值估计开源管道",
+    "基于AST的公式分解与并行估计机制，将复杂因果泛函解耦为独立密度/期望/边缘化单元"
+   ],
+   "benchmarks": [
+    "Synthetic HSCM motifs (confounder, frontdoor, IV)",
+    "Project STAR kindergarten mathematics outcomes"
+   ]
+  }
+ }
 }
