@@ -4,5 +4,31 @@
  "title": "Saliency-Depth-Conditioning-for-Zero-Shot-Segmentation-of-Co",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-27 12:25:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/2ae7ac03-8ea0-484e-8e35-4c419d1a7757.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/2ae7ac03-8ea0-484e-8e35-4c419d1a7757.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:58:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本分割",
+    "显著性估计",
+    "单目深度",
+    "无人机影像",
+    "通信塔检测",
+    "Grounded-SAM",
+    "SAM 3",
+    "实例分割"
+   ],
+   "field": "无人机基础设施视觉检测",
+   "innovations": [
+    "提出模型无关的显著性-深度前景条件策略，融合外观显著性与单目深度抑制杂乱背景",
+    "设计基于塔体相对几何、成对包含和深度信息的边界框后处理阶段，显著提升零样本定位精度",
+    "首次将前景条件模块集成到 SAM 3，证明条件策略对统一概念定位架构同样有效"
+   ],
+   "benchmarks": [
+    "TOW-300"
+   ]
+  }
+ }
 }

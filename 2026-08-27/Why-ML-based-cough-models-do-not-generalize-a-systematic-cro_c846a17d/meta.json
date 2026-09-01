@@ -4,5 +4,31 @@
  "title": "Why-ML-based-cough-models-do-not-generalize-a-systematic-cro",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-27 23:35:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cbe4fa5c-6f0f-482e-9d7b-aad4254d3222.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cbe4fa5c-6f0f-482e-9d7b-aad4254d3222.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:00:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tuberculosis Screening",
+    "Cough Analysis",
+    "Domain Generalization",
+    "Medical AI",
+    "Shortcut Learning",
+    "Cross-Dataset Evaluation"
+   ],
+   "field": "声学医学AI与域泛化",
+   "innovations": [
+    "系统性跨数据集评估揭示ML咳嗽TB模型泛化失败源于获取捷径",
+    "证明设备不匹配是泛化失败主因且设备多样性训练可提升鲁棒性",
+    "提出临床变量基线证明音频特定采集可变性是关键问题"
+   ],
+   "benchmarks": [
+    "CODA",
+    "TBscreen",
+    "Zambia CIDRZ"
+   ]
+  }
+ }
 }

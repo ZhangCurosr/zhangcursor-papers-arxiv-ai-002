@@ -4,5 +4,31 @@
  "title": "When-Stale-Constraints-Go-Unchecked-Budgeted-Verification-Fa",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-27 12:20:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b3c420ac-26ed-48f7-9a3c-0b138ff5b43c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b3c420ac-26ed-48f7-9a3c-0b138ff5b43c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:00:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent memory",
+    "verification budget",
+    "provenance",
+    "stale constraints",
+    "LLM agents",
+    "temporal validity",
+    "budgeted reasoning"
+   ],
+   "field": "LLM Agent Memory Safety",
+   "innovations": [
+    "首次因果识别预算受限代理在过时约束下的可避免错误比例",
+    "提出Ceiling-bound评估框架量化分配vs推理错误",
+    "OpenTimestamps+Bitcoin锚定的零篡改实验注册流程"
+   ],
+   "benchmarks": [
+    "Nakayashiki 2026 growth scenario",
+    "procurement held-out domain"
+   ]
+  }
+ }
 }

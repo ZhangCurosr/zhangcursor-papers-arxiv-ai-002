@@ -4,5 +4,31 @@
  "title": "When-Seeing-Is-Not-Enough-Benchmarking-Interactive-Visual-Gr",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-08-26 03:04:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/dacd952a-82b8-40b6-b5d9-8b4a81eb9b21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/dacd952a-82b8-40b6-b5d9-8b4a81eb9b21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:58:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "交互视觉定位",
+    "视觉语言模型",
+    "多轮对话",
+    "信息搜寻",
+    "校准度",
+    "指代表达"
+   ],
+   "field": "视觉语言模型评估与交互理解",
+   "innovations": [
+    "提出四种交互协议系统分离视觉匹配与信息搜寻能力的评测框架",
+    "首次系统评估LVLMs在主动提问驱动视觉定位中的能力与校准缺陷"
+   ],
+   "benchmarks": [
+    "Dogs",
+    "Baskets",
+    "Tangrams",
+    "FACES"
+   ]
+  }
+ }
 }

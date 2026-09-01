@@ -4,5 +4,10 @@
  "title": "Style-as-a-Confound-False-Positives-in-AI-Detection-of-Non-N",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-28 23:24:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a8706e0e-5c89-4698-ae71-7a48fa06c980.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a8706e0e-5c89-4698-ae71-7a48fa06c980.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:01:56",
+  "chunks": 1
+ }
 }

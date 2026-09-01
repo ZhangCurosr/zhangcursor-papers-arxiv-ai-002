@@ -4,5 +4,33 @@
  "title": "When-Composition-Doesn-t-Add-Up-Humans-Identifying-Defects-i",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-27 12:20:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23cfd639-ff45-4324-b901-ff3d68fbb2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23cfd639-ff45-4324-b901-ff3d68fbb2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:59:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image",
+    "composition",
+    "defect identification",
+    "AI-generated image",
+    "quality assessment",
+    "human evaluation",
+    "CO-AID"
+   ],
+   "field": "AI生成图像质量评估与缺陷识别",
+   "innovations": [
+    "首次系统研究人类如何识别AI生成图像中的组合缺陷，提出全局+局部双层评估框架",
+    "构建CO-AID数据集（651张图像、18,906条缺陷注释），填补组合缺陷细粒度评估空白",
+    "证明基于CO-AID训练的模型可预测缺陷并指导图像修复优化"
+   ],
+   "benchmarks": [
+    "CO-AID",
+    "T2I-CompBench++",
+    "Ab-Human",
+    "HumanRefiner"
+   ]
+  }
+ }
 }

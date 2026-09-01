@@ -4,5 +4,32 @@
  "title": "Successive-Capacity-Growth-Task-Complexity-Driven-Width-and",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-28 23:23:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1ab7ec76-6d33-4d42-95ec-da2539e172b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1ab7ec76-6d33-4d42-95ec-da2539e172b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:01:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "world models",
+    "adaptive architecture",
+    "function-preserving expansion",
+    "SIGReg",
+    "Vision Transformer",
+    "successive learning"
+   ],
+   "field": "世界模型与表征学习",
+   "innovations": [
+    "提出SCG方法，从最小ViT编码器起步通过任务驱动测试-验证-回滚机制逐步扩展宽度或深度",
+    "实现比特级函数保持扩展（fp_ratio=1.0, abs_diff=0.0），新容量立即可用",
+    "揭示过度配置惩罚现象，SCG以11%参数量超越固定大模型"
+   ],
+   "benchmarks": [
+    "Two-Room (2D)",
+    "Push-T (5D)",
+    "30-Object Dynamics (60D)"
+   ]
+  }
+ }
 }

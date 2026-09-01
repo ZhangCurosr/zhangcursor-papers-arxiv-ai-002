@@ -4,5 +4,31 @@
  "title": "Unmatched-Does-Not-Mean-False-Incomplete-Reference-Sets-Can",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-27 23:34:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9e8c93c8-2e87-4214-b714-132c170aa4ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9e8c93c8-2e87-4214-b714-132c170aa4ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:59:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Theory of Mind",
+    "model calibration",
+    "Brier risk",
+    "label-source bias",
+    "open-ended generation",
+    "prediction-powered inference"
+   ],
+   "field": "开放生成模型的校准评估",
+   "innovations": [
+    "内容固定下标签源切换导致Brier排序反转的识别",
+    "TriSource-Restore三源锚定校准修复方法",
+    "Prevalence collapse机制的量化诊断与闭式逆转判据"
+   ],
+   "benchmarks": [
+    "DoubtfulToM-Bench",
+    "OpenToM",
+    "NQ-open DPR-BERT"
+   ]
+  }
+ }
 }

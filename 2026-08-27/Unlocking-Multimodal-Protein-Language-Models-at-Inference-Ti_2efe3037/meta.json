@@ -4,5 +4,31 @@
  "title": "Unlocking-Multimodal-Protein-Language-Models-at-Inference-Ti",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-27 23:35:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b036a51b-f6f8-4c34-94bd-24b78799637d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b036a51b-f6f8-4c34-94bd-24b78799637d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:59:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal protein language models",
+    "inference-time sampling",
+    "classifier-free guidance",
+    "beam search",
+    "protein generation",
+    "exploration-exploitation trade-off"
+   ],
+   "field": "蛋白质计算建模",
+   "innovations": [
+    "提出三阶段正交推理框架（vanilla sampling → CFG → reward-guided beam search）系统研究多模态pLM推理策略",
+    "发现任务导向的采样偏好规律并设计track-wise CFG适配不同蛋白质建模任务",
+    "证明优化推理策略可使ESM3无需训练即匹敌/超越任务专用SOTA模型"
+   ],
+   "benchmarks": [
+    "CAMEO2022",
+    "PDB Date Split",
+    "MotifBench"
+   ]
+  }
+ }
 }

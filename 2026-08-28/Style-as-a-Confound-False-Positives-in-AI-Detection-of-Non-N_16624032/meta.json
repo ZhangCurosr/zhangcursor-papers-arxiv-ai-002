@@ -4,5 +4,33 @@
  "title": "Style-as-a-Confound-False-Positives-in-AI-Detection-of-Non-N",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-28 13:48:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a8706e0e-5c89-4698-ae71-7a48fa06c980.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a8706e0e-5c89-4698-ae71-7a48fa06c980.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:01:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI文本检测",
+    "非母语写作偏差",
+    "专业编辑",
+    "误报率",
+    "token统计检测器",
+    "零样本检测器",
+    "监督分类器",
+    "风格混杂"
+   ],
+   "field": "AI文本检测的公平性与鲁棒性",
+   "innovations": [
+    "以配对原文-专业编辑版控制内容/作者/主题，隔离语言风格的检测器响应",
+    "跨三类检测范式的系统对比并给出编辑强度-偏移的剂量-反应证据",
+    "指出编辑风格是AI检测的重要混杂变量并提供时间切片分布漂移观察"
+   ],
+   "benchmarks": [
+    "Pre-ChatGPT真实学术编辑配对数据（135,389对）",
+    "Post-ChatGPT时间段对比子集",
+    "重度编辑子集（r_edit > 0.20）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "TADP-Task-Aware-Deformable-Prediction-for-Single-Stage-3D-Ob",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-28 13:48:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0d4b17e1-9824-4ea9-bee2-8e6b3bbb164d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0d4b17e1-9824-4ea9-bee2-8e6b3bbb164d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:02:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Object Detection",
+    "Single-stage Detector",
+    "Point Cloud",
+    "Task-Aware",
+    "Deformable Head",
+    "KITTI"
+   ],
+   "field": "3D点云目标检测",
+   "innovations": [
+    "提出即插即用的任务感知可变形检测头TADH，按任务类型选择权重/DeformConv/相加变形策略修正预测偏差",
+    "设计TFRA+MSFA三级多尺度特征精炼与自适应融合网络，避免特征拼接信息损失",
+    "引入高度注意力补偿BEV投影丢失的垂直维度信息，提升远距离小目标检测"
+   ],
+   "benchmarks": [
+    "KITTI Car Detection (Easy/Mod/Hard)"
+   ]
+  }
+ }
 }

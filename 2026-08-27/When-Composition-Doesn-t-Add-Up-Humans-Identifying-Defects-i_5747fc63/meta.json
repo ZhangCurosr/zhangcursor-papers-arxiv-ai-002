@@ -4,5 +4,33 @@
  "title": "When-Composition-Doesn-t-Add-Up-Humans-Identifying-Defects-i",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-27 23:35:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23cfd639-ff45-4324-b901-ff3d68fbb2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23cfd639-ff45-4324-b901-ff3d68fbb2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:59:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "T2I generation",
+    "compositional defects",
+    "image quality assessment",
+    "human perception",
+    "defect localization",
+    "CO-AID dataset",
+    "diffusion models"
+   ],
+   "field": "AI生成图像质量评估",
+   "innovations": [
+    "首个系统性研究人类如何识别T2I组合缺陷的主观实验框架",
+    "构建含全局/局部双层标注的CO-AID数据集（600图、18,906条标注）",
+    "证明CO-AID可用于缺陷预测与缺陷引导图像修复"
+   ],
+   "benchmarks": [
+    "TIFA",
+    "T2I-CompBench++",
+    "Ab-Human",
+    "HumanRefiner"
+   ]
+  }
+ }
 }

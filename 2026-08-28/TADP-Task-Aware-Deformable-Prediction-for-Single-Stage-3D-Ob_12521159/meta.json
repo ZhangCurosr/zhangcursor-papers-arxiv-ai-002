@@ -4,5 +4,10 @@
  "title": "TADP-Task-Aware-Deformable-Prediction-for-Single-Stage-3D-Ob",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-28 23:23:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/96ac87f6-3938-4909-81d9-34432e04b76a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/96ac87f6-3938-4909-81d9-34432e04b76a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:02:28",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Where-vs-What-Decomposing-Structural-and-Content-Failures-in",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-08-27 12:22:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a49a9536-2c50-44d0-80a5-62df40aa7fa7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a49a9536-2c50-44d0-80a5-62df40aa7fa7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:00:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured generation",
+    "LLM evaluation",
+    "reinforcement learning",
+    "verifiable rewards",
+    "JSON",
+    "structural fidelity"
+   ],
+   "field": "大语言模型结构化输出与评估",
+   "innovations": [
+    "提出SCD框架分解评估结构化生成中的结构错误与内容错误",
+    "发现并验证LLM结构化输出中“结构先于内容退化”的稳定现象",
+    "提出SA-RLVR方法将分解指标转化为可验证奖励以优化结构寻址"
+   ],
+   "benchmarks": [
+    "JSONSchemaBench",
+    "self-constructed JSON and table diagnostic benchmarks"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Unmatched-Does-Not-Mean-False-Incomplete-Reference-Sets-Can",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-27 12:20:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5e3e622a-ae5e-445e-9db3-a8ffe6600ab0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5e3e622a-ae5e-445e-9db3-a8ffe6600ab0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:59:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Theory-of-Mind",
+    "calibration",
+    "Brier risk",
+    "label-source bias",
+    "open-ended evaluation",
+    "TriSource-Restore",
+    "DoubtfulToM"
+   ],
+   "field": "开放域模型校准评估",
+   "innovations": [
+    "内容固定的标注源效应识别：冻结命题仅替换标签源，稳定逆转 Brier 排名",
+    "TriSource-Restore 闭环修复：50 次概率采样人工标注恢复正确校准排序",
+    "去偏流行率校正：用 pi 估计未匹配真值率修复 Brier 风险"
+   ],
+   "benchmarks": [
+    "DoubtfulToM-Bench",
+    "NQ-open DPR-BERT",
+    "OpenToM",
+    "CuratedTREC"
+   ]
+  }
+ }
 }

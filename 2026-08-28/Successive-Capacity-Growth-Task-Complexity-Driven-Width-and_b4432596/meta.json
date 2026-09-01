@@ -4,5 +4,32 @@
  "title": "Successive-Capacity-Growth-Task-Complexity-Driven-Width-and",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-28 13:47:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7bb52fc3-283d-4634-b1b6-c8114acacb19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7bb52fc3-283d-4634-b1b6-c8114acacb19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:01:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "world models",
+    "adaptive architecture",
+    "function-preserving expansion",
+    "SIGReg",
+    "ViT",
+    "successive capacity growth"
+   ],
+   "field": "表征学习与世界模型",
+   "innovations": [
+    "从283K参数最小ViT出发，通过无任务依赖的测试-验证-回滚机制动态增长宽度或深度",
+    "提出容量瓶颈分解理论，将预测损失平台归因于表征瓶颈或计算瓶颈并自动选择扩展类型",
+    "揭示过配惩罚现象：过度分配容量会损害泛化性能"
+   ],
+   "benchmarks": [
+    "Two-Room 2D navigation",
+    "Push-T 5D block pushing",
+    "30-Object Dynamics 60D multi-object tracking"
+   ]
+  }
+ }
 }

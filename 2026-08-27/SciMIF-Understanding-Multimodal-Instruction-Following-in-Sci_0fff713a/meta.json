@@ -4,5 +4,33 @@
  "title": "SciMIF-Understanding-Multimodal-Instruction-Following-in-Sci",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-27 12:21:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d95c6296-4380-43a5-9630-19342194bcbb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d95c6296-4380-43a5-9630-19342194bcbb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:58:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "指令遵循",
+    "科学推理",
+    "基准评测",
+    "约束遵循",
+    "跨学科"
+   ],
+   "field": "多模态科学智能评测",
+   "innovations": [
+    "构建专家驱动的10类功能约束分组与42条学科适配约束的层次化taxonomy",
+    "提出高保真指令注入管线，在不改变参考答案前提下系统叠加科学/通用约束",
+    "揭示参数规模与科学指令遵循能力无线性关系及正确性与遵循性弱耦合的发现"
+   ],
+   "benchmarks": [
+    "SciMIF",
+    "CFBench",
+    "SciIF",
+    "MM-IFEngine",
+    "IFEval"
+   ]
+  }
+ }
 }

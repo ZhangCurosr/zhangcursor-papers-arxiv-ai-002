@@ -4,5 +4,35 @@
  "title": "VOICEMEM-STREAMING-DUAL-BRAIN-MEMORY-FOR-REAL-TIME-INTERACTI",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-27 23:35:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d6d6809-8634-4538-ac5c-98e2f622d377.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d6d6809-8634-4538-ac5c-98e2f622d377.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 18:59:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语音记忆",
+    "双脑架构",
+    "流式检索",
+    "人格记忆",
+    "实时对话系统",
+    "记忆增强语言模型"
+   ],
+   "field": "语音交互与记忆系统",
+   "innovations": [
+    "双脑并行记忆架构：左脑事实记忆与右脑情绪人格记忆分离维护联合检索",
+    "Schema-Entity两层索引加涌现聚类机制实现top-5高密度检索",
+    "四阶段流式检索将记忆检索隐藏于VAD静音窗口内（134ms）"
+   ],
+   "benchmarks": [
+    "LoCoMo",
+    "LongMemEval",
+    "Memora",
+    "ES-MemEval",
+    "PersonaMem",
+    "PersonaLens",
+    "CHATMEM-Bench"
+   ]
+  }
+ }
 }
