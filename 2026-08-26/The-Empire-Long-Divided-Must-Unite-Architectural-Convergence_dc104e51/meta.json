@@ -4,5 +4,10 @@
  "title": "The-Empire-Long-Divided-Must-Unite-Architectural-Convergence",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-08-26 14:42:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/2d6af64f-3f0e-4ff4-87a6-a0372839f52b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/2d6af64f-3f0e-4ff4-87a6-a0372839f52b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:11:31",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Skill-Issue-Are-Skills-Language-Invariant-in-LLMs",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-27 23:34:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b584621c-dc36-4ede-b2c4-a5ec11bdfd43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b584621c-dc36-4ede-b2c4-a5ec11bdfd43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:12:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言一致性",
+    "多语言LLM",
+    "自博弈评测",
+    "技能不一致性",
+    "交互式评估",
+    "推理语言切换"
+   ],
+   "field": "多语言大语言模型评估",
+   "innovations": [
+    "提出多语言自博弈框架正交隔离语言对LLM技能的因果效应",
+    "构建Multilingual TextArena（65游戏×193语言）并量化跨语言技能差异的三个维度",
+    "发现强语言中间推理可部分恢复弱语言界面性能且恢复效果因任务阶段而异"
+   ],
+   "benchmarks": [
+    "TextArena",
+    "Belebele",
+    "Global-MMLU",
+    "FineWeb-2"
+   ]
+  }
+ }
 }

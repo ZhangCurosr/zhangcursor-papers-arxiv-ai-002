@@ -4,5 +4,33 @@
  "title": "TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-Mac",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-27 23:34:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/06ef4fa5-d394-4bcd-b44e-f3eacd9341a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/06ef4fa5-d394-4bcd-b44e-f3eacd9341a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:16:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Machine Learning Development",
+    "Human-Agent Comparison",
+    "Process-level Benchmark",
+    "Kaggle",
+    "Trajectory Analysis",
+    "Planning Prompt"
+   ],
+   "field": "LLM Agent for ML Development",
+   "innovations": [
+    "首个统一人类/agent版本级ML开发轨迹数据集（4,465条人类+207条agent），覆盖134项Kaggle竞赛",
+    "提出跨源版本映射schema与四维transition标注体系（Action/Intent/Magnitude/Score-Effect）并用轻量labeler实现自动化",
+    "基于过程诊断提炼规划harness，证明部分human-agent行为差距可通过instruction弥合"
+   ],
+   "benchmarks": [
+    "MLE-bench",
+    "MLAgentBench",
+    "RE-Bench",
+    "HCAST"
+   ]
+  }
+ }
 }

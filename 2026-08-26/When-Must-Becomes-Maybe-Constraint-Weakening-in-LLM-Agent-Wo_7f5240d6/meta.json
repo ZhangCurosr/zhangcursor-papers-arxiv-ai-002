@@ -4,5 +4,32 @@
  "title": "When-Must-Becomes-Maybe-Constraint-Weakening-in-LLM-Agent-Wo",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-26 03:04:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/77020846-9e83-4018-8a60-120ce9aa895e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/77020846-9e83-4018-8a60-120ce9aa895e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:11:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agents",
+    "multi-agent handoff",
+    "operational state preservation",
+    "constraint weakening",
+    "agent workflow evaluation",
+    "AI safety"
+   ],
+   "field": "多智能体工作流状态传递与约束保真",
+   "innovations": [
+    "定义操作状态保持为独立于语义保留的语言协调问题，提出四字段操作化表征",
+    "阶段分离受控设计定位交接变换导致的约束弱化故障",
+    "实证揭示压缩/共识/所有权委派等五种变换的系统性退化并证明完整字段恢复可逆转"
+   ],
+   "benchmarks": [
+    "Synthetic Enterprise Blocker Tasks",
+    "Compression Gradient Panel",
+    "Fixed-Artifact Repair Panel",
+    "Endpoint Verification Panel"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "Unfolding-Scientific-Papers-into-Multi-Turn-Generation-Traje",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-27 23:34:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/40cc1ac3-7fe7-4036-aed8-9b8bac9698a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/40cc1ac3-7fe7-4036-aed8-9b8bac9698a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:18:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic data",
+    "continued pre-training",
+    "scientific paper",
+    "instruction synthesis",
+    "writing benchmark",
+    "reverse construction"
+   ],
+   "field": "合成数据与预训练",
+   "innovations": [
+    "将科学论文展开为多轮生成轨迹（写作请求+全局计划+节级deliberation），恢复文档级写作过程用于CPT",
+    "统一逆构造范式同时产出CPT语料、SFT数据集与带rubric/checklist的学术写作基准PAW-Bench"
+   ],
+   "benchmarks": [
+    "PAW-Bench",
+    "WritingBench",
+    "HelloBench",
+    "LongBench-Write",
+    "Qasper",
+    "QASA",
+    "LongBench v2",
+    "MMLU-Pro",
+    "GPQA-Diamond",
+    "MATH500",
+    "AIME 2025",
+    "LiveCodeBench v6"
+   ]
+  }
+ }
 }

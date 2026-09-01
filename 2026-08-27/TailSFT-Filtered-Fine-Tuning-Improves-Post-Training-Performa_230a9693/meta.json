@@ -4,5 +4,10 @@
  "title": "TailSFT-Filtered-Fine-Tuning-Improves-Post-Training-Performa",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-27 23:34:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/76fdc654-f9f5-4056-bf73-853b8b0273df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/76fdc654-f9f5-4056-bf73-853b8b0273df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:15:36",
+  "chunks": 3
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Token-Oriented-Semantic-Communication-with-Pretrained-Vision",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-08-27 12:24:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/73d2555c-eb2d-4928-ad21-f2eaf4edb4a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/73d2555c-eb2d-4928-ad21-f2eaf4edb4a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:15:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义通信",
+    "Token通信",
+    "边缘计算",
+    "ViT",
+    " Learned Image Compression",
+    "协作推理"
+   ],
+   "field": "语义通信与边缘智能",
+   "innovations": [
+    "利用ViT与LIC的空间对齐实现token粒度选择性latent传输",
+    "层选择性注意力回滚高效估计token任务相关性",
+    "单向量可学习代理token实现参数高效的服务器端适配"
+   ],
+   "benchmarks": [
+    "ImageNet-1K"
+   ]
+  }
+ }
 }

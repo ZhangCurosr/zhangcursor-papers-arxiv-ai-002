@@ -4,5 +4,32 @@
  "title": "ToST-A-Tree-of-Thought-Socratic-Teaching-Framework-for-Multi",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-27 12:23:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/deda8bef-967f-4e1a-9c28-c653b8953028.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/deda8bef-967f-4e1a-9c28-c653b8953028.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:15:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Socratic Teaching",
+    "Tree-of-Thought",
+    "Multi-Path Reasoning",
+    "Educational LLM",
+    "Parallel Thinking",
+    "SOLO Taxonomy"
+   ],
+   "field": "教育大模型与智能辅导系统",
+   "innovations": [
+    "将苏格拉底教学从1P1S线性范式升级为基于Parallel Reasoning Tree的1PMS多路径范式",
+    "提出Parallel Sowing+MPAG双模块机制实现非线性教学导航与路径切换",
+    "构建MPSG-Bench基准与SOLO五维评估框架系统化评测多路径引导能力"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME24",
+    "AIME25"
+   ]
+  }
+ }
 }

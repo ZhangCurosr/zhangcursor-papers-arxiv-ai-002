@@ -4,5 +4,31 @@
  "title": "USING-PROFILES-OF-COGNITIVE-CAPABILITY-TO-ASSESS-AI-SUITABIL",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-27 12:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/29e4747c-b71e-4cbe-9dd1-86bb8fb28d18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/29e4747c-b71e-4cbe-9dd1-86bb8fb28d18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:18:58",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "AI 部署评估",
+    "认知能力画像",
+    "任务适配",
+    "贝叶斯 Rasch 模型",
+    "人机协作",
+    "职场 AI 部署"
+   ],
+   "field": "AI 系统与人类工作适配评估",
+   "innovations": [
+    "三层认知适配框架（Profiling-Weighting-Mapping）实现从汇总分数到可分解能力匹配的转变",
+    "共享截距约束的贝叶斯 Rasch 模型将有效维度从~2.8恢复至~5.2，部署适宜性Kendallτ达0.91",
+    "同一套认知维度实现AI与人类劳动者的commensurability评估，支持未来人机任务分配"
+   ],
+   "benchmarks": [
+    "19,535题认知能力测评电池（20个数据集）",
+    "6大职业领域专家问卷（N=410）",
+    "Google/OpenAI 6个AI系统"
+   ]
+  }
+ }
 }

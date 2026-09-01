@@ -4,5 +4,32 @@
  "title": "USING-PROFILES-OF-COGNITIVE-CAPABILITY-TO-ASSESS-AI-SUITABIL",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-27 23:35:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/29e4747c-b71e-4cbe-9dd1-86bb8fb28d18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/29e4747c-b71e-4cbe-9dd1-86bb8fb28d18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:18:39",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "AI适用性评估",
+    "认知能力剖面",
+    "贝叶斯推断",
+    "任务-能力映射",
+    "部署优先级",
+    "软最小池化",
+    "O*NET",
+    "项目反应理论"
+   ],
+   "field": "AI能力评估与工作场景适配",
+   "innovations": [
+    "提出log P_t = log I_t + log S_t部署优先级框架，融合任务重要性与AI能力剖面",
+    "经信度检验将18项认知能力精炼为8维并构建贝叶斯推断流程",
+    "共享截距设计显著提升能力剖面有效维度(2.8→5.2)与可识别性"
+   ],
+   "benchmarks": [
+    "19,531题自建认知能力测评题库",
+    "6个主流AI模型×6职业领域×18工作任务交叉评估"
+   ]
+  }
+ }
 }

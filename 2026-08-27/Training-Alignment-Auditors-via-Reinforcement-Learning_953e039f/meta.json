@@ -4,5 +4,32 @@
  "title": "Training-Alignment-Auditors-via-Reinforcement-Learning",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-08-27 12:21:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c31e14da-765b-48bd-83a1-780d3543c535.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c31e14da-765b-48bd-83a1-780d3543c535.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:18:12",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "AI alignment auditing",
+    "model evaluation",
+    "fast proxy metrics",
+    "false positive calibration",
+    "reward design",
+    "large language models"
+   ],
+   "field": "AI安全与对齐评估",
+   "innovations": [
+    "提出Crux Evaluation作为快速代理指标，可预测完整评估套件主要方差",
+    "设计Binary与Intragroup Pairwise双组件奖励，揭示分布内优化与调查技能分化的张力",
+    "建立38维Petri审计评估体系，量化审计员多维度性能"
+   ],
+   "benchmarks": [
+    "Petri审计评估体系",
+    "Crux Evaluation预测基准",
+    "38-metric pairwise comparison judge"
+   ]
+  }
+ }
 }

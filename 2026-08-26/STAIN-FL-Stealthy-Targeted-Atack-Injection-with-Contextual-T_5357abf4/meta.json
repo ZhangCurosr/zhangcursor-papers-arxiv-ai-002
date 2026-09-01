@@ -4,5 +4,30 @@
  "title": "STAIN-FL-Stealthy-Targeted-Atack-Injection-with-Contextual-T",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-08-26 03:04:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/47029fee-175f-4ddd-969f-9118031e1be7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/47029fee-175f-4ddd-969f-9118031e1be7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:10:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "Backdoor Attack",
+    "Video Anomaly Detection",
+    "Contextual Trigger",
+    "Gradient Masking",
+    "Non-IID Learning"
+   ],
+   "field": "联邦学习安全",
+   "innovations": [
+    "提出自然监控条件作为上下文触发器的后门攻击框架STAIN-FL",
+    "结合异常转benign标签篡改与最少更新坐标梯度掩码提升隐蔽性与持久性",
+    "揭示稀疏攻击比连续攻击更具实际威胁：低检测率+长持久性"
+   ],
+   "benchmarks": [
+    "UCF-Crime",
+    "I3D 1024-dim features"
+   ]
+  }
+ }
 }

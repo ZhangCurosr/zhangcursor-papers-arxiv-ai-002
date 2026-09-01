@@ -4,5 +4,32 @@
  "title": "Training-Alignment-Auditors-via-Reinforcement-Learning",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-08-27 23:35:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a7c13706-5d7a-404d-b5a2-c5e7e0cf155a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a7c13706-5d7a-404d-b5a2-c5e7e0cf155a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:18:04",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "RL alignment auditing",
+    "pairwise reward",
+    "false positive calibration",
+    "Petri scaffold",
+    "AuditBench",
+    "reward hacking mitigation",
+    "multi-turn audit"
+   ],
+   "field": "AI对齐与安全性评估",
+   "innovations": [
+    "首次用RL训练多轮审计器策略，pairwise reward缓解reward hacking",
+    "reference pairwise + 50% FP校准复合奖励机制，FPR<1%同时审计质量超越Opus 4.6",
+    "策略聚类诊断训练动态，揭示14个archetype与失败模式"
+   ],
+   "benchmarks": [
+    "Petri (181 seeds, 38-dim judge)",
+    "AuditBench (56 LoRA targets, 14 behavior classes)",
+    "WildChat realism evaluation"
+   ]
+  }
+ }
 }

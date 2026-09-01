@@ -4,5 +4,10 @@
  "title": "SwarmWorld-Stigmergic-technological-evolution-in-societies-o",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-27 12:22:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c8107c43-1308-40d5-9bcc-2ef1fcdd70f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c8107c43-1308-40d5-9bcc-2ef1fcdd70f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:14:01",
+  "chunks": 4
+ }
 }

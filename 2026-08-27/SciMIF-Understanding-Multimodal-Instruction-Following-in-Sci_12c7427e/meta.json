@@ -4,5 +4,33 @@
  "title": "SciMIF-Understanding-Multimodal-Instruction-Following-in-Sci",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-27 23:34:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9a213854-c788-4b26-80b4-700607239ec3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9a213854-c788-4b26-80b4-700607239ec3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:12:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "指令遵循",
+    "科学推理",
+    "基准评测",
+    "约束注入",
+    "学科适配"
+   ],
+   "field": "多模态科学理解与评测",
+   "innovations": [
+    "构建专家驱动的10组42约束科学多模态指令遵循基准SciMIF，覆盖5学科2527样本",
+    "提出约束分离评估框架，首次系统量化科学正确性与指令遵循性的弱耦合关系",
+    "设计双自动验证指令注入管线，在不修改参考答案的前提下扩展现有科学数据集"
+   ],
+   "benchmarks": [
+    "SciMIF",
+    "IFEval",
+    "FollowBench",
+    "MM-IFEngine",
+    "SciIF"
+   ]
+  }
+ }
 }

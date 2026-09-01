@@ -4,5 +4,30 @@
  "title": "Task-Adaptive-Rubrics-for-GUI-Reward-Modeling",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-26 14:42:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/61f728b5-5a0d-4786-bc63-157075ee47d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/61f728b5-5a0d-4786-bc63-157075ee47d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:10:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GUI Agent",
+    "Reward Modeling",
+    "Rubric Construction",
+    "Outcome Reward",
+    "Task-Adaptive Verification",
+    "Reinforcement Learning"
+   ],
+   "field": "GUI 智能体奖励建模",
+   "innovations": [
+    "两阶段由粗到细的任务自适应 rubric 构建框架",
+    "预构建 8 类别 GUI 任务 rubric 银行结合指令级细粒度生成",
+    "在离线判别和在线 RL 中统一验证任务自适应标准的有效性"
+   ],
+   "benchmarks": [
+    "OGRBench",
+    "MobileWorld"
+   ]
+  }
+ }
 }

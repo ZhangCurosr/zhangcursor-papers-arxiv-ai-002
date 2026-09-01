@@ -4,5 +4,29 @@
  "title": "SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-Agen",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-26 03:04:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f222b2e1-13f4-4624-b1e2-bad2611167e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f222b2e1-13f4-4624-b1e2-bad2611167e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:10:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单流策略优化",
+    "异步RL",
+    "度量对齐",
+    "prompt baseline",
+    "token-measure normalization"
+   ],
+   "field": "异步强化学习",
+   "innovations": [
+    "action-token-measure归一化修复trajectory whitening与token-mean actor loss的度量失配",
+    "dispatch-causal事件时间prompt tracker实现receipt-order invariance",
+    "在ALFWorld与Math-TIR上配对验证SPO++在线学习效率提升"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "Math-TIR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Think-Probe-Respond-Improving-Large-Language-Models-as-Judge",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-27 12:20:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6c462050-b8f0-4b95-b6dc-8f52424fda28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6c462050-b8f0-4b95-b6dc-8f52424fda28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:15:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM as Judge",
+    "novelty assessment",
+    "probing",
+    "chain-of-thought",
+    "miscalibration",
+    "scientific discovery",
+    "RINoBench"
+   ],
+   "field": "大语言模型评估与解释",
+   "innovations": [
+    "揭示LLM在新颖性判断中隐式信念与显式输出的系统性校准偏差",
+    "提出Think-Probe-Respond框架，通过推理阶段隐藏状态探测缓解中间类别偏差",
+    "证明推理末尾(token_n)是新颖性信息最丰富的探测时机"
+   ],
+   "benchmarks": [
+    "RINoBench"
+   ]
+  }
+ }
 }

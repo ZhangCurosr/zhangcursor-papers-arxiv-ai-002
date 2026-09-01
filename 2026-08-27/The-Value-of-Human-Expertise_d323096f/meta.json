@@ -4,5 +4,31 @@
  "title": "The-Value-of-Human-Expertise",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-27 23:34:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/608eeeca-66bc-40c9-9f7d-726aff72bfb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/608eeeca-66bc-40c9-9f7d-726aff72bfb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:15:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robust optimization",
+    "human expertise",
+    "nominal curve",
+    "minimax gap",
+    "assortment optimization",
+    "budget uncertainty set",
+    "combinatorial optimization"
+   ],
+   "field": "不确定环境下的鲁棒优化与人机协作",
+   "innovations": [
+    "提出名义曲线框架，将人类专家的模糊信念转化为可比较的策略性能保证",
+    "证明人类专业知识价值恰好等于 min-max 与 max-min 问题最优值间隙",
+    "建立 max-min 问题中纯策略最优值的精确刻画定理（Theorem 1）"
+   ],
+   "benchmarks": [
+    "Bertsimas-Sim shortest path instances",
+    "Farias-Jagabathula-Shah RUM uncertainty set"
+   ]
+  }
+ }
 }
