@@ -4,5 +4,34 @@
  "title": "PRISM-Predictive-Recomposition-via-Semantic-Latent-Decomposi",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-01 17:36:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/106b8638-ee18-4866-9f73-da54a9922dcb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/106b8638-ee18-4866-9f73-da54a9922dcb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:42:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-view video representation",
+    "view-invariant learning",
+    "egocentric-exocentric",
+    "semantic disentanglement",
+    "language-supervised vision",
+    "temporal self-prediction",
+    "ego-exo4d",
+    "action-scene disentanglement"
+   ],
+   "field": "跨视角视频表征学习",
+   "innovations": [
+    "通过交叉重组与语言监督强制视角不变/视角相关流的正交解耦",
+    "帧级 EMA 自预测目标在独立轴上内化细粒度时序动态",
+    "以 UNSCENE 反事实基准验证 action-scene 解耦纯度"
+   ],
+   "benchmarks": [
+    "EgoExo4D",
+    "EgoExoLearn",
+    "AE2",
+    "UNSCENE"
+   ]
+  }
+ }
 }

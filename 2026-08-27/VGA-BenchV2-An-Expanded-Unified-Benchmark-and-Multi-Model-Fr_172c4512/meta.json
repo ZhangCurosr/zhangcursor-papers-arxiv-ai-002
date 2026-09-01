@@ -4,5 +4,30 @@
  "title": "VGA-BenchV2-An-Expanded-Unified-Benchmark-and-Multi-Model-Fr",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-27 12:20:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/046e1f37-f0cd-4041-91a5-45ddd0fab96b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/046e1f37-f0cd-4041-91a5-45ddd0fab96b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:39:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成评估",
+    "视频美学",
+    "人工对齐基准",
+    "强化学习优化",
+    "混合评估器",
+    "LVLM评估"
+   ],
+   "field": "视频生成评估与美学分析",
+   "innovations": [
+    "从评测到RL优化的闭环：将VAQA-Net美学评估器作为奖励模型驱动生成器微调",
+    "混合评估器架构：专用回归网络VAQA-Net与Qwen3-VL-32B驱动的VTag-Net/VGQA-Net协同",
+    "3.47倍标注规模扩展：新增3.6万条任务级人工标注，支撑大规模人类对齐评估器训练"
+   ],
+   "benchmarks": [
+    "VGA-BenchV2",
+    "VADB"
+   ]
+  }
+ }
 }

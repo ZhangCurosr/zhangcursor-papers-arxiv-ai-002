@@ -4,5 +4,10 @@
  "title": "RailGen-Improving-Railway-Intrusion-Detection-via-Agent-Guid",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-01 07:19:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bc214739-186b-441e-a157-48fea153b1d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bc214739-186b-441e-a157-48fea153b1d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:44:24",
+  "chunks": 1
+ }
 }

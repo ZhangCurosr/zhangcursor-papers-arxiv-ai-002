@@ -4,5 +4,35 @@
  "title": "RailSyn-Diagnosis-Guided-Image-Generation-for-Traceable-Data",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-01 07:15:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a4cfc8d5-7af7-4676-9d9c-cef7fdb3e4c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a4cfc8d5-7af7-4676-9d9c-cef7fdb3e4c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:44:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RailSyn",
+    "铁路异物检测",
+    "生成式数据增强",
+    "可追溯评估",
+    "诊断引导生成",
+    "表示空间分析"
+   ],
+   "field": "少样本目标检测数据增强",
+   "innovations": [
+    "Inspector–Generator 诊断引导生成框架",
+    "C_gap/C_rel/η_vol 表示空间补全指标",
+    "多阶段生成模块对应任务缺口诊断"
+   ],
+   "benchmarks": [
+    "RFOD23",
+    "DEIM",
+    "YOLO11",
+    "YOLO12",
+    "DETR",
+    "RT-DETR",
+    "DINO"
+   ]
+  }
+ }
 }

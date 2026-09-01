@@ -4,5 +4,30 @@
  "title": "Pretrained-Curriculum-Tuned-and-Ensembled-A-Tracer-Aware-Int",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-01 07:15:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d76b755d-d1e6-4660-bf06-f295b8f86c96.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d76b755d-d1e6-4660-bf06-f295b8f86c96.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:43:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PET/CT",
+    "interactive segmentation",
+    "AutoPET V",
+    "masked autoencoder",
+    "tracer-aware",
+    "scribble guidance",
+    "STU-Net"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "异步跨模态 MAE 预训练 PET/CT 骨干以学习跨模态互补表征",
+    "示踪剂感知双分支路由+独立训练适配 FDG/PSMA 特异性分布",
+    "解剖器官先验与涂鸦条件化的二阶段交互精炼分割流程"
+   ],
+   "benchmarks": [
+    "AutoPET V"
+   ]
+  }
+ }
 }

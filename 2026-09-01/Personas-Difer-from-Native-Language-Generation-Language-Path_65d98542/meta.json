@@ -4,5 +4,33 @@
  "title": "Personas-Difer-from-Native-Language-Generation-Language-Path",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-01 17:35:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8c353e57-60df-4bf1-acc8-ffaf01ca2cf7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8c353e57-60df-4bf1-acc8-ffaf01ca2cf7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:42:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言LLM评估",
+    "人格提示",
+    "人际建议生成",
+    "NL vs NP",
+    "行为脚手架",
+    "LLM-as-a-Judge",
+    "多语言社交AI"
+   ],
+   "field": "多语言大语言模型社会行为评估",
+   "innovations": [
+    "首次系统证明母语语言生成(NL)与母语者人格提示(NP)在多语言人际建议中产生系统性且不可互换的差异",
+    "揭示NP在增强表层社会线索的同时系统性削弱行为脚手架和行动推荐质量",
+    "提出四策略框架(NL/NP/TTG/OSP)精确分离输入翻译、输出语言和人格设定的效应来源"
+   ],
+   "benchmarks": [
+    "Interpersonal Skills Stack Exchange",
+    "LIWC-22",
+    "Behavior Change Technique Taxonomy (BCT)",
+    "Forced-Choice Action Classification"
+   ]
+  }
+ }
 }

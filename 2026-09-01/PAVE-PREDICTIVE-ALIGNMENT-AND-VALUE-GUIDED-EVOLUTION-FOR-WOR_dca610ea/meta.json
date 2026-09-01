@@ -4,5 +4,31 @@
  "title": "PAVE-PREDICTIVE-ALIGNMENT-AND-VALUE-GUIDED-EVOLUTION-FOR-WOR",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-01 07:16:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4285e05b-f2cd-4ee5-bf64-2a2af9d56442.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4285e05b-f2cd-4ee5-bf64-2a2af9d56442.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:42:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language-action",
+    "world model",
+    "predictive representation",
+    "value-guided evolution",
+    "flow matching",
+    "robot manipulation"
+   ],
+   "field": "具身智能策略学习",
+   "innovations": [
+    "轨迹相对多视界预测对齐实现跨时间尺度过渡表征学习",
+    "分布值评论家与优势条件文本注入解耦预测学习与行为选择",
+    "预测器和评论家限制在训练阶段保持在线actor直接高效"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboTwin 2.0"
+   ]
+  }
+ }
 }

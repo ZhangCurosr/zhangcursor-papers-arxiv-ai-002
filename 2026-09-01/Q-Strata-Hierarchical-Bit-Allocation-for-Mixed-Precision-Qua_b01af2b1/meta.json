@@ -4,5 +4,38 @@
  "title": "Q-Strata-Hierarchical-Bit-Allocation-for-Mixed-Precision-Qua",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-01 07:15:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f1dbf5ae-19ad-4890-b00e-be4553ffd600.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f1dbf5ae-19ad-4890-b00e-be4553ffd600.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:43:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MoE",
+    "mixed-precision quantization",
+    "mixed-precision quantization",
+    "weight-only PTQ",
+    "Jensen-Shannon divergence",
+    "greedy descent",
+    "lazy evaluation"
+   ],
+   "field": "低比特量化与MoE压缩",
+   "innovations": [
+    "双层分配器：内层代理缓存块内候选、外层懒贪心直接优化模型级JSD",
+    "搜索维度从3LE降至L，捕获跨块耦合",
+    "外层搜索作为稠密模型通用分配器，6.9×少于AMQ查询"
+   ],
+   "benchmarks": [
+    "WikiText2",
+    "PIQA",
+    "BoolQ",
+    "WinoGrande",
+    "ARC-easy",
+    "ARC-challenge",
+    "HellaSwag",
+    "MMLU",
+    "GSM8K"
+   ]
+  }
+ }
 }

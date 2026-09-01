@@ -4,5 +4,10 @@
  "title": "Taming-foundation-model-with-invariance-oriented-pre-trainin",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-26 14:42:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/55d4d059-1055-4028-ad0a-bdf5bf6673fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/55d4d059-1055-4028-ad0a-bdf5bf6673fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:40:41",
+  "chunks": 4
+ }
 }

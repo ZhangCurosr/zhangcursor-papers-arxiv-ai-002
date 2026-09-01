@@ -4,5 +4,31 @@
  "title": "Preference-Shapes-Relevance-Cross-component-Hierarchical-Sem",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-09-01 07:19:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a6fbe6e6-9941-4a85-a3e5-e26560a6d4ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a6fbe6e6-9941-4a85-a3e5-e26560a6d4ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:43:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generative Retrieval",
+    "Semantic ID",
+    "Personalized Search",
+    "Hierarchical Alignment",
+    "Residual Generation"
+   ],
+   "field": "生成式检索与个性化推荐",
+   "innovations": [
+    "分层语义对齐桥接查询-商品语义鸿沟",
+    "残差级联生成实现单次推理加速",
+    "稀疏-稠密双视图序列建模融合结构与细粒度语义"
+   ],
+   "benchmarks": [
+    "ESCI-us",
+    "KuaiSearch",
+    "Amazon/PersonalWAB",
+    "Local-Life"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Online-Estimation-of-Dynamic-Origin-Destination-Matrices-Usi",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-01 07:20:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9c5fb7a1-ac94-4a67-931d-e16fd6eee671.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9c5fb7a1-ac94-4a67-931d-e16fd6eee671.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:40:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "online DODE",
+    "reinforcement learning",
+    "link-flow propagation guidance",
+    "PPO",
+    "traffic calibration"
+   ],
+   "field": "交通流动态OD矩阵估计",
+   "innovations": [
+    "提出LFPG-RL框架，将路段流量传播引导整合到PPO中",
+    "设计LFPG信号，结合OD时间分量贡献与路段流量误差敏感度进行优势塑造"
+   ],
+   "benchmarks": [
+    "Melbourne arterial network",
+    "SCATS detector data"
+   ]
+  }
+ }
 }

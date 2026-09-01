@@ -4,5 +4,32 @@
  "title": "Verify-Smarter-Evolve-Further-Efficient-Harness-Evolution-th",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-28 23:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4850b694-1b8a-4770-991b-e1fc6712b421.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4850b694-1b8a-4770-991b-e1fc6712b421.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:39:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent harness",
+    "behavior-aware verification",
+    "harness evolution",
+    "propose-and-verify",
+    "attribution gate",
+    "budget-constrained optimization"
+   ],
+   "field": "Agent 自动化优化与自我改进",
+   "innovations": [
+    "行为感知的动态验证任务选择，针对不同修改匹配相关任务而非固定集",
+    "可归因证据门控机制，要求轨迹层面可归因改进方可接受候选",
+    "预算感知双阶段验证确认框架 HARNESSLENS，在 200 单位预算下超越更高预算基线"
+   ],
+   "benchmarks": [
+    "τ²-bench Retail",
+    "τ³-bench Banking Knowledge",
+    "Terminal-Bench 2.0",
+    "BIRD Mini-Dev Challenging"
+   ]
+  }
+ }
 }

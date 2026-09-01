@@ -4,5 +4,35 @@
  "title": "Predicting-Residential-Rents-in-Dakar-Using-Machine-Learning",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-01 07:15:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1b41cbc3-1995-4122-8232-4442c5fdfb4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1b41cbc3-1995-4122-8232-4442c5fdfb4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:43:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rent prediction",
+    "XGBoost",
+    "SHAP interpretability",
+    "quantile regression",
+    "African real estate",
+    "target encoding",
+    "hedonic pricing",
+    "Dakar housing market"
+   ],
+   "field": "面向新兴市场的房地产价格预测与可解释AI",
+   "innovations": [
+    "构建达喀尔首个系统化住宅租金ML数据集并完整公开预处理流程",
+    "系统对比XGBoost Gain与SHAP重要性，揭示编码后连续变量（location）被Gain低估的方法学洞见",
+    "在非洲城市租金场景下引入分位数回归量化预测不确定性，识别校准缺口"
+   ],
+   "benchmarks": [
+    "Linear Regression baseline",
+    "Random Forest",
+    "XGBoost tuned (Optuna)",
+    "LightGBM tuned (Optuna)",
+    "5-fold cross-validation R²"
+   ]
+  }
+ }
 }

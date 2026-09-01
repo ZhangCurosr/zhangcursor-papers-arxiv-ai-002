@@ -4,5 +4,33 @@
  "title": "When-Memory-Takes-Gradients-Collaborative-Vector-Memory-for",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-28 23:23:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/6bd31aff-bf94-441f-a75f-2ed99674e03f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/6bd31aff-bf94-441f-a75f-2ed99674e03f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:40:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic Recommender",
+    "Vector Memory",
+    "Collaborative Filtering",
+    "LLM Agent",
+    "Parameterized Memory Reader",
+    "Contrastive Alignment",
+    "Masked Co-training"
+   ],
+   "field": "LLM-based Recommendation Systems",
+   "innovations": [
+    "将代理记忆的协作组件向量化为可训练的图状态库，保留目录级协作结构",
+    "通过对比对齐+掩码listwise co-training两步训练参数量记忆读取器，使LLM能直接读取向量记忆",
+    "零额外LLM调用维护记忆，大幅降低记忆系统的维护成本"
+   ],
+   "benchmarks": [
+    "InstructRec-Books",
+    "InstructRec-Goodreads",
+    "InstructRec-MovieTV",
+    "InstructRec-Yelp"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Personas-Difer-from-Native-Language-Generation-Language-Path",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-01 07:16:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8bc7e69c-d7df-49f2-a570-b622ba2057ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8bc7e69c-d7df-49f2-a570-b622ba2057ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:42:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言LLM评测",
+    "人际建议生成",
+    "Persona Prompting",
+    "跨语言提示路径",
+    "行为改变技术",
+    "LIWC",
+    "LLM-as-Judge",
+    "文化对齐"
+   ],
+   "field": "多语言大语言模型评测与文化对齐",
+   "innovations": [
+    "首次系统实证证明 Native-Speaker Persona 与 Native-Language Generation 两条跨语言提示路径在人际建议生成中不可互换",
+    "揭示 NP 策略增加表层社交积极线索但牺牲深层社会敏感性（social attunement/concreteness）的系统性偏差",
+    "将 BCT 行为改变技术分类适配为 LLM 开放式建议的'行为脚手架'量化指标，并发现 NP 比 NL 更倾向推荐对抗性行动（confrontation）"
+   ],
+   "benchmarks": [
+    "Interpersonal Skills Stack Exchange (600 questions)",
+    "XTREME (ref)",
+    "MEGA (ref)",
+    "Aya Dataset (ref)"
+   ]
+  }
+ }
 }

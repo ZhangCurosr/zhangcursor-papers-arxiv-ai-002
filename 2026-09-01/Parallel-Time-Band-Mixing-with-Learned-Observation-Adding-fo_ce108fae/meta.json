@@ -4,5 +4,30 @@
  "title": "Parallel-Time-Band-Mixing-with-Learned-Observation-Adding-fo",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-01 07:16:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1ccea021-cdbf-4e46-b6e7-dd7ecaaae804.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1ccea021-cdbf-4e46-b6e7-dd7ecaaae804.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:42:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech enhancement",
+    "robust ASR",
+    "band-split",
+    "parallel processing",
+    "mask-plus-residual",
+    "observation adding"
+   ],
+   "field": "语音增强与鲁棒ASR前端",
+   "innovations": [
+    "PTBM并行时序-频带混合块消除循环依赖",
+    "LOA学习型观察添加无需开发集调优",
+    "0.96M参数/0.58 GMAC/s轻量高效前端"
+   ],
+   "benchmarks": [
+    "DNS Challenge",
+    "CHiME-4"
+   ]
+  }
+ }
 }

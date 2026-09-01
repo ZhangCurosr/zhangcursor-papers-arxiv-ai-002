@@ -4,5 +4,33 @@
  "title": "PRISM-Predictive-Recomposition-via-Semantic-Latent-Decomposi",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-01 07:16:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c52c469d-3507-4c4f-935e-f3272212268a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c52c469d-3507-4c4f-935e-f3272212268a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:42:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨视角视频表征学习",
+    "视角不变性",
+    "语义解耦",
+    "语言监督",
+    "自预测时序建模",
+    "EgoExo4D",
+    "动作-场景纠缠"
+   ],
+   "field": "跨视角视频理解",
+   "innovations": [
+    "首次提出 decompose-then-recompose 机制，通过跨视频交叉重组与语言监督实现 V-I/V-V 语义正交解耦",
+    "引入帧级自预测时序目标作为独立正交轴，在不损害解耦质量的前提下捕获细粒度时序动态",
+    "验证了'可与 off-distribution 成分重组仍保持语义'作为真视角不变表征的操作定义"
+   ],
+   "benchmarks": [
+    "EgoExo4D",
+    "EgoExoLearn",
+    "AE2",
+    "UNSCENE"
+   ]
+  }
+ }
 }

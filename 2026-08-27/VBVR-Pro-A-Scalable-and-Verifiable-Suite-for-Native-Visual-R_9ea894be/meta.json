@@ -4,5 +4,36 @@
  "title": "VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual-R",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-27 12:22:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c16e35e9-517f-48da-880f-18941749e361.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c16e35e9-517f-48da-880f-18941749e361.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:39:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "原生视觉推理",
+    "可验证奖励",
+    "视觉生成",
+    "强化学习",
+    "多模态推理",
+    "Chain-of-Step"
+   ],
+   "field": "视觉推理与生成模型",
+   "innovations": [
+    "构建 300 任务程序化生成数据集并提供逐任务确定性可验证评分器",
+    "证明视觉状态轨迹比显式语言链思维对原生视觉推理更关键",
+    "将 Coefficients-Preserving Sampling 用于视觉推理 RL 并在 30+ 生成器上开展受控模态比较"
+   ],
+   "benchmarks": [
+    "VBVR-Pro-Bench",
+    "RISE-Video",
+    "MME-CoF-Pro",
+    "BabyVision",
+    "V-ReasonBench",
+    "VideoThinkBench",
+    "RULER-Bench",
+    "IntelligentVBench"
+   ]
+  }
+ }
 }

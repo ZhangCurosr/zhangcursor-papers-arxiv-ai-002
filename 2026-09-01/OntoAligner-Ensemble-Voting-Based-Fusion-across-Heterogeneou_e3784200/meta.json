@@ -4,5 +4,34 @@
  "title": "OntoAligner-Ensemble-Voting-Based-Fusion-across-Heterogeneou",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-01 07:14:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2475cf16-df7f-4b13-a5f7-aef9d356a43f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2475cf16-df7f-4b13-a5f7-aef9d356a43f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:41:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Ontology Alignment",
+    "Ensemble Learning",
+    "Voting Fusion",
+    "Large Language Models",
+    "Knowledge Graph Embedding",
+    "OntoAligner",
+    "RAG"
+   ],
+   "field": "语义本体对齐与知识融合",
+   "innovations": [
+    "提出 OntoAligner-Ensemble 两阶段投票融合框架，将轻量/KGE/LLM 异构对齐器统一整合",
+    "系统比较异构集成与同源 LLM 集成的精确率–召回率权衡差异",
+    "在 OAEI 五轨八任务上验证集成融合对 F1 的持续提升，并提供可配置的决策层策略"
+   ],
+   "benchmarks": [
+    "OAEI Beyond Equivalence (G1-Web, G2-Diseases, G3-Text)",
+    "OAEI Circular Economy (CEON-BiOnto, CEON-MatOnto)",
+    "OAEI Anatomy (Mouse-Human)",
+    "OAEI Material Science (MI-MatOnto)",
+    "OAEI Biodiversity (Fish-Zooplankton)"
+   ]
+  }
+ }
 }

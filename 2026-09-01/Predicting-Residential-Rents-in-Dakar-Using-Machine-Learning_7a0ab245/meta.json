@@ -4,5 +4,30 @@
  "title": "Predicting-Residential-Rents-in-Dakar-Using-Machine-Learning",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-01 17:35:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1b41cbc3-1995-4122-8232-4442c5fdfb4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1b41cbc3-1995-4122-8232-4442c5fdfb4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:43:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "租金预测",
+    "XGBoost",
+    "LightGBM",
+    "SHAP",
+    "分位数回归",
+    "目标编码",
+    "达喀尔房产市场",
+    "可解释机器学习"
+   ],
+   "field": "住房价格/租金的机器学习建模与可解释性",
+   "innovations": [
+    "构建达喀尔长租房源标准化数据集并公开可申请获取",
+    "同步开展Optuna调参、Gain/SHAP双重视角可解释性与分位数不确定性量化"
+   ],
+   "benchmarks": [
+    "80/20单划分测试R²=0.847/MAE=210,902/ RMSE=324,195 FCFA; 5折CV R²=0.852±0.011; 分位数区间名义80%但实际覆盖率64.2%"
+   ]
+  }
+ }
 }

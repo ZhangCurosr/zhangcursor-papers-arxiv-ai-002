@@ -4,5 +4,33 @@
  "title": "Verify-Smarter-Evolve-Further-Efficient-Harness-Evolution-th",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-28 13:47:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4850b694-1b8a-4770-991b-e1fc6712b421.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4850b694-1b8a-4770-991b-e1fc6712b421.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:39:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent harness",
+    "harness evolution",
+    "behavior-aware verification",
+    "propose-and-verify",
+    "LLM agent",
+    "trajectory diagnosis",
+    "budget-aware optimization"
+   ],
+   "field": "Agent 系统与工具调用优化",
+   "innovations": [
+    "行为感知验证任务选择：为每个候选修改动态选择与其目标行为相关的验证任务而非固定批次",
+    "可归因证据门控：仅当改进可归因于目标修改且无明确回归时才接受候选，避免机会性过拟合",
+    "HARNESSLENS 框架：预算感知、harness 无关的自动演化，集成上下文探索-轨迹诊断-演化更新闭环"
+   ],
+   "benchmarks": [
+    "τ²-bench Retail",
+    "τ³-bench Banking Knowledge",
+    "Terminal-Bench 2.0",
+    "BIRD Mini-Dev (Challenging)"
+   ]
+  }
+ }
 }
