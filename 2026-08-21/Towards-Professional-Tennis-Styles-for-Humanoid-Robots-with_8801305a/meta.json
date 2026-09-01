@@ -4,5 +4,31 @@
  "title": "Towards-Professional-Tennis-Styles-for-Humanoid-Robots-with",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-21 14:33:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e2fc3549-47fd-4445-b0d9-82cb06d1b401.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e2fc3549-47fd-4445-b0d9-82cb06d1b401.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:07:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人形机器人",
+    "运动风格学习",
+    "自适应规划追踪",
+    "网球",
+    "sim-to-real gap",
+    "MVAE",
+    "领域随机化"
+   ],
+   "field": "人形机器人运动技能学习",
+   "innovations": [
+    "速度自适应规划与追踪联合建模缓解sim-to-real gap",
+    "关键帧引导与抛球轨迹奖励平衡发球任务与风格保真",
+    "解耦架构下视野-响应权衡的实证分析"
+   ],
+   "benchmarks": [
+    "Nadal/Federer/Djokovic职业选手风格复现",
+    "Unitree G1与Dobot Atom实机击中率与发球成功率"
+   ]
+  }
+ }
 }

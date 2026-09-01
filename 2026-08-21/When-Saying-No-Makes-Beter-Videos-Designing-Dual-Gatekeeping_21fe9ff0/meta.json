@@ -4,5 +4,31 @@
  "title": "When-Saying-No-Makes-Beter-Videos-Designing-Dual-Gatekeeping",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-21 14:33:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/89d35054-f52a-4d10-b685-87f5e4b62419.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/89d35054-f52a-4d10-b685-87f5e4b62419.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:08:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Educational AI",
+    "Human-AI Collaboration",
+    "Multimedia Learning",
+    "Generative Video",
+    "CTML",
+    "Dual Gatekeeping",
+    "Principled Resistance"
+   ],
+   "field": "教育AI与人机协作",
+   "innovations": [
+    "提出principled resistance概念框架，将教学摩擦重新定义为专业责任而非效率障碍",
+    "设计PedaCo双层门控系统：脚本阶段人类教师CTML审查+视频阶段自动化指标评估",
+    "将CTML 12原则部分操作化为可计算的5个自动化评估维度，并提供主客观收敛的三角验证证据"
+   ],
+   "benchmarks": [
+    "CTML 12原则主观评估（23位教师，3主题）",
+    "自动化教学指标评估（14视频，7主题×2条件）"
+   ]
+  }
+ }
 }

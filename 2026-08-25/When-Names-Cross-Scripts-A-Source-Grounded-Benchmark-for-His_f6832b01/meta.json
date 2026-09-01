@@ -4,5 +4,36 @@
  "title": "When-Names-Cross-Scripts-A-Source-Grounded-Benchmark-for-His",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-25 14:42:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4b2404ad-da31-42c2-8b46-e3dddb856e73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4b2404ad-da31-42c2-8b46-e3dddb856e73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:12:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "historical entity reconciliation",
+    "cross-script name matching",
+    "provenance-controlled benchmark",
+    "selective prediction",
+    "abstention",
+    "named entity linking",
+    "multilingual NLP",
+    "evidence-grounded evaluation"
+   ],
+   "field": "历史NLP与跨语言实体消歧",
+   "innovations": [
+    "提出MHER来源控制基准，将历史实体消歧形式化为pairwise证据条件任务并允许弃权",
+    "设计mention×source级别独立证据与shuffle-context伪造控制，分离grounding与文本长度/主题捷径",
+    "跨五个异构生成模型验证source-grounded证据使配对准确率提升12.96–94.44pp并在同名不同人困难案例达24/25"
+   ],
+   "benchmarks": [
+    "MHER (Mongol-world Historical Entity Reconciliation)",
+    "MHER-Name-only TEST (316 pairs)",
+    "MHER-Source-grounded paired TEST (108 pairs)",
+    "MHER-Context-only",
+    "MHER-Shuffled-Context A/B/C",
+    "MHER-Expert-unresolved (10 cases)"
+   ]
+  }
+ }
 }

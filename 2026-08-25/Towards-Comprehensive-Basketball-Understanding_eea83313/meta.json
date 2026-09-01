@@ -4,5 +4,30 @@
  "title": "Towards-Comprehensive-Basketball-Understanding",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-25 14:42:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/23c561a0-bf62-497c-878d-ca563549e7a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/23c561a0-bf62-497c-878d-ca563549e7a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:09:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "basketball understanding",
+    "multimodal benchmark",
+    "sports VLM",
+    "agent-based reasoning",
+    "sports event detection",
+    "player identification"
+   ],
+   "field": "体育视频理解与多模态智能体",
+   "innovations": [
+    "提出 BasketballBench：首个覆盖知识检索、广播感知、时空事件理解的综合性篮球多模态基准（10 任务、7980 样本）",
+    "提出 BasketballSkills：将 8 个领域专用感知/检索工具组合为 4 个可复用技能的分层智能体框架，动态编排执行流程",
+    "系统性揭示通用 MLLM 在事件-球员绑定与知识融合任务上的瓶颈，并通过目标高亮实验量化瓶颈幅度"
+   ],
+   "benchmarks": [
+    "BasketballBench",
+    "BasketEvent"
+   ]
+  }
+ }
 }

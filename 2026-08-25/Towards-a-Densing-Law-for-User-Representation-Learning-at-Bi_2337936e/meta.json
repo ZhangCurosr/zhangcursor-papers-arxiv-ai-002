@@ -4,5 +4,34 @@
  "title": "Towards-a-Densing-Law-for-User-Representation-Learning-at-Bi",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-25 02:59:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/db68ea6e-0164-440d-b427-3ebeafbad829.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/db68ea6e-0164-440d-b427-3ebeafbad829.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:09:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "用户表征学习",
+    "行为分词",
+    "缩放定律",
+    "残差量化",
+    "致密化",
+    "RQ-VAE",
+    "ALGN",
+    "工业推荐"
+   ],
+   "field": "用户表征学习与行为建模",
+   "innovations": [
+    "提出行为致密化定律，刻画数据规模与最小充分分词容量的幂律关系",
+    "设计ALGN自适应变长分词，基于残差范数+编码不确定性实现实例级容量分配",
+    "揭示十亿级工业场景下原始行为数据缩放的饱和墙及损失-质量解耦现象"
+   ],
+   "benchmarks": [
+    "Alipay PayBill生产数据",
+    "50个下游分类数据集",
+    "22个文本检索数据集",
+    "22个U2U检索数据集"
+   ]
+  }
+ }
 }

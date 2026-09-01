@@ -4,5 +4,35 @@
  "title": "Wuying-Browser-Agent-Real-World-Centric-Fundamental-Long-Hor",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-19 14:31:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/594e8653-6922-4ac4-9caf-e76770764a80.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/594e8653-6922-4ac4-9caf-e76770764a80.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:06:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Browser Agent",
+    "Long-Horizon",
+    "GRPO",
+    "Curriculum SFT",
+    "Reward Shaping",
+    "Web Benchmark",
+    "Open-Source Agent"
+   ],
+   "field": "浏览器智能体与在线强化学习",
+   "innovations": [
+    "RUIC-SFT课程化监督融入错误恢复与复杂UI专项数据",
+    "DAO-GRPO通过PBRS与分歧感知步级Credit提升长程在线RL",
+    "BrowserBench填补中英双语长程真实网页评测空白"
+   ],
+   "benchmarks": [
+    "WebVoyager",
+    "Online-Mind2Web",
+    "BrowserBench",
+    "Tau2-Bench",
+    "BFCL-v4",
+    "Claw-Eval"
+   ]
+  }
+ }
 }

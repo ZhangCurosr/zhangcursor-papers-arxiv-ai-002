@@ -4,5 +4,33 @@
  "title": "Unlearning-Is-Not-Just-Erasing-Temporal-Decoupling-via-Gener",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-25 14:42:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/165d0b32-78d9-4dbc-8669-1f35ad91ac2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/165d0b32-78d9-4dbc-8669-1f35ad91ac2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:10:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "Large Language Models",
+    "Attention Mechanism",
+    "Pathway Decoupling",
+    "Causal Mediation",
+    " Forget-Retain Trade-off"
+   ],
+   "field": "大语言模型安全与可控生成",
+   "innovations": [
+    "将LLM遗忘形式化为上下文检索路径解耦，提出预计划-锚点时序模式识别方法",
+    "训练注意力投影适配器抑制固定路径质量，同时保留语言建模与局部注意力结构",
+    "通过双向边贡献替换提供路径特异性因果中介验证"
+   ],
+   "benchmarks": [
+    "WMDP",
+    "TOFU",
+    "MUSE-Harry Potter",
+    "MMLU",
+    "GSM8K"
+   ]
+  }
+ }
 }

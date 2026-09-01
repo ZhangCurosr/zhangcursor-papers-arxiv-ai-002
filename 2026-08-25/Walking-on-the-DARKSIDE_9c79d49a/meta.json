@@ -4,5 +4,32 @@
  "title": "Walking-on-the-DARKSIDE",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-25 14:42:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/31637582-c9fa-474f-8974-c56a83781186.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/31637582-c9fa-474f-8974-c56a83781186.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:10:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱抽取",
+    "幻觉检测",
+    "神经符号推理",
+    "连贯性审计",
+    "LLM委托",
+    "本体设计模式",
+    "active inference",
+    "negation"
+   ],
+   "field": "知识图谱增强的LLM可信生成",
+   "innovations": [
+    "将via negativa形式化为NegativeTrail排除累积器，与Active Inference生成模型同构",
+    "担保轴四分类（Warranted/Unattested/Misattributed/Fabricated）作为认识论防火墙",
+    "DARKPOLANYI在BSBench上达97%完美识别率，消除基线partial credits"
+   ],
+   "benchmarks": [
+    "BSBench (100-item adversarial corpus)",
+    "MultiChallenge (对比引用)"
+   ]
+  }
+ }
 }

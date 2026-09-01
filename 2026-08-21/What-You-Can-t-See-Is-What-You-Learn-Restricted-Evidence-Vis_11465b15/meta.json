@@ -4,5 +4,30 @@
  "title": "What-You-Can-t-See-Is-What-You-Learn-Restricted-Evidence-Vis",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-21 14:32:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/df3257a4-5f54-44bc-9795-197e15467105.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/df3257a4-5f54-44bc-9795-197e15467105.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:08:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合泛化",
+    "多智能体LLM",
+    "证据可见性",
+    "因果审计",
+    "潜通信",
+    "模块化神经网络"
+   ],
+   "field": "多智能体语言模型组合泛化与可解释性",
+   "innovations": [
+    "首次在封闭组合任务上通过严格配对实验证明限制证据可见性可因果提升组合泛化能力",
+    "提出值索引包移植方法，建立 learned relay 中中间表征的可互换性证据",
+    "公开完整预注册失败案例与审计协议，建立多细胞社会因果隔离实验新范式"
+   ],
+   "benchmarks": [
+    "Z_17仿射变换组合任务",
+    "depth-2/depth-3 held-out程序评估"
+   ]
+  }
+ }
 }

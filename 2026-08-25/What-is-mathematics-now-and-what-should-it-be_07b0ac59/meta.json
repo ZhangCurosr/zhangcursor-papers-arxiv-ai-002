@@ -4,5 +4,10 @@
  "title": "What-is-mathematics-now-and-what-should-it-be",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-25 14:42:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a067bd93-e244-40db-a8da-bf8c39b486de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a067bd93-e244-40db-a8da-bf8c39b486de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:12:33",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "WildHandBench-A-Benchmark-for-Handwritten-Text-Understanding",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-08-25 14:42:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d9d7bb7c-f268-4a08-a4ee-03d377e7d506.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d9d7bb7c-f268-4a08-a4ee-03d377e7d506.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:12:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手写文档理解",
+    "多模态大语言模型",
+    "基准测试",
+    "先验驱动错误",
+    "OCR",
+    "PDE指标",
+    "幻觉诊断"
+   ],
+   "field": "多模态文档理解",
+   "innovations": [
+    "提出WildHandBench首个统一评估手写自由文本/表格/公式的基准",
+    "引入PDE指标量化语言先验驱动错误的比例",
+    "建立校准人类基线揭示模型与人类错误类型的定性差异"
+   ],
+   "benchmarks": [
+    "WildHandBench"
+   ]
+  }
+ }
 }

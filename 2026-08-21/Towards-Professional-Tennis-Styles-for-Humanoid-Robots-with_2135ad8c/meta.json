@@ -4,5 +4,10 @@
  "title": "Towards-Professional-Tennis-Styles-for-Humanoid-Robots-with",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-21 03:03:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e2fc3549-47fd-4445-b0d9-82cb06d1b401.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e2fc3549-47fd-4445-b0d9-82cb06d1b401.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:07:30",
+  "chunks": 1
+ }
 }

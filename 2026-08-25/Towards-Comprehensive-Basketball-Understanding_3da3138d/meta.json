@@ -4,5 +4,28 @@
  "title": "Towards-Comprehensive-Basketball-Understanding",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-25 02:56:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5ac78ff5-d820-439b-83f7-be0fa2a118f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5ac78ff5-d820-439b-83f7-be0fa2a118f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:09:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "体育视频理解",
+    "技能组合智能体",
+    "篮球事件识别",
+    "时空定位"
+   ],
+   "field": "体育多模态理解与技能组合智能体",
+   "innovations": [
+    "提出 BasketballBench：10任务7980道QA的篮球多模态综合基准",
+    "提出 BasketballSkills：8原子工具+4可复用技能的篮球理解智能体",
+    "揭示现有MLLM在事件-球员绑定与多能力组合上的显著瓶颈"
+   ],
+   "benchmarks": [
+    "BasketballBench"
+   ]
+  }
+ }
 }

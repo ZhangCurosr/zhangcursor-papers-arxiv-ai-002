@@ -4,5 +4,35 @@
  "title": "What-You-Can-t-See-Is-What-You-Learn-Restricted-Evidence-Vis",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-21 03:02:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b5090aa9-1732-4011-b28c-e8ad03e3e285.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b5090aa9-1732-4011-b28c-e8ad03e3e285.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:08:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合泛化",
+    "多模块系统",
+    "证据可见性",
+    "潜通信",
+    "因果审计",
+    "包移植",
+    "LLM社会",
+    "归纳偏置"
+   ],
+   "field": "多智能体语言模型组合泛化与可解释通信",
+   "innovations": [
+    "因果隔离的受限vs全局可见性对比实验，仅注意力掩码不同",
+    "值索引包的跨episode可互换性因果审计证明受限可见性促进可复用接口学习",
+    "碰撞分层分析排除函数查表解释，确认组合计算机制"
+   ],
+   "benchmarks": [
+    "Z_17仿射函数组合任务",
+    "深度二/深度三未见程序+未见措辞评估",
+    "Same-value / Counterfactual包移植审计",
+    "All-cut通信切断诊断",
+    "普通语言保持（ordinary-language preservation）"
+   ]
+  }
+ }
 }

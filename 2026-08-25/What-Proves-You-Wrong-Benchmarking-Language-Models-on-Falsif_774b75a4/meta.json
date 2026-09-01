@@ -4,5 +4,29 @@
  "title": "What-Proves-You-Wrong-Benchmarking-Language-Models-on-Falsif",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-08-25 14:42:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2232874a-438f-4f7f-a49c-41274a2bb04d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2232874a-438f-4f7f-a49c-41274a2bb04d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:11:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可证伪性",
+    "研究构思评估",
+    "LLM基准测试",
+    "六字段合同",
+    "顺序折叠",
+    "诊断控制"
+   ],
+   "field": "大型语言模型评估",
+   "innovations": [
+    "提出以最小可证伪测试为核心的六字段联合评估单元",
+    "构建前瞻性无答案密钥的真实论文邻域基准",
+    "设计包含顺序折叠、多重诊断控制和有界人类校准的可靠性审计协议"
+   ],
+   "benchmarks": [
+    "Lit2Test"
+   ]
+  }
+ }
 }

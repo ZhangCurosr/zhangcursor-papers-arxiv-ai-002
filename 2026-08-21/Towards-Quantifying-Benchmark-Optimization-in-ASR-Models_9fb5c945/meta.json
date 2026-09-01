@@ -4,5 +4,10 @@
  "title": "Towards-Quantifying-Benchmark-Optimization-in-ASR-Models",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-21 14:32:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a8500b44-ce00-4952-aacd-8f188e177668.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a8500b44-ce00-4952-aacd-8f188e177668.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:07:42",
+  "chunks": 1
+ }
 }

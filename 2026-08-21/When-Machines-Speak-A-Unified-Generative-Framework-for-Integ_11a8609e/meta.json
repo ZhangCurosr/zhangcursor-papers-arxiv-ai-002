@@ -4,5 +4,34 @@
  "title": "When-Machines-Speak-A-Unified-Generative-Framework-for-Integ",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-08-21 14:33:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6dcff210-0c44-4bf5-8fc0-523b3db046d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6dcff210-0c44-4bf5-8fc0-523b3db046d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:08:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器原生符号",
+    "词汇扩展",
+    "对比锚定",
+    "统一生成式建模",
+    "序列推荐",
+    "法律先例预测",
+    "RQ-VAE",
+    "语义ID"
+   ],
+   "field": "大语言模型扩展与结构化预测",
+   "innovations": [
+    "将机器原生离散符号作为一等生成单元引入预训练LLM的统一自回归框架",
+    "通过冻结LLM参数+InfoNCE对比锚定将机器词元嵌入到LLM表征空间",
+    "同一框架零架构改动跨异构任务（推荐+法律）泛化"
+   ],
+   "benchmarks": [
+    "Amazon Beauty",
+    "MovieLens-1M",
+    "MovieLens-20M",
+    "LePaRD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Towards-Quantifying-Benchmark-Optimization-in-ASR-Models",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-21 03:04:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a8500b44-ce00-4952-aacd-8f188e177668.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a8500b44-ce00-4952-aacd-8f188e177668.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:07:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ASR",
+    "benchmark optimization",
+    "mechanistic interpretability",
+    "behavioral probes",
+    "speech recognition evaluation",
+    "shortcut learning"
+   ],
+   "field": "语音识别模型评估与可解释性",
+   "innovations": [
+    "提出 reference disagreement/masked-number recovery/orthographic switching 三种行为探针量化 ASR 基准优化",
+    "发现高分模型的基准优化行为由窄声学线索触发且可双向因果操控",
+    "证明 encoder 和 decoder 均参与基准优化策略的形成"
+   ],
+   "benchmarks": [
+    "VoxPopuli",
+    "LibriSpeech",
+    "DaiKon"
+   ]
+  }
+ }
 }

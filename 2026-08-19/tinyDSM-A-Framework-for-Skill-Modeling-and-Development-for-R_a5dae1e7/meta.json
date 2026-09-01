@@ -4,5 +4,32 @@
  "title": "tinyDSM-A-Framework-for-Skill-Modeling-and-Development-for-R",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-19 02:59:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f4907708-11d1-4964-a16c-b495d79a1bb0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f4907708-11d1-4964-a16c-b495d79a1bb0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:06:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tiny robot learning",
+    "developmental robotics",
+    "intrinsic motivation",
+    "cognitive architecture",
+    "knowledge graph",
+    "resource-constrained RL",
+    "millirobot"
+   ],
+   "field": "资源受限机器人的开发式技能学习",
+   "innovations": [
+    "三因子内在动机模型（novelty×progress×difficulty）从知识图谱拓扑自动推导难度",
+    "9 KB 内存占用的全栈认知架构在 RP2040 上的实现",
+    "层级知识图谱驱动的课程学习：低阶技能 mastery 自动解锁高阶技能"
+   ],
+   "benchmarks": [
+    "MOVE SQUARE 几何轨迹跟踪（15 min 内习得）",
+    "加负载自适应重学习（380 g，9 min 收敛）",
+    "IM Score 六配置对比仿真"
+   ]
+  }
+ }
 }

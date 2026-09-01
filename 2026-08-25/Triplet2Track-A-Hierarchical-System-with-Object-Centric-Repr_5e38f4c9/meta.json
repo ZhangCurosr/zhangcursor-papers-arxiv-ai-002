@@ -4,5 +4,32 @@
  "title": "Triplet2Track-A-Hierarchical-System-with-Object-Centric-Repr",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-08-25 03:00:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/50a01cb7-aee0-4e1c-8f2a-a2967ff3607c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/50a01cb7-aee0-4e1c-8f2a-a2967ff3607c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:09:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长程操作",
+    "分层机器人学习",
+    "三元组表示",
+    "点轨迹先验",
+    "闭环规划",
+    "模仿学习",
+    "物体中心表示"
+   ],
+   "field": "长程机器人操作与分层规划",
+   "innovations": [
+    "提出 TTS 分层闭环系统，用实例锚定三元组进行离散规划、连续轨迹进行执行，减少幻觉并提升长程操作可靠性",
+    "从无动作视频构建三元组时间图约束 VLM 规划，将开放生成交替为可验证的实例级选择",
+    "三元组过渡条件驱动的连续轨迹预测器，结合无动作视频预训练实现数据高效的动作策略学习"
+   ],
+   "benchmarks": [
+    "Dynamic Scale Balancing (DSB)",
+    "Sequential Stacking (SS)",
+    "Diverse Pick-and-Place (DPP)"
+   ]
+  }
+ }
 }

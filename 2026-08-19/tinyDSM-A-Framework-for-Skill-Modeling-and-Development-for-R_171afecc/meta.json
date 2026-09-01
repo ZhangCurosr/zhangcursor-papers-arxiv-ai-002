@@ -4,5 +4,31 @@
  "title": "tinyDSM-A-Framework-for-Skill-Modeling-and-Development-for-R",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-19 14:31:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f4907708-11d1-4964-a16c-b495d79a1bb0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f4907708-11d1-4964-a16c-b495d79a1bb0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:06:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tiny robot learning",
+    "developmental robotics",
+    "intrinsic motivation",
+    "knowledge graph",
+    "resource-constrained learning",
+    "cognitive architecture"
+   ],
+   "field": "微型机器人开发式学习",
+   "innovations": [
+    "提出tinyDSM框架，在9kB内存下实现资源受限毫米机器人的开放技能发展",
+    "设计novelty-progress-difficulty三维内在动机模型结合知识图谱进行课程式技能发现",
+    "验证RP2040上从基本运动到正方形几何图案的15分钟端到端自主技能学习"
+   ],
+   "benchmarks": [
+    "RP2040微控制器9kB内存占用",
+    "MOVE SQUARE正方形轨迹平均7.5mm累积误差",
+    "IM Score最高0.675（baseline配置）"
+   ]
+  }
+ }
 }

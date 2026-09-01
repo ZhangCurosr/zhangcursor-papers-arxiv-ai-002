@@ -4,5 +4,30 @@
  "title": "Write-Once-Run-Everywhere-The-Axon-DSL-for-Shape-Safe-and-Fr",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-21 03:05:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fc5513e0-80b6-4004-af64-b683a496baed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fc5513e0-80b6-4004-af64-b683a496baed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:09:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Domain-Specific Language",
+    "LLM Inference",
+    "Cross-Backend Compilation",
+    "Model Portability",
+    "High-Performance Computing"
+   ],
+   "field": "AI 系统软件与编译优化",
+   "innovations": [
+    "提出 Axon DSL 实现形状安全的框架无关 LLM 架构描述",
+    "开发三阶段编译器自动生成多后端高性能实现",
+    "通过消除 Python 调度开销显著提升跨后端推理吞吐量"
+   ],
+   "benchmarks": [
+    "Hugging Face Transformers 参考实现",
+    "NVIDIA B200 GPU Inference",
+    "Apple Silicon M3 Max Inference"
+   ]
+  }
+ }
 }

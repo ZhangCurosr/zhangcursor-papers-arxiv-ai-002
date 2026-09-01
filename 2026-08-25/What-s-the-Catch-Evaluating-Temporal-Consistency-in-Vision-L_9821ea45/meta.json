@@ -4,5 +4,10 @@
  "title": "What-s-the-Catch-Evaluating-Temporal-Consistency-in-Vision-L",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-25 14:42:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d19418af-0408-4942-89d5-e5bb36576d8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d19418af-0408-4942-89d5-e5bb36576d8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:12:00",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Unlearning-Is-Not-Just-Erasing-Temporal-Decoupling-via-Gener",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-25 02:59:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/165d0b32-78d9-4dbc-8669-1f35ad91ac2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/165d0b32-78d9-4dbc-8669-1f35ad91ac2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:10:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "LLM",
+    "Attention Mechanism",
+    "Pathway Decoupling",
+    "Generative Inequality",
+    "WMDP",
+    "TOFU"
+   ],
+   "field": "大语言模型安全与机器遗忘",
+   "innovations": [
+    "提出ADU框架，将LLM非学习从token擦除转向上下文注意力路径解耦",
+    "基于局部/全局注意力头的时间角色不平等（Generation Inequality）自动识别preplan-anchor检索路径",
+    "设计双向边贡献替换激活交换机制验证路径对遗忘效果的因果中介作用"
+   ],
+   "benchmarks": [
+    "WMDP",
+    "TOFU",
+    "MUSE-Harry Potter"
+   ]
+  }
+ }
 }
