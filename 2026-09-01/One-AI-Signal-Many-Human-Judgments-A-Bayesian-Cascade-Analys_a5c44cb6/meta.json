@@ -4,5 +4,10 @@
  "title": "One-AI-Signal-Many-Human-Judgments-A-Bayesian-Cascade-Analys",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-01 07:16:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b904c028-d6d7-4891-8672-6b6d9481b19a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b904c028-d6d7-4891-8672-6b6d9481b19a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:25:21",
+  "chunks": 5
+ }
 }

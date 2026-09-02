@@ -4,5 +4,31 @@
  "title": "Reinforcement-Learning-Enhanced-LLM-Agents-for-Complex-Vehic",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-02 06:53:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ad30e068-f5f4-4b56-93cd-86191b21f235.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ad30e068-f5f4-4b56-93cd-86191b21f235.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:29:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vehicle Routing Problem",
+    "Large Language Model",
+    "Reinforcement Learning",
+    "Automatic Modeling",
+    "Multi-Agent System",
+    "Soft Q-Learning",
+    "RAG"
+   ],
+   "field": "自动运筹优化建模",
+   "innovations": [
+    "提出Soft Q-learning轻量级Planner替代LLM逐步决策，显著降低推理延迟",
+    "设计可进化记忆模块MLEM从历史轨迹提取成功/失败经验实现跨任务迁移",
+    "密集奖励基于optimality gap引导策略学习可行建模代码生成"
+   ],
+   "benchmarks": [
+    "OR-Tools",
+    "Gurobi"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Highlights",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-02 06:55:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f2877821-ff39-471c-a0a7-16debc77d38f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f2877821-ff39-471c-a0a7-16debc77d38f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:24:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "计算病理",
+    "WSI报告生成",
+    "视觉-语言模型",
+    "医学基准",
+    "多模态学习",
+    "结构化报告"
+   ],
+   "field": "计算病理学与医学影像分析",
+   "innovations": [
+    "首个大规模泛亚洲多机构WSI-病理报告配对数据集（约10,500对）",
+    "REG 2025 MICCAI挑战赛基准，同时评测报告生成质量与跨域泛化能力",
+    "揭示结构化报告表示与层次化诊断分解对报告生成性能的决定性作用"
+   ],
+   "benchmarks": [
+    "REG 2025 Challenge",
+    "TCGA",
+    "HISTAI",
+    "HANCOCK",
+    "CAMELYON",
+    "PANDA"
+   ]
+  }
+ }
 }

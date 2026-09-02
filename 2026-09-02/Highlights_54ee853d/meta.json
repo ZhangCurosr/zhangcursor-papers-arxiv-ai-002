@@ -4,5 +4,35 @@
  "title": "Highlights",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-02 17:37:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f2877821-ff39-471c-a0a7-16debc77d38f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f2877821-ff39-471c-a0a7-16debc77d38f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:24:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computational pathology",
+    "whole-slide image",
+    "pathology report generation",
+    "vision-language model",
+    "multimodal benchmark",
+    "REG 2025",
+    "Pan-Asia dataset"
+   ],
+   "field": "计算病理学",
+   "innovations": [
+    "首个泛亚洲大规模临床级WSI-病理报告配对数据集（约10,500对，覆盖7器官）",
+    "REG 2025 MICCAI挑战赛建立标准化评估基准，含跨域欧洲验证",
+    "揭示病理报告生成中定量属性数字幻觉与诊断过度指定问题"
+   ],
+   "benchmarks": [
+    "REG 2025 Challenge (Phase 1/Phase 2)",
+    "TCGA",
+    "HISTAI",
+    "HANCOCK",
+    "CAMELYON",
+    "PANDA"
+   ]
+  }
+ }
 }

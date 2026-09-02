@@ -4,5 +4,35 @@
  "title": "Hints-Help-But-Do-They-Teach-Testing-Skill-Transfer-in-Code",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-02 06:50:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/81293ac8-4750-423f-ba52-42f887b4f7cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/81293ac8-4750-423f-ba52-42f887b4f7cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:24:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code generation",
+    "skill transfer",
+    "activation intervention",
+    "prompting",
+    "mechanistic interpretability",
+    "correctness probing",
+    "virtual KV prefix"
+   ],
+   "field": "代码生成中的技能迁移与可解释性",
+   "innovations": [
+    "双模型提示救援行为审计揭示86%救援已被无提示采样覆盖",
+    "提示激活方向的几何稳定性与语义特异性分离",
+    "合成过程家族上的虚拟KV前缀上下文压缩上限测定"
+   ],
+   "benchmarks": [
+    "HumanEval+",
+    "MBPP+",
+    "TRN",
+    "GSL",
+    "CRW",
+    "KZE"
+   ]
+  }
+ }
 }

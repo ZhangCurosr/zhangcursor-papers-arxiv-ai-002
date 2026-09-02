@@ -4,5 +4,31 @@
  "title": "RecalibrateGPT-AI-Fatigue-Resilient-Conversational-Interface",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-09-02 17:37:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ff40bedb-4506-4fd7-bfdd-d93cb82e7512.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ff40bedb-4506-4fd7-bfdd-d93cb82e7512.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:28:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-AI Interaction",
+    "Conversational UI",
+    "AI Fatigue",
+    "Cross-turn Operator",
+    "LLM Interface",
+    "Cognitive Load",
+    "UIST"
+   ],
+   "field": "人机交互与对话式AI界面",
+   "innovations": [
+    "提出五种跨对话轮次操作符（Anchor/Replay/Delta/Scope/Steer）针对四类AI对话疲劳进行单点击校正",
+    "从12名高级用户实证研究中提炼Retyping/Scanning/Decision Paralysis/Context Drift四类疲劳分类法",
+    "设计Vertical/Arc/Tablet三种几何排列的操作面板适配不同认知负荷场景"
+   ],
+   "benchmarks": [
+    "NASA-TLX (2.7 vs 5.4)",
+    "SUS (86.5)"
+   ]
+  }
+ }
 }

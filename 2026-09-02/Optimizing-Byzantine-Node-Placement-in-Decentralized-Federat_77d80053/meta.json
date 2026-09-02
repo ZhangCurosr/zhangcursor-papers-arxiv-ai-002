@@ -4,5 +4,35 @@
  "title": "Optimizing-Byzantine-Node-Placement-in-Decentralized-Federat",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-02 17:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dedfe06b-cb00-4922-b777-7b09d39071ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dedfe06b-cb00-4922-b777-7b09d39071ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:26:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decentralized federated learning",
+    "byzantine fault tolerance",
+    "adversarial node placement",
+    "gossip aggregation",
+    "model poisoning",
+    "backdoor attack"
+   ],
+   "field": "去中心化联邦学习安全",
+   "innovations": [
+    "将拜占庭节点放置形式化为有限时间影响力最大化优化问题",
+    "提出基于 gossip 动力学的集合级 BPI 度量及高效贪心/交换优化算法",
+    "揭示拜占庭放置是 DFL 鲁棒性评估中被忽视的关键维度"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Ring-of-Cliques",
+    "Dragonfly",
+    "Scale-Free",
+    "DC-SBM",
+    "Core-Periphery",
+    "Random-Geometric"
+   ]
+  }
+ }
 }

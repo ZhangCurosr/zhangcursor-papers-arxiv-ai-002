@@ -4,5 +4,31 @@
  "title": "Polished-but-Unresolved-Identifying-Late-Stage-Pressure-Stat",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-02 17:36:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4daf3acd-a90e-4f6a-8b3a-908407c18122.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4daf3acd-a90e-4f6a-8b3a-908407c18122.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:26:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "late-stage pressure",
+    "activation engineering",
+    "long-horizon agents",
+    "tool-use",
+    "probe",
+    "representation learning"
+   ],
+   "field": "Agent 可靠性与表征工程",
+   "innovations": [
+    "提出 late-stage pressure state 并证明其在 hidden space 线性可分（AUROC=0.916）",
+    "构建两级 PSPR 干预机制（activation relief + explicit organization）在线缓解过早闭合",
+    "识别 constraint clarity 与 action mapping 为压力缓解的关键因素"
+   ],
+   "benchmarks": [
+    "DeepPlanning-Travel",
+    "DeepPlanning-Shop",
+    "TravelPlanner"
+   ]
+  }
+ }
 }

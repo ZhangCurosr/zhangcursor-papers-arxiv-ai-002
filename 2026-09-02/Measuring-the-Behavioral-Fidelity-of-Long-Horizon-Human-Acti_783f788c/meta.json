@@ -4,5 +4,29 @@
  "title": "Measuring-the-Behavioral-Fidelity-of-Long-Horizon-Human-Acti",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-02 17:36:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bb1a7c8-1dc3-4a8c-96e5-ad3451eb1265.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bb1a7c8-1dc3-4a8c-96e5-ad3451eb1265.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:25:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "behavioral fidelity",
+    "long-horizon simulation",
+    "LLM agents",
+    "activity trajectory",
+    "statistical prior",
+    "evaluation framework"
+   ],
+   "field": "LLM-based human behavior simulation",
+   "innovations": [
+    "提出跨时间粒度与分析层级的行为保真度评估框架",
+    "发布43小时多摄像头办公场景长时程活动轨迹数据集",
+    "系统性比较persona与统计先验条件化方案并揭示分布对齐与片段化/同质化的权衡"
+   ],
+   "benchmarks": [
+    "43-hour multi-camera office activity dataset (6 activity labels, 5 long-horizon individuals)"
+   ]
+  }
+ }
 }

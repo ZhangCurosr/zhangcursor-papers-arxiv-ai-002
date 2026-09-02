@@ -4,5 +4,31 @@
  "title": "Inspicio-Open-Vocabulary-LLM-Based-Sense-Retrieval-for-Histo",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-02 17:36:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ad5aed36-354d-4502-b73d-2b990d7bafe8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ad5aed36-354d-4502-b73d-2b990d7bafe8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:25:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Word Sense Disambiguation",
+    "Open Vocabulary Retrieval",
+    "Historical Languages",
+    "Large Language Models",
+    "OEWN",
+    "Mixed Dense-Sparse Retrieval"
+   ],
+   "field": "历史语言计算语言学/词义消歧",
+   "innovations": [
+    "零源语词义库存的开放词汇检索管道，通过 LLM 翻译+定义+lemma 双通道检索链接到 OEWN",
+    "定义排名衰减加权与 lemma boost 的混合评分机制，兼顾密集语义与稀疏词元覆盖",
+    "MMR 多样化重排缓解 OEWN 细粒度近义重复，支持可审计零样本 WSD 管道"
+   ],
+   "benchmarks": [
+    "Perception-Verb Test Set (Latin + Ancient Greek, 150 tokens)",
+    "PREMOVE (Latin + Ancient Greek preverbed motion verbs, ~2800 tokens)",
+    "Diachronic Italian Motion Verb Dataset (100 tokens)"
+   ]
+  }
+ }
 }

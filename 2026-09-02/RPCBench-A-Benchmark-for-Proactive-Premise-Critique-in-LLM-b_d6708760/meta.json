@@ -4,5 +4,30 @@
  "title": "RPCBench-A-Benchmark-for-Proactive-Premise-Critique-in-LLM-b",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-02 17:36:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7103ede3-5c5e-4af3-8694-bb5f15feb728.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7103ede3-5c5e-4af3-8694-bb5f15feb728.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:28:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "前提批判",
+    "推荐系统",
+    "大语言模型",
+    "基准测试",
+    "证据忠实度",
+    "主动检测",
+    "过度思考"
+   ],
+   "field": "LLM-based Recommendation Evaluation",
+   "innovations": [
+    "提出首个面向推荐系统的前提批判基准RPCBench，覆盖10种前提失败类型和4623个测试实例",
+    "设计CPCC综合指标同时评估检测、定位、策略质量和证据忠实度",
+    "发现推理长度与批判质量呈非线性关系，揭示过度思考惩罚现象"
+   ],
+   "benchmarks": [
+    "RPCBench"
+   ]
+  }
+ }
 }

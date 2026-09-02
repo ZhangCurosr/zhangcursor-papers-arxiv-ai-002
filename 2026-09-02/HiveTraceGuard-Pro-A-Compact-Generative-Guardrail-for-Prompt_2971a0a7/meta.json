@@ -4,5 +4,10 @@
  "title": "HiveTraceGuard-Pro-A-Compact-Generative-Guardrail-for-Prompt",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-02 17:36:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a4808b97-b7fe-45f5-92b1-918484e99125.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a4808b97-b7fe-45f5-92b1-918484e99125.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:24:45",
+  "chunks": 1
+ }
 }

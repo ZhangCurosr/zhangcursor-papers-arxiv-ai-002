@@ -4,5 +4,32 @@
  "title": "Relational-Core-Graph-Analytics",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-02 17:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8aa4ba5a-2d07-46c1-b958-2a07e7a524fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8aa4ba5a-2d07-46c1-b958-2a07e7a524fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:29:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "graph analytics",
+    "Cypher",
+    "SQL translation",
+    "columnar database",
+    "zero-ETL",
+    "LDBC SNB",
+    "lakehouse"
+   ],
+   "field": "图数据库与查询优化",
+   "innovations": [
+    "模式原生映射：识别关系模式中五种连通表达并翻译为六类 JOIN 策略，无需重编码为节点/边表",
+    "单路径翻译架构：集中分析所有 schema 决策并通过枚举穷举匹配保证编译期覆盖",
+    "零 ETL 零集群：将图查询推入已有 ClickHouse/Databricks 或 chdb 进程执行，无需独立集群"
+   ],
+   "benchmarks": [
+    "LDBC SNB (SF1, SF10)",
+    "OnTime Flights",
+    "Apache AGE 重编码税微基准"
+   ]
+  }
+ }
 }

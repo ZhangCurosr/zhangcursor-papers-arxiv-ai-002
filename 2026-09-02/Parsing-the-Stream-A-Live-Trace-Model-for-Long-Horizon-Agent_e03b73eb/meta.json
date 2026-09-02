@@ -4,5 +4,31 @@
  "title": "Parsing-the-Stream-A-Live-Trace-Model-for-Long-Horizon-Agent",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-02 17:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f8e1e55-f269-4e3c-9f6a-3d2997b1275c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f8e1e55-f269-4e3c-9f6a-3d2997b1275c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:27:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon agent",
+    "trace modeling",
+    "context management",
+    "event sourcing",
+    "agent observability",
+    "deterministic aggregation"
+   ],
+   "field": "Agent系统与上下文工程",
+   "innovations": [
+    "提出四层实时追踪架构，单次折叠同时服务观察者与agent两个消费者",
+    "从真实失败中提取十一个折叠需求并在顺序敏感任务族上划定适用边界",
+    "构建COMPREHEND与CONTINUE两个确定性基准，证明编译视图在120步任务上30/30成功 vs 全量上下文8/30"
+   ],
+   "benchmarks": [
+    "COMPREHEND",
+    "CONTINUE",
+    "TRAIL (对比基线)"
+   ]
+  }
+ }
 }

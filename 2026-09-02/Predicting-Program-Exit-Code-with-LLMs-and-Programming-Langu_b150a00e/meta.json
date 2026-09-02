@@ -4,5 +4,10 @@
  "title": "Predicting-Program-Exit-Code-with-LLMs-and-Programming-Langu",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-09-02 17:37:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48c0ed6b-5a7e-4ba6-9236-9320eedcae13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48c0ed6b-5a7e-4ba6-9236-9320eedcae13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:27:38",
+  "chunks": 1
+ }
 }

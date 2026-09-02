@@ -4,5 +4,30 @@
  "title": "Measuring-consistency-via-ensemble-margin-and-local-predicti",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-02 17:36:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48ad469b-0f0d-44d2-aade-6e7a2b14e045.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48ad469b-0f0d-44d2-aade-6e7a2b14e045.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:26:39",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "Predictive Multiplicity",
+    "Rashomon Set",
+    "Ensemble Consistency",
+    "Model Auditing",
+    "Uncertainty Quantification"
+   ],
+   "field": "可信机器学习",
+   "innovations": [
+    "提出结合集成边距与局部预测变异性的(beta,sigma)-一致性度量",
+    "为使用有限零售集成近似完整Rashomon集一致性提供统计保证",
+    "构建平衡审计风险与成本的预测可信度自动化审计框架"
+   ],
+   "benchmarks": [
+    "GLUE (SST-2, MRPC)",
+    "Adult",
+    "Bank Marketing"
+   ]
+  }
+ }
 }

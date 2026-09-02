@@ -4,5 +4,31 @@
  "title": "REVISE-Validity-Guided-Recovery-for-Online-Revisions-in-Agen",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-09-02 17:37:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4702b4d9-7948-446a-8aa1-febd3ef94f4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4702b4d9-7948-446a-8aa1-febd3ef94f4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:28:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent workflow",
+    "online revision",
+    "validity-guided recovery",
+    "dependency tracing",
+    "LLM serving"
+   ],
+   "field": "Agent 系统与工作流执行",
+   "innovations": [
+    "基于版本化 artifact 与动态数据/控制依赖的选择性有效性判定",
+    "五态生命周期恢复协议支持 Cancel/Avoid/Recompute/Continue/Reuse",
+    "提交时重新验证机制保证暂存结果的安全性"
+   ],
+   "benchmarks": [
+    "SWE-chat",
+    "SWE-Review-Traj",
+    "LangGraph",
+    "LLMCompiler"
+   ]
+  }
+ }
 }

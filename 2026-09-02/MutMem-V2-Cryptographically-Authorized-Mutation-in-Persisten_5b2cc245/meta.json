@@ -4,5 +4,31 @@
  "title": "MutMem-V2-Cryptographically-Authorized-Mutation-in-Persisten",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-02 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/93a1a393-c9ff-4882-b9f1-b3fbe2807d63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/93a1a393-c9ff-4882-b9f1-b3fbe2807d63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:25:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent agent memory",
+    "cryptographic authorization",
+    "tamper-evident logging",
+    "portable verification",
+    "Merkle order",
+    "PoisonedRAG"
+   ],
+   "field": "Agent 记忆与可审计协议",
+   "innovations": [
+    "定义13+5r版本的跨对象谓词图与闭集失败词实现可移植验证",
+    "双语言Node/Python独立验证器72/72判定一致与42/42生产conformance一致",
+    "三种突变终端(authorized_transition/signed_noop/occurrence_observation)的完整枚举"
+   ],
+   "benchmarks": [
+    "LongMemEval",
+    "LoCoMo",
+    "PoisonedRAG adaptation"
+   ]
+  }
+ }
 }

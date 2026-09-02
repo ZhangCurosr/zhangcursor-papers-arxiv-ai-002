@@ -4,5 +4,33 @@
  "title": "On-the-Human-and-Computer-Alignment-of-Attribute-Based-Music",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-02 17:36:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1e66aeac-6a3d-49d0-87db-58fd60602d5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1e66aeac-6a3d-49d0-87db-58fd60602d5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:27:11",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "AI音乐",
+    "属性级相似度",
+    "人类-计算机对齐",
+    "音乐版权检测",
+    "感知评估",
+    "MATCHA数据集",
+    "MiRA框架"
+   ],
+   "field": "AI音乐版权与相似度评估",
+   "innovations": [
+    "构建首个面向人类与AI音乐属性级对齐的MATCHA感知评估基准（300案例，83名专家）",
+    "系统性验证MiRA框架四种计算度量在5个音乐属性维度上与人类判断的部分对齐程度",
+    "提出三元组强制选择+术语去法律化+控制案例双阈值的感知评估质量控制范式"
+   ],
+   "benchmarks": [
+    "MATCHA",
+    "SMP",
+    "Discogs-VI",
+    "Stable Audio Open"
+   ]
+  }
+ }
 }

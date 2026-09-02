@@ -4,5 +4,31 @@
  "title": "Probabilistic-Model-Checking-of-Autoregressive-Neural-Sequen",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-02 17:36:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/06e2f650-0176-4ee1-a204-d4e5fb1f4f28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/06e2f650-0176-4ee1-a204-d4e5fb1f4f28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:27:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "probabilistic model checking",
+    "DTMC abstraction",
+    "PCTL verification",
+    "autoregressive transformers",
+    "population coverage",
+    "CEGAR refinement",
+    "neural sequence verification"
+   ],
+   "field": "神经模型形式化验证",
+   "innovations": [
+    "自回归模型的DTMC概率抽象与PCTL验证流水线",
+    "保守soundness定理与CEGAR自适应区间收紧",
+    "最大似然反例提取与best-of-N闭式评估"
+   ],
+   "benchmarks": [
+    "CAPP工艺规划（53-token GPT-2）",
+    "SMILES分子生成（2700-token GPT-2）"
+   ]
+  }
+ }
 }

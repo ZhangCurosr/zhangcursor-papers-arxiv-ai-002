@@ -4,5 +4,31 @@
  "title": "ONE-PROMPT-IS-ENOUGH-WATERMARK-LAUNDERING-THROUGH-FOUNDATION",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-02 17:36:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7d0f68dc-6ea8-4b6b-beef-33b38e696c50.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7d0f68dc-6ea8-4b6b-beef-33b38e696c50.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:26:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐形图像水印",
+    "水印清洗",
+    "基础图像模型",
+    "取证安全",
+    "黑盒攻击"
+   ],
+   "field": "数字水印鲁棒性与取证安全",
+   "innovations": [
+    "提出单提示词黑盒水印清洗威胁模型与payload-fidelity联合评估框架",
+    "通过信息论重构瓶颈命题证明基础模型重构路径可意外丢弃取证载荷",
+    "揭示高保真清洗范式与不同水印方案的差异化脆弱性"
+   ],
+   "benchmarks": [
+    "MS-COCO 100张分层图像",
+    "GPT Image 1/1.5/2",
+    "Nano Banana/Nano Banana Pro/Nano Banana 2",
+    "DwtDct/DwtDctSvd/RivaGAN三种水印方案"
+   ]
+  }
+ }
 }

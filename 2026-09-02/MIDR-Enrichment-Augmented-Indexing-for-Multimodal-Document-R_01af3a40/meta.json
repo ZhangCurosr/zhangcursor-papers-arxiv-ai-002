@@ -4,5 +4,30 @@
  "title": "MIDR-Enrichment-Augmented-Indexing-for-Multimodal-Document-R",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-02 17:36:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af8251ab-5dc0-4790-9788-0388e48500b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af8251ab-5dc0-4790-9788-0388e48500b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:25:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal document retrieval",
+    "enrichment-augmented indexing",
+    "BM25F",
+    "late interaction",
+    "ViDoRe V3",
+    "extract-verify-refine",
+    "cross-lingual retrieval"
+   ],
+   "field": "多模态信息检索",
+   "innovations": [
+    "将多模态理解移至索引阶段，查询时仅使用文本中心化 BM25F/密集/混合检索",
+    "字段化增强 schema 配合 extract-verify-refine 保守修正循环",
+    "在法语-英语跨语言设定下通过索引时英语归一化实现显式语言桥接"
+   ],
+   "benchmarks": [
+    "ViDoRe V3"
+   ]
+  }
+ }
 }
