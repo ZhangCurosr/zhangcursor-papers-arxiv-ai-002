@@ -4,5 +4,31 @@
  "title": "Scaffolding-Foundation-Models-into-Physical-World-Agents-Pus",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-01 07:16:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/069a043c-0528-4f2f-be2b-ae37b3dfdb14.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/069a043c-0528-4f2f-be2b-ae37b3dfdb14.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:29:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Embodied Question Answering",
+    "Navigation Foundation Models",
+    "Vision-Language Models",
+    "Long-horizon Navigation",
+    "Agentic Scaffolding",
+    "Evidence-centric Interface"
+   ],
+   "field": "具身智能与长视距导航",
+   "innovations": [
+    "提出NavMCP三通道脚手架框架解耦VLM推理与NFM执行",
+    "设计证据中心化的意图-观察-记忆通道解决episodic接口gap",
+    "在EQA基准和真实机器人上实现SOTA且优势随视距增长而扩大"
+   ],
+   "benchmarks": [
+    "HM-EQA",
+    "MT-HM3D",
+    "EXPRESS-Bench"
+   ]
+  }
+ }
 }

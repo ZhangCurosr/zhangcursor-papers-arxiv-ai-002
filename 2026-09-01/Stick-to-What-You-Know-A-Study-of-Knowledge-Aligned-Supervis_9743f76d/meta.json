@@ -4,5 +4,35 @@
  "title": "Stick-to-What-You-Know-A-Study-of-Knowledge-Aligned-Supervis",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-01 07:15:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1bb84480-36b9-4f07-b5bf-26ddf7d859d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1bb84480-36b9-4f07-b5bf-26ddf7d859d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:34:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识对齐SFT",
+    "事实幻觉",
+    "监督微调",
+    "声明分解",
+    "一致性重记",
+    "幻觉缓解"
+   ],
+   "field": "大语言模型事实性与对齐",
+   "innovations": [
+    "提出知识对齐SFT统一框架，将训练目标约束在基础模型参数知识范围内",
+    "Recall Rewrite方法通过多probe问题与一致性重记近似知识边界，无需外部证据",
+    "Controlled实验验证已知声明占比与事实性呈因果正相关"
+   ],
+   "benchmarks": [
+    "WildHalu",
+    "Biography",
+    "UnknownBench",
+    "HumanEval+",
+    "GSM8K",
+    "IFEval",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

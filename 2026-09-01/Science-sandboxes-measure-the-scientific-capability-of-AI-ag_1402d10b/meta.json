@@ -4,5 +4,32 @@
  "title": "Science-sandboxes-measure-the-scientific-capability-of-AI-ag",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-09-01 17:36:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b31923d6-c880-4d97-94cc-ef49f888f532.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b31923d6-c880-4d97-94cc-ef49f888f532.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:31:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学沙盒",
+    "AI agent",
+    "假设驱动实验",
+    "规则发现",
+    "MPRA",
+    "CodonBox",
+    "湿-干-干神谕",
+    "科学推理评估"
+   ],
+   "field": "AI for Science / 自动化科学发现评估",
+   "innovations": [
+    "提出科学沙盒框架：以标本-检测-封闭神谕为核心的闭环实验环境，区分分数优化与规则理解",
+    "实例化 MPRAbox 与 CodonBox 两个生物沙盒，覆盖从调控基因组到虚构遗传系统的连续评估谱",
+    "构造 14 条干规则和 8 个 CodonBox 世界，系统性测量 AI 智能体在脱离生物学先验时的推理极限"
+   ],
+   "benchmarks": [
+    "MPRAbox (14 hidden evaluation sets)",
+    "CodonBox (8 invented genetic worlds)"
+   ]
+  }
+ }
 }

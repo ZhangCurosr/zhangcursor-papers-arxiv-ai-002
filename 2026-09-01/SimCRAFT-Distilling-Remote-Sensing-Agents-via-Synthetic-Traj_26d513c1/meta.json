@@ -4,5 +4,31 @@
  "title": "SimCRAFT-Distilling-Remote-Sensing-Agents-via-Synthetic-Traj",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-01 17:36:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a324dbd9-f7ee-404a-9136-f8684e039a64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a324dbd9-f7ee-404a-9136-f8684e039a64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:33:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Remote Sensing Agents",
+    "Distillation",
+    "Synthetic Trajectories",
+    "Retrieval-Augmented Fine-Tuning",
+    "Tool Use Planning",
+    "Multi-Agent Synthesis"
+   ],
+   "field": "遥感智能体与工具调用规划",
+   "innovations": [
+    "SimCRAFT两阶段蒸馏框架：多智能体合成+上下文检索增强微调，将7B开源模型提升至GPT-4级RS Agent水平",
+    "CRAFT噪声鲁棒训练机制：ICI与PM扰动迫使模型从噪声SOP中提取可迁移程序结构",
+    "SimRS-14k约束验证语料库：双模式用户模拟+Mock执行引擎验证，生成14k高质量轨迹"
+   ],
+   "benchmarks": [
+    "SimRS-14k",
+    "KnowFlow-Bench",
+    "ThinkGeo"
+   ]
+  }
+ }
 }

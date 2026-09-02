@@ -4,5 +4,32 @@
  "title": "SUN-Persistent-Programs-For-Language-Grounded-Control-to-Lea",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-01 07:15:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/acf49dc9-87f7-42c0-9d93-046e9d0df8d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/acf49dc9-87f7-42c0-9d93-046e9d0df8d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:29:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义统一程序",
+    "模型预测控制",
+    "残差强化学习",
+    "sim-to-real迁移",
+    "语言 grounding",
+    "多阶段操作",
+    "程序衍生奖励"
+   ],
+   "field": "机器人操作学习与规划",
+   "innovations": [
+    "提出SUN Program，将任务语义定义为一次编译、多处消费的类型化可执行程序，消除控制-学习-部署链中的语义漂移",
+    "Kuafu系统将LLM合成、MPC闭环筛选和有界残差RL结合，无需手工奖励工程或种子演示即可训练阶段条件策略",
+    "SUN Program持久监督数据生成，使仿真数据在下游视觉策略训练中达到2×以上成功率提升并实现零样本sim-to-real迁移"
+   ],
+   "benchmarks": [
+    "Isaac Lab 九任务操作基准（T0-T8）",
+    "DP3视觉策略下游评估",
+    "Franka FR3/Franka Hand/Kinova Gen3物理机器人零样本迁移"
+   ]
+  }
+ }
 }

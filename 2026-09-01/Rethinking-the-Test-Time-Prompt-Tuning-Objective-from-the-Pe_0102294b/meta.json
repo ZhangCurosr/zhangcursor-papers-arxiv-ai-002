@@ -4,5 +4,43 @@
  "title": "Rethinking-the-Test-Time-Prompt-Tuning-Objective-from-the-Pe",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-01 17:36:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/60cef124-8b0c-45c6-9a75-3ecf3753bd11.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/60cef124-8b0c-45c6-9a75-3ecf3753bd11.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:28:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time prompt tuning",
+    "calibration",
+    "entropy minimization",
+    "KL divergence",
+    "vision-language model",
+    "temperature scaling",
+    "zero-shot classification"
+   ],
+   "field": "测试时自适应与模型校准",
+   "innovations": [
+    "提出基于KL散度的不确定性感知目标，从目标函数层面内建校准能力而非依赖正则化",
+    "设计置信度感知自适应温度缩放策略，根据单视图置信度动态调节增强分布的尖锐程度"
+   ],
+   "benchmarks": [
+    "AirCraft",
+    "Caltech101",
+    "Cars",
+    "DTD",
+    "EuroSAT",
+    "Flowers102",
+    "Food101",
+    "Pets",
+    "SUN397",
+    "UCF101",
+    "ImageNet",
+    "ImageNet-A",
+    "ImageNet-V2",
+    "ImageNet-R",
+    "ImageNet-Sketch"
+   ]
+  }
+ }
 }

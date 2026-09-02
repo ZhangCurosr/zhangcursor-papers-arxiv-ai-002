@@ -4,5 +4,33 @@
  "title": "SPARK-Skeleton-Guided-Reasoning-Synthesis-from-Large-Scale-S",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-09-01 07:16:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/73521680-e2c5-44d8-b3e1-965540dea751.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/73521680-e2c5-44d8-b3e1-965540dea751.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:29:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学推理数据合成",
+    "骨架化抽象",
+    "多视角问题生成",
+    "高质量数据集",
+    "数据效率"
+   ],
+   "field": "科学语言模型训练数据构建",
+   "innovations": [
+    "将论文论证骨架作为合成基本单位，解决长上下文依赖与证据链断裂问题",
+    "从机制推理、假设证伪、定量推导、边界校准四视角生成深度推理任务",
+    "利用骨架接地检查替代多数投票实现低计算成本的质量过滤"
+   ],
+   "benchmarks": [
+    "GPQA-Main",
+    "GPQA-Diamond",
+    "SuperGPQA",
+    "SciBench",
+    "MMLU-Pro",
+    "MedQA-US"
+   ]
+  }
+ }
 }

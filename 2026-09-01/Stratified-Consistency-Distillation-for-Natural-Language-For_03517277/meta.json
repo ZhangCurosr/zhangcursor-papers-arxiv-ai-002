@@ -4,5 +4,31 @@
  "title": "Stratified-Consistency-Distillation-for-Natural-Language-For",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-01 07:18:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7087e5f4-20dc-4a88-9569-f51f1ec3b53c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7087e5f4-20dc-4a88-9569-f51f1ec3b53c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:34:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NL2SMT",
+    "知识蒸馏",
+    "形式化验证",
+    "语义熵",
+    "SMT-LIB",
+    "FOLIO",
+    "LoRA",
+    "一致性蒸馏"
+   ],
+   "field": "神经符号推理",
+   "innovations": [
+    "分层一致性蒸馏：基于符号语义熵自适应选择伪标签策略",
+    "符号语义熵：将NLP语义熵扩展至Z3等价类空间",
+    "Egglog anti-unification连续相似度评估指标"
+   ],
+   "benchmarks": [
+    "FOLIO"
+   ]
+  }
+ }
 }

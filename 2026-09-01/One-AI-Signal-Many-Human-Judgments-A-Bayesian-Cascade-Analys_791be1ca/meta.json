@@ -4,5 +4,27 @@
  "title": "One-AI-Signal-Many-Human-Judgments-A-Bayesian-Cascade-Analys",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-01 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b904c028-d6d7-4891-8672-6b6d9481b19a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b904c028-d6d7-4891-8672-6b6d9481b19a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:28:55",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "信息级联",
+    "AI可信度指标",
+    "贝叶斯社交学习",
+    "虚假信息",
+    "人机交互"
+   ],
+   "field": "计算社会科学 / 人机协同决策",
+   "innovations": [
+    "在BHW信息级联中引入共享AI信号，证明α≥q时级联在首位用户瞬时形成",
+    "提出Gateway定理刻画AI信号触发级联的充要条件，并折算等效私人信号数量"
+   ],
+   "benchmarks": [
+    "理论模型模拟（q∈{0.6,0.7,0.8}）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "ScienceArena-Benchmarking-LLMs-on-Latest-Scientific-Olympiad",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-01 07:17:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a022a3e9-6373-4758-b538-b5194db5ec1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a022a3e9-6373-4758-b538-b5194db5ec1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:32:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学推理",
+    "LLM基准测试",
+    "奥林匹克竞赛",
+    "LLM-as-judge",
+    "过程性评分",
+    "交错提示",
+    "多模态评估"
+   ],
+   "field": "LLM科学推理评估",
+   "innovations": [
+    "构建专家审计的13科奥林匹克竞赛基准ScienceArena，附带官方Rubric和奖牌得主评分",
+    "开发以奖牌得主评分为锚点的LLM-as-judge系统，校准误差控制在±1分内",
+    "基于奖牌得主注释诊断物理全局一致性、化学结构忠实性等细粒度能力瓶颈"
+   ],
+   "benchmarks": [
+    "ScienceArena",
+    "IPhO 2025/2026",
+    "IChO 2025/2026",
+    "IBO 2023"
+   ]
+  }
+ }
 }

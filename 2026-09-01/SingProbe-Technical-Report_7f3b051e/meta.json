@@ -4,5 +4,43 @@
  "title": "SingProbe-Technical-Report",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-01 07:16:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/14102083-e35b-4558-8827-6ba98ae5387c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/14102083-e35b-4558-8827-6ba98ae5387c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:33:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM safety",
+    "runtime guardrail",
+    "streaming detection",
+    "hallucination detection",
+    "intrinsic monitoring",
+    "contrastive decoding"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "直接复用基座模型隐状态实现 token 级流式安全/幻觉检测的内建护栏",
+    "自适应置信度加权训练目标用于粗粒度标签下的细粒度预测",
+    "按需干预框架 SingProbe-Med 分离监控与校正决策以最小化对正常生成的扰动"
+   ],
+   "benchmarks": [
+    "SingStreamBench",
+    "Aegis2",
+    "XGuard Test",
+    "HarmBench",
+    "ExpGuardTest",
+    "WildGuard",
+    "PKU-SafeRLHF",
+    "BeaverTails",
+    "FineHarm",
+    "FactCHD",
+    "FaithDial",
+    "FAVA",
+    "RAGTruth",
+    "Shroom",
+    "WikiBio"
+   ]
+  }
+ }
 }

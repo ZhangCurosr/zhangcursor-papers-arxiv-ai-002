@@ -4,5 +4,30 @@
  "title": "SemPOI-RL-Aligning-LLM-Semantic-Reasoning-for-Interpretable",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-01 07:16:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/931fc57b-aca4-4657-a34e-ca10c170e876.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/931fc57b-aca4-4657-a34e-ca10c170e876.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:33:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨城推荐",
+    "POI序列生成",
+    "大语言模型",
+    "强化学习",
+    "语义对齐",
+    "可解释推荐"
+   ],
+   "field": "跨域序列推荐",
+   "innovations": [
+    "提出语义-结构对齐协议，将自然语言旅行风格作为可训练中间表示",
+    "设计SPAM模块实现风格原型分解与位置级软分配",
+    "引入GRPO多目标强化学习优化风格生成质量"
+   ],
+   "benchmarks": [
+    "Foursquare",
+    "Yelp"
+   ]
+  }
+ }
 }

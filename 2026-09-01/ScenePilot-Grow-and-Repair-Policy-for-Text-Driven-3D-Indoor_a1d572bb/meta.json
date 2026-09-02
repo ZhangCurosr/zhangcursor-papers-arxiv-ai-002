@@ -4,5 +4,31 @@
  "title": "ScenePilot-Grow-and-Repair-Policy-for-Text-Driven-3D-Indoor",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-01 17:36:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5ec2d28b-e71f-4bd7-a395-d5d10d4a2104.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5ec2d28b-e71f-4bd7-a395-d5d10d4a2104.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:31:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D室内场景生成",
+    "检索增强生成",
+    "多模态修复策略",
+    "过程监督",
+    "Grow-and-Repair",
+    "SceneReverse-17k"
+   ],
+   "field": "3D内容生成",
+   "innovations": [
+    "将3D场景生成建模为基于先验的增量生长与在线修复过程，使中间状态成为可规划/可监督的一等公民",
+    "提出层级检索增强规划HRAP与强化多模态修复RMR，以move-rotate-scale动作在局部作用域进行轻量纠偏",
+    "构建SceneReverse-17k反向修复轨迹数据集，通过扰动-逆操作与波动性分层过滤实现过程级监督"
+   ],
+   "benchmarks": [
+    "100-scene 基准（living room/bedroom/dining room/library/laundry）",
+    "VLM Judge (LC/SPA/FC)",
+    "Human Evaluation"
+   ]
+  }
+ }
 }

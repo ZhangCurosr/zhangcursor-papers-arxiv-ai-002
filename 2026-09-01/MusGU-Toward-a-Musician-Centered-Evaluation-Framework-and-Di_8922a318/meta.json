@@ -4,5 +4,28 @@
  "title": "MusGU-Toward-a-Musician-Centered-Evaluation-Framework-and-Di",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-01 17:35:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3bbf90d4-b7ef-460e-a012-bb5b93d641f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3bbf90d4-b7ef-460e-a012-bb5b93d641f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:25:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative music AI",
+    "evaluation framework",
+    "musician-centered",
+    "controllability",
+    "model discovery",
+    "MusGU+"
+   ],
+   "field": "生成式音乐 AI 评估",
+   "innovations": [
+    "提出面向音乐人的三维度评估框架MusGU+，首次系统评估适应性、可用性与可控性",
+    "设计交互式发现工具，支持按具体音乐需求过滤和比较生成式模型"
+   ],
+   "benchmarks": [
+    "10款生成式音乐系统横向对比（AFTER/DDSP-VST/JAM/MusicGen/Neutone Morpho/RAVE/Stable Audio Open Small/Suno/Udio/YuE）"
+   ]
+  }
+ }
 }

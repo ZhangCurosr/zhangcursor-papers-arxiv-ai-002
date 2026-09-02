@@ -4,5 +4,31 @@
  "title": "SimCRAFT-Distilling-Remote-Sensing-Agents-via-Synthetic-Traj",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-01 07:19:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a324dbd9-f7ee-404a-9136-f8684e039a64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a324dbd9-f7ee-404a-9136-f8684e039a64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:34:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Remote Sensing Agents",
+    "Synthetic Data Synthesis",
+    "Retrieval-Augmented Fine-Tuning",
+    "Tool Calling",
+    "Model Distillation",
+    "Multi-Agent Planning"
+   ],
+   "field": "遥感智能体与工具调用规划",
+   "innovations": [
+    "双模式用户模拟与四智能体协作生成约束验证的遥感工具调用语料库 SimRS-14k",
+    "上下文检索增强微调 CRAFT 通过噪声鲁棒训练将检索增强从推理时迁移到训练时",
+    "轻量级 Mock Execution Engine 实现 schema/依赖/兼容性三重验证与错误注入"
+   ],
+   "benchmarks": [
+    "SimRS-14k",
+    "KnowFlow-Bench",
+    "ThinkGeo"
+   ]
+  }
+ }
 }

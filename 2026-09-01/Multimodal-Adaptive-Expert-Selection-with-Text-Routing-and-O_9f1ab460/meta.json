@@ -4,5 +4,28 @@
  "title": "Multimodal-Adaptive-Expert-Selection-with-Text-Routing-and-O",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-01 07:15:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8afbca61-3002-494d-abe5-43632c45e894.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8afbca61-3002-494d-abe5-43632c45e894.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:25:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态情感分析",
+    "混合专家",
+    "动态路由",
+    "对比学习",
+    "序贯回归"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "文本引导的混合MoE机制，以语言为全局指挥实现跨模态自适应专家选择",
+    "序贯感知原型对比学习，通过距离加权惩罚构建符合情感等级结构的潜空间"
+   ],
+   "benchmarks": [
+    "CMU-MOSI",
+    "CMU-MOSEI"
+   ]
+  }
+ }
 }

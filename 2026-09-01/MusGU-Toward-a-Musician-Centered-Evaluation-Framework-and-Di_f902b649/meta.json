@@ -4,5 +4,10 @@
  "title": "MusGU-Toward-a-Musician-Centered-Evaluation-Framework-and-Di",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-01 07:15:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3bbf90d4-b7ef-460e-a012-bb5b93d641f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3bbf90d4-b7ef-460e-a012-bb5b93d641f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:26:20",
+  "chunks": 1
+ }
 }

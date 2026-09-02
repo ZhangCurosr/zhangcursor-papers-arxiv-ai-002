@@ -4,5 +4,10 @@
  "title": "Safety-Screening-for-Voltage-Control-in-Active-Distribution",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-01 07:15:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0fcf1afc-a67d-438f-8ff8-677653a52192.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0fcf1afc-a67d-438f-8ff8-677653a52192.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:29:38",
+  "chunks": 1
+ }
 }
