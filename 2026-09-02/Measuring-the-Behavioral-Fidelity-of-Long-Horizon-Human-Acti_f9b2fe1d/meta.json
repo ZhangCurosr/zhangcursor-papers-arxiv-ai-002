@@ -4,5 +4,10 @@
  "title": "Measuring-the-Behavioral-Fidelity-of-Long-Horizon-Human-Acti",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-02 06:52:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bb1a7c8-1dc3-4a8c-96e5-ad3451eb1265.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bb1a7c8-1dc3-4a8c-96e5-ad3451eb1265.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:11:05",
+  "chunks": 1
+ }
 }

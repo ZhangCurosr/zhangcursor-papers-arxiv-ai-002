@@ -4,5 +4,30 @@
  "title": "Making-Prospective-Memory-SLM-Shaped-Typed-Intention-Stores",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-02 06:50:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f60ef413-41bb-47f3-b591-c504fc8ca209.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f60ef413-41bb-47f3-b591-c504fc8ca209.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:10:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prospective memory",
+    "small language models",
+    "agent memory",
+    "typed intention store",
+    "PM-Bench",
+    "training-free scaffold",
+    "state tracking"
+   ],
+   "field": "代理记忆与前瞻记忆",
+   "innovations": [
+    "首次系统化形式化语言代理的前瞻性记忆操作",
+    "提出无训练的类型化意图存储脚手架PIS",
+    "在小语言模型上实现超越大型模型脚手架的前瞻记忆性能"
+   ],
+   "benchmarks": [
+    "PM-Bench"
+   ]
+  }
+ }
 }

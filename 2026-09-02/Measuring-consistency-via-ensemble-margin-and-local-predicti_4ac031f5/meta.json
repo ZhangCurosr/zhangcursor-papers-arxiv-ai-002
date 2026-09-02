@@ -4,5 +4,32 @@
  "title": "Measuring-consistency-via-ensemble-margin-and-local-predicti",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-02 06:56:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48ad469b-0f0d-44d2-aade-6e7a2b14e045.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48ad469b-0f0d-44d2-aade-6e7a2b14e045.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:13:42",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "Rashomon集合",
+    "集成边距",
+    "局部一致性",
+    "模型审计",
+    "不确定性量化",
+    "有限集成近似"
+   ],
+   "field": "模型可靠性与可解释性",
+   "innovations": [
+    "提出c_σ/lmc_σ组合度量，结合集成边距与局部变异性",
+    "证明有限集成(M≥5)可逼近完整Rashomon仓库审计行为",
+    "给出高概率收敛理论保证（Theorem 1/2）"
+   ],
+   "benchmarks": [
+    "MRPC",
+    "SST2",
+    "Bank",
+    "Adult"
+   ]
+  }
+ }
 }

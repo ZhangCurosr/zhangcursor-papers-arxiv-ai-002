@@ -4,5 +4,32 @@
  "title": "Polished-but-Unresolved-Identifying-Late-Stage-Pressure-Stat",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-02 06:51:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a3dde1c1-353b-4fe7-9b65-b5b547422f19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a3dde1c1-353b-4fe7-9b65-b5b547422f19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:12:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长程工具使用",
+    "激活工程",
+    "晚期压力状态",
+    "探针",
+    "PSPR",
+    "约束满足",
+    "agent失败模式"
+   ],
+   "field": "多智能体系统与工具使用",
+   "innovations": [
+    "在隐藏状态中识别并操控晚期压力状态以提升长程agent约束满足率",
+    "提出三级分级干预策略（无干预/激活缓解/显式状态重组）",
+    "揭示约束清晰度和动作映射是缓解晚期压力的两大关键因素"
+   ],
+   "benchmarks": [
+    "DeepPlanning-Travel",
+    "DeepPlanning-Shop",
+    "TravelPlanner"
+   ]
+  }
+ }
 }

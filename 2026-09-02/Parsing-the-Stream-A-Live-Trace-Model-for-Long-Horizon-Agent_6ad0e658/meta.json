@@ -4,5 +4,30 @@
  "title": "Parsing-the-Stream-A-Live-Trace-Model-for-Long-Horizon-Agent",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-02 06:50:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f8e1e55-f269-4e3c-9f6a-3d2997b1275c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f8e1e55-f269-4e3c-9f6a-3d2997b1275c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:12:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Trace Management",
+    "Context Folding",
+    "Long-horizon Agents",
+    "Deterministic State Aggregation",
+    "Agent Observability",
+    "Context Compression"
+   ],
+   "field": "AI Agent 系统与评估",
+   "innovations": [
+    "提出实时轨迹模型，将追加式事件流增量折叠为类型化状态并为观察者和Agent编译专属视图",
+    "从实际失败中归纳出十条轨迹折叠要求，并用顺序敏感任务族界定其边界",
+    "创建COMPREHEND和CONTINUE两个确定性基准，量化评估了确定性聚合与有界上下文对Agent性能与成本的独立贡献"
+   ],
+   "benchmarks": [
+    "COMPREHEND",
+    "CONTINUE"
+   ]
+  }
+ }
 }

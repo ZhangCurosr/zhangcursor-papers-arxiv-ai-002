@@ -4,5 +4,10 @@
  "title": "MutMem-V2-Cryptographically-Authorized-Mutation-in-Persisten",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-02 06:50:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/93a1a393-c9ff-4882-b9f1-b3fbe2807d63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/93a1a393-c9ff-4882-b9f1-b3fbe2807d63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:11:17",
+  "chunks": 1
+ }
 }

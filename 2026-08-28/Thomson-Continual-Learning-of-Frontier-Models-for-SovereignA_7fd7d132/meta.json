@@ -4,5 +4,38 @@
  "title": "Thomson-Continual-Learning-of-Frontier-Models-for-SovereignA",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-28 23:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a218fcdd-2aa2-4e00-9d22-383b12e49348.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a218fcdd-2aa2-4e00-9d22-383b12e49348.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:09:22",
+  "chunks": 8,
+  "meta": {
+   "keywords": [
+    "Continual Learning",
+    "Sovereign AI",
+    "Model Alignment",
+    "Large Language Models",
+    "Legal AI",
+    "Test-Time Scaling",
+    "Data-Centric AI"
+   ],
+   "field": "大语言模型持续学习与对齐",
+   "innovations": [
+    "提出基于价值重对齐、持续预训练、多阶段行为训练的持续学习框架以低成本实现主权AI",
+    "设计Fisher-Routed Directional Ablation实现低KL成本的行为编辑对齐",
+    "构建数据中心化管线与模型合并策略实现π形性能提升与能力保持"
+   ],
+   "benchmarks": [
+    "CapTrack",
+    "Scales++",
+    "Stanford LegalBench",
+    "COLIEE Task 1",
+    "AIME 2026",
+    "GPQA-Diamond",
+    "SWE-bench Pro",
+    "Humanity's Last Exam",
+    "Promptfoo Safety Benchmark"
+   ]
+  }
+ }
 }

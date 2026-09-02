@@ -4,5 +4,41 @@
  "title": "Instella-MoE-Technical-Report",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-09-02 06:55:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d9ac2648-cb50-4742-91f4-40774df0bce8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d9ac2648-cb50-4742-91f4-40774df0bce8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:08:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Gated MLA",
+    "FarSkip-Collective",
+    "fully open LLM",
+    "MoE training",
+    "DPO",
+    "RL post-training",
+    "MOPD"
+   ],
+   "field": "高效稀疏 MoE 语言模型训练",
+   "innovations": [
+    "Gated MLA 注意力门控机制提升表达力",
+    "FarSkip-Collective 通信-计算重叠提升训练/推理效率",
+    "完整多阶段可复现 MoE 训练管线（含反馈驱动 SFT 数据筛选）"
+   ],
+   "benchmarks": [
+    "HELMET",
+    "RULER",
+    "MMLU",
+    "GSM8K",
+    "HumanEval+",
+    "IFEval",
+    "AIME24/25",
+    "LCB",
+    "BBH",
+    "AGIEval",
+    "AlpacaEval 2"
+   ]
+  }
+ }
 }

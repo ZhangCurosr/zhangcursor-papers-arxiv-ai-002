@@ -4,5 +4,29 @@
  "title": "Position-Maters-Feature-Inversion-Atacks-in-ViT-Split-Infere",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-02 06:54:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2c34e065-4d33-4659-85cc-cabb57b2f1c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2c34e065-4d33-4659-85cc-cabb57b2f1c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:13:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Split Inference",
+    "Vision Transformers",
+    "Feature Inversion Attacks",
+    "Token Reduction",
+    "Token Shuffling",
+    "Privacy-Preserving ML"
+   ],
+   "field": "隐私保护机器学习",
+   "innovations": [
+    "提出SARA三阶段空间对齐重建攻击流水线，突破传统攻击对固定空间组织的依赖",
+    "揭示token乱序仅提供虚假隐私、token约减在深层仍有显著泄露",
+    "设计仅边缘侧运行的渐进式无位置微调整防御机制"
+   ],
+   "benchmarks": [
+    "ImageNet-1K"
+   ]
+  }
+ }
 }

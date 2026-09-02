@@ -4,5 +4,32 @@
  "title": "ISO-RAG-Isoperimetric-Noise-Control-for-Retrieval-Augmented",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-09-02 06:53:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/869fdcb3-8f63-4799-b72a-b3b3b23f075d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/869fdcb3-8f63-4799-b72a-b3b3b23f075d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:08:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Multi-hop Question Answering",
+    "Hyperbolic Geometry",
+    "Isoperimetric Control",
+    "Graph-based Retrieval",
+    "Personalized PageRank",
+    "Topological Filtering"
+   ],
+   "field": "检索增强生成与多跳问答",
+   "innovations": [
+    "提出基于双曲等周率的局部图过滤机制，显式剪枝语义漂移边缘",
+    "将节点级Cheeger比率代理用于RAG检索，实现无训练拓扑驱动的噪声控制",
+    "局部确定性PPR扩散在几何有界子图上实现低延迟高精度检索"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultihopQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

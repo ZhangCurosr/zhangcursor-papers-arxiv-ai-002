@@ -4,5 +4,33 @@
  "title": "Stride-k-Subsampling-Train-Free-Audio-Token-Reduction-for-Wh",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-01 17:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ad1548a1-6956-4b4f-a32b-415f82b7d941.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ad1548a1-6956-4b4f-a32b-415f82b7d941.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:06:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Whisper",
+    "token reduction",
+    "train-free",
+    "ASR efficiency",
+    "SpeechLM",
+    "stride subsampling"
+   ],
+   "field": "语音识别效率优化",
+   "innovations": [
+    "提出纯索引的 stride-k subsampling，无需训练即可削减 75% 音频 token",
+    "发现并解释 input-side 与 output-side 的稳定性不对称性",
+    "给出基于前端重叠 R≥kS 的普适可行性判据"
+   ],
+   "benchmarks": [
+    "LibriTTS",
+    "ESD",
+    "Common Voice",
+    "MMSU",
+    "MMAU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "Optimizing-Byzantine-Node-Placement-in-Decentralized-Federat",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-02 06:49:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dedfe06b-cb00-4922-b777-7b09d39071ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dedfe06b-cb00-4922-b777-7b09d39071ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:12:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "去中心化联邦学习",
+    "Byzantine容忍",
+    "节点放置优化",
+    "gossip动力学",
+    "模型投毒",
+    "后门攻击",
+    "安全评估"
+   ],
+   "field": "去中心化联邦学习安全性",
+   "innovations": [
+    "提出BPI：基于gossip混合矩阵W的有限时间集合级Byzantine暴露指标，直接量化多跳累积影响",
+    "设计Greedy-BPI与Swap-BPI两种高效算法，在6类异构拓扑上稳定生成高影响力Byzantine放置",
+    "实证表明Byzantine放置可大幅改变鲁棒聚合的真实防御表现，固定/随机放置会系统性高估安全"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Ring-of-Cliques",
+    "Dragonfly",
+    "Scale-Free(BA)",
+    "DC-SBM",
+    "Core-Periphery",
+    "Random-Geometric",
+    "FixedBias attack",
+    "BadNets backdoor",
+    "BALANCE robust aggregation"
+   ]
+  }
+ }
 }

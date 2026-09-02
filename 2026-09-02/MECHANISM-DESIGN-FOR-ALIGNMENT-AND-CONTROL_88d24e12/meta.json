@@ -4,5 +4,26 @@
  "title": "MECHANISM-DESIGN-FOR-ALIGNMENT-AND-CONTROL",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-02 06:51:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f944079f-f451-42e8-9126-383ddc600765.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f944079f-f451-42e8-9126-383ddc600765.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:10:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanism design",
+    "AI alignment",
+    "sandbagging",
+    "scalable oversight",
+    "peer prediction",
+    "cyclical monotonicity"
+   ],
+   "field": "AI 对齐与机制设计",
+   "innovations": [
+    "单边验证秩序下单智能体再言原理与嵌套循环单调性刻画",
+    "多智能体通用类型空间框架与多智能体再言原理",
+    "五类AI安全应用（沙包/对齐-可解释性权衡/同侪纪律/耦合奖励/弱对强监督）的机制设计定理"
+   ]
+  }
+ }
 }

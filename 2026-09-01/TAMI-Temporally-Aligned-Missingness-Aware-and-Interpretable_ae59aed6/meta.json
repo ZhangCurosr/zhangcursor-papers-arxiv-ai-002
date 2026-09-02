@@ -4,5 +4,31 @@
  "title": "TAMI-Temporally-Aligned-Missingness-Aware-and-Interpretable",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-01 07:15:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15c3884a-c094-4bb0-9abf-593ef4dcd02d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15c3884a-c094-4bb0-9abf-593ef4dcd02d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:06:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal fusion",
+    "temporal alignment",
+    "missingness-aware",
+    "interpretable AI",
+    "mental health screening",
+    "mild cognitive impairment",
+    "remote interviews"
+   ],
+   "field": "多模态心理健康计算",
+   "innovations": [
+    "自适应时间分箱实现异构采样率多模态特征的细粒度时间对齐",
+    "模态-时间步缺失掩码显式区分真实缺失与合法零值",
+    "问题上下文条件化融合 + 多级 IG 归因框架联合提供模态/问题/时间三维度解释"
+   ],
+   "benchmarks": [
+    "GDS≥10 抑郁风险分类",
+    "GAD-7≥5 焦虑风险分类"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Jailbreaking-Text-to-Image-Models-Through-Cracks-Navigating",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-02 06:56:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6b519323-77d8-4607-b54d-62c00dcab718.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6b519323-77d8-4607-b54d-62c00dcab718.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:09:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Image Jailbreak",
+    "Heterogeneous Safety Filters",
+    "Multi-Agent Debate",
+    "Detection Surface",
+    "Black-box Attack",
+    "Cross-layer Conflict",
+    "Reinforcement Learning"
+   ],
+   "field": "多模态AI安全与越狱攻击",
+   "innovations": [
+    "提出Detection Surface几何框架统一刻画异构T2I安全过滤器的联合决策边界",
+    "设计CRACK多智能体辩论框架实现分层诊断、自适应探索与跨层仲裁",
+    "构建代理三层诊断管线在无目标系统内部状态的黑盒条件下提供细粒度分层反馈"
+   ],
+   "benchmarks": [
+    "NSFW-200",
+    "I2P",
+    "UnsafeDiff"
+   ]
+  }
+ }
 }

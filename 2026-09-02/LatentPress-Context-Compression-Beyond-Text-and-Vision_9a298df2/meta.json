@@ -4,5 +4,30 @@
  "title": "LatentPress-Context-Compression-Beyond-Text-and-Vision",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-02 06:50:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3137a6bc-d93a-440a-befe-2759da22b5ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3137a6bc-d93a-440a-befe-2759da22b5ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:09:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "context compression",
+    "soft token",
+    "frozen decoder",
+    "long document QA",
+    "conversational memory",
+    "direct-read interface"
+   ],
+   "field": "大语言模型上下文压缩与记忆表示",
+   "innovations": [
+    "Reader-matched 轻量 adapter writer 实现冻结 decoder 的直接 soft-token 读取",
+    "Role-based 差异化压缩调度保留 user turn 无损事实",
+    "Reconstruction + Forward-KL 双监督训练无需任务标签即可学习通用表征"
+   ],
+   "benchmarks": [
+    "LongMemEval",
+    "LongBench-QA"
+   ]
+  }
+ }
 }

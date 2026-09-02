@@ -4,5 +4,30 @@
  "title": "Neuro-Symbolic-Geometric-Abstraction-NeuSOGA-From-Observatio",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-02 06:51:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/064d543d-757b-46ad-81f7-2f1e9a04eb0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/064d543d-757b-46ad-81f7-2f1e9a04eb0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:11:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neuro-Symbolic AI",
+    "Geometric Abstraction",
+    "Implicit Area Spline",
+    "Scale-Space Theory",
+    "Scan-to-CAD",
+    "Symbolic Representation"
+   ],
+   "field": "神经符号几何表示与抽象",
+   "innovations": [
+    "拓扑引导的基础模型感知策略，通过EDT自动发现核心驱动SAM分割",
+    "隐式面积样条作为可加性符号表示层，支持闭式求值与任意阶光滑",
+    "无训练依赖的O→T→G→S四阶段几何抽象流水线，实现观察到符号的显式转换"
+   ],
+   "benchmarks": [
+    "ModelNet40",
+    "COCO 2017"
+   ]
+  }
+ }
 }

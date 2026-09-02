@@ -4,5 +4,31 @@
  "title": "In-Context-Neurofeedback-Can-LLMs-Control-Their-Internal-Rep",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-09-02 06:53:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f06e4b03-ff5d-44fd-9a6f-5e01bef6e036.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f06e4b03-ff5d-44fd-9a6f-5e01bef6e036.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:07:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "metacognition",
+    "neurofeedback",
+    "internal representations",
+    "privileged access",
+    "LLM safety",
+    "activation probing"
+   ],
+   "field": "大语言模型元认知与可解释性",
+   "innovations": [
+    "提出严格特权访问定义以区分真实与虚假元认知",
+    "设计ICN范式模拟人类神经反馈实验",
+    "揭示先前控制效应可能源于表面机制而非内部访问"
+   ],
+   "benchmarks": [
+    "SST",
+    "ETHICS commonsense",
+    "True-False"
+   ]
+  }
+ }
 }

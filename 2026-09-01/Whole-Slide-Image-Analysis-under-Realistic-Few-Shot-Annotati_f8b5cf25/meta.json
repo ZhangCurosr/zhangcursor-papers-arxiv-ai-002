@@ -4,5 +4,32 @@
  "title": "Whole-Slide-Image-Analysis-under-Realistic-Few-Shot-Annotati",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-09-01 07:20:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/206e0a07-78f7-4e08-b24d-33ee8d7f6e3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/206e0a07-78f7-4e08-b24d-33ee8d7f6e3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:07:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Whole-Slide Image",
+    "Conditional Random Field",
+    "Few-Shot Learning",
+    "Vision-Language Model",
+    "Transductive Inference",
+    "Digital Pathology"
+   ],
+   "field": "计算病理学 / 弱监督学习",
+   "innovations": [
+    "提出 SlideCRF，融合空间邻域与生物先验的 CRF 框架用于 WSI 转导精修",
+    "设计基于点击/涂鸦的真实标注协议与 HITL 交互范式",
+    "引入类别存在性先验 λ 与多样性项阶梯调度以应对严重类别不平衡"
+   ],
+   "benchmarks": [
+    "BACH",
+    "CATCH",
+    "SKINCANCER",
+    "TIGER"
+   ]
+  }
+ }
 }

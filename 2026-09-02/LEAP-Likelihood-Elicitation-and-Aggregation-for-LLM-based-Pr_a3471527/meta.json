@@ -4,5 +4,31 @@
  "title": "LEAP-Likelihood-Elicitation-and-Aggregation-for-LLM-based-Pr",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-02 06:55:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af73913e-3a23-4cb1-a3d8-df3822260d0f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af73913e-3a23-4cb1-a3d8-df3822260d0f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:08:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "probabilistic forecasting",
+    "LLM agent",
+    "Bayesian inference",
+    "likelihood elicitation",
+    "evidence aggregation",
+    "forecasting benchmark"
+   ],
+   "field": "LLM-based probabilistic forecasting",
+   "innovations": [
+    "提出LEAP框架，将LLM作为局部证据解释器并与确定性概率聚合解耦",
+    "设计共轭后验更新支持连续/单选/多选三种输出类型",
+    "构建包含依赖聚类/可靠性采样/离群拒绝的完整保障机制"
+   ],
+   "benchmarks": [
+    "FutureX",
+    "GAIA",
+    "BrowseComp"
+   ]
+  }
+ }
 }

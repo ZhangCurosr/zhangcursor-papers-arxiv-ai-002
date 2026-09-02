@@ -4,5 +4,32 @@
  "title": "PopPert-Population-level-Joint-Distribution-Modeling-for-Sin",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-02 06:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8dad8404-bb16-49e9-a3c1-68cf50def64c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8dad8404-bb16-49e9-a3c1-68cf50def64c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:13:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "single-cell perturbation prediction",
+    "population-level modeling",
+    "Gaussian copula",
+    "low-rank factorization",
+    "residual prediction",
+    "scRNA-seq"
+   ],
+   "field": "单细胞多组学计算",
+   "innovations": [
+    "将单细胞扰动预测重新定义为群体水平联合分布的条件预测，消除细胞间配对假设",
+    "提出低秩高斯Copula紧凑建模跨基因依赖，支持从预测联合分布采样扰动单细胞",
+    "残差预测策略在参数空间学习扰动残差，显著提升分布预测稳定性"
+   ],
+   "benchmarks": [
+    "Replogle",
+    "Adamson",
+    "Norman",
+    "sci-Plex3"
+   ]
+  }
+ }
 }

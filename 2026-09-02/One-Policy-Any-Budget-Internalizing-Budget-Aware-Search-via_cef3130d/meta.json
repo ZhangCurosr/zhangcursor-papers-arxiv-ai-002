@@ -4,5 +4,32 @@
  "title": "One-Policy-Any-Budget-Internalizing-Budget-Aware-Search-via",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-02 06:52:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dd88586f-eeda-4ef1-9a8d-844419cc675c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dd88586f-eeda-4ef1-9a8d-844419cc675c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:11:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "budget-aware search",
+    "reinforcement learning",
+    "agent internalization",
+    "curriculum learning",
+    "tool efficiency"
+   ],
+   "field": "语言模型推理优化",
+   "innovations": [
+    "渐进式脚手架内化预算感知能力",
+    "滑动窗口自适应预算采样",
+    "难度感知的复合奖励设计"
+   ],
+   "benchmarks": [
+    "NQ",
+    "HotpotQA",
+    "2Wiki-MultiHopQA",
+    "MuSiQue",
+    "Bamboogle"
+   ]
+  }
+ }
 }
