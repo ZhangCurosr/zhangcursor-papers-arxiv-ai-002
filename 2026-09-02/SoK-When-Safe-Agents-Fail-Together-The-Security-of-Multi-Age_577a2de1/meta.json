@@ -4,5 +4,33 @@
  "title": "SoK-When-Safe-Agents-Fail-Together-The-Security-of-Multi-Age",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-09-02 17:37:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8118ebdb-cb43-43a9-94cb-429e17b4524b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8118ebdb-cb43-43a9-94cb-429e17b4524b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "LLM安全",
+    "系统级风险",
+    "攻击路径",
+    "防御评估",
+    "SoK"
+   ],
+   "field": "多智能体系统安全",
+   "innovations": [
+    "提出A→I→R执行路径框架统一组织MAS安全分析",
+    "归纳7类系统级风险和8条典型攻击路径",
+    "构建五要素防御合同系统化评估防御手段"
+   ],
+   "benchmarks": [
+    "A2ASecBench",
+    "ACIARena",
+    "RiskLab",
+    "MESA",
+    "CalBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "StudyBench-Can-Self-Evolution-Squeeze-Textbooks-for-Olympiad",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-09-02 17:36:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73aee710-932a-4550-8c16-4af1e523d79f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73aee710-932a-4550-8c16-4af1e523d79f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:18:47",
+  "chunks": 1
+ }
 }

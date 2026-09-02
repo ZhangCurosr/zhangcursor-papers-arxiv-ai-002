@@ -4,5 +4,32 @@
  "title": "Socrates-went-Nuclear-Comparing-Interaction-Strategies-for-A",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-09-02 17:37:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1ba09cca-70e7-4523-ac28-8809d99c8f96.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1ba09cca-70e7-4523-ac28-8809d99c8f96.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Models",
+    "Socratic tutoring",
+    "Adaptive learning",
+    "EEG",
+    "Cognitive engagement",
+    "Human–Agent Interaction",
+    "Neuro-adaptive interface"
+   ],
+   "field": "AI在教育中的交互式学习策略比较",
+   "innovations": [
+    "首个三方对比（无限制/苏格拉底/EEG自适应）的受控学习实验，填补三种范式直接比较的空白",
+    "揭示无限制聊天机器人高学习增益本质为短期记忆复制而非深层理解",
+    "通过EEG参与度与行为策略聚类双重指标量化苏格拉底模式的渐进性脱离轨迹"
+   ],
+   "benchmarks": [
+    "Nuclear safety protocols course (IAEA-based)",
+    "Pre-test/post-test open-ended questions (10 per phase)",
+    "EEG cognitive engagement index E=Beta/(Alpha+Theta)"
+   ]
+  }
+ }
 }

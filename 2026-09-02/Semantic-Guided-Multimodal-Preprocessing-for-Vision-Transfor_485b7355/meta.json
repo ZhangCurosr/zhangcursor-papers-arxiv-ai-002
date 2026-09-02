@@ -4,5 +4,34 @@
  "title": "Semantic-Guided-Multimodal-Preprocessing-for-Vision-Transfor",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-02 17:36:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8eb66357-4004-4e02-89e5-f63d9126c8ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8eb66357-4004-4e02-89e5-f63d9126c8ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "Semantic Guidance",
+    "Multimodal Preprocessing",
+    "CCRCC Grading",
+    "Nuclei Classification",
+    "Computational Pathology",
+    "Histopathology Image Analysis",
+    "Multiplicative Modulation"
+   ],
+   "field": "计算病理学中的多模态融合与图像分级",
+   "innovations": [
+    "提出预处理级语义引导多模态融合框架，将核素分级图与RGB图像融合后输入ViT，无需架构修改即可桥接细粒度核素分析与粗粒度斑块分级",
+    "设计乘性调制（MM）方法，包含强度调制、等级依赖sigmoid加权、空间平滑与感知优化颜色叠加四组件，保留RGB纹理同时强调临床关键等级",
+    "系统性敏感性分析验证方法对核素分类误差的鲁棒性，在60%模拟扰动下仍高于RGB基线"
+   ],
+   "benchmarks": [
+    "TCGA KIRC/KIRP CCRCC patch dataset",
+    "Balanced Accuracy",
+    "F1 Score",
+    "Per-class Recall"
+   ]
+  }
+ }
 }

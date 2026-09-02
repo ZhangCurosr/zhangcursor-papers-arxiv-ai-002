@@ -4,5 +4,10 @@
  "title": "LEAP-Likelihood-Elicitation-and-Aggregation-for-LLM-based-Pr",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-02 17:36:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af73913e-3a23-4cb1-a3d8-df3822260d0f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af73913e-3a23-4cb1-a3d8-df3822260d0f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:15:22",
+  "chunks": 1
+ }
 }

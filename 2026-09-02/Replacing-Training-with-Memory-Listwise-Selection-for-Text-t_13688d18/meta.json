@@ -4,5 +4,31 @@
  "title": "Replacing-Training-with-Memory-Listwise-Selection-for-Text-t",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-09-02 06:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b7f32b44-e2f2-430e-b9db-f5304c0ead5a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b7f32b44-e2f2-430e-b9db-f5304c0ead5a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:15:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "listwise selection",
+    "fine-tuning-free",
+    "memory retrieval",
+    "positional bias",
+    "LLM ranking"
+   ],
+   "field": "Text-to-SQL 选择器",
+   "innovations": [
+    "用结构化记忆检索替代微调学习选择标准",
+    "基于执行结果的组内排列聚合将空间从O(n!)降至O(g!)",
+    "T检验置信度驱动的列表选择终止与对决机制"
+   ],
+   "benchmarks": [
+    "BIRD-dev",
+    "Spider-test",
+    "EHRSQL"
+   ]
+  }
+ }
 }

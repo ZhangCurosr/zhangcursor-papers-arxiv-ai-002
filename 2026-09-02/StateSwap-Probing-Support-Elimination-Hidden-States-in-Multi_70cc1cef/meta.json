@@ -4,5 +4,30 @@
  "title": "StateSwap-Probing-Support-Elimination-Hidden-States-in-Multi",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-02 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/45d12153-80e7-4d05-8c65-7740c59ebcb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/45d12153-80e7-4d05-8c65-7740c59ebcb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:18:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "activation substitution",
+    "prompt framing",
+    "multiple-choice reasoning",
+    "contrastive activation steering",
+    "state tracking"
+   ],
+   "field": "大语言模型可解释性与推理机制",
+   "innovations": [
+    "提出untrained [STATE] token作为残差流read-write接口探测框架敏感表征",
+    "发现并定位SUP/ELIM诱导的中间层可分离激活峰并通过跨框架替换提升准确率与一致性",
+    "证明双框架均值差转向比对比激活加法(CAA)在层级响应上更稳定"
+   ],
+   "benchmarks": [
+    "MMLU-17",
+    "MedQA-CH"
+   ]
+  }
+ }
 }

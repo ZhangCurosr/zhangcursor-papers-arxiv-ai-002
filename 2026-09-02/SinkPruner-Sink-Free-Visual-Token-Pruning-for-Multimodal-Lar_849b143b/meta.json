@@ -4,5 +4,41 @@
  "title": "SinkPruner-Sink-Free-Visual-Token-Pruning-for-Multimodal-Lar",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-02 17:36:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33ca72d4-d249-46e3-87b7-939d271b2575.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33ca72d4-d249-46e3-87b7-939d271b2575.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual token pruning",
+    "multimodal large language models",
+    "attention sink",
+    "high-norm outlier",
+    "inference acceleration",
+    "training-free"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "发现高范数异常Token在特征和空间维度高度冗余，提出scale-free top-ρ规则识别",
+    "提出cascading剪枝框架，通过视觉净化器预处理降低下游注意力汇聚和弥散",
+    "视觉净化模块可作为即插即用组件增强现有剪枝方法性能"
+   ],
+   "benchmarks": [
+    "MMBench",
+    "MME",
+    "POPE",
+    "ScienceQA",
+    "VQA-v2",
+    "MMStar",
+    "MMMU",
+    "AI2D",
+    "MM-Vet",
+    "MVBench",
+    "SEED-Bench",
+    "VideoMME",
+    "NextQA"
+   ]
+  }
+ }
 }

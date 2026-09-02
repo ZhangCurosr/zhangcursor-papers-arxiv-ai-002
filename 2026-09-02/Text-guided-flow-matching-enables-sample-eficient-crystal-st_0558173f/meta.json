@@ -4,5 +4,10 @@
  "title": "Text-guided-flow-matching-enables-sample-eficient-crystal-st",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-02 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5caf16fb-3546-45c3-880d-f5265d70ef98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5caf16fb-3546-45c3-880d-f5265d70ef98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:19:09",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SymFold-Synergizing-Evolutionary-and-Structural-Priors-for-A",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-02 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/02fadc14-d545-48a5-9aa6-a7486a4b7504.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/02fadc14-d545-48a5-9aa6-a7486a4b7504.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:18:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "protein inverse folding",
+    "multimodal protein language model",
+    "adaptive synergistic fusion",
+    "self-correction training",
+    "ESM-3",
+    "PLM refinement"
+   ],
+   "field": "蛋白质序列设计与逆折叠",
+   "innovations": [
+    "提出对称双路径框架协同 PLM 进化先验与 MPLM 结构先验进行残基级动态融合精炼",
+    "引入残基级自适应融合 ASF 与 Self-Correction 迭代训练以对齐推理并缓解暴露偏差"
+   ],
+   "benchmarks": [
+    "CATH4.2",
+    "CATH4.3",
+    "TS50",
+    "TS500",
+    "CASP15",
+    "CASP16"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "SUPERPOSED-LATENT-AUTOENCODER",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-02 17:36:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2c3daaa4-a8bd-4cf7-a540-aa6851c38486.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2c3daaa4-a8bd-4cf7-a540-aa6851c38486.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:16:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "autoencoder",
+    "latent compression",
+    "superposition",
+    "representation storage",
+    "capacity-interference tradeoff",
+    "vector symbolic architecture",
+    "learned image compression"
+   ],
+   "field": "表示学习与压缩",
+   "innovations": [
+    "提出SLAE，以多宽latent叠加共享存储替代单样本独立缩小latent",
+    "将隐式存储问题形式化为capacity-interference tradeoff并给出随机绑定的方向性干扰理论分析",
+    "证明叠加与数值量化正交可组合，在相同位预算下显著优于纯维度压缩或纯量化"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "SVHN",
+    "STL-10",
+    "Tiny ImageNet"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TUTTI-TOWARD-GENERALIZABLE-AUDIO-TO-SCORE-TRANSCRIPTION-VIA",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-09-02 17:37:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/53a91bb4-4b84-4825-8c42-9f7180d983d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/53a91bb4-4b84-4825-8c42-9f7180d983d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:18:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Audio-to-Score",
+    "Music Transcription",
+    "Symbolic Music",
+    "Synthetic Data",
+    "Transformer",
+    "Generalization",
+    "Multi-instrumentation"
+   ],
+   "field": "音乐信息检索与计算音乐学",
+   "innovations": [
+    "提出纯 Transformer 架构的通用 A2S 模型 TUTTI，摒弃传统 CNN 前端",
+    "构建并开源大规模完全合成的多乐器数据集 TuttiCorpus (363k+ 对)",
+    "验证大规模合成预训练赋予模型强大的跨乐器（含未见乐器）泛化能力"
+   ],
+   "benchmarks": [
+    "ASAP (Piano)",
+    "Quartets (String Quartet)",
+    "Tenor Saxophone",
+    "Alto Saxophone"
+   ]
+  }
+ }
 }

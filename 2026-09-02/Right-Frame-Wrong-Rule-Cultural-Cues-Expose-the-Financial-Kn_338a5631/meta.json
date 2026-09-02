@@ -4,5 +4,31 @@
  "title": "Right-Frame-Wrong-Rule-Cultural-Cues-Expose-the-Financial-Kn",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-02 17:37:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/71291453-9462-446d-ad7a-f491e091fa10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/71291453-9462-446d-ad7a-f491e091fa10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:16:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "normative pluralism",
+    "cultural bias",
+    "Islamic finance",
+    "stereotype trap",
+    "mechanistic interpretability",
+    "four-choice taxonomy"
+   ],
+   "field": "AI文化与公平性评估",
+   "innovations": [
+    "提出四维CI/CW/II/IW分类法分离框架选择与框架内正确性，揭示两选项评估不可见的刻板印象陷阱",
+    "机制分析定位门控于网络后半段，证明框架选择与框架内能力由正交表征控制",
+    "构建首个伊斯兰金融双语规范多元主义基准（304双边+64西方锚+41伊斯兰锚）"
+   ],
+   "benchmarks": [
+    "SAHM",
+    "WDB-Set-A-Base",
+    "ISO 233 transliteration standard"
+   ]
+  }
+ }
 }

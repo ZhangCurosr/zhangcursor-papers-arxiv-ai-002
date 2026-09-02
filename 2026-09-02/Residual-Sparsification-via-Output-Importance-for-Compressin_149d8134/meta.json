@@ -4,5 +4,30 @@
  "title": "Residual-Sparsification-via-Output-Importance-for-Compressin",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-09-02 06:54:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30ec66f6-cdd1-4f00-952b-b8f74735a7b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30ec66f6-cdd1-4f00-952b-b8f74735a7b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:16:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Model Compression",
+    "Residual Sparsification",
+    "Large Language Models",
+    "GPU Memory Optimization"
+   ],
+   "field": "MoE LLM 压缩",
+   "innovations": [
+    "提出基于输出重要性的残差稀疏化目标，替代矩阵级误差最小化",
+    "设计 hidden dimension 输出影响的可近似评估公式（Eq. 10）",
+    "引入跨专家全局池化选择维度，避免高频 expert 过压缩"
+   ],
+   "benchmarks": [
+    "lm-eval-harness ARC/WinoGrande/HellaSwag/PIQA/OpenBookQA/MMLU",
+    "WikiText Perplexity",
+    "IFEval Instruction Following"
+   ]
+  }
+ }
 }

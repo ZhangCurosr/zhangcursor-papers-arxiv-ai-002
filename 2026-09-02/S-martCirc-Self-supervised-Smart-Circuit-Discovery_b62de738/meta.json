@@ -4,5 +4,29 @@
  "title": "S-martCirc-Self-supervised-Smart-Circuit-Discovery",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-02 17:37:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bd8f765-9a46-406a-8ce6-5c7b672f7b09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bd8f765-9a46-406a-8ce6-5c7b672f7b09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:16:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit discovery",
+    "LLM interpretability",
+    "functional role",
+    "self-supervised learning"
+   ],
+   "field": "大语言模型机制可解释性",
+   "innovations": [
+    "提出任务无关的计算角色二分法（functional/passthrough），实现跨任务泛化的节点角色抽象",
+    "设计双向交替优化框架 S³martCirc 联合发现电路与解释功能，显式建模重要性与功能角色的相互依赖",
+    "提出基于 token 相似度变化的定量功能度量 FI metric，将主观功能解释转化为可微优化目标"
+   ],
+   "benchmarks": [
+    "IOI (Indirect Object Identification)",
+    "Acronym Prediction"
+   ]
+  }
+ }
 }

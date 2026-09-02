@@ -4,5 +4,30 @@
  "title": "Solaris-Towards-Interfaces-That-Are-Generated-Not-Coded",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-09-02 17:37:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7f04f047-dff0-4ab9-8db9-163e1053dcb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7f04f047-dff0-4ab9-8db9-163e1053dcb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "界面世界模型",
+    "自回归视频生成",
+    "少步蒸馏",
+    "交互界面生成",
+    "推理-渲染分离",
+    "Agent训练环境"
+   ],
+   "field": "多模态生成与交互",
+   "innovations": [
+    "提出首个界面世界模型，直接逐帧生成可交互UI而非通过代码中间表示",
+    "LLM与视觉世界模型分离架构：LLM解释交互语义，世界模型实时渲染",
+    "自回归+少步蒸馏+自我训练实现实时交互速度与长序列视觉质量"
+   ],
+   "benchmarks": [
+    "30-interface reconstruction benchmark (SSIM + DINOv3)",
+    "User study: 250 participants, 7500+ pairwise comparisons vs Claude Opus 5 coded interfaces"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "SOVER-Formal-Certification-of-Optimization-Reformulations-vi",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-09-02 17:37:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d3816efe-2635-4292-a940-d423a5def7b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d3816efe-2635-4292-a940-d423a5def7b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:16:32",
+  "chunks": 1
+ }
 }

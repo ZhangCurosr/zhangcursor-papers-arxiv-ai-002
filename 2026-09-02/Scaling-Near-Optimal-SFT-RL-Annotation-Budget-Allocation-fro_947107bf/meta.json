@@ -4,5 +4,33 @@
  "title": "Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-fro",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-02 17:35:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4ce4eccf-7e81-4db3-ae18-6d2d64c8af36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4ce4eccf-7e81-4db3-ae18-6d2d64c8af36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SFT-RL budget allocation",
+    "near-optimal region",
+    "cross-scale transfer",
+    "post-training scaling",
+    "DPO",
+    "GRPO",
+    "annotation cost asymmetry"
+   ],
+   "field": "大语言模型后训练优化",
+   "innovations": [
+    "将 SFT-RL 预算分配问题转化为近最优区域刻画，揭示其宽 plateau 特性",
+    "证明近最优区域随模型规模扩大而变宽且可从小代理可靠迁移至大模型",
+    "提出 5 点网格 + 5%–10% 容差的低成本代理搜索流程，迁移成功率 >94%"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "IFEval",
+    "Reddit TL;DR",
+    "HelpSteer/HelpSteer2"
+   ]
+  }
+ }
 }

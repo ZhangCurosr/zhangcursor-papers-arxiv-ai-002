@@ -4,5 +4,32 @@
  "title": "Scalable-Rao-Blackwellized-Online-Planning-for-High-Dimensio",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-02 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2f93e146-9d93-4c78-bb31-1d8cb73133f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2f93e146-9d93-4c78-bb31-1d8cb73133f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:16:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "POMDP",
+    "Rao-Blackwellization",
+    "在线规划",
+    "FastSLAM",
+    "稀疏网格求积",
+    "混合信念",
+    "机器人搜救"
+   ],
+   "field": "高维部分可观测决策与机器人规划",
+   "innovations": [
+    "将Rao-Blackwellization与Smolyak稀疏网格求积结合用于POMDP树搜索，同时抑制信念方差与规划方差",
+    "面向连续-离散混合状态的通用RB-POMDP框架，支持任意闭式更新分量（EKF/Bernoulli等）",
+    "在室内搜救任务中实现与Fast-SLAM 2.0的闭环集成，验证极低粒子数下的高性能规划"
+   ],
+   "benchmarks": [
+    "室内多房间搜救仿真",
+    "POMCPOW baseline",
+    "RB-MC-POMCPOW baseline"
+   ]
+  }
+ }
 }

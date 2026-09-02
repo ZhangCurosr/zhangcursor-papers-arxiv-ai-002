@@ -4,5 +4,10 @@
  "title": "TempCloze-Can-Video-LLMs-Identify-the-Missing-Middle",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-02 06:51:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ff1deb38-a869-4def-a908-7f0fea29939f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ff1deb38-a869-4def-a908-7f0fea29939f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:19:04",
+  "chunks": 1
+ }
 }

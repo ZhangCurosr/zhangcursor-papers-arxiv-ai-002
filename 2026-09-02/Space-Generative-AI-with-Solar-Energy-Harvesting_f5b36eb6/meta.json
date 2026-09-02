@@ -4,5 +4,30 @@
  "title": "Space-Generative-AI-with-Solar-Energy-Harvesting",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-02 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c3f17b86-5f0b-412d-899f-606c84ce2cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c3f17b86-5f0b-412d-899f-606c84ce2cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:17:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "space generative AI",
+    "solar energy harvesting",
+    "diffusion model",
+    "computation-communication trade-off",
+    "resource optimization",
+    "satellite edge computing"
+   ],
+   "field": "太空边缘计算与能量采集通信",
+   "innovations": [
+    "证明太阳能EH下等待时间选择与功率控制的分离原理，实现问题解耦",
+    "推导基于Lambert W函数的闭式最优DDIM步数选择策略，在线复杂度O(1)",
+    "揭示计算-通信联合优化在太空生成式AI中的C²权衡本质并验证"
+   ],
+   "benchmarks": [
+    "communication throughput",
+    "E2E CLIP score"
+   ]
+  }
+ }
 }

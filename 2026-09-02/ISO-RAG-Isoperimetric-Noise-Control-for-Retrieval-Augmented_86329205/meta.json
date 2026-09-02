@@ -4,5 +4,30 @@
  "title": "ISO-RAG-Isoperimetric-Noise-Control-for-Retrieval-Augmented",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-09-02 17:37:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/869fdcb3-8f63-4799-b72a-b3b3b23f075d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/869fdcb3-8f63-4799-b72a-b3b3b23f075d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:14:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "检索增强生成",
+    "多跳问答",
+    "图检索",
+    "双曲几何",
+    "等周控制",
+    "PageRank"
+   ],
+   "field": "检索增强生成与多跳推理",
+   "innovations": [
+    "提出节点级等周比剪枝机制抑制图扩散语义漂移",
+    "将确定性PPR限制在几何约束局部子图实现高效检索"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultihopQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }
