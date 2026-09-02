@@ -4,5 +4,10 @@
  "title": "Tensor-Methods-for-Language-Models-From-Token-Representation",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-01 07:17:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8269787e-0852-4bab-9114-eaeeb43774ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8269787e-0852-4bab-9114-eaeeb43774ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:41:57",
+  "chunks": 4
+ }
 }

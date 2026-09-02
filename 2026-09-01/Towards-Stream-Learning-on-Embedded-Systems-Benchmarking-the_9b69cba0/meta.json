@@ -4,5 +4,30 @@
  "title": "Towards-Stream-Learning-on-Embedded-Systems-Benchmarking-the",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-01 17:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b1ef3187-195b-4a9d-8d4d-b167de3084b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b1ef3187-195b-4a9d-8d4d-b167de3084b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:40:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stream learning",
+    "memory budget",
+    "embedded systems",
+    "concept drift",
+    "Hoefding tree",
+    "adaptive ensemble",
+    "TinyML"
+   ],
+   "field": "流学习与边缘机器学习",
+   "innovations": [
+    "提出首次系统性内存预算约束下的流学习跨方法基准",
+    "揭示初始 footprint 型与渐进增长型两类资源故障模式",
+    "设计资源感知流学习预顺序 API 并将预算作为一等设计目标"
+   ],
+   "benchmarks": [
+    "AGRa, AGRg, LEDa, LEDg, RBFf, RBFm, Electricity, Airlines, HIGGS, SUSY, Weather, Covtype, Gas Sensor"
+   ]
+  }
+ }
 }

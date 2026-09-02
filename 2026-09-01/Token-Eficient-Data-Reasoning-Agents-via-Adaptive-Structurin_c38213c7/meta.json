@@ -4,5 +4,30 @@
  "title": "Token-Eficient-Data-Reasoning-Agents-via-Adaptive-Structurin",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-01 07:14:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/32ab6211-8cbd-4cc7-a1ee-828c0a82ff6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/32ab6211-8cbd-4cc7-a1ee-828c0a82ff6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:38:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic Data Reasoning",
+    "Adaptive Structuring",
+    "KV-cache Reuse",
+    "Unstructured Data Processing",
+    "Cost-Efficient LLM Inference",
+    "Database Cracking"
+   ],
+   "field": "智能体推理系统优化",
+   "innovations": [
+    "将数据库碎裂思想引入AI推理，实现查询驱动的自适应非结构化数据结构化",
+    "利用共享前缀KV-cache复用实现低开销并行碎裂，避免二次prefill",
+    "提出cracked object数据模型与catalogue元查询机制，支持结构化读取与原始文档双轨回退"
+   ],
+   "benchmarks": [
+    "FanOutQA",
+    "Alfred Hitchcock Case Study"
+   ]
+  }
+ }
 }

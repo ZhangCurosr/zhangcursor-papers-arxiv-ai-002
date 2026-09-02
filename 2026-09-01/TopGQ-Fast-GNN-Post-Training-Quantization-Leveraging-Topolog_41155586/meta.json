@@ -4,5 +4,33 @@
  "title": "TopGQ-Fast-GNN-Post-Training-Quantization-Leveraging-Topolog",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-01 17:36:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/529798d3-fcd6-4376-8c46-91d5c72c0562.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/529798d3-fcd6-4376-8c46-91d5c72c0562.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:38:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Neural Network",
+    "Post-Training Quantization",
+    "Inference Acceleration",
+    "Graph Topology",
+    "Model Compression"
+   ],
+   "field": "图神经网络模型压缩与加速",
+   "innovations": [
+    "提出双轴尺度吸收技术，将节点尺度合并至邻接矩阵，实现节点级精度与整数GEMM效率的统一",
+    "设计拓扑感知节点索引TopPIN，为未见节点提供轻量的量化参数映射与插值方案"
+   ],
+   "benchmarks": [
+    "Cora",
+    "CiteSeer",
+    "Reddit",
+    "ogbn-products",
+    "MAG240M",
+    "IMDB-BINARY",
+    "COLLAB"
+   ]
+  }
+ }
 }

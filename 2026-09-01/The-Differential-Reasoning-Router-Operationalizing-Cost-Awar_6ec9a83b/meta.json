@@ -4,5 +4,29 @@
  "title": "The-Differential-Reasoning-Router-Operationalizing-Cost-Awar",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-09-01 07:16:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/daf44989-0b97-4a4d-996d-5d4ad586c3d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/daf44989-0b97-4a4d-996d-5d4ad586c3d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:37:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM annotation",
+    "model routing",
+    "cost-aware inference",
+    "cold-start learning",
+    "differsupervision",
+    "e-commerce"
+   ],
+   "field": "LLM-as-a-Judge / 自适应推理路由",
+   "innovations": [
+    "提出差分监督三头路由，同时建模直接模型/推理模型成功概率与双失败概率",
+    "将人工审核作为第一公民路由动作参与成本-精度权衡优化",
+    "规则级概率分解支持失败归因与规则反哺"
+   ],
+   "benchmarks": [
+    "Wayfair lead-image eligibility (N=1405 test, 11 conjunctive rules)"
+   ]
+  }
+ }
 }

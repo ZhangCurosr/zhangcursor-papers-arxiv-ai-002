@@ -4,5 +4,10 @@
  "title": "When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Scale-for-On",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-01 07:15:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1fdc3a1b-0eec-400b-b6ed-18f14385db48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1fdc3a1b-0eec-400b-b6ed-18f14385db48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:43:08",
+  "chunks": 1
+ }
 }

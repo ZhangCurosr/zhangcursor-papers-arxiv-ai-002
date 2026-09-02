@@ -4,5 +4,30 @@
  "title": "VFR-Audit-Verdict-Level-Reliability-for-Fairness-Audits-in-H",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-01 07:18:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/599bb1e9-169d-44cf-a3a2-de6e54fd9ad1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/599bb1e9-169d-44cf-a3a2-de6e54fd9ad1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:42:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fairness audit",
+    "clinical AI",
+    "verdict stability",
+    "bootstrapping",
+    "algorithmic fairness",
+    "hospital length-of-stay"
+   ],
+   "field": "公平性审计与部署可靠性",
+   "innovations": [
+    "提出 VFR 作为二元公平性裁决不稳定性标量度量",
+    "构建三轴可靠性框架（重采样稳定性/审计规模敏感性/跨医院一致性）",
+    "揭示重加权在基线率差距约束下的根本局限并分解干预组件效应"
+   ],
+   "benchmarks": [
+    "Texas-100X",
+    "THCIC PUDF"
+   ]
+  }
+ }
 }

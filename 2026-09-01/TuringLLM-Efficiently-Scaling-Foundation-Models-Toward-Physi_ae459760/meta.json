@@ -4,5 +4,44 @@
  "title": "TuringLLM-Efficiently-Scaling-Foundation-Models-Toward-Physi",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-01 17:36:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/59517bef-42a7-4940-9f98-c6bd377d01ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/59517bef-42a7-4940-9f98-c6bd377d01ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:41:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Quantile Routing",
+    "Lightning Attention",
+    "Long Context",
+    "Physical AI",
+    "Prefill Efficiency",
+    "YaRN",
+    "MoE Deployment"
+   ],
+   "field": "高效大模型架构与物理AI基础模型",
+   "innovations": [
+    "训练期 dropless 与部署期容量受限路由的分阶段策略，提升 Prefill 规则性与延迟可扩展性",
+    "Quantile Routing 动态 top-k 在无额外平均计算预算下实现token自适应专家分配与负载均衡",
+    "以 Lightning Attention 为主的混合注意力配合渐进长上下文训练与 YaRN 外推，兼顾能力与长程效率"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MMLU-Redux",
+    "CMMLU",
+    "C-Eval",
+    "MMLU-Pro",
+    "BBH",
+    "DROP",
+    "WinoGrande",
+    "HellaSwag",
+    "ARC-C",
+    "GPQA",
+    "GSM8K",
+    "MATH",
+    "RULER"
+   ]
+  }
+ }
 }

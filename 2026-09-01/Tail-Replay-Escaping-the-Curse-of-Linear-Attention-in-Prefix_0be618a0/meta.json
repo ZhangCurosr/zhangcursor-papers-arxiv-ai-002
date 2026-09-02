@@ -4,5 +4,31 @@
  "title": "Tail-Replay-Escaping-the-Curse-of-Linear-Attention-in-Prefix",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-01 07:17:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/10fef8c0-17a1-494d-ac43-7564e7bf6c02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/10fef8c0-17a1-494d-ac43-7564e7bf6c02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:36:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prefix caching",
+    "hybrid LLM",
+    "Gated DeltaNet",
+    "linear attention",
+    "replay",
+    "serving efficiency",
+    "long-context"
+   ],
+   "field": "大语言模型 Serving 系统",
+   "innovations": [
+    "首个无 recurrent-state checkpoint 约束的 hybrid prefix caching 机制，支持 unconstrained token-level 复用",
+    "基于 short tail replay 的线性注意力 state 重建方法，仅用 5-10% replay budget 保持 92.8-99.9% 全 prefill 质量",
+    "结合 Tail-FFN Skip 与 Transfer/Replay Overlap 两项优化，在 32K prefix 下实现最高 14.3x TTFT 加速"
+   ],
+   "benchmarks": [
+    "LongBench",
+    "RULER"
+   ]
+  }
+ }
 }

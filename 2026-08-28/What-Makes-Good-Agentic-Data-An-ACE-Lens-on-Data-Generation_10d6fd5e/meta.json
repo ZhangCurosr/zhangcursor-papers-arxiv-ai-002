@@ -4,5 +4,29 @@
  "title": "What-Makes-Good-Agentic-Data-An-ACE-Lens-on-Data-Generation",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-28 13:48:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/8b094642-4835-48d5-9d31-9974e2840e4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/8b094642-4835-48d5-9d31-9974e2840e4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:34:45",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "Agentic Data Generation",
+    "Data Quality Framework",
+    "ACE Lens",
+    "Execution-Anchored Accuracy",
+    "Data Band",
+    "Learner-Relative Complexity"
+   ],
+   "field": "Agentic AI 数据生成与训练",
+   "innovations": [
+    "提出 ACE 三维度（Accuracy-Complexity-Diversity）统一框架，将数据生成形式化为带硬约束的分布优化问题",
+    "定义四因子数据分解 d=(E,q,τ,v) 与执行锚定的准确性合取验证，纠正现有方法对表面合理性的过度依赖",
+    "提出可计算的数据效用带（Data Band）概念，将难度控制转化为学习者能力区间的定位问题"
+   ],
+   "benchmarks": [
+    "论文未提及具体基准评测"
+   ]
+  }
+ }
 }

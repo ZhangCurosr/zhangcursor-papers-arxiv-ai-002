@@ -4,5 +4,31 @@
  "title": "Taking-the-Whys-Seriously-Limitations-of-Counterfactual-Expl",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-01 17:35:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e7aad1c0-3860-42c2-80d5-596948e2a50b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e7aad1c0-3860-42c2-80d5-596948e2a50b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:36:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual explanations",
+    "algorithmic recourse",
+    "upstream interventions",
+    "structural causal models",
+    "explainable AI",
+    "fairness"
+   ],
+   "field": "可解释机器学习与伦理治理",
+   "innovations": [
+    "提出上游干预敏感性度量并量化组织设计选择对CE的扰动幅度",
+    "揭示固定模型假设在辩护与救济场景中的规范性局限",
+    "构建关系性算法救济框架挑战个体主义AR范式"
+   ],
+   "benchmarks": [
+    "ACS Microdata",
+    "DiCE-kdtree",
+    "NICE"
+   ]
+  }
+ }
 }

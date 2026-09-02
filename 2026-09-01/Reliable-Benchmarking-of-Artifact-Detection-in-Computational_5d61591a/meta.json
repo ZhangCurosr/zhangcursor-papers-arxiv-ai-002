@@ -4,5 +4,32 @@
  "title": "Reliable-Benchmarking-of-Artifact-Detection-in-Computational",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-01 17:35:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/eb980817-114b-40fb-98b1-025ca63bc975.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/eb980817-114b-40fb-98b1-025ca63bc975.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:36:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reproducibility",
+    "Uncertainty quantification",
+    "Benchmarking",
+    "Computational pathology",
+    "Artifact detection",
+    "Whole-slide imaging",
+    "Diffusion models"
+   ],
+   "field": "计算病理学质量控制",
+   "innovations": [
+    "四轴可靠性协议量化测试集采样、训练随机性、分区组成、未记录预处理变异",
+    "结构性混杂的预诊断方法（属性分析预测门控混淆风险）",
+    "大规模独立复现揭示基准有效样本量仅6.2及标准分区位于第7百分位"
+   ],
+   "benchmarks": [
+    "AIRAQC",
+    "GrandQC",
+    "TCGA"
+   ]
+  }
+ }
 }

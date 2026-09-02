@@ -4,5 +4,30 @@
  "title": "Which-Rules-Matter-Now-Policy-Centroid-Routing-Before-an-Int",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-01 07:17:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/61204737-9404-4007-aa6d-f9631879b963.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/61204737-9404-4007-aa6d-f9631879b963.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:43:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "policy centroid routing",
+    "AI governance",
+    "semantic routing",
+    "policy applicability",
+    "selective prediction",
+    "multilabel retrieval",
+    "policy-as-code"
+   ],
+   "field": "AI治理与策略路由",
+   "innovations": [
+    "提出在智能系统行动前通过语义质心距离路由多项适用策略体系的上游注意力分配机制",
+    "给出六项可检验命题与七项对照研究计划以分离压缩收益与尾部/重叠损失",
+    "以fail-closed与声明式阈值的严格形式化将路由与下游判决/执行明确分层"
+   ],
+   "benchmarks": [
+    "synthetic worked example"
+   ]
+  }
+ }
 }

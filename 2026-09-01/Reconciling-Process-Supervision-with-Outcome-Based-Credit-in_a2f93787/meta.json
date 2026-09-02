@@ -4,5 +4,31 @@
  "title": "Reconciling-Process-Supervision-with-Outcome-Based-Credit-in",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-01 07:15:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5e69bf3a-bf83-4041-a341-3a2177c7adfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5e69bf3a-bf83-4041-a341-3a2177c7adfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:35:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic reinforcement learning",
+    "process supervision",
+    "outcome-based credit",
+    "on-policy self-distillation",
+    "privileged information",
+    "credit redistribution"
+   ],
+   "field": "智能体强化学习与信用分配",
+   "innovations": [
+    "提出 TASPO，将轨迹对齐的特权信息用于动作级信用再分配",
+    "构建 (g,c,Z) 三元组式 PI 并通过目标轨迹历史匹配保证适用性",
+    "以有界保均值权重在 GRPO 优势上重分配，方向由验证结果锚定"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "Search-QA",
+    "WebShop"
+   ]
+  }
+ }
 }

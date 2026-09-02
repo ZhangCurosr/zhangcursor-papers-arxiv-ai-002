@@ -4,5 +4,32 @@
  "title": "Responsible-Integration-of-AI-in-Cancer-Genomics-Barriers-Ri",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-01 17:35:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0f3e7244-1406-4fc8-a14a-1a10f6a2a168.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0f3e7244-1406-4fc8-a14a-1a10f6a2a168.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:36:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cancer Genomics",
+    "Natural Language Processing",
+    "Clinical Translation",
+    "Trustworthy AI",
+    "Interoperability",
+    "Data Governance",
+    "Variant Interpretation"
+   ],
+   "field": "生物医学信息学与临床AI转化",
+   "innovations": [
+    "提出四域交互的癌症基因组NLP临床转化失败框架，强调证据不一致、可解释性与不确定性、数据治理、互操作性之间的连锁传播",
+    "揭示AI辅助语义对齐层的静默失败与偏差累积机制，主张将对齐层本身视为需审计的临床AI组件",
+    "构建从失败域到实施路径的概念框架与六项指导原则，提出'联邦验证优先于联邦训练'的可验证联邦理念"
+   ],
+   "benchmarks": [
+    "Table 4a 工具覆盖度诊断（ClinVar/LitVar/PubTator/CIViC/MatchMiner/DGIdb 四域覆盖标注）",
+    "Table 1 GDPR vs. HIPAA 基因数据治理对比",
+    "Table 3 AI系统生命周期临床实施要求（开发/验证/部署/监控/维护五阶段）"
+   ]
+  }
+ }
 }
