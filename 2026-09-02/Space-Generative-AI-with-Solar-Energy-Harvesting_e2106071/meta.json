@@ -4,5 +4,32 @@
  "title": "Space-Generative-AI-with-Solar-Energy-Harvesting",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-02 06:49:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c3f17b86-5f0b-412d-899f-606c84ce2cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c3f17b86-5f0b-412d-899f-606c84ce2cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:48:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Space Generative AI",
+    "Solar Energy Harvesting",
+    "Diffusion Model",
+    "Computation-Communication Trade-off",
+    "Orbital Dynamics",
+    "Lambert W Function",
+    "Energy Harvesting Communications"
+   ],
+   "field": "太空计算网络与能源管理",
+   "innovations": [
+    "分离原则：证明等待时间选择与发射功率控制在太阳能收集卫星场景下可解耦",
+    "闭式步数选择规则：利用Lambert W函数推导O(1)复杂度的最优DDIM步数公式",
+    "联合C²优化框架：将扩散模型去噪步数作为质量旋钮，与下行通信在时变太阳能约束下联合优化"
+   ],
+   "benchmarks": [
+    "Computation-centric scheme (fixed n=n_max)",
+    "Communication-centric scheme (fixed n=n_min)",
+    "Fixed waiting time + optimal/fixed power baselines"
+   ]
+  }
+ }
 }

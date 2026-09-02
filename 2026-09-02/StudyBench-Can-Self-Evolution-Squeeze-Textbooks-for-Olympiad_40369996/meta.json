@@ -4,5 +4,30 @@
  "title": "StudyBench-Can-Self-Evolution-Squeeze-Textbooks-for-Olympiad",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-09-02 06:51:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73aee710-932a-4550-8c16-4af1e523d79f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73aee710-932a-4550-8c16-4af1e523d79f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:49:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-evolution",
+    "benchmark",
+    "knowledge transfer",
+    "physics reasoning",
+    "reinforcement learning",
+    "guidance gap",
+    "compute plateau"
+   ],
+   "field": "大模型自进化与能力评测",
+   "innovations": [
+    "提出 StudyBench 基准，首次直接度量自进化方法将教材知识转化为可迁移解题能力的效率",
+    "定义并量化 Guidance Gap，揭示当前方法仅能闭合极小比例可达能力空间",
+    "发现 Compute Plateau 现象，证明剩余差距是算法问题而非数据或算力问题"
+   ],
+   "benchmarks": [
+    "StudyBench"
+   ]
+  }
+ }
 }

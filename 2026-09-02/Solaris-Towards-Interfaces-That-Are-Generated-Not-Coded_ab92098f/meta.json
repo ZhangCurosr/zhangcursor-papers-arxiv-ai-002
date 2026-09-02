@@ -4,5 +4,28 @@
  "title": "Solaris-Towards-Interfaces-That-Are-Generated-Not-Coded",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-09-02 06:55:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7f04f047-dff0-4ab9-8db9-163e1053dcb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7f04f047-dff0-4ab9-8db9-163e1053dcb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:47:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "界面世界模型",
+    "实时交互生成",
+    "自回归视频生成",
+    "推理渲染分离",
+    "GUI 生成"
+   ],
+   "field": "生成式 AI 界面",
+   "innovations": [
+    "提出首个界面世界模型，直接从交互信号逐帧生成交互式界面，无需代码中间表示",
+    "三步实时化流水线：自回归帧生成+少步蒸馏+自输出训练，将视频扩散模型改造为实时交互引擎",
+    "LLM 与世界模型解耦架构：LLM 负责意图解释与交互语义动态定义，世界模型负责实时视觉渲染"
+   ],
+   "benchmarks": [
+    "界面重建保真度基准（SSIM + DINOv3，30 个界面），用户偏好研究（250 人，7500 对比较）"
+   ]
+  }
+ }
 }

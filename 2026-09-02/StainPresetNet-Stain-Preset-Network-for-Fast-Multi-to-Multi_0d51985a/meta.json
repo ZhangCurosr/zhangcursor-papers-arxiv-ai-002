@@ -4,5 +4,31 @@
  "title": "StainPresetNet-Stain-Preset-Network-for-Fast-Multi-to-Multi",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-02 06:50:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8bdfc1cd-1e6a-4d4b-b734-555e52db27f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8bdfc1cd-1e6a-4d4b-b734-555e52db27f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:48:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Stain Normalization",
+    "Computational Pathology",
+    "Multi-domain Image Translation",
+    "1x1 Convolution",
+    "Color Transfer",
+    "Histopathology",
+    "Cytopathology"
+   ],
+   "field": "计算病理学中的图像预处理",
+   "innovations": [
+    "预设参考图像引导的多对多染色归一化框架，推理时更换参考图像即可切换归一化方向而无需重新训练",
+    "全1×1卷积颜色映射子网络（仅59参数）结合低分辨率骨干网络，实现像素级保结构颜色映射与超高计算效率（1601.5 FPS）"
+   ],
+   "benchmarks": [
+    "Aligned Cytopathology Dataset (S1/S2/S3)",
+    "Camelyon16/17 Histopathology Dataset",
+    "Cytopathology Classification Dataset (D1-D5)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Self-Reports-Are-Not-Verification-Environment-Grounded-Audit",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-09-02 06:52:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/003e49b1-62f9-4618-ba4b-9001a25a147c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/003e49b1-62f9-4618-ba4b-9001a25a147c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:47:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-report",
+    "confidence calibration",
+    "evolutionary search",
+    "LLM agent",
+    "rationale faithfulness",
+    "environment-grounded audit"
+   ],
+   "field": "LLM Agent 评估与可解释性",
+   "innovations": [
+    "提出环境接地审计框架，将自我报告转化为可逐条验证的外部声明",
+    "系统证伪三项关键假设：置信度系统性高估、继承理由无因果影响、选择不改善报告质量",
+    "揭示校准与区分能力的解耦现象，提供双维度评估范式的实证证据"
+   ],
+   "benchmarks": [
+    "Contexto word game"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "TRIPLE-BOTTOM-LINE-SUSTAINABILITY-OF-LAN-GUAGE-MODELS-FOR-ED",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-09-02 06:52:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8151a14e-1104-4399-92eb-f1e6c83518cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8151a14e-1104-4399-92eb-f1e6c83518cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:48:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "边缘AI",
+    "语言模型可持续性",
+    "模型量化",
+    "小语言模型",
+    "三重底线评估",
+    "HSS评分",
+    "能耗评估"
+   ],
+   "field": "边缘AI与绿色LLM部署",
+   "innovations": [
+    "提出基于经济/环境/社会三重底线的可复现HSS相对评分框架",
+    "系统比较5个原生SLM与5个LLM×5种量化方案的30配置边缘部署可持续性",
+    "发现量化LLM（Qwen3-30B-A3B/GGUF Q4）综合评分可超越原生SLM但SLM仍凭低资源需求保持竞争力"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "ARC-Challenge",
+    "HellaSwag",
+    "GSM8K",
+    "TruthfulQA",
+    "JailbreakBench"
+   ]
+  }
+ }
 }

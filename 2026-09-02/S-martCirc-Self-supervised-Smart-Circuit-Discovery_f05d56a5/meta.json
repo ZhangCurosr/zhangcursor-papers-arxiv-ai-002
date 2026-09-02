@@ -4,5 +4,30 @@
  "title": "S-martCirc-Self-supervised-Smart-Circuit-Discovery",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-02 06:54:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bd8f765-9a46-406a-8ce6-5c7b672f7b09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4bd8f765-9a46-406a-8ce6-5c7b672f7b09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:46:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit discovery",
+    "large language models",
+    "interpretability",
+    "functional roles",
+    "self-supervised"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出计算转换与信息传播的通用功能角色二分法",
+    "基于token相似度变化的可微功能解释指标FI",
+    "重要性-功能交替联合优化框架S3martCirc"
+   ],
+   "benchmarks": [
+    "IOI task on GPT-2/Llama/Qwen",
+    "Acronym Prediction task on GPT-2/Llama/Qwen"
+   ]
+  }
+ }
 }

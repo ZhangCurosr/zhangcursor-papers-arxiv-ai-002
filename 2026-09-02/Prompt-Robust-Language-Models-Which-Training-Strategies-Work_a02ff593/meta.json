@@ -4,5 +4,30 @@
  "title": "Prompt-Robust-Language-Models-Which-Training-Strategies-Work",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-02 06:51:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/849510ed-9979-4b1a-b2ee-45f496c8d815.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/849510ed-9979-4b1a-b2ee-45f496c8d815.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:44:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt robustness",
+    "instruction fine-tuning",
+    "gradient interference",
+    "consistency regularization",
+    "contrastive learning",
+    "LLM training"
+   ],
+   "field": "大语言模型训练与鲁棒性",
+   "innovations": [
+    "首次系统比较三类训练时鲁棒性方法在多模板IFT下的效果，揭示数据构建策略优于复杂辅助损失",
+    "发现多模板梯度在57-64%参数上符号冲突，解释ALL-IN-ONE-BATCH失效机制",
+    "证明PPCL和COIN辅助目标训练内有效但无法泛化，划定训练时鲁棒性方法的性能上限"
+   ],
+   "benchmarks": [
+    "T0 benchmark (Sanh et al. 2022)",
+    "PromptSource template collection"
+   ]
+  }
+ }
 }

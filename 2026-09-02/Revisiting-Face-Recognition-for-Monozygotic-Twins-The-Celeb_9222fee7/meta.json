@@ -4,5 +4,33 @@
  "title": "Revisiting-Face-Recognition-for-Monozygotic-Twins-The-Celeb",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-02 06:53:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5aa4d12a-746b-45f6-bdd3-055d13262187.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5aa4d12a-746b-45f6-bdd3-055d13262187.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:45:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单卵双生儿人脸识别",
+    "Celeb Twins Test Set",
+    "皮肤标记",
+    "镜像双生儿",
+    "生成式AI",
+    "水平翻转增强"
+   ],
+   "field": "细粒度人脸识别",
+   "innovations": [
+    "提出CTTS-80双胞胎测试集（21,120对图像，含皮肤标记和镜像状态元数据）",
+    "通过擦除实验首次证明当前深度CNN匹配器未利用可见皮肤标记",
+    "系统评估Grok/ChatGPT/Gemini生成虚拟双胞胎图像的可行性"
+   ],
+   "benchmarks": [
+    "CTTS-80",
+    "ND-Twins",
+    "Trad 5 (LFW/CALFW/CPLFW/CFP-FP/AgeDB-30)",
+    "Hadrian",
+    "Eclipse"
+   ]
+  }
+ }
 }

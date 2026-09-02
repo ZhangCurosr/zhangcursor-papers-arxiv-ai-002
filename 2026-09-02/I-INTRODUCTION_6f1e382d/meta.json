@@ -4,5 +4,34 @@
  "title": "I-INTRODUCTION",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-09-02 06:55:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5cc09fd3-9b4b-4eb1-86ec-2c20c2c643e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5cc09fd3-9b4b-4eb1-86ec-2c20c2c643e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:44:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Virtual Staining",
+    "Semi-supervised Learning",
+    "Morphology Preservation",
+    "Histopathological Realism Constraints",
+    "CONCH",
+    "Hessian",
+    "Image Translation",
+    "Computational Pathology"
+   ],
+   "field": "计算病理学/虚拟染色",
+   "innovations": [
+    "提出基于Hessian形态保持和冻结CONCH病理学真实性约束的半监督虚拟染色框架，联合利用配对和未配对数据",
+    "从源图像直接提取二阶空间结构监督信号，无需目标图像即可约束组织形态保真",
+    "利用冻结视觉-语言基础模型提供稳定语义参考，防止结构监督退化为优化捷径"
+   ],
+   "benchmarks": [
+    "MIST-Ki67",
+    "self-HER2",
+    "self-FFPE",
+    "IHC4BC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "StateSwap-Probing-Support-Elimination-Hidden-States-in-Multi",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-02 06:51:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/45d12153-80e7-4d05-8c65-7740c59ebcb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/45d12153-80e7-4d05-8c65-7740c59ebcb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:48:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation substitution",
+    "mechanistic interpretability",
+    "prompt framing",
+    "contrastive activation addition",
+    "multiple-choice reasoning",
+    "residual stream steering"
+   ],
+   "field": "大语言模型可解释性与推理干预",
+   "innovations": [
+    "引入未训练[STATE]token作为残差流接口，实现实例级SUP/ELIM交叉激活交换并验证其因果行为效应",
+    "提出基于Cohen's d与滑动特征窗的无监督层定位方案，在中间层发现框架敏感表征的可分离峰",
+    "构建无接口的双框架mean-difference steering方向，在多层多系数下相比匹配CAA显示更高的精度保留与更窄的层间波动"
+   ],
+   "benchmarks": [
+    "MMLU-17",
+    "MedQA-CH"
+   ]
+  }
+ }
 }

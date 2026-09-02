@@ -4,5 +4,31 @@
  "title": "Some-Emotions-Run-Deeper-Layer-wise-Probing-and-Causal-Inter",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-02 06:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0b0b6366-0505-495d-bca3-41fdbfd6190a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0b0b6366-0505-495d-bca3-41fdbfd6190a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:48:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "emotion representation",
+    "layer-wise probing",
+    "causal intervention",
+    "early-exit",
+    "large language models",
+    "affective computing"
+   ],
+   "field": "语言模型内部表征可解释性",
+   "innovations": [
+    "系统揭示情感深度随文本源风格系统性迁移",
+    "区分在线/离线干预证明情感层带因果效力",
+    "探针选中层带支撑高效Early-exit情感分类"
+   ],
+   "benchmarks": [
+    "Emotion/CARER",
+    "GoEmotions",
+    "ISEAR"
+   ]
+  }
+ }
 }

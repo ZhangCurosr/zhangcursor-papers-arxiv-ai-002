@@ -4,5 +4,28 @@
  "title": "TPR-Attention-for-Combinatorial-Generalization",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-09-01 07:16:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/661d5828-319f-4fb9-8a18-7aaa493f31c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/661d5828-319f-4fb9-8a18-7aaa493f31c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:43:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合泛化",
+    "张量积表示",
+    "注意力机制",
+    "结构化归纳偏置",
+    "Tensor Product Representation",
+    "dSprites"
+   ],
+   "field": "组合泛化与结构化解耦",
+   "innovations": [
+    "提出 TPR-Attention：基于张量积绑定的三阶段注意力机制，显式执行角色-填充物匹配与提取",
+    "在因子相互作用设置下验证组合泛化优势，显著超越经典注意力和 ResNet"
+   ],
+   "benchmarks": [
+    "dSprites combinatorial generalization (scale pos, square pos, square red OOD splits)"
+   ]
+  }
+ }
 }

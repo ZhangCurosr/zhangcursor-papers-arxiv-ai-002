@@ -4,5 +4,30 @@
  "title": "Scalable-Rao-Blackwellized-Online-Planning-for-High-Dimensio",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-02 06:55:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2f93e146-9d93-4c78-bb31-1d8cb73133f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2f93e146-9d93-4c78-bb31-1d8cb73133f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:46:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "POMDP",
+    "Rao-Blackwellization",
+    "online planning",
+    "particle filter",
+    "FastSLAM",
+    "sparse grid quadrature",
+    "robotic search-and-rescue"
+   ],
+   "field": "部分可观察序贯决策与机器人规划",
+   "innovations": [
+    "将 RB-POMDP 框架从 Gaussian 扩展至任意闭式信念更新模型",
+    "在 POMDP 树搜索中使用 Smolyak 稀疏网格求积替代蒙特卡洛采样以降低规划方差",
+    "集成 FastSLAM 2.0 实现混合连续-离散高维信念的在线规划"
+   ],
+   "benchmarks": [
+    "室内机器人搜救仿真场景"
+   ]
+  }
+ }
 }
