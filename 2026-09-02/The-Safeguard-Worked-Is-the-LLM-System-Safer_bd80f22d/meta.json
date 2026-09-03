@@ -4,5 +4,32 @@
  "title": "The-Safeguard-Worked-Is-the-LLM-System-Safer",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-09-02 17:37:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cc185e9e-0771-497a-a6d2-99006b8de522.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cc185e9e-0771-497a-a6d2-99006b8de522.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:31:05",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "可验证AI",
+    "安全对齐",
+    "TV距离",
+    "红队评测",
+    "枚举不变性",
+    "前沿下界"
+   ],
+   "field": "大语言模型安全与可验证AI",
+   "innovations": [
+    "证明有限采样安全估计存在枚举不变性根本障碍",
+    "提出TV距离约束下的价值相关仿真下界及其sharpness",
+    "建立双用途参数rho与任务完成度q联合的前缘下界框架"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "Jailbroken",
+    "REEFKNOT"
+   ]
+  }
+ }
 }

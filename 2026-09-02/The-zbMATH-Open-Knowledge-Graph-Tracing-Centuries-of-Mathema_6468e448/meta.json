@@ -4,5 +4,31 @@
  "title": "The-zbMATH-Open-Knowledge-Graph-Tracing-Centuries-of-Mathema",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-09-02 17:36:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/14e079b1-c619-4e81-ba2d-67fa7ff8a4d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/14e079b1-c619-4e81-ba2d-67fa7ff8a4d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:29:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge graphs",
+    "scholarly data",
+    "mathematics",
+    "FAIR data",
+    "Semantic Web",
+    "zbMATH Open",
+    "RDF"
+   ],
+   "field": "学术知识图谱与数字人文",
+   "innovations": [
+    "构建覆盖250年数学文献的专家标引RDF知识图谱（34M实体/168M三元组）",
+    "将专家策展语义（评论/MSC/关键词）与引用网络正交整合，支持非引用关系下的概念溯源",
+    "基于CQ驱动的三层系统性评估（序列化/结构一致性/覆盖度）并开源全部查询代码"
+   ],
+   "benchmarks": [
+    "zbMATH Open KG (自建数据集)",
+    "Competency Question Coverage (45条CQs, 95.6%部分+完全满足)"
+   ]
+  }
+ }
 }

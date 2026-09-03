@@ -4,5 +4,29 @@
  "title": "TimeSteer-Inference-Time-Speech-Scheduling-in-Joint-Audio-Vi",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-02 17:37:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/96afdb09-c0bb-4925-8940-679011bb3129.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/96afdb09-c0bb-4925-8940-679011bb3129.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:30:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "joint audio-visual generation",
+    "speech scheduling",
+    "inference-time control",
+    "diffusion models",
+    "cross-attention localization",
+    "training-free method"
+   ],
+   "field": "联合音频-视觉生成与推理时时序控制",
+   "innovations": [
+    "揭示预训练联合音视频扩散模型中时序敏感交叉注意力暴露源区间的内在性质",
+    "提出训练免两阶段框架 TimeSteer，通过 Source Span Localization + Region-Aware Latent Remapping 实现推理时语音调度",
+    "构建首个区间级语音调度基准 SpeechShift，含 400 提示 / 600 语句目标 / 4 种说话人结构"
+   ],
+   "benchmarks": [
+    "SpeechShift"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Towards-Effective-Structured-Context-Modeling-for-Conversati",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-09-02 06:52:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1a2d5e79-76c0-4b66-a1d4-5542ea46b368.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1a2d5e79-76c0-4b66-a1d4-5542ea46b368.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:30:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conversational Recommendation Systems",
+    "Monte Carlo Tree Search",
+    "Structured Context Modeling",
+    "Preference Elicitation",
+    "Preference Exploitation",
+    "LLM-based Systems"
+   ],
+   "field": "对话推荐系统",
+   "innovations": [
+    "双节点MCTS框架DREAMS联合优化偏好探查与利用",
+    "结构化偏好状态驱动的层次化可验证奖励设计",
+    "经验库warm-start降低推理延迟的EA变体"
+   ],
+   "benchmarks": [
+    "Redial",
+    "OpendialKG"
+   ]
+  }
+ }
 }

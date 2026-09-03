@@ -4,5 +4,30 @@
  "title": "The-Constitutional-Coverage-Trilemma-in-AI-Governance",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-02 06:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/045c73cb-f5dd-4256-8806-b6f4f92735a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/045c73cb-f5dd-4256-8806-b6f4f92735a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:29:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI治理",
+    "价值对齐",
+    "宪法审计",
+    "LLM评估",
+    "多元主义",
+    "覆盖差距"
+   ],
+   "field": "AI对齐与治理",
+   "innovations": [
+    "首次量化前沿LLM默认宪法类型与人类需求的覆盖差距（~2%）",
+    "形式化预算多元主义三重困境并经验验证绑定",
+    "证明顶点充分性定理与稀疏菜单有效性（两顶点菜单改善47%）"
+   ],
+   "benchmarks": [
+    "AI Jamm pairwise-tradeoff battery",
+    "23-archetype frontier audit (6 families)"
+   ]
+  }
+ }
 }

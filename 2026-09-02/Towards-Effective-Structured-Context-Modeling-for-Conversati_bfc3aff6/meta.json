@@ -4,5 +4,30 @@
  "title": "Towards-Effective-Structured-Context-Modeling-for-Conversati",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-09-02 17:37:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1a2d5e79-76c0-4b66-a1d4-5542ea46b368.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1a2d5e79-76c0-4b66-a1d4-5542ea46b368.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:30:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话推荐系统",
+    "结构化上下文建模",
+    "蒙特卡洛树搜索",
+    "用户偏好追踪",
+    "LLM Agent",
+    "偏好探查与利用"
+   ],
+   "field": "对话推荐系统",
+   "innovations": [
+    "提出双节点MCTS框架DREAMS，在结构化对话状态树上统一建模偏好探查与利用",
+    "设计ELNode结合UCT搜索与LLM先验实现前瞻对话动作规划",
+    "设计EXNode通过LLM查询精炼机制将结构化偏好状态转化为检索查询"
+   ],
+   "benchmarks": [
+    "Redial",
+    "OpendialKG"
+   ]
+  }
+ }
 }

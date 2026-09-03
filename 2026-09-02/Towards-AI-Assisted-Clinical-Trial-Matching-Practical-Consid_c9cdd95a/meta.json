@@ -4,5 +4,32 @@
  "title": "Towards-AI-Assisted-Clinical-Trial-Matching-Practical-Consid",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-09-02 17:36:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f9f1d262-e450-4614-9f06-18d078565673.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f9f1d262-e450-4614-9f06-18d078565673.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:30:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Clinical Trial Matching",
+    "Large Language Models",
+    "Clinical Recommendation",
+    "TrialGPT",
+    "Medical AI",
+    "Patient Recruitment"
+   ],
+   "field": "临床决策支持与医疗人工智能",
+   "innovations": [
+    "从资格评估转向临床推荐（Recommendation vs Eligibility）的多中心评估框架",
+    "提出可配置的匹配策略（Matching Policy）以适配不同工作流偏好",
+    "构建 NIH-TrialBench 基准及 90.9% 的前瞻性试验机会扩展效果"
+   ],
+   "benchmarks": [
+    "NIH-TrialBench",
+    "SIGIR 2016",
+    "TREC 2021",
+    "TREC 2022"
+   ]
+  }
+ }
 }
