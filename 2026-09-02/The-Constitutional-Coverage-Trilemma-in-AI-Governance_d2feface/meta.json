@@ -4,5 +4,32 @@
  "title": "The-Constitutional-Coverage-Trilemma-in-AI-Governance",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-02 17:36:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/045c73cb-f5dd-4256-8806-b6f4f92735a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/045c73cb-f5dd-4256-8806-b6f4f92735a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:52:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constitutional AI",
+    "preference alignment",
+    "value pluralism",
+    "LLM audit",
+    "menu regret",
+    "sparse basis design",
+    "regulatory governance"
+   ],
+   "field": "AI 对齐与治理",
+   "innovations": [
+    "在单一五值单纯形框架下联合审计人类需求与前沿LLM供给并发现2%覆盖缺口",
+    "形式化预算多元三难（BCP/PE/GMRP不可能性）并经验验证绑定",
+    "发现跨厂商自主权单调漂移集中于低风险场景的staked-conditioned分解"
+   ],
+   "benchmarks": [
+    "AI Jamm配对交易问卷（20-item, 10 pairs × 2 reversed orderings）",
+    "23-archetype frontier菜单（Claude/GPT/Gemini/Llama/Grok/DeepSeek 六族多版本）",
+    "Vertex menu枚举（2^5-1=31个子集）"
+   ]
+  }
+ }
 }

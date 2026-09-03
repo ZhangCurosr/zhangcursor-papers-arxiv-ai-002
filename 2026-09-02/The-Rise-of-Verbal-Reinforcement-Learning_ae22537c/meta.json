@@ -4,5 +4,34 @@
  "title": "The-Rise-of-Verbal-Reinforcement-Learning",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-02 06:50:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ca009937-3f06-421b-b01e-5e77629a2599.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ca009937-3f06-421b-b01e-5e77629a2599.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:53:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Verbal Reinforcement Learning",
+    "Language as Feedback",
+    "Agent Taxonomy",
+    "Self-Correction",
+    "Preference Optimization",
+    "Process Reward Model",
+    "Grounding Signal"
+   ],
+   "field": "语言模型与强化学习交叉",
+   "innovations": [
+    "提出VRL统一框架并按时序划分为三大支柱（锚定信号/ deliberative反馈/学习信号）",
+    "建立信息压缩光谱统一解释反馈条件建模到偏好塑造的方法族",
+    "识别跨领域共性挑战并提供形式化理论未来的研究方向"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "BabyAI",
+    "SWE-bench",
+    "CriticBench",
+    "MemBench"
+   ]
+  }
+ }
 }

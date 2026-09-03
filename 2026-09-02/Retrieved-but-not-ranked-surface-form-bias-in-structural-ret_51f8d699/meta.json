@@ -4,5 +4,32 @@
  "title": "Retrieved-but-not-ranked-surface-form-bias-in-structural-ret",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-02 17:35:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/bfeafa86-8f0e-46ec-b6a6-c4b6b7404125.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/bfeafa86-8f0e-46ec-b6a6-c4b6b7404125.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:52:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structural retrieval",
+    "surface-form bias",
+    "embedding retrieval",
+    "reranking",
+    "LLM-as-judge",
+    "mathematical reasoning",
+    "agent trajectories"
+   ],
+   "field": "信息检索与LLM评估",
+   "innovations": [
+    "词法重排器符号翻转作为基准表面变化性质的廉价诊断工具",
+    "双领域共享协议揭示嵌入检索锚定字面表面而非结构的普遍偏差",
+    "配对下游实验揭示检索质量到求解器传递假设的脆弱性"
+   ],
+   "benchmarks": [
+    "MathNet-Retrieve",
+    "ALFWorld",
+    "AgentInstruct"
+   ]
+  }
+ }
 }

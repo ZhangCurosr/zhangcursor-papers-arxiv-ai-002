@@ -4,5 +4,31 @@
  "title": "Rethinking-Learnability-in-Ofline-Data-driven-Optimization",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-02 06:51:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee766536-ed4d-41a3-870d-24350bdc6efc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee766536-ed4d-41a3-870d-24350bdc6efc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:51:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offline optimization",
+    "learnability",
+    "algorithm-dependent learnability",
+    "trajectory learning",
+    "diffusion model",
+    "submodular maximization",
+    "convex minimization"
+   ],
+   "field": "离线数据驱动优化",
+   "innovations": [
+    "提出算法依赖的可学习性并证明在贪心/局部搜索/投影梯度下降场景下的充分性",
+    "形式化轨迹学习三阶段框架并统一分析现有方法",
+    "提出 UGTL：不确定性感知梯度引导轨迹构造、条件扩散建模与聚类候选选择"
+   ],
+   "benchmarks": [
+    "Design-Bench",
+    "BBOB"
+   ]
+  }
+ }
 }

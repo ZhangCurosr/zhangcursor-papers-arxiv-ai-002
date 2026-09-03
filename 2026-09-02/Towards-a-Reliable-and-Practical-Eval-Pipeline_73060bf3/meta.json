@@ -4,5 +4,30 @@
  "title": "Towards-a-Reliable-and-Practical-Eval-Pipeline",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-02 17:36:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1506ced2-de97-4ab4-9f34-ede4639e725c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1506ced2-de97-4ab4-9f34-ede4639e725c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:53:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-judge",
+    "evaluation pipeline",
+    "conformal prediction",
+    "SHAP",
+    "GBDT",
+    "inter-LLM agreement",
+    "self-consistency"
+   ],
+   "field": "LLM 自动化评估与对齐",
+   "innovations": [
+    "检查清单+GBDT聚合的两阶段流水线，解耦理解与决策",
+    "TreeSHAP精确归因实现可追溯的逐问题影响分解",
+    "残差标准化conformal prediction提供输入自适应预测区间"
+   ],
+   "benchmarks": [
+    "SummEval"
+   ]
+  }
+ }
 }

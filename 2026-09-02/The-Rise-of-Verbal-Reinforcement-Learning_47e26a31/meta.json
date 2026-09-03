@@ -4,5 +4,34 @@
  "title": "The-Rise-of-Verbal-Reinforcement-Learning",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-02 17:35:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ca009937-3f06-421b-b01e-5e77629a2599.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ca009937-3f06-421b-b01e-5e77629a2599.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:52:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Verbal Reinforcement Learning",
+    "language feedback",
+    "agent taxonomy",
+    "grounding signal",
+    "deliberative feedback",
+    "learning signal",
+    "LLM agents",
+    "preference optimization"
+   ],
+   "field": "多模态语言智能体强化学习",
+   "innovations": [
+    "提出VRL统一范式，以语言反馈进入Agent生命周期的时机为单一轴构建三大支柱分类体系",
+    "揭示Grounding Signal/Deliberative Feedback/Learning Signal三支柱的时序互补性，并以coding agent为例阐明跨时机协同机制",
+    "提出贯穿三支柱的四个跨领域挑战（反馈模型质量、工具接口设计、对抗鲁棒性、形式化理论）及明确未来研究方向"
+   ],
+   "benchmarks": [
+    "BabyAI",
+    "HumanEval",
+    "CriticBench",
+    "MemBench"
+   ]
+  }
+ }
 }

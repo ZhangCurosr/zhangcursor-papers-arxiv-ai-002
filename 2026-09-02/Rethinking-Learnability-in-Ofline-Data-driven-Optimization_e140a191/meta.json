@@ -4,5 +4,29 @@
  "title": "Rethinking-Learnability-in-Ofline-Data-driven-Optimization",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-02 17:36:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee766536-ed4d-41a3-870d-24350bdc6efc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee766536-ed4d-41a3-870d-24350bdc6efc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:51:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "离线优化",
+    "算法依赖可学习性",
+    "轨迹学习",
+    "扩散模型",
+    "黑盒优化",
+    "Design-Bench"
+   ],
+   "field": "离线数据驱动优化",
+   "innovations": [
+    "提出算法依赖可学习性，证明其在贪心/局部搜索/投影梯度下降场景下是离线优化的充分条件",
+    "提出轨迹学习框架并设计UGTL方法，用不确定性感知的梯度引导构造局部连贯改进轨迹"
+   ],
+   "benchmarks": [
+    "Design-Bench",
+    "BBOB"
+   ]
+  }
+ }
 }

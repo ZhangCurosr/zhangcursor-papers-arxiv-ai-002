@@ -4,5 +4,31 @@
  "title": "Residual-Sparsification-via-Output-Importance-for-Compressin",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-09-02 17:37:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30ec66f6-cdd1-4f00-952b-b8f74735a7b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30ec66f6-cdd1-4f00-952b-b8f74735a7b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:51:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MoE",
+    "LLM压缩",
+    "残差稀疏化",
+    "输出重要性",
+    "模型压缩",
+    "专家系统"
+   ],
+   "field": "大语言模型压缩",
+   "innovations": [
+    "提出输出重要性度量，直接优化专家输出误差而非矩阵误差",
+    "设计全局池化维度选择策略，跨专家均匀压缩",
+    "在Qwen和DeepSeek上相比最优基线将准确性差距缩小1.4倍，同时保持内存压缩比"
+   ],
+   "benchmarks": [
+    "lm-eval-harness",
+    "WikiText",
+    "IFEval"
+   ]
+  }
+ }
 }

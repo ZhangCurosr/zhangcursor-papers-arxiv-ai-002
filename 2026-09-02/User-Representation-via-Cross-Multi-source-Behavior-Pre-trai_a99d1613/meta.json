@@ -4,5 +4,31 @@
  "title": "User-Representation-via-Cross-Multi-source-Behavior-Pre-trai",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-02 06:54:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0aa54a85-e667-4283-9a01-961b9b9eaac6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0aa54a85-e667-4283-9a01-961b9b9eaac6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:54:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "用户表征预训练",
+    "跨源行为建模",
+    "多粒度行为",
+    "级联预测",
+    "移动游戏推荐",
+    "自监督学习",
+    "掩码预测"
+   ],
+   "field": "用户行为建模与推荐系统预训练",
+   "innovations": [
+    "跨源级联预测框架：将下一个行为预测分解为跨源→源内多级可微条件链，逐步细化用户意图",
+    "非对称跨源融合架构：GASA+CGFA双通道设计，显式建模设备级日志的行为量-粒度不对称特性"
+   ],
+   "benchmarks": [
+    "OPPO移动游戏推荐基准（G1-G6六个任务）",
+    "AUC",
+    "R@P_0.95"
+   ]
+  }
+ }
 }

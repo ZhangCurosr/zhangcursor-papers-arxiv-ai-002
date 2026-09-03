@@ -4,5 +4,29 @@
  "title": "Towards-Generalizable-Visually-Grounded-Exploration-of-House",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-02 06:55:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6b9003e-7088-4168-b56a-3f62f89f3fcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6b9003e-7088-4168-b56a-3f62f89f3fcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:53:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visually grounded exploration",
+    "generalizable manipulation",
+    "state machine",
+    "VLM benchmark",
+    "embodied AI",
+    "fine-grained visual grounding"
+   ],
+   "field": "具身智能与视觉语言模型",
+   "innovations": [
+    "提出VGEBench基准评估VLM在无手册条件下操作家庭设备的泛化视觉grounding能力",
+    "设计Logic-Driven State Machine框架将设备交互逻辑形式化为确定性多轮状态转移图",
+    "揭示细粒度视觉定位是当前VLM在家庭设备探索中的核心瓶颈"
+   ],
+   "benchmarks": [
+    "VGEBench"
+   ]
+  }
+ }
 }

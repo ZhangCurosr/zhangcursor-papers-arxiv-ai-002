@@ -4,5 +4,29 @@
  "title": "VIBE-BENCH-Evaluating-Personalized-Large-Language-Models-Whe",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-02 17:36:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8495abf3-cc75-4034-89ab-b4debf87102f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8495abf3-cc75-4034-89ab-b4debf87102f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:53:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Personalized LLM",
+    "Preference Reasoning",
+    "Conceptual Misalignment",
+    "Benchmark",
+    "Cross-Concept Reasoning",
+    "Psychological Theory"
+   ],
+   "field": "个性化语言模型评测",
+   "innovations": [
+    "提出PRCM作为独立个性化失败范式，揭示profile-preference概念错位挑战",
+    "设计VIBE-BENCH基准，利用大五人格和RIASEC理论构建跨概念隐式偏好推理评测",
+    "证明当前个性化方法依赖浅层语义相关而非跨概念映射，并通过Concept-Aware CoT显著提升"
+   ],
+   "benchmarks": [
+    "VIBE-BENCH"
+   ]
+  }
+ }
 }
