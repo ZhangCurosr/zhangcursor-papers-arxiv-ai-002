@@ -4,5 +4,36 @@
  "title": "The-Safeguard-Worked-Is-the-LLM-System-Safer",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-09-02 06:53:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cc185e9e-0771-497a-a6d2-99006b8de522.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cc185e9e-0771-497a-a6d2-99006b8de522.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:49:01",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "LLM安全评估",
+    "部署安全",
+    "jailbreak防御",
+    "安全加固",
+    "形式化框架",
+    "残留有害协助"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出三色门上限定理揭示部署安全证明的根本不对称性",
+    "建立10槽位编码体系将本地指标转换为部署结论",
+    "对198篇论文进行实证映射发现仅Fides达成零残留证书"
+   ],
+   "benchmarks": [
+    "Fides",
+    "Circuit Breakers",
+    "Emulated Disalignment",
+    "RESTA",
+    "Nasr et al. 12防御",
+    "Jain et al.",
+    "FragFuse",
+    "Chen et al. 顺序监控器"
+   ]
+  }
+ }
 }
