@@ -4,5 +4,31 @@
  "title": "RARF-Region-Aware-Rectified-Flows-for-3D-Brain-MRI-Inpaintin",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-04 17:23:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3cc2f471-4a61-466a-acdf-92ea4d208ac6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3cc2f471-4a61-466a-acdf-92ea4d208ac6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:34:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Rectified Flow",
+    "Medical Image Inpainting",
+    "3D Brain MRI",
+    "Region-Aware Generation",
+    "BraTS Challenge",
+    "Healthy Tissue Synthesis",
+    "Diffusion Models"
+   ],
+   "field": "医学图像生成与修复",
+   "innovations": [
+    "将 rectified flow 的插值路径限制在 inpainting 掩码区域内，可见解剖全程固定",
+    "仅对健康组织 mask h 施加 flow-matching 监督，防止病理像素污染训练",
+    "系统对比 K-sample 平均、KDS 和 MBR 三种推理采样策略及其失真-感知权衡"
+   ],
+   "benchmarks": [
+    "BraTS Local Inpainting Dataset (2026)",
+    "Synapse Official Evaluation Platform"
+   ]
+  }
+ }
 }

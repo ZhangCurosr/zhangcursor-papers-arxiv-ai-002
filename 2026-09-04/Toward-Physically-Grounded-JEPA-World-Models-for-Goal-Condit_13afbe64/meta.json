@@ -4,5 +4,32 @@
  "title": "Toward-Physically-Grounded-JEPA-World-Models-for-Goal-Condit",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-04 17:23:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dc44b37c-611d-44c9-890c-13921957050f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dc44b37c-611d-44c9-890c-13921957050f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:34:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "世界模型",
+    "逆动力学",
+    "状态对齐",
+    "机器人规划",
+    "隐式预测"
+   ],
+   "field": "机器人强化学习与世界模型",
+   "innovations": [
+    "提出IDM+SA双辅助端到端JEPA框架，显式将隐式表征与物理状态对齐",
+    "揭示高直化分数与低维过渡子空间的背离现象，修正单一表征质量指标",
+    "四基准任务上取得最高规划成功率，SA在所有任务上稳定优于IDM alone"
+   ],
+   "benchmarks": [
+    "TwoRoom",
+    "Reacher",
+    "PushT",
+    "OGBench-Cube"
+   ]
+  }
+ }
 }

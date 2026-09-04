@@ -4,5 +4,30 @@
  "title": "Transfiver-Human-AI-Co-Inference-through-a-Shared-Editable-S",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-04 17:23:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b4b58f2-19de-4387-b4f8-43548fc25000.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b4b58f2-19de-4387-b4f8-43548fc25000.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:35:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人机协同推理",
+    "持久状态架构",
+    "可编辑记忆",
+    "历史充分性",
+    "参数-状态分离"
+   ],
+   "field": "可解释AI与记忆系统",
+   "innovations": [
+    "提出单一可编辑共享状态架构确保用户所见即模型所用",
+    "形式化历史充分性与因果干预契约",
+    "验证冻结状态可支持四种分歧读取规则"
+   ],
+   "benchmarks": [
+    "LongMemEval相关能力",
+    "合成上下文分离测试",
+    "四种时间规则读取测试"
+   ]
+  }
+ }
 }

@@ -4,5 +4,37 @@
  "title": "Towards-Numerical-TOHTN-Planning-with-SMT-based-HTN-SAT-Enco",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-04 17:22:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e985296e-c9bd-4d3e-b87a-a849b9fa3b9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e985296e-c9bd-4d3e-b87a-a849b9fa3b9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:34:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HTN planning",
+    "SMT encoding",
+    "numerical planning",
+    "TOHTN",
+    "cPDT",
+    "SibylSmt",
+    "benchmark"
+   ],
+   "field": "层次任务网络规划与数值推理",
+   "innovations": [
+    "将HTN-SAT布尔编码扩展为SMT以支持数值变量与约束",
+    "提出首个数值TOHTN规划形式化定义",
+    "发布七个数值TOHTN基准家族及实例生成器"
+   ],
+   "benchmarks": [
+    "Alchemy",
+    "Backpack",
+    "Gripper-colors",
+    "Minecraft",
+    "Overcooked",
+    "Transport-Fuel",
+    "Transvasement",
+    "Coverage"
+   ]
+  }
+ }
 }
