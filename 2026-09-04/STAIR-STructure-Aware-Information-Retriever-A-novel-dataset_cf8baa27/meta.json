@@ -4,5 +4,30 @@
  "title": "STAIR-STructure-Aware-Information-Retriever-A-novel-dataset",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-04 17:23:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/53c15ed8-32b0-4894-8e36-9566c3965e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/53c15ed8-32b0-4894-8e36-9566c3965e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:53:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval Augmented Generation",
+    "Information Retrieval",
+    "Table of Contents",
+    "Large Language Models",
+    "Model-based Indexing",
+    "Search Benchmark"
+   ],
+   "field": "信息检索与RAG",
+   "innovations": [
+    "提出基于目录结构（ToC）的LLM检索范式STAIR，将章节标题作为细粒度检索单元",
+    "开源SearchTome多领域基准（6领域18本书），填补结构化检索评测空白",
+    "证明ToC输入可显著降低幻觉率（<0.05%）并提升低资源泛化能力"
+   ],
+   "benchmarks": [
+    "SearchTome",
+    "BEIR"
+   ]
+  }
+ }
 }

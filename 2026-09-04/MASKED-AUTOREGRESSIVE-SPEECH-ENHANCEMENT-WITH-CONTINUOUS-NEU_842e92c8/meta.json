@@ -4,5 +4,31 @@
  "title": "MASKED-AUTOREGRESSIVE-SPEECH-ENHANCEMENT-WITH-CONTINUOUS-NEU",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-04 17:22:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f28c937e-740c-475a-a97e-80607270076c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f28c937e-740c-475a-a97e-80607270076c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:52:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech enhancement",
+    "masked autoregressive",
+    "continuous neural audio codec",
+    "DAC",
+    "decoding policy",
+    "exposure bias",
+    "MAR"
+   ],
+   "field": "语音增强与生成",
+   "innovations": [
+    "提出MARSE统一框架，在连续NAC表示上统一建模因果/非因果/掩码自回归多种解码策略",
+    "系统对比三种解码策略的性能-计算折中，揭示N可调的灵活性",
+    "展示非因果Oracle在OOD数据上的泛化优势并提出置信度驱动解码的未来方向"
+   ],
+   "benchmarks": [
+    "Libri1Mix",
+    "LibriDEMAND"
+   ]
+  }
+ }
 }

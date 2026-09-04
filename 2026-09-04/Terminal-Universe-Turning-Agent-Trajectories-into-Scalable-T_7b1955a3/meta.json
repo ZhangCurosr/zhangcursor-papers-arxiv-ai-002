@@ -4,5 +4,30 @@
  "title": "Terminal-Universe-Turning-Agent-Trajectories-into-Scalable-T",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-04 17:22:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/459f7c34-6063-4409-bd1e-c5c85510f413.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/459f7c34-6063-4409-bd1e-c5c85510f413.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:55:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "terminal agent",
+    "trajectory reconstruction",
+    "environment synthesis",
+    "SFT data scaling",
+    "cross-workspace task",
+    "multi-round agent"
+   ],
+   "field": "终端Agent训练数据构建",
+   "innovations": [
+    "将Agent轨迹逆向还原为可复用可执行终端环境，通过确定性重放+智能体补全两阶段重建工作区",
+    "提出广度（跨工作区依赖挖掘）与深度（多轮User Agent迭代）双轴任务扩展框架",
+    "引入红测驱动的智能体验证器自动筛选高质量SFT数据"
+   ],
+   "benchmarks": [
+    "Terminal-Bench 2.1",
+    "EvoCode-Bench v2"
+   ]
+  }
+ }
 }

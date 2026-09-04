@@ -4,5 +4,34 @@
  "title": "TOOLDF-Tool-Integrated-Reasoning-for-Mixed-Authenticity-Audi",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-04 17:23:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3ffb3ee7-e9a2-444c-b8da-4101dceeaf41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3ffb3ee7-e9a2-444c-b8da-4101dceeaf41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:55:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Audio Deepfake Detection",
+    "Tool-Integrated Reasoning",
+    "Mixed-Authenticity",
+    "Audio Large Language Model",
+    "Source Separation",
+    "Interpretable AI"
+   ],
+   "field": "音频深度伪造检测与多模态大模型推理",
+   "innovations": [
+    "提出基于ALLM编排器的工具集成推理框架，自适应路由至多域专家检测器",
+    "构建覆盖时域过渡、声源重叠与混合场景的大规模混合真实性音频深度伪造基准",
+    "通过结构化中间监督轨迹SFT训练，在实现复合类型检测最优性能的同时提供可解释组件级证据定位"
+   ],
+   "benchmarks": [
+    "Mixed-Authenticity ADD Benchmark (C1/C2/C3)",
+    "ASVspoof2019 LA",
+    "CtrSVDD",
+    "EnvSDD",
+    "FakeMusicCaps",
+    "MusicCaps"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Lose-the-Order-Keep-the-Hierarchy-Deordering-HTN-Plans",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-04 17:22:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/939f316e-bd00-446a-9480-f984f7a8426f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/939f316e-bd00-446a-9480-f984f7a8426f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:51:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HTN planning",
+    "plan deordering",
+    "partial-order planning",
+    "MaxSAT",
+    "plan optimization",
+    "hierarchical task network"
+   ],
+   "field": "HTN规划与计划优化",
+   "innovations": [
+    "将Backström的PRF去序算法扩展至含分解强制序的HTN场景",
+    "将Muise等人的Partial Weighted MaxSAT最小去序方法适配至HTN规划形式化",
+    "首次在IPC 2023 Partial-Order HTN基准上系统评估事后去序策略"
+   ],
+   "benchmarks": [
+    "IPC 2023 Partial-Order HTN"
+   ]
+  }
+ }
 }

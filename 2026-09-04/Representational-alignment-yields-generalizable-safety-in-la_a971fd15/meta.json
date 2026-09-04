@@ -4,5 +4,39 @@
  "title": "Representational-alignment-yields-generalizable-safety-in-la",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-04 17:22:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63300140-fa94-4aaa-8290-0dca3080ead7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63300140-fa94-4aaa-8290-0dca3080ead7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:53:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "安全对齐",
+    "表征相似性优化",
+    "大语言模型安全",
+    "道德分类",
+    "对抗鲁棒性",
+    "原型理论",
+    "ReSO",
+    "jailbreak防御"
+   ],
+   "field": "LLM安全对齐",
+   "innovations": [
+    "提出ReSO方法直接对齐LLM潜层表征与人类道德分级分类结构，不监督生成响应",
+    "系统刻画23个开源模型内部道德表征的结构性缺陷并量化其与对抗脆弱性的关联",
+    "首次在训练中建立RSA与ASR的剂量效应因果关系（R²=0.855）"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "OpenRT",
+    "DeceptionBench",
+    "XSTest",
+    "Flames",
+    "MMLU-Pro",
+    "HaluEval",
+    "Ethics Benchmark",
+    "MoReBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SWE-Gate-Passing-Functional-Tests-Is-Not-Enough-for-Software",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-04 17:22:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7e5a69-58b1-4956-8c81-46d980367619.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7e5a69-58b1-4956-8c81-46d980367619.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:53:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "software engineering benchmark",
+    "LLM agent evaluation",
+    "code review constraint",
+    "repository-level repair",
+    "functional testing",
+    "hidden failure"
+   ],
+   "field": "软件智能评估基准",
+   "innovations": [
+    "首个将可执行审查约束与功能正确性分离评估的仓库级基准",
+    "约束优先的半自动化实例构建框架与三层质量保障体系",
+    "揭示34.3%功能性成功存在隐性约束违反的系统性证据"
+   ],
+   "benchmarks": [
+    "SWE-Gate",
+    "SWE-Bench"
+   ]
+  }
+ }
 }

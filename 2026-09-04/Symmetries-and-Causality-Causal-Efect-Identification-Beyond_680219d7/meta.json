@@ -4,5 +4,28 @@
  "title": "Symmetries-and-Causality-Causal-Efect-Identification-Beyond",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-04 17:23:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/02cc0bca-c8a5-433d-ab2d-2b839de34375.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/02cc0bca-c8a5-433d-ab2d-2b839de34375.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:57:01",
+  "chunks": 9,
+  "meta": {
+   "keywords": [
+    "causal identification",
+    "symmetry group action",
+    "c-component decomposition",
+    "transportability",
+    "non-IID causal inference",
+    "mediation analysis",
+    "do-calculus generalization",
+    "measure-theoretic causality"
+   ],
+   "field": "因果推断理论",
+   "innovations": [
+    "用对称性群作用形式化因果不变性，替代纯图论条件",
+    "c-分量分解+Gluing递归识别框架，统一中介与运输性",
+    "backdoor-free嵌入族在非IID多上下文下的可识别性定理"
+   ]
+  }
+ }
 }

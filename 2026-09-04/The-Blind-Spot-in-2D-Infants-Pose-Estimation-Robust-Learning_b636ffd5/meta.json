@@ -4,5 +4,32 @@
  "title": "The-Blind-Spot-in-2D-Infants-Pose-Estimation-Robust-Learning",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-04 17:23:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/75a58cbd-6f85-4ba8-b550-f61e490f98f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/75a58cbd-6f85-4ba8-b550-f61e490f98f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:56:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Noisy Labels",
+    "Pose Estimation",
+    "Training Dynamics",
+    "Key-point Selection",
+    "Preterm Infants",
+    "Clinical AI",
+    "Robust Learning"
+   ],
+   "field": "含噪标注学习 / 医疗姿态估计",
+   "innovations": [
+    "提出 REMIND：基于关键点级训练动力学特征（损失降幅Δl与最小值到达时机Δt）的无监督 K-Means 聚类噪声识别方法，无需先验噪声假设或人工阈值",
+    "将噪声过滤粒度从样本级细化至关键点级，仅剔除噪声关键点的监督信号而保留同一样本内干净关键点",
+    "首次在早产儿 2D 姿态估计场景系统研究标签噪声，并在 NeoPose 及跨域数据集（SurgPose、颅面标志点）上验证通用性"
+   ],
+   "benchmarks": [
+    "NeoPose",
+    "SurgPose",
+    "Cephalometric Landmark Dataset"
+   ]
+  }
+ }
 }

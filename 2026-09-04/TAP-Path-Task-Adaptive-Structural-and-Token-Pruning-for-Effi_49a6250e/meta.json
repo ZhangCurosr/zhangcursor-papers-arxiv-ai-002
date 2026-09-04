@@ -4,5 +4,31 @@
  "title": "TAP-Path-Task-Adaptive-Structural-and-Token-Pruning-for-Effi",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-04 17:22:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3392a1c1-3110-415c-bdb1-885fa897b1ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3392a1c1-3110-415c-bdb1-885fa897b1ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:55:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "计算病理学",
+    "病理基础模型",
+    "结构剪枝",
+    "Token 剪枝",
+    "可信 AI",
+    "模型效率"
+   ],
+   "field": "计算病理学与医学图像分析",
+   "innovations": [
+    "任务自适应非连续 Transformer 块物理剪枝（24/32 块）",
+    "输入自适应 Patch Token 剪枝（70%）配合多深度软门控特征恢复",
+    "在相同任务上超越全量 Virchow2/UNI2-h 并同时降低 24.96% 参数与 35.20% FLOPs"
+   ],
+   "benchmarks": [
+    "TCGA 32-class histopathology",
+    "CPTAC-CCRCC",
+    "CPTAC-UCEC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Synthetic-Semantic-Supervision-for-Contrastive-Code-Represen",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-04 17:23:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/74defa88-174a-4b9e-91ec-faf8126cac77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/74defa88-174a-4b9e-91ec-faf8126cac77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:54:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码表示学习",
+    "对比预训练",
+    "合成数据",
+    "小型Transformer",
+    "代码嵌入",
+    "知识蒸馏"
+   ],
+   "field": "代码表示学习与嵌入",
+   "innovations": [
+    "用大语言模型合成语义描述并通过对比学习预训练小编码器",
+    "验证合成描述优于人工docstring和随机文本的监督质量",
+    "证明轻量模型经针对性预训练可匹敌大幅规模L0零样本LLM"
+   ],
+   "benchmarks": [
+    "POJ-104",
+    "BigCloneBench",
+    "CodeSearchNet",
+    "CodeChef",
+    "CodeForces",
+    "Devign"
+   ]
+  }
+ }
 }

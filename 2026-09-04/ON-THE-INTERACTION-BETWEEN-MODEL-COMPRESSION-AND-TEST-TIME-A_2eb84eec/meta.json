@@ -4,5 +4,31 @@
  "title": "ON-THE-INTERACTION-BETWEEN-MODEL-COMPRESSION-AND-TEST-TIME-A",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-04 17:23:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a46bf7f7-febe-4113-9ca6-4964978fc3ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a46bf7f7-febe-4113-9ca6-4964978fc3ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:52:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型压缩",
+    "测试时自适应",
+    "结构化剪枝",
+    "可塑性损失",
+    "梯度对齐",
+    "表征多样性",
+    "边缘部署"
+   ],
+   "field": "模型压缩与测试时适应交互",
+   "innovations": [
+    "提出静默可塑性损失概念揭示压缩破坏TTA能力",
+    "构建表征表达性与子空间兼容性双维度诊断框架",
+    "证明熵/一致性TTA目标在压缩下存在梯度退化与主动发散机制"
+   ],
+   "benchmarks": [
+    "CIFAR-10-C",
+    "ImageNet-C"
+   ]
+  }
+ }
 }

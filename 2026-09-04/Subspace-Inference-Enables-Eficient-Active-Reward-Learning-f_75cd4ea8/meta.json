@@ -4,5 +4,32 @@
  "title": "Subspace-Inference-Enables-Eficient-Active-Reward-Learning-f",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-04 17:23:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e8789a6f-7c7d-4b7f-9c24-0b422db19b4c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e8789a6f-7c7d-4b7f-9c24-0b422db19b4c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:54:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动学习",
+    "强化学习从人类反馈",
+    "贝叶斯深度学习",
+    "扩展卡尔曼滤波",
+    "子空间推断",
+    "奖励模型",
+    "不确定性量化"
+   ],
+   "field": "强化学习从人类反馈与主动奖励学习",
+   "innovations": [
+    "首次将子空间滤波应用于神经网络奖励模型的主动偏好学习",
+    "通过EKF在低维子空间中高效维护参数后验，支持任意数量采样计算InfoGain",
+    "序列式单次查询更新避免重复训练历史数据，实现5-40倍加速"
+   ],
+   "benchmarks": [
+    "D4RL",
+    "V-D4RL",
+    "SOAR机器人数据集"
+   ]
+  }
+ }
 }

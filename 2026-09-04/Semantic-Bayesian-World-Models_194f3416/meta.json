@@ -4,5 +4,32 @@
  "title": "Semantic-Bayesian-World-Models",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-04 17:23:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/84eb5735-caa5-4a69-8a09-d18dce9d7b4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/84eb5735-caa5-4a69-8a09-d18dce9d7b4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:53:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Semantic Web",
+    "Neuro-symbolic AI",
+    "Bayesian inference",
+    "World models",
+    "Knowledge graphs",
+    "Uncertainty reasoning",
+    "Probabilistic ontologies"
+   ],
+   "field": "语义网与神经符号AI交叉",
+   "innovations": [
+    "提出SBWM框架将知识图谱、贝叶斯网络和世界模型三者融合",
+    "本体论公理作为概率先验约束并导出可微语义校准层",
+    "将SPARQL适配为因果推理接口（观测vs干预）"
+   ],
+   "benchmarks": [
+    "家庭安防多源信念融合场景",
+    "精算跨语言聚合场景",
+    "洗车测试规划场景"
+   ]
+  }
+ }
 }

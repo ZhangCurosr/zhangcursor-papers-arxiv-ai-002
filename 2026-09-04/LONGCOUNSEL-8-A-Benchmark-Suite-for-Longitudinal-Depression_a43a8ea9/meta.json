@@ -4,5 +4,31 @@
  "title": "LONGCOUNSEL-8-A-Benchmark-Suite-for-Longitudinal-Depression",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-04 17:23:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c69cfc33-a8f3-4c77-a2ac-28d4c7cfe611.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c69cfc33-a8f3-4c77-a2ac-28d4c7cfe611.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:51:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal depression tracking",
+    "counseling dialogue benchmark",
+    "PHQ-8",
+    "multi-session dialogue generation",
+    "mental health NLP"
+   ],
+   "field": "心理健康自然语言处理",
+   "innovations": [
+    "首个同时具备多会话咨询对话与标准化会话级PHQ-8标签的纵向抑郁追踪基准",
+    "实证驱动的三重构造协议（PSYCHE-D轨迹+NHANES症状组成+REALCBT对话形式）结合行为线索翻译与闭环自我报告验证",
+    "揭示Change MAE与Direction Accuracy的排名逆转现象及恶化轨迹的系统性高误差"
+   ],
+   "benchmarks": [
+    "LONGCOUNSEL-8",
+    "LC8-QWEN",
+    "LC8-LUNA",
+    "LC8-GPT-5.4-Mini"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TEST-TIME-ADAPTATION-FOR-SPEECH-ENHANCEMENT-WITH-AN-AUTOREGR",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-04 17:23:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7bc51d-1c63-45dd-bc4e-d3049d51d134.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7bc51d-1c63-45dd-bc4e-d3049d51d134.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:55:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech enhancement",
+    "test-time adaptation",
+    "autoregressive prior",
+    "neural audio codec",
+    "DNSMOS",
+    "unseen noise"
+   ],
+   "field": "语音增强与测试时适配",
+   "innovations": [
+    "提出基于自回归清洁语音先验的单语气 TTA 框架，仅需 1 秒无标签片段即可适配预训练 SE 模型",
+    "设计满协方差自回归高斯先验与 KL 散度 TTA 损失，无需源数据或干净参考实现推理期适配",
+    "揭示先验对数密度四分位与 TTA 增益的关系并提出逻辑回归早停预测策略"
+   ],
+   "benchmarks": [
+    "DNS Challenge V5 dev-test",
+    "TIMIT-DEMAND",
+    "EARS-WHAM",
+    "Libri1Mix"
+   ]
+  }
+ }
 }

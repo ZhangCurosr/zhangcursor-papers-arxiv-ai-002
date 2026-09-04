@@ -4,5 +4,32 @@
  "title": "NeoRed-A-Knowledge-Logic-Alignment-MLLM-for-Neonatal-Respira",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-04 17:23:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ea94f1c9-b0d9-4b12-bcb7-ece4e6ff6df4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ea94f1c9-b0d9-4b12-bcb7-ece4e6ff6df4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:52:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "新生儿呼吸系统疾病",
+    "多模态大语言模型",
+    "医疗报告生成",
+    "知识-逻辑-对齐",
+    "胸片诊断",
+    "临床上下文融合"
+   ],
+   "field": "医疗多模态大模型",
+   "innovations": [
+    "首个新生儿呼吸系统 MLLM，联合胸片与结构化临床上下文生成诊断报告",
+    "KLA 框架通过先验注入、诊断约束和视觉对齐三模块增强多模态联合诊断",
+    "构建双中心真实世界新生儿胸片数据集 NeoCXR/NeoCXR-EV"
+   ],
+   "benchmarks": [
+    "NeoCXR",
+    "NeoCXR-EV",
+    "MIMIC-CXR",
+    "IU-Xray"
+   ]
+  }
+ }
 }

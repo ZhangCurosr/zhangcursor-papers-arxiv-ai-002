@@ -4,5 +4,30 @@
  "title": "Local-Updates-Global-Learning-LUGL-Playing-Games-with-non-in",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-04 17:23:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f84224f7-3cb3-4485-9830-6eb2a770c436.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f84224f7-3cb3-4485-9830-6eb2a770c436.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:51:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "gradient boosting",
+    "counterfactual regret minimization",
+    "non-incremental learning",
+    "game playing",
+    "LightGBM",
+    "deep reinforcement learning"
+   ],
+   "field": "博弈强化学习 / 表格数据机器学习",
+   "innovations": [
+    "提出 LUGL 框架解耦数据收集与模型拟合，使批量学习器可在非平稳自对弈中稳定运行",
+    "在相同训练预算下首次受控证明 LightGBM 在 DeepCFR 中全面优于 NNet",
+    "提出按投注序列分治的 Multi-S/Multi-D 变体显著提升未见状态泛化能力"
+   ],
+   "benchmarks": [
+    "Glicko-2 (Tic-tac-toe, Connect-4, Othello, Hex)",
+    "Exploitability (Kuhn Poker, Leduc Hold'em, Liar's Dice, Goofspiel-4, Flop5 Hold'em)"
+   ]
+  }
+ }
 }

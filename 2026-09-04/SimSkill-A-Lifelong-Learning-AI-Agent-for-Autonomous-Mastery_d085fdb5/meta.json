@@ -4,5 +4,32 @@
  "title": "SimSkill-A-Lifelong-Learning-AI-Agent-for-Autonomous-Mastery",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-04 17:24:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7681d193-970b-4a8f-9ad2-d41596cdaa9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7681d193-970b-4a8f-9ad2-d41596cdaa9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:54:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lifelong learning agent",
+    "LLM memory",
+    "traffic simulation",
+    "SUMO",
+    "procedural memory",
+    "semantic memory",
+    "action-critic loop",
+    "skill acquisition"
+   ],
+   "field": "LLM-based autonomous agents for scientific/engineering simulation",
+   "innovations": [
+    "Tripartite explicit memory (episodic/procedural/semantic) with lifecycle ops for agent system-level self-evolution without backbone updates",
+    "Action-critic nested retry loop with information isolation between execution debugging and design revision",
+    "Natural-language-specified orchestration coupled with deterministic external completeness checks and periodic memory linting"
+   ],
+   "benchmarks": [
+    "SimSkill Benchmark V1 (40 tasks, 4 tiers)",
+    "SimSkill Benchmark V2 (40 tasks, hard engineering studies)"
+   ]
+  }
+ }
 }

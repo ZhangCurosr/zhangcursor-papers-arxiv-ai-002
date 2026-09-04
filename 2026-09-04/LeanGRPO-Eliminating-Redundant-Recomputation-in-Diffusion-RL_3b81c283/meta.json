@@ -4,5 +4,34 @@
  "title": "LeanGRPO-Eliminating-Redundant-Recomputation-in-Diffusion-RL",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-04 17:23:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/250fc4b3-2fd9-4f63-bf1e-7e951d320da7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/250fc4b3-2fd9-4f63-bf1e-7e951d320da7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:51:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion RL",
+    "GRPO",
+    "trajectory log-prob",
+    "recompute-free training",
+    "shared-prompt parallelism",
+    "provisional gradient correction"
+   ],
+   "field": "扩散模型强化学习系统优化",
+   "innovations": [
+    "识别并消除on-policy扩散RL中update阶段数学冗余的重计算",
+    "提出Shared-prompt并行布局使每卡显存负担降至1/R",
+    "两种互补免重算调度：Retain（图保留）与Reweight（暂态backward+延迟修正）"
+   ],
+   "benchmarks": [
+    "HPSv2",
+    "PickScore",
+    "FLUX.1-dev",
+    "Wan2.1-1.3B/14B",
+    "SD3.5-Medium",
+    "Wan2.2-TI2V-5B"
+   ]
+  }
+ }
 }

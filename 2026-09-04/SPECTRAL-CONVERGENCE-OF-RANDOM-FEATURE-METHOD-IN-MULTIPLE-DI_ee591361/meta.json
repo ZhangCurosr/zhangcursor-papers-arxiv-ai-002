@@ -4,5 +4,10 @@
  "title": "SPECTRAL-CONVERGENCE-OF-RANDOM-FEATURE-METHOD-IN-MULTIPLE-DI",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-04 17:23:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3b80a8f8-1735-4e3c-a62c-1ffa98837410.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3b80a8f8-1735-4e3c-a62c-1ffa98837410.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:54:30",
+  "chunks": 4
+ }
 }

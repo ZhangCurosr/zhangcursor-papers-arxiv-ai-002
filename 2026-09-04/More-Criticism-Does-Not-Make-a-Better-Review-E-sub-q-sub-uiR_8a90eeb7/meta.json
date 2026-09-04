@@ -4,5 +4,32 @@
  "title": "More-Criticism-Does-Not-Make-a-Better-Review-E-sub-q-sub-uiR",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-04 17:22:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a892b0a3-2c00-43ac-80f2-69252bc73fe3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a892b0a3-2c00-43ac-80f2-69252bc73fe3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:52:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-assisted peer review",
+    "review revision",
+    "selective risk control",
+    "evidence provenance",
+    "omission-overcritique tradeoff",
+    "Learn-then-Test"
+   ],
+   "field": "AI辅助学术审稿",
+   "innovations": [
+    "将遗漏与过度批评解耦为二维风险评估，提出证据导向修订-互补发现-选择性停止三阶段框架",
+    "EquiReview-R 在计算匹配对照下将主要过度批评从15.5%降至8.1%且遗漏上界9.9%",
+    "开源 ReviewTrace 证据链接轨迹语料（1900状态/35292判断），支持修订行为与争议溯源研究"
+   ],
+   "benchmarks": [
+    "E3",
+    "ReviewTrace confirmation set (271 unseen papers)",
+    "DIAG",
+    "Simple"
+   ]
+  }
+ }
 }
