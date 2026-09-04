@@ -4,5 +4,10 @@
  "title": "LevelSyn-Physical-Aware-Logic-Synthesis-via-Level-Asynchrono",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-04 06:58:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b96ca7f5-3732-4ab1-83a0-42fc76c60c71.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b96ca7f5-3732-4ab1-83a0-42fc76c60c71.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:03:55",
+  "chunks": 1
+ }
 }

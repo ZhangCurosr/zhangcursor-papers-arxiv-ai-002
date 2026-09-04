@@ -4,5 +4,28 @@
  "title": "The-Dually-Flat-Geometry-of-Planning-as-Inference",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-04 06:57:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9c584507-9311-4cff-8fe4-6fdef4c0bead.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9c584507-9311-4cff-8fe4-6fdef4c0bead.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:09:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "planning as inference",
+    "information geometry",
+    "reinforcement learning",
+    "dually flat manifold",
+    "natural policy gradient",
+    "convex MDP",
+    "stochastic resetting",
+    "free energy principle"
+   ],
+   "field": "强化学习理论/信息几何",
+   "innovations": [
+    "通过重置规划过程统一刻画RL占据测度并证明其双平坦几何结构",
+    "将规划即推理从线性回报推广至非线性自由能目标，每步迭代为一次自然梯度更新",
+    "赋予TD误差以边际效用估计的几何解释，桥接RL与神经科学"
+   ]
+  }
+ }
 }

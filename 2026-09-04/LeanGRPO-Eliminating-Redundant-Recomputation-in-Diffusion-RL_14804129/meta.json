@@ -4,5 +4,33 @@
  "title": "LeanGRPO-Eliminating-Redundant-Recomputation-in-Diffusion-RL",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-04 06:58:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/342740d8-d1b1-4b5d-993e-2e345faeed87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/342740d8-d1b1-4b5d-993e-2e345faeed87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:03:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Reinforcement Learning",
+    "Gradient Recomputation",
+    "Systems Optimization",
+    "Policy Gradient",
+    "Data Parallelism",
+    "Training Efficiency"
+   ],
+   "field": "生成模型高效训练",
+   "innovations": [
+    "提出共享Prompt并行布局以降低单卡显存压力",
+    "设计Retain调度策略直接复用rollout计算图",
+    "设计Reweight调度策略通过临时梯度与延迟校正避免重计算"
+   ],
+   "benchmarks": [
+    "HPSv2",
+    "PickScore",
+    "FLUX.1-dev",
+    "Wan2.1",
+    "SD3.5-Medium"
+   ]
+  }
+ }
 }

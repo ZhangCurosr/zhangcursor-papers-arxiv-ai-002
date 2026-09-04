@@ -4,5 +4,31 @@
  "title": "The-Atention-Triangle-in-Audio-Video-Models",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-04 06:57:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/47a50bf8-6b67-48b9-a059-441e1f8b8599.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/47a50bf8-6b67-48b9-a059-441e1f8b8599.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:09:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "audio-video generation",
+    "cross-modal attention",
+    "semantic leakage",
+    "diffusion models",
+    "inference-time intervention",
+    "source attribution"
+   ],
+   "field": "多模态生成模型的可解释性与控制",
+   "innovations": [
+    "提出注意力三角形框架分析文本-音频-视频三模态交互中的语义路由机制",
+    "发现音频-视频交叉注意力边是语义泄漏的主要贡献者并提出训练无代价的联合干预方法"
+   ],
+   "benchmarks": [
+    "Qwen source-attribution score",
+    "CLAP audio-text alignment",
+    "VBench visual quality",
+    "VA-Judger pairwise preference"
+   ]
+  }
+ }
 }

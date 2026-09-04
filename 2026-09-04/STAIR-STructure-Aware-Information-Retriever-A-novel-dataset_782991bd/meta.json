@@ -4,5 +4,30 @@
  "title": "STAIR-STructure-Aware-Information-Retriever-A-novel-dataset",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-04 06:58:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/53c15ed8-32b0-4894-8e36-9566c3965e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/53c15ed8-32b0-4894-8e36-9566c3965e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:05:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Table of Contents",
+    "Retrieval-Augmented Generation",
+    "Differentiable Search Index",
+    "Parameterized Retrieval",
+    "Information Retrieval",
+    "Long-context"
+   ],
+   "field": "结构化文档检索与参数化索引",
+   "innovations": [
+    "提出 STAIR，首次将 Table of Contents 作为显式全局结构信号引入 LLM 参数化检索",
+    "构建 SearchTome 多领域 benchmark（18 本书/6 领域），填补 ToC 检索评测空白",
+    "揭示 ToC 显式输入可大幅降低幻觉率（<0.05%）并提升低样本 leaf 的泛化召回"
+   ],
+   "benchmarks": [
+    "SearchTome",
+    "BeIR"
+   ]
+  }
+ }
 }

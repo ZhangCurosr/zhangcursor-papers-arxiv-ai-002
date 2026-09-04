@@ -4,5 +4,38 @@
  "title": "Local-Updates-Global-Learning-LUGL-Playing-Games-with-non-in",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-04 06:56:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/640826c7-4854-4c26-81be-43723b4926cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/640826c7-4854-4c26-81be-43723b4926cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:03:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reinforcement Learning",
+    "Gradient Boosting",
+    "Game Playing",
+    "DeepCFR",
+    "LightGBM",
+    "Perfect Information",
+    "Imperfect Information"
+   ],
+   "field": "博弈论强化学习",
+   "innovations": [
+    "提出LUGL框架解耦数据收集与模型拟合，使树模型可替代神经网络用于博弈RL",
+    "在DeepCFR中首次控制变量比较逼近器，证明LightGBM在相同训练预算下优于神经网络",
+    "非完美信息博弈中LUGL-CFR相比SD-CFR提升约100 mbb/h，完美信息博弈中收敛更快"
+   ],
+   "benchmarks": [
+    "Tic-tac-toe",
+    "Connect-4",
+    "Othello",
+    "Hex",
+    "Kuhn Poker",
+    "Leduc Poker",
+    "Liar's Dice",
+    "Goofspiel-4",
+    "Flop5 Hold'em"
+   ]
+  }
+ }
 }

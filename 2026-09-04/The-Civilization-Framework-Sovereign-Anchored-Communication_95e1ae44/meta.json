@@ -4,5 +4,32 @@
  "title": "The-Civilization-Framework-Sovereign-Anchored-Communication",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-04 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2afb8276-88a2-4e2d-b462-501ff1b3fd8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2afb8276-88a2-4e2d-b462-501ff1b3fd8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:09:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent communication",
+    "sovereign-anchored protocol",
+    "commitment ledger",
+    "temporal-weight effect",
+    "agent interoperability",
+    "Embassy Protocol",
+    "verification gating"
+   ],
+   "field": "多代理系统通信与协议",
+   "innovations": [
+    "将文明（自然人+持久账本+可互换代理）作为跨方AI通信的基本单位",
+    "Embassy Protocol 三级签名纪律与统一工件设计",
+    "时序权重效应的预注册隔离实验与协议级缓解"
+   ],
+   "benchmarks": [
+    "53-question factual QA benchmark with anchor injection",
+    "SovereignNegotiation-Bench (referenced)",
+    "SovereignPA-Bench (referenced)"
+   ]
+  }
+ }
 }

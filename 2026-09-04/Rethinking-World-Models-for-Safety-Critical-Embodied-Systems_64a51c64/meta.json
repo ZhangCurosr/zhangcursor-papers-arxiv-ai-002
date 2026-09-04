@@ -4,5 +4,27 @@
  "title": "Rethinking-World-Models-for-Safety-Critical-Embodied-Systems",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-04 06:58:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1199ff69-99e4-4d14-8329-df9ddaec0292.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1199ff69-99e4-4d14-8329-df9ddaec0292.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:05:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界模型",
+    "安全关键系统",
+    "风险感知决策",
+    "反事实推理",
+    "认识论不确定性",
+    "具身智能",
+    "运行时安全保证"
+   ],
+   "field": "安全关键自主系统的感知-决策-控制",
+   "innovations": [
+    "提出三层次认知进阶框架（预测→后果→反思）将世界建模从预测导向转向决策导向",
+    "定义RIWM四能力架构（决策相关表示、反事实推理、安全关键记忆、运行时安全保证）",
+    "区分物理/社会/运行三种异质后果域，主张不压缩为单一风险标量"
+   ]
+  }
+ }
 }

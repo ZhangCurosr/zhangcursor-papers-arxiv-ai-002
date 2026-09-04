@@ -4,5 +4,32 @@
  "title": "Subspace-Inference-Enables-Eficient-Active-Reward-Learning-f",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-04 06:58:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e8789a6f-7c7d-4b7f-9c24-0b422db19b4c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e8789a6f-7c7d-4b7f-9c24-0b422db19b4c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:07:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Active Preference Learning",
+    "Bayesian Deep Learning",
+    "Extended Kalman Filter",
+    "Subspace Inference",
+    "Reward Model",
+    "RLHF",
+    "Uncertainty Quantification"
+   ],
+   "field": "Active Reward Learning from Preferences",
+   "innovations": [
+    "将主动偏好奖励学习框架化为序列贝叶斯滤波问题，利用EKF在低维子空间中高效推断神经网络后验",
+    "首次将子空间滤波用于神经网络上网络奖励模型训练，支持任意数量采样以计算InfoGain等获取函数",
+    "在D4RL/V-D4RL基准上实现了样本效率、运行时间、可扩展性和校准全面优于主流贝叶斯深度学习方法"
+   ],
+   "benchmarks": [
+    "D4RL",
+    "V-D4RL",
+    "SOAR"
+   ]
+  }
+ }
 }

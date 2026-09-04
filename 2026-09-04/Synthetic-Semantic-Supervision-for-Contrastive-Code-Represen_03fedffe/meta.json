@@ -4,5 +4,35 @@
  "title": "Synthetic-Semantic-Supervision-for-Contrastive-Code-Represen",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-04 06:57:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/74defa88-174a-4b9e-91ec-faf8126cac77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/74defa88-174a-4b9e-91ec-faf8126cac77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:08:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code representation learning",
+    "contrastive pretraining",
+    "synthetic supervision",
+    "code embeddings",
+    "small transformers",
+    "code search",
+    "knowledge distillation"
+   ],
+   "field": "代码表示学习与对比预训练",
+   "innovations": [
+    "以合成语义描述为主监督信号的双编码器对比预训练方法",
+    "在同规模同数据对照下证明合成语义+对比目标优于执行/等价代码监督",
+    "揭示合成描述在标识符重叠与词汇多样性上的优势并展示本地开权重生成器可复现"
+   ],
+   "benchmarks": [
+    "POJ-104 Clone Detection",
+    "BigCloneBench",
+    "CodeXGLUE Defect Detection",
+    "CodeSearchNet Java",
+    "CodeChef Java",
+    "CodeForces"
+   ]
+  }
+ }
 }

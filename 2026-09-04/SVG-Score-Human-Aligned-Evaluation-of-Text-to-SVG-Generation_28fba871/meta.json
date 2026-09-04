@@ -4,5 +4,30 @@
  "title": "SVG-Score-Human-Aligned-Evaluation-of-Text-to-SVG-Generation",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-04 07:01:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/50906464-24b3-4fb5-baae-577004a75586.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/50906464-24b3-4fb5-baae-577004a75586.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:05:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SVG",
+    "Human-aligned Evaluation",
+    "VLM-as-a-Judge",
+    "Preference Alignment",
+    "CLIP Adaptation",
+    "GRPO"
+   ],
+   "field": "多模态生成评估",
+   "innovations": [
+    "构建首个以人类对齐为目标的 Text-to-SVG Semantic Alignment 标注数据集（12,957条，8,671 SVG/1,858 caption）",
+    "提出双评估器框架：SVG-CLIP 偏好对齐评分器 + SFT+GRPO 训练的 VLM Judge",
+    "系统量化 CLIPScore 和零样本 VLM Judge 在矢量图形上的感知盲点并通过受控扰动分析揭示"
+   ],
+   "benchmarks": [
+    "SVG-Score Human-Rated Test Set",
+    "SVG-Score Independent Generator Benchmark (Easy/Medium/Hard)"
+   ]
+  }
+ }
 }

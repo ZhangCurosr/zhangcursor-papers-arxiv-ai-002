@@ -4,5 +4,31 @@
  "title": "OUT-OF-DISTRIBUTION-GENERALISATION-WITH-SE-QUENCE-MODELS-IN",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-04 06:56:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/47d45cb6-d6fd-44be-b8b0-95cb5e0018ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/47d45cb6-d6fd-44be-b8b0-95cb5e0018ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:04:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offline multi-agent reinforcement learning",
+    "zero-shot generalization",
+    "sequence models",
+    "multi-task learning",
+    "scaling laws"
+   ],
+   "field": "离线多智能体强化学习",
+   "innovations": [
+    "揭示任务多样性是离线MARL序列模型泛化的主导因素",
+    "建立多任务离线MARL泛化理论界",
+    "适配多任务场景的动态padding/shuffling/masking与task-balanced batching技术"
+   ],
+   "benchmarks": [
+    "LBF",
+    "Connector",
+    "RWARE",
+    "SMAX"
+   ]
+  }
+ }
 }

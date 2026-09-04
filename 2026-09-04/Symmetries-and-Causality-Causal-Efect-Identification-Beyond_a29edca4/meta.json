@@ -4,5 +4,27 @@
  "title": "Symmetries-and-Causality-Causal-Efect-Identification-Beyond",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-04 06:58:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/02cc0bca-c8a5-433d-ab2d-2b839de34375.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/02cc0bca-c8a5-433d-ab2d-2b839de34375.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:10:46",
+  "chunks": 9,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "对称性",
+    "概率核",
+    "结构化核",
+    "transportability",
+    "机制不变性",
+    "C-组件"
+   ],
+   "field": "因果推断理论",
+   "innovations": [
+    "基于对称群与概率核的统一因果形式语言，移除IID与do算子依赖",
+    "结构化核与图形操作工具箱（Simplify/Gluing/Revealing/C-Components）",
+    "Viewport缺失模式建模与浅分布到深推断的计算框架"
+   ]
+  }
+ }
 }

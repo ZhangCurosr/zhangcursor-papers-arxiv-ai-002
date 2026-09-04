@@ -4,5 +4,27 @@
  "title": "Semantic-Bayesian-World-Models",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-04 06:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/84eb5735-caa5-4a69-8a09-d18dce9d7b4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/84eb5735-caa5-4a69-8a09-d18dce9d7b4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:06:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义贝叶斯世界模型",
+    "知识图谱",
+    "贝叶斯推理",
+    "神经符号AI",
+    "概率本体",
+    "因果推断",
+    "语义校准"
+   ],
+   "field": "神经符号AI与语义网交叉",
+   "innovations": [
+    "将本体公理直接转化为概率单调性约束，实现语义校准层",
+    "提出SPARQL到因果do-operator的统一映射",
+    "将知识图谱补全范式从链接预测扩展为先验估计的张量补全"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "TabScope-Question-Adaptive-Scope-Selection-for-Table-Questio",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-09-04 06:58:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/15adbfe2-c441-4c09-9ab4-ec6846ae452e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/15adbfe2-c441-4c09-9ab4-ec6846ae452e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:08:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "TableQA",
+    "表格问答",
+    "作用域选择",
+    "操作感知分解",
+    "长表格推理",
+    "自适应路由"
+   ],
+   "field": "表格问答与长上下文推理",
+   "innovations": [
+    "提出操作感知表格分解方法，根据问题操作类型选择行列而非依赖词汇重叠",
+    "设计问题自适应作用域选择框架，动态决定局部推理或全文本推理",
+    "构建银标参考子表和SLQA长表格基准，填补评测资源空白"
+   ],
+   "benchmarks": [
+    "WikiTQ",
+    "SLQA",
+    "WTQ-SUBTAB"
+   ]
+  }
+ }
 }

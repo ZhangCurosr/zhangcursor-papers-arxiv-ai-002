@@ -4,5 +4,31 @@
  "title": "More-Criticism-Does-Not-Make-a-Better-Review-E-sub-q-sub-uiR",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-04 06:59:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a892b0a3-2c00-43ac-80f2-69252bc73fe3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a892b0a3-2c00-43ac-80f2-69252bc73fe3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:04:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-assisted peer review",
+    "scientific reviewing",
+    "evidence-guided refinement",
+    "selective risk control",
+    "review revision",
+    "concern provenance"
+   ],
+   "field": "AI辅助学术评审",
+   "innovations": [
+    "分离遗漏与过度批评为独立风险并证明单维指标失效",
+    "EquiReview-R三阶段流程：证据引导修订→互补搜索→选择性停止",
+    "发布ReviewTrace证据链接轨迹资源支持修订学习"
+   ],
+   "benchmarks": [
+    "ReviewTrace confirmation set (271 unseen papers)",
+    "E3 high-recall baseline",
+    "E3-Matched computation-matched control"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SimSkill-A-Lifelong-Learning-AI-Agent-for-Autonomous-Mastery",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-04 06:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7681d193-970b-4a8f-9ad2-d41596cdaa9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7681d193-970b-4a8f-9ad2-d41596cdaa9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:07:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lifelong Learning Agent",
+    "LLM Agent Memory",
+    "Traffic Simulation",
+    "SimSkill",
+    "SUMO",
+    "Procedural Memory",
+    "Action-Critic Loop"
+   ],
+   "field": "Agent 系统与多模态/工具使用",
+   "innovations": [
+    "三分记忆架构（episodic/procedural/semantic）配合 ingest-merge-lint 完整生命周期，在不更新主干模型前提下实现跨任务能力积累",
+    "Action-Critic 双层嵌套重试与信息跨层选择性传递，内层修执行错误、外层修设计错误",
+    "独立 artifact-based 验证范式：由无上下文偏置的第三方模型重跑脚本并核对证据，替代 Agent 自报成功"
+   ],
+   "benchmarks": [
+    "Benchmark V1 (40 tasks, 4 difficulty tiers)",
+    "Benchmark V2 (40 hard engineering tasks)"
+   ]
+  }
+ }
 }

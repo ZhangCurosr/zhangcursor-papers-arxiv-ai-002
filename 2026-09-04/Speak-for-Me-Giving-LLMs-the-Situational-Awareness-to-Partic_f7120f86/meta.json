@@ -4,5 +4,30 @@
  "title": "Speak-for-Me-Giving-LLMs-the-Situational-Awareness-to-Partic",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-04 07:01:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4be2381d-3e82-48a5-879c-544d8f769733.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4be2381d-3e82-48a5-879c-544d8f769733.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:07:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "meeting delegation",
+    "multi-party agents",
+    "situational awareness",
+    "structured state tracking",
+    "POMDP-inspired architecture",
+    "conversation prediction"
+   ],
+   "field": "多参与者对话系统中的主动代理",
+   "innovations": [
+    "CAPA架构：感知-行动-校准循环，通过显式结构化会议状态实现多参与者LLM委托",
+    "提案先于实现的两级设计：Controller承诺离散命题后Generator风格化输出，防止幻觉并让沉默成为一等公民",
+    "Dual-judge状态校准：环境判定器与代理判定器分离感知误差与执行误差，反馈回灌状态而非输出文本"
+   ],
+   "benchmarks": [
+    "AMI Meeting Corpus",
+    "ICSI Meeting Corpus"
+   ]
+  }
+ }
 }

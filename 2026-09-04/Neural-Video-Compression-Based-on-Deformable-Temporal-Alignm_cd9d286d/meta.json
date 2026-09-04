@@ -4,5 +4,30 @@
  "title": "Neural-Video-Compression-Based-on-Deformable-Temporal-Alignm",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-04 06:58:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5877cc22-c6f1-434b-b337-d98fd3797bba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5877cc22-c6f1-434b-b337-d98fd3797bba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:04:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经视频压缩",
+    "条件编码",
+    "时序上下文",
+    "可变形卷积",
+    "差异感知融合",
+    "率失真优化"
+   ],
+   "field": "神经视频压缩",
+   "innovations": [
+    "基于可变形卷积的CTAM补全时序上下文生成机制",
+    "基于差异图的DSSF自适应空间选择融合策略"
+   ],
+   "benchmarks": [
+    "UVG",
+    "HEVC Class B/C/D/E",
+    "MCL-JCV"
+   ]
+  }
+ }
 }

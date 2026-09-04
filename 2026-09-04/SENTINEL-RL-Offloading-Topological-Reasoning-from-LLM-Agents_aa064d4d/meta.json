@@ -4,5 +4,29 @@
  "title": "SENTINEL-RL-Offloading-Topological-Reasoning-from-LLM-Agents",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-04 06:59:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dfc85d58-fdbe-4225-99c7-0b3f905fb434.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dfc85d58-fdbe-4225-99c7-0b3f905fb434.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:05:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "横向移动检测",
+    "图神经网络",
+    "强化学习",
+    "安全运营中心",
+    "LLM Agent",
+    "图数据库"
+   ],
+   "field": "网络安全智能体",
+   "innovations": [
+    "拓扑-语义解耦架构：HetGAT+PPO策略面与LLM叙事面的分层设计",
+    "两阶段CREATE图数据摄入模式解决高偏斜热节点死锁（24x吞吐提升）",
+    "企业就绪控制面：分层权限+Rollback脚本自动生成+Response Sandbox级联预检"
+   ],
+   "benchmarks": [
+    "LANL Comprehensive Multi-Source Cyber-Security Events dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "LONGCOUNSEL-8-A-Benchmark-Suite-for-Longitudinal-Depression",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-04 06:59:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c69cfc33-a8f3-4c77-a2ac-28d4c7cfe611.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c69cfc33-a8f3-4c77-a2ac-28d4c7cfe611.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:03:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal depression tracking",
+    "counseling dialogue benchmark",
+    "PHQ-8",
+    "synthetic dialogue generation",
+    "behavior cue translation",
+    "self-report label",
+    "trajectory type evaluation"
+   ],
+   "field": "多会话咨询对话中的抑郁纵向追踪",
+   "innovations": [
+    "首次构建同时覆盖多会话咨询对话+会话级PHQ-8标签+实证症状构成+大规模生成的基准套件LONGCOUNSEL-8",
+    "提出实证启发式状态构建与间接行为实现的合成数据管线，通过self-report/controlled state分离避免标签泄露",
+    "揭示change MAE与direction accuracy排名反转、worsening轨迹系统性困难、历史利用非单调性等纵向评估关键现象"
+   ],
+   "benchmarks": [
+    "LONGCOUNSEL-8 (LC8-QWEN / LC8-LUNA / LC8-GPT-5.4-MINI)",
+    "DAIC-WOZ",
+    "REALCBT",
+    "PSYCHE-D",
+    "NHANES DPQ_L",
+    "PsychEval"
+   ]
+  }
+ }
 }

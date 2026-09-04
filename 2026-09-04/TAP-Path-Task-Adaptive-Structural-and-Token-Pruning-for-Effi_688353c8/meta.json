@@ -4,5 +4,32 @@
  "title": "TAP-Path-Task-Adaptive-Structural-and-Token-Pruning-for-Effi",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-04 06:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/18fc297f-04bb-460f-a46c-816f48a2d781.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/18fc297f-04bb-460f-a46c-816f48a2d781.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:08:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computational pathology",
+    "foundation model compression",
+    "structural pruning",
+    "token pruning",
+    "trustworthy AI",
+    "model efficiency",
+    "transformer sparsification"
+   ],
+   "field": "计算病理学中的高效基础模型",
+   "innovations": [
+    "任务自适应非连续 transformer block 物理剪枝，直接在预训练编码器上重构紧凑子网络",
+    "输入自适应 token 剪枝结合多深度特征软门控恢复，补偿压缩信息损失",
+    "效率与可靠性联合评估：在减参 25%/FLOPs 减 35% 的同时保持优于完整模型的精度与校准性能"
+   ],
+   "benchmarks": [
+    "TCGA 32-class histopathology classification",
+    "CPTAC-CCRCC external validation",
+    "CPTAC-UCEC external validation"
+   ]
+  }
+ }
 }

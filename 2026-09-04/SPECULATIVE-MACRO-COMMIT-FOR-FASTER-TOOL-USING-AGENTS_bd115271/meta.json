@@ -4,5 +4,30 @@
  "title": "SPECULATIVE-MACRO-COMMIT-FOR-FASTER-TOOL-USING-AGENTS",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-09-04 06:58:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d6325495-44e9-4511-803e-26a9455b55e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d6325495-44e9-4511-803e-26a9455b55e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:05:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agents",
+    "speculative execution",
+    "tool use",
+    "inference latency",
+    "macro mining",
+    "runtime optimization"
+   ],
+   "field": "LLM Agent 推理加速",
+   "innovations": [
+    "将多步动作模式作为隐藏运行时状态提交而非模型可见工具",
+    "基于 Beta 后验保守估计的宏筛选策略",
+    "带 anchor 验证与深度门控的多步推测性提交机制"
+   ],
+   "benchmarks": [
+    "τ²-Bench Telecom",
+    "AppWorld"
+   ]
+  }
+ }
 }

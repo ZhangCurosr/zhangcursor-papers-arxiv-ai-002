@@ -4,5 +4,32 @@
  "title": "TEST-TIME-ADAPTATION-FOR-SPEECH-ENHANCEMENT-WITH-AN-AUTOREGR",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-04 06:57:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7bc51d-1c63-45dd-bc4e-d3049d51d134.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7bc51d-1c63-45dd-bc4e-d3049d51d134.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:08:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Speech Enhancement",
+    "Test-Time Adaptation",
+    "Neural Audio Codec",
+    "Autoregressive Prior",
+    "KL Divergence",
+    "Domain Generalization"
+   ],
+   "field": "语音增强测试时自适应",
+   "innovations": [
+    "提出基于NAC潜空间自回归清洁语音先验的单utterance TTA方法，通过KL散度最小化实现无源数据适配",
+    "设计全局正交基参数化的自回归高斯先验，高效建模高维潜空间完整协方差结构",
+    "揭示先验对数密度与TTA增益的单调关系，提出基于密度四分位的自适应步数预测策略"
+   ],
+   "benchmarks": [
+    "DNS Challenge V5 dev-test",
+    "TIMIT-DEMAND",
+    "EARS-WHAM",
+    "Libri1Mix test set"
+   ]
+  }
+ }
 }

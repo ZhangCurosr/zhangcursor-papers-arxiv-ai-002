@@ -4,5 +4,43 @@
  "title": "Spurious-Advantage-Hidden-in-GRPO",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-04 06:58:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e27cdfd5-e745-47f4-81e5-e411f0cabb57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e27cdfd5-e745-47f4-81e5-e411f0cabb57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:06:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GRPO",
+    "reinforcement learning with verifiable rewards",
+    "advantage estimation",
+    "spurious advantage",
+    "math reasoning",
+    "search agent"
+   ],
+   "field": "强化学习与大模型对齐",
+   "innovations": [
+    "揭示GRPO优势估计器在有界答案任务中的虚假优势问题",
+    "提出SIGNBALANCE解耦幅度与组内统计的优势估计器",
+    "系统分析三类触发spurious advantage的场景并提供统一框架"
+   ],
+   "benchmarks": [
+    "MATH-7.5K",
+    "GSM8K",
+    "MATH-500",
+    "Minerva-Math",
+    "OlympiadBench",
+    "MMLU-math",
+    "SAT-Math",
+    "AQuA",
+    "AMC",
+    "NQ",
+    "TriviaQA",
+    "PopQA",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

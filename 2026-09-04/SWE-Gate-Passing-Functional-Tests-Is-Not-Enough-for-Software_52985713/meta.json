@@ -4,5 +4,29 @@
  "title": "SWE-Gate-Passing-Functional-Tests-Is-Not-Enough-for-Software",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-04 06:58:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7e5a69-58b1-4956-8c81-46d980367619.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4e7e5a69-58b1-4956-8c81-46d980367619.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:06:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "software engineering agents",
+    "code review constraints",
+    "repository-level repair",
+    "benchmark evaluation",
+    "functional correctness",
+    "constraint compliance"
+   ],
+   "field": "软件工程中LLM智能体评测基准",
+   "innovations": [
+    "首个从真实PR审查评论中提取可执行约束的仓库级SE基准SWE-Gate",
+    "提出FSR/CFR/JSR/HFR双维分离评估协议",
+    "构建非合规补丁与Gold补丁对偶实例证明功能与约束维度可分离"
+   ],
+   "benchmarks": [
+    "SWE-Gate"
+   ]
+  }
+ }
 }
