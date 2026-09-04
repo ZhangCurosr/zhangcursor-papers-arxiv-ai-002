@@ -4,5 +4,30 @@
  "title": "Privacy-Robustness-and-Fairness-Trade-offs-in-Federated-Intr",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-04 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5933126-32c2-4b46-8971-be9a113fff6a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5933126-32c2-4b46-8971-be9a113fff6a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:31:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "Intrusion Detection",
+    "Differential Privacy",
+    "Byzantine Robustness",
+    "Class Imbalance",
+    "Geometric Indistinguishability",
+    "Fairness"
+   ],
+   "field": "联邦学习与网络安全交叉",
+   "innovations": [
+    "引入几何不可区分性概念框架揭示DP与鲁棒聚合对少数类信号的联合抑制机制",
+    "首个联合评估差分隐私-拜占庭鲁棒-类间公平的联邦NIDS实验，区分假象崩溃与残底下限",
+    "提出CMS架构探索性方案，在中等隐私下对少数类检测实现显著改善"
+   ],
+   "benchmarks": [
+    "UNSW-NB15"
+   ]
+  }
+ }
 }

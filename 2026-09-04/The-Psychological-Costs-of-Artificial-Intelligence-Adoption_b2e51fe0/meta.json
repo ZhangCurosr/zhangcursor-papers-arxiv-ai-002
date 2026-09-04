@@ -4,5 +4,31 @@
  "title": "The-Psychological-Costs-of-Artificial-Intelligence-Adoption",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-04 06:58:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/89c22021-d4a4-4333-b1b8-5756cfe978d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/89c22021-d4a4-4333-b1b8-5756cfe978d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:32:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI adoption",
+    "psychological costs",
+    "software engineering",
+    "technostress",
+    "human-AI collaboration",
+    "professional identity",
+    "verification tax",
+    "agency displacement"
+   ],
+   "field": "人机协作与软件工程中的人因/社会维度",
+   "innovations": [
+    "提出'代理权位移'(agency displacement)概念解释心理成本的角色分布差异",
+    "构建包含五种心理成本及其来源-响应路径的解释模型，并映射至COR与SDT理论",
+    "提出'验证税'(verification tax)概念揭示AI将认知负荷从生成转向验证的系统性成本"
+   ],
+   "benchmarks": [
+    "Single case study at SoftHouse (Danish software company), N=21 semi-structured interviews, 12 member-checking sessions"
+   ]
+  }
+ }
 }

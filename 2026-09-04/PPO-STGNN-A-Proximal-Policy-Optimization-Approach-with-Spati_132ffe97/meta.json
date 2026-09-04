@@ -4,5 +4,34 @@
  "title": "PPO-STGNN-A-Proximal-Policy-Optimization-Approach-with-Spati",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-09-04 07:00:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/71633016-5bd5-476a-a759-2c156be64ed7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/71633016-5bd5-476a-a759-2c156be64ed7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:31:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DAG调度",
+    "云-边-端协同",
+    "时空图神经网络",
+    "近端策略优化",
+    "深度强化学习",
+    "负载均衡"
+   ],
+   "field": "边缘计算任务调度",
+   "innovations": [
+    "提出PPO-STGNN调度架构，联合提取DAG逻辑拓扑与物理资源时空特征",
+    "引入多教师行为克隆预训练机制缓解大规模动作空间冷启动",
+    "设计拓扑动作掩码与多目标奖励函数实现负载均衡与完成时间权衡"
+   ],
+   "benchmarks": [
+    "FCFS",
+    "LeastLoad",
+    "HEFT",
+    "Greedy",
+    "MLP-PPO",
+    "PPO-StaticGNN"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Why-Gated-DeltaNet-Survives-4-Bit-Quantization-NVFP4-W4A4-f",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-04 06:58:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/27ee992a-58ee-4c43-b820-911e06b5e5d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/27ee992a-58ee-4c43-b820-911e06b5e5d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:33:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "W4A4量化",
+    "Gated DeltaNet",
+    "混合LLM",
+    "NVFP4",
+    "长上下文推理",
+    "post-training quantization",
+    "linear attention"
+   ],
+   "field": "大模型低比特量化与高效推理",
+   "innovations": [
+    "首次证明GDN gate投影可安全量化至4比特且匹配BF16精度",
+    "发现并修复fused-GEMM与per-module校准间的global-scale失配",
+    "提出calibrated FP8 KV scales免费恢复83%长上下文PPL惩罚"
+   ],
+   "benchmarks": [
+    "MMLU-Pro",
+    "GSM8K",
+    "AIME'25",
+    "GPQA-Diamond",
+    "LiveCodeBench v6",
+    "RULER @32K/64K",
+    "WikiText-2 PPL @4K/32K"
+   ]
+  }
+ }
 }

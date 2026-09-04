@@ -4,5 +4,31 @@
  "title": "When-Models-Edit-Too-Much-On-the-Fidelity-of-Minimal-Code-Ed",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-04 06:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/70559e1c-e1fe-46bb-a064-c25b52823ef8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/70559e1c-e1fe-46bb-a064-c25b52823ef8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:33:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码编辑保真度",
+    "over-editing",
+    "最小化代码修复",
+    "强化学习微调",
+    "LLM代码生成",
+    "编辑距离评估"
+   ],
+   "field": "代码大语言模型评估与后训练",
+   "innovations": [
+    "构建含已知最小修复ground truth的400题代码编辑保真度评估基准，填补可度量编辑量维度的空白",
+    "发现显式preservation提示可显著降低over-editing且不牺牲正确性，且强化学习可持久化学习最小编辑风格优于SFT/DPO"
+   ],
+   "benchmarks": [
+    "BigCodeBench",
+    "DeepCoder",
+    "LiveCodeBench v6",
+    "Defects4J"
+   ]
+  }
+ }
 }

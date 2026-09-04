@@ -4,5 +4,32 @@
  "title": "Remember-and-Reweight-Enhancing-Multi-Agent-Debate-with-Expe",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-04 06:56:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/50d71b5c-dd3e-4500-aba7-32b33e761f8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/50d71b5c-dd3e-4500-aba7-32b33e761f8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:32:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent debate",
+    "shared misconception",
+    "experience memory",
+    "confidence weighting",
+    "retrieval policy",
+    "large language models"
+   ],
+   "field": "多智能体推理与协作",
+   "innovations": [
+    "辩论状态感知的经验检索策略，根据共识水平动态调整检索目标",
+    "基于历史经验的智能体置信度加权机制，理论将多数主导收敛速率从O(m)降至O(αm)",
+    "经验记忆同时干预概念先验偏差与同伴偏见两个失败模式"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "MMLU-Pro Economics",
+    "MMLU-Pro Engineering",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

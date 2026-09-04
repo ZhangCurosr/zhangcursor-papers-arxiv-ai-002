@@ -4,5 +4,34 @@
  "title": "Rethinking-On-Policy-Distillation-of-Large-Language-Models-I",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-04 06:59:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/77f06fe6-5885-419f-bcae-4861e948917c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/77f06fe6-5885-419f-bcae-4861e948917c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:32:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "one-shot training",
+    "data efficiency",
+    "state coverage",
+    "multi-teacher OPD",
+    "LLM post-training"
+   ],
+   "field": "大语言模型后训练与知识蒸馏",
+   "innovations": [
+    "提出one-shot OPD并证明单查询可恢复全量OPD大部分增益",
+    "引入状态覆盖率度量揭示OPD数据效率的机制",
+    "证明OPD是数据过剩但算法受限"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "AMC 2023",
+    "AIME 2025",
+    "LiveCodeBench v6",
+    "Multi-IF",
+    "BFCL v3"
+   ]
+  }
+ }
 }

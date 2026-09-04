@@ -4,5 +4,34 @@
  "title": "Proactive-Service-Agents-A-Unified-Decision-Framework-Method",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-04 06:55:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/8b875f28-a5d1-4ec5-ae26-36b220a7ac09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/8b875f28-a5d1-4ec5-ae26-36b220a7ac09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:31:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "proactive service agents",
+    "partially observable decision making",
+    "mixed-initiative interaction",
+    "intervention evaluation",
+    "permission-aware agents",
+    "counterfactual policy value"
+   ],
+   "field": "主动服务智能体与序贯决策",
+   "innovations": [
+    "将主动服务形式化为受授权与风险约束的部分可观测马尔可夫决策过程，明确沉默为可比基线",
+    "提出R/C/H三轴证据描述符系统评估基准质量，指出当前无一工作满足高质量证据标准",
+    "定义干预增量优势Δη统一度量触发时机、内容质量与交付方式的综合部署价值"
+   ],
+   "benchmarks": [
+    "PIRA-Bench",
+    "ESTP-Bench",
+    "ProAgentBench",
+    "LatentNeeds-Bench",
+    "ProMemAssist",
+    "SCALA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Making-Every-Tool-Call-Count-Necessary-Tool-Evidence-Path-Re",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-09-04 06:58:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/83fad4eb-184e-4079-9679-d58d2eda4700.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/83fad4eb-184e-4079-9679-d58d2eda4700.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:32:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic VLM",
+    "Tool Use",
+    "Reinforcement Learning",
+    "Process Reward",
+    "Vision-Language Model",
+    "Multi-step Reasoning",
+    "OOD Generalization"
+   ],
+   "field": "多模态智能体工具调用与强化学习",
+   "innovations": [
+    "提出NTEP双阶段过程奖励机制，显式监督预调用意图对齐与后调用信息提取",
+    "引入非重复目标正则化器压制饱和式工具调用，实现准确率与调用效率双赢",
+    "构建教师蒸馏+失败补全的NTEP自动化构造流水线，实现工具无关的证据路径监督"
+   ],
+   "benchmarks": [
+    "MMSearch",
+    "HR-MMSearch",
+    "InfoSeek",
+    "MAT-Search",
+    "V* Bench",
+    "HR-Bench 4K",
+    "HR-Bench 8K"
+   ]
+  }
+ }
 }

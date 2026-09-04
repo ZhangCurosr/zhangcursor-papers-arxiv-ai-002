@@ -4,5 +4,33 @@
  "title": "MASKED-AUTOREGRESSIVE-SPEECH-ENHANCEMENT-WITH-CONTINUOUS-NEU",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-04 07:00:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f28c937e-740c-475a-a97e-80607270076c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f28c937e-740c-475a-a97e-80607270076c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:31:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech enhancement",
+    "masked autoregressive",
+    "continuous representation",
+    "neural audio codec",
+    "DAC",
+    "conformer",
+    "exposure bias"
+   ],
+   "field": "语音增强与生成建模",
+   "innovations": [
+    "提出MARSE统一框架系统比较连续NAC表征上多种解码策略",
+    "在同一实验设置下揭示迭代次数与性能/计算开销的权衡关系",
+    "通过量化可见帧有效缓解多步迭代中的exposure bias"
+   ],
+   "benchmarks": [
+    "Libri1Mix",
+    "LibriDEMAND",
+    "DNSMOS SIG/BAK/OVRL",
+    "dWER"
+   ]
+  }
+ }
 }

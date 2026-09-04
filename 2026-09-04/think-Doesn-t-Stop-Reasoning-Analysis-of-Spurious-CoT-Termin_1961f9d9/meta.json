@@ -4,5 +4,33 @@
  "title": "think-Doesn-t-Stop-Reasoning-Analysis-of-Spurious-CoT-Termin",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-04 06:57:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f8b30346-c49e-44d4-9da4-dec3e36552fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f8b30346-c49e-44d4-9da4-dec3e36552fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:34:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Early Exit",
+    "Large Reasoning Models",
+    "Mechanistic Interpretability",
+    "Attention Intervention",
+    "Spurious Termination"
+   ],
+   "field": "大语言模型推理效率与可解释性",
+   "innovations": [
+    "提出虚假CoT终止概念并系统刻画EoT再生现象",
+    "设计无训练注意力偏置方法EAB建立因果证据",
+    "跨模型/方法/基准的细粒度行为分析与对照实验设计"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AMC 2023",
+    "AIME 2024",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

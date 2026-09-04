@@ -4,5 +4,33 @@
  "title": "Toward-Physically-Grounded-JEPA-World-Models-for-Goal-Condit",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-04 07:00:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dc44b37c-611d-44c9-890c-13921957050f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dc44b37c-611d-44c9-890c-13921957050f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:33:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "world model",
+    "inverse dynamics",
+    "state alignment",
+    "goal-conditioned planning",
+    "robotic control",
+    "latent representation"
+   ],
+   "field": "具身智能/机器人学习",
+   "innovations": [
+    "提出结合逆动力学与物理状态对齐的端到端JEPA世界模型，使潜变量既对动作敏感又锚定物理配置",
+    "揭示高时序拉直度可能掩盖低有效过渡维度问题，提出用r_95作为补充评估指标",
+    "在四个机器人规划基准上，SA+IDM变体在ThreeRoom、PushT、OGBench-Cube取得最高成功率"
+   ],
+   "benchmarks": [
+    "TwoRoom",
+    "Reacher",
+    "PushT",
+    "OGBench-Cube"
+   ]
+  }
+ }
 }

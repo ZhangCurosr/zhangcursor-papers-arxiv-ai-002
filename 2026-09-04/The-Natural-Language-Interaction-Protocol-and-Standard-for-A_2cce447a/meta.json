@@ -4,5 +4,31 @@
  "title": "The-Natural-Language-Interaction-Protocol-and-Standard-for-A",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-04 06:58:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b801aa36-f984-45a9-bc70-92558eab39ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b801aa36-f984-45a9-bc70-92558eab39ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:32:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NLIP",
+    "AI Agent",
+    "协议互操作",
+    "自然语言协议",
+    "Agent通信",
+    "Ecma标准",
+    "MCP",
+    "A2A"
+   ],
+   "field": "多Agent系统与Agent互操作性",
+   "innovations": [
+    "用自然语言语义信封替代刚性schema实现异构Agent互操作",
+    "定义HTTP/WebSocket/AMQP传输绑定的轻量级应用层协议",
+    "在通信层统一提供AI与系统双重安全控制点"
+   ],
+   "benchmarks": [
+    "NLIP vs A2A延迟对比（M1/M2 Pro/M3 Pro多硬件环境）"
+   ]
+  }
+ }
 }

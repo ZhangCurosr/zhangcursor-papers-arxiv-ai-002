@@ -4,5 +4,31 @@
  "title": "Witnesses-Explain-Anomalies",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-04 06:59:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7aa9b8de-b151-403d-97cf-8b812e14d919.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7aa9b8de-b151-403d-97cf-8b812e14d919.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:33:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly detection",
+    "explainable AI",
+    "feature attribution",
+    "unsupervised learning",
+    "outlier detection",
+    "sub-Gaussian baseline",
+    "witness directions"
+   ],
+   "field": "无监督异常检测与可解释AI",
+   "innovations": [
+    "WAND: 通过单位球面上采样方向实现设计即解释的无监督异常检测，见证方向即逐特征归因，零额外查询成本",
+    "输出敏感探针预算理论保证：所需方向数K仅依赖异常数k和维度d，与样本量n无关",
+    "median/MAD校准的次高斯极值基线，兼具1/(d+1)联合breakdown与k-spacing多峰鲁棒性"
+   ],
+   "benchmarks": [
+    "ADBench (47 datasets)",
+    "ANOCUB (CUB-200-2011派生)"
+   ]
+  }
+ }
 }
