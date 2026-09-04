@@ -4,5 +4,29 @@
  "title": "WIDE-Wildcard-Inference-with-Dynamic-Expansion-for-Cross-Mod",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-04 06:58:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ecd4b9f5-67dd-4fff-b8ad-07090a804dec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ecd4b9f5-67dd-4fff-b8ad-07090a804dec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:27:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "生成式检索",
+    "跨模态检索",
+    "信息不对称",
+    "通配符解码",
+    "不确定性估计",
+    "残差量化"
+   ],
+   "field": "多模态信息检索",
+   "innovations": [
+    "首次形式化跨模态生成式检索中的强制幻觉问题",
+    "提出WIDE框架通过熵阈值校准与通配符解码动态豁免模糊层级的概率惩罚",
+    "设计盲点比例驱动的离散-连续混合重排序机制"
+   ],
+   "benchmarks": [
+    "M-BEIR"
+   ]
+  }
+ }
 }

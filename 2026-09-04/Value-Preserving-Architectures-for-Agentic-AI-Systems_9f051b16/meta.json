@@ -4,5 +4,27 @@
  "title": "Value-Preserving-Architectures-for-Agentic-AI-Systems",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-04 17:22:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ceb95cbf-310c-4457-aacd-3ddcf34fce44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ceb95cbf-310c-4457-aacd-3ddcf34fce44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:26:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic AI",
+    "Multi-Agent Systems",
+    "Value-Preserving Architecture",
+    "Responsible Software Engineering",
+    "Privacy",
+    "Fairness",
+    "Pluralism"
+   ],
+   "field": "可信多智能体系统",
+   "innovations": [
+    "提出Federated Silos Coordination模式通过架构拓扑强制数据最小化以保护隐私",
+    "提出Peer-to-Peer Deliberation模式通过去中心化拓扑与共识度量结构性保障多元代表性",
+    "提出Plan-Triggered Guard Agents模式通过流程分段与按需激活实现事前偏见干预以保障公平性"
+   ]
+  }
+ }
 }

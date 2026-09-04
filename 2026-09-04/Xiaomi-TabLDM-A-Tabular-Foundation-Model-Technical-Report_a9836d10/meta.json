@@ -4,5 +4,10 @@
  "title": "Xiaomi-TabLDM-A-Tabular-Foundation-Model-Technical-Report",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-04 17:23:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d56834bb-1413-4dea-8026-0ca345f65cb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d56834bb-1413-4dea-8026-0ca345f65cb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:27:49",
+  "chunks": 1
+ }
 }

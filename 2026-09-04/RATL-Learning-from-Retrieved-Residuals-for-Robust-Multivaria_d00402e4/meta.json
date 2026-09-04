@@ -4,5 +4,28 @@
  "title": "RATL-Learning-from-Retrieved-Residuals-for-Robust-Multivaria",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-04 07:01:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ac729b99-e0ef-4f46-9bb2-8e88f1cd649d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ac729b99-e0ef-4f46-9bb2-8e88f1cd649d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:25:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多变量时间序列预测",
+    "检索增强",
+    "残差修正",
+    "冻结基础模型",
+    "块-变量路由",
+    "推理时记忆"
+   ],
+   "field": "时间序列预测与检索增强AI",
+   "innovations": [
+    "提出将检索目标从历史未来值转为冻结基础预测器的特异性历史残差",
+    "设计J5块-变量级集合感知路由器，结合软Oracle教师监督与零残差候选进行细粒度残差选择与组合"
+   ],
+   "benchmarks": [
+    "ETTh1/2, ETTm1/2, ECL, Exchange, Traffic, Weather, Solar-Energy, PEMS03/04/07/08"
+   ]
+  }
+ }
 }

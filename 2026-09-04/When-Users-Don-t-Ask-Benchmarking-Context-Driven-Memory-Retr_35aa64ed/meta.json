@@ -4,5 +4,33 @@
  "title": "When-Users-Don-t-Ask-Benchmarking-Context-Driven-Memory-Retr",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-04 17:23:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5149486-519e-44f5-b6d9-21ad9fcfe3ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5149486-519e-44f5-b6d9-21ad9fcfe3ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:27:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话记忆",
+    "长程记忆",
+    "检索增强生成",
+    "基准测试",
+    "隐式查询",
+    "静默落地"
+   ],
+   "field": "对话智能体记忆评估",
+   "innovations": [
+    "提出LOCOMO-CONV对话式记忆基准，通过四种第一人称查询风格（对话式、隐式、反事实、组合式）评估记忆系统",
+    "发现并命名静默落地现象，揭示严格事实回忆指标的局限性",
+    "多面查询重写显著填补原始轮次记忆的检索缺口，抽象式系统通过语义elaboration在隐式查询上表现更优"
+   ],
+   "benchmarks": [
+    "LOCOMO-CONV",
+    "LoCoMo",
+    "LongMemEval",
+    "PersonaMem",
+    "AMemGym"
+   ]
+  }
+ }
 }

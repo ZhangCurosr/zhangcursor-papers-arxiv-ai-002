@@ -4,5 +4,10 @@
  "title": "Why-Gated-DeltaNet-Survives-4-Bit-Quantization-NVFP4-W4A4-f",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-04 17:22:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/27ee992a-58ee-4c43-b820-911e06b5e5d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/27ee992a-58ee-4c43-b820-911e06b5e5d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:27:32",
+  "chunks": 1
+ }
 }

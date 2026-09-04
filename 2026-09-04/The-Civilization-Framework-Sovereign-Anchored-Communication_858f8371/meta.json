@@ -4,5 +4,30 @@
  "title": "The-Civilization-Framework-Sovereign-Anchored-Communication",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-04 17:23:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2afb8276-88a2-4e2d-b462-501ff1b3fd8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2afb8276-88a2-4e2d-b462-501ff1b3fd8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:25:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "agent communication",
+    "protocol design",
+    "trust and reputation",
+    "anchoring bias",
+    "LLM verification"
+   ],
+   "field": "多智能体系统通信协议",
+   "innovations": [
+    "提出文明抽象作为跨AI通信的自然单位（一人+持久账本+可替换智能体）",
+    "设计Embassy协议实现载体无关的异步承诺级通信",
+    "发现并测量AI间传输的时间权重效应并提供协议级缓解"
+   ],
+   "benchmarks": [
+    "53-question factual QA benchmark with planted incorrect anchors",
+    "claude-opus-5 efort medium (single model tier)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "When-Models-Edit-Too-Much-On-the-Fidelity-of-Minimal-Code-Ed",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-04 17:22:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/70559e1c-e1fe-46bb-a064-c25b52823ef8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/70559e1c-e1fe-46bb-a064-c25b52823ef8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:27:21",
+  "chunks": 1
+ }
 }

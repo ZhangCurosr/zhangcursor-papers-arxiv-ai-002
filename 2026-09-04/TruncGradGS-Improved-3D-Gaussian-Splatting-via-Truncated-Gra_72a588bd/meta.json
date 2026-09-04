@@ -4,5 +4,31 @@
  "title": "TruncGradGS-Improved-3D-Gaussian-Splatting-via-Truncated-Gra",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-04 06:57:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c1c62145-e85c-4e89-84cf-6eb5f58b5291.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c1c62145-e85c-4e89-84cf-6eb5f58b5291.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:26:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "gradient vanishing",
+    "truncated gradient",
+    "novel view synthesis",
+    "dynamic scene reconstruction",
+    "rasterization optimization"
+   ],
+   "field": "3D Gaussian Splatting 优化与动态重建",
+   "innovations": [
+    "提出分段截断梯度场，用线性近似替代高斯导数尾部以缓解梯度消失",
+    "仅对死亡Gaussian应用截断梯度并配合半径扩展与延迟剪枝，保证优化稳定性",
+    "引入包含6个复杂动态场景的合成基准数据集，填补工业级动态评估空白"
+   ],
+   "benchmarks": [
+    "Mip-NeRF360",
+    "Neural 3D Video (N3DV)",
+    "Self-built dynamic synthetic dataset"
+   ]
+  }
+ }
 }

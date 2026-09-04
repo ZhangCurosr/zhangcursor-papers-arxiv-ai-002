@@ -4,5 +4,31 @@
  "title": "What-Matters-for-Aggressive-Decoding-Time-KV-Eviction-Tempor",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-09-04 17:23:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/de0d9313-96db-47b9-bf93-d95b65dffe7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/de0d9313-96db-47b9-bf93-d95b65dffe7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:27:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache compression",
+    "decoding-time eviction",
+    "temporal aggregation",
+    "EMA smoothing",
+    "ranking preservation",
+    "long-context inference"
+   ],
+   "field": "长上下文LLM高效推理",
+   "innovations": [
+    "首次解耦评分函数与时序聚合轴，揭示EMA聚合下近似保序扰动的不可区分性",
+    "提出边界误差/滞后误差权衡框架与EMA排名稳定性理论界",
+    "InertiaKV-Lazy与Score-Free将刷新频率作为显式质量-效率控制变量"
+   ],
+   "benchmarks": [
+    "LongBench",
+    "LongBench-v2",
+    "RULER"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Value-Preserving-Architectures-for-Agentic-AI-Systems",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-04 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ceb95cbf-310c-4457-aacd-3ddcf34fce44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ceb95cbf-310c-4457-aacd-3ddcf34fce44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:26:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic AI",
+    "Multi-Agent Systems",
+    "Responsible Software Engineering",
+    "Value Alignment",
+    "Architectural Patterns",
+    "Privacy-Preserving Architecture",
+    "Fairness in MAS"
+   ],
+   "field": "多智能体系统与负责任AI",
+   "innovations": [
+    "提出三套价值保留型MAS架构模式（隐私/多元/公平），将价值观保障嵌入架构设计而非依赖事后约束",
+    "首创Plan-Triggered Guard Agents三阶段管线（计划-审查-执行）实现执行前偏见干预",
+    "引入共识度量机制驱动去中心化多智能体审议的收敛与分歧保留"
+   ],
+   "benchmarks": [
+    "个性化医疗决策场景",
+    "气候峰会新闻聚合场景",
+    "招聘候选人公平排名场景"
+   ]
+  }
+ }
 }
