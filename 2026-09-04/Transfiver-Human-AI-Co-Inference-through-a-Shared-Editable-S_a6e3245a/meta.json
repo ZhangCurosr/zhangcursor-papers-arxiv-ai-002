@@ -4,5 +4,31 @@
  "title": "Transfiver-Human-AI-Co-Inference-through-a-Shared-Editable-S",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-04 07:01:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b4b58f2-19de-4387-b4f8-43548fc25000.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b4b58f2-19de-4387-b4f8-43548fc25000.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 02:00:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-AI Co-Inference",
+    "Persistent State",
+    "Editable Memory",
+    "History Sufficiency",
+    "Interactive State Management",
+    "State Editing"
+   ],
+   "field": "人机协同与可解释AI",
+   "innovations": [
+    "提出共享可编辑持久状态架构实现人机协同推理",
+    "形式化历史充分性与因果干预契约以审计状态影响力",
+    "区分并实现有向编辑与流更新双重状态演变机制"
+   ],
+   "benchmarks": [
+    "LongMemEval",
+    "Synthetic Context Separation Task",
+    "Multi-Rule Readout Task"
+   ]
+  }
+ }
 }
