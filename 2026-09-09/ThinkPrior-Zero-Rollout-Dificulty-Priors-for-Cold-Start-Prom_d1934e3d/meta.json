@@ -4,5 +4,32 @@
  "title": "ThinkPrior-Zero-Rollout-Dificulty-Priors-for-Cold-Start-Prom",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-09 17:32:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/3235949f-15ee-4c04-b0f8-8bb014efea86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/3235949f-15ee-4c04-b0f8-8bb014efea86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:33:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "prompt selection",
+    "cold-start",
+    "group relative policy optimization",
+    "difficulty prior",
+    "Beta posterior"
+   ],
+   "field": "强化学习与语言模型后训练",
+   "innovations": [
+    "外部锚点构建零rollout难度先验解决冷启动问题",
+    "可学习性U(p)度量与分散惩罚选择规则",
+    "与DAPO组合实现净生成rollout减少10.6%"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "GSM8K",
+    "Minerva Math",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

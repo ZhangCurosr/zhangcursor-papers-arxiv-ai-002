@@ -4,5 +4,30 @@
  "title": "Sparse-Data-Augmentation-for-Optimization-with-Provable-Guar",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-09 17:33:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d63b440d-df3a-4480-a26b-1cb45612869d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d63b440d-df3a-4480-a26b-1cb45612869d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:30:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "data augmentation",
+    "group invariance",
+    "nonconvex optimization",
+    "one-shot sparse augmentation",
+    "representation theory",
+    "spectral concentration",
+    "group sampling oracle"
+   ],
+   "field": "几何机器学习中的优化理论",
+   "innovations": [
+    "提出一次性稀疏增强范式，证明可复用固定变换子集以降低群采样oracle复杂度",
+    "建立有限群平均算子的一致谱逼近界，利用表示论分解将依赖维度问题转化为有限块控制",
+    "证明one-shot sparse GD在光滑非凸设定下仅需O((log|G|+log(1/δ))/ε²)次group oracle调用即可达到ε-驻点"
+   ],
+   "benchmarks": [
+    "Permutation-invariant sum regression under S₆"
+   ]
+  }
+ }
 }

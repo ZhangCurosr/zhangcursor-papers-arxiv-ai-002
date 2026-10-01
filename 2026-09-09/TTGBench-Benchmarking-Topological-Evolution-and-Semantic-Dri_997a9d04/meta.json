@@ -4,5 +4,31 @@
  "title": "TTGBench-Benchmarking-Topological-Evolution-and-Semantic-Dri",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-09 07:05:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/04b82b1c-72d9-49b5-a6e0-f46aff2fafc3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/04b82b1c-72d9-49b5-a6e0-f46aff2fafc3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:32:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序图学习",
+    "链接预测",
+    "节点分类",
+    "大语言模型",
+    "基准测试"
+   ],
+   "field": "动态图机器学习",
+   "innovations": [
+    "首个联合评估结构演化与语义漂移的文本丰富时序图基准",
+    "揭示TGNN与LLM预测器在结构与语义建模上的根本性能力鸿沟"
+   ],
+   "benchmarks": [
+    "TTGBench",
+    "DGB",
+    "DyGLib",
+    "DTGB",
+    "TGB-Seq"
+   ]
+  }
+ }
 }

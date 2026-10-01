@@ -4,5 +4,33 @@
  "title": "TRAINING-FREE-TASK-VECTORS-FOR-LLM-BEHAVIORAL-CONTROL",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-09 07:07:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/64e16eeb-44ff-4498-9ec7-f07f30d5cbca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/64e16eeb-44ff-4498-9ec7-f07f30d5cbca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:31:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-free",
+    "task vector",
+    "behavioral control",
+    "model editing",
+    "steering vector",
+    "weight-space editing",
+    "composition"
+   ],
+   "field": "大语言模型行为控制与后训练编辑",
+   "innovations": [
+    "仅用前向统计与SVD将激活steering映射为rank-one权重更新，无需微调即可构造可算术组合的训练无关task vector",
+    "严格证明norm-matching、steering与linearity三项性质，支持加法增强、减法抑制与多性状组合编辑"
+   ],
+   "benchmarks": [
+    "Persona Vectors",
+    "MMLU",
+    "GSM8K",
+    "Moral Stories",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

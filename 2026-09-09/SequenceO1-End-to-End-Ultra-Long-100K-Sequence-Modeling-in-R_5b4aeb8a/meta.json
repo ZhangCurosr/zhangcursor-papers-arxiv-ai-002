@@ -4,5 +4,31 @@
  "title": "SequenceO1-End-to-End-Ultra-Long-100K-Sequence-Modeling-in-R",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-09 17:32:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/3a4c1e2c-92dd-4351-ba26-ca62e4c720d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/3a4c1e2c-92dd-4351-ba26-ca62e4c720d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:29:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recommendation systems",
+    "long-sequence modeling",
+    "Sketch Attention",
+    "cache amortization",
+    "end-to-end ranking",
+    "industrial recommender"
+   ],
+   "field": "推荐系统长序列建模",
+   "innovations": [
+    "Sketch Attention: prototype-wise normalization 实现 target-agnostic 固定大小可缓存 sketch 压缩",
+    "Cache-first 100K 训练/推理系统: local KVCache + MRLB + FlashSA kernel 协同实现 O(1) cache-hit 路径",
+    "双时间尺度 STCA 推理: 10K recent suffix + fixed-size ultra-long sketch 联合优化"
+   ],
+   "benchmarks": [
+    "Douyin offline AUC/UAUC",
+    "Douyin online A/B (Finish, Duration, Activeness)",
+    "Douyin Lite online A/B"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "The-Audit-Decides-the-Verdict-Instrument-Effects-Rival-Demog",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-09 17:32:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/e408e2b6-d09e-418c-bd4b-64975cc6c77c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/e408e2b6-d09e-418c-bd4b-64975cc6c77c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:32:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM bias auditing",
+    "instrument effects",
+    "correspondence audit",
+    "demographic bias",
+    "format effects",
+    "equivalence testing",
+    "position bias"
+   ],
+   "field": "AI公平性评估",
+   "innovations": [
+    "系统验证格式反转效应在监管领域的普适性",
+    "植入对比度与等价检验结合的双重验证框架",
+    "揭示审计位置效应与人口统计效应相当"
+   ],
+   "benchmarks": [
+    "AgentFairBench",
+    "FairFund-Bench"
+   ]
+  }
+ }
 }

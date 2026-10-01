@@ -4,5 +4,31 @@
  "title": "SynthRCT-Scalable-Conditional-Deformation-Synthesis-for-Synt",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-09 07:07:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/cd4a7a5a-e10a-41cd-a19c-b4792af4a271.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/cd4a7a5a-e10a-41cd-a19c-b4792af4a271.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:31:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Proton Therapy",
+    "Conditional VAE",
+    "Deformable Registration",
+    "3D Medical Image Synthesis",
+    "SVF",
+    "Large-field-of-view CT"
+   ],
+   "field": "医学影像生成与自适应放疗",
+   "innovations": [
+    "Slab-wise SVF生成与重叠refine融合策略实现大视野CT显存可伸缩变形合成",
+    "FiLM注入全局隐码的条件生成框架支持患者特异性多模态解剖变异采样"
+   ],
+   "benchmarks": [
+    "DIR4DCT",
+    "LNCC/RMSE/Dice",
+    "Energy Distance",
+    "Wasserstein-1"
+   ]
+  }
+ }
 }

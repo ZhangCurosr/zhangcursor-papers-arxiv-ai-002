@@ -4,5 +4,34 @@
  "title": "The-Surprising-Effectiveness-of-Approximate-Value-Iteration",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-09 07:07:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/25e9422c-86f3-4b5f-ac0c-ab43a3242978.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/25e9422c-86f3-4b5f-ac0c-ab43a3242978.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:33:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Approximate Value Iteration",
+    "Self-Play",
+    "Monte Carlo Tree Search",
+    "Zero-Sum Games",
+    "Value Learning",
+    "Reinforcement Learning",
+    "AlphaZero"
+   ],
+   "field": "多智能体强化学习/博弈论",
+   "innovations": [
+    "首次在多个非平凡棋类游戏中用精确 oracle 系统比较 AVI 与 AlphaZero，证明 AVI 可学到更精确价值函数",
+    "提出 negamax 交替结构中误差符号抵消的稳定性解释假设",
+    "通过 cross-inference 实验证明简单价值学习可为复杂搜索提供更强指导"
+   ],
+   "benchmarks": [
+    "Connect Four (strong oracle)",
+    "Hex(7x7) (weak oracle)",
+    "F-Games (synthetic)",
+    "Othello (MiniZero baseline)",
+    "Go(9x9) (MiniZero baseline)"
+   ]
+  }
+ }
 }

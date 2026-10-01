@@ -4,5 +4,35 @@
  "title": "Synergistic-Fusion-of-Topological-Structure-and-Temporal-Sem",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-09 17:33:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2475f01c-e699-4ca6-9b32-1cfe80191130.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2475f01c-e699-4ca6-9b32-1cfe80191130.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:31:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "urban region embedding",
+    "zigzag persistence",
+    "temporal semantics",
+    "multi-view fusion",
+    "topological data analysis",
+    "shared-private decomposition",
+    "tensor fusion",
+    "human mobility"
+   ],
+   "field": "城市智能/区域表征学习",
+   "innovations": [
+    "首次将 zigzag 持久同调引入城市区域嵌入，以 $H_0$ 持久图刻画区域邻域连通的涌现/维持/消失节律",
+    "提出 Sequence+Structure 双流并借共享-私有分解与低秩三阶张量交互实现多度协同融合",
+    "仅凭单一出行流在纽约与芝加哥三任务上取得 SOTA，超越依赖 POI/签到的多模态基线"
+   ],
+   "benchmarks": [
+    "NYC 180 census tracts, 31-day taxi OD",
+    "Chicago 77 community areas, 31-day taxi OD",
+    "Crime prediction (MAE/RMSE/$R^2$)",
+    "Income prediction (MAE/RMSE/$R^2$)",
+    "Service-call prediction (MAE/RMSE/$R^2$)"
+   ]
+  }
+ }
 }

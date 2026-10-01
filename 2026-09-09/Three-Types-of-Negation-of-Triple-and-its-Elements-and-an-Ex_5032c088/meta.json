@@ -4,5 +4,29 @@
  "title": "Three-Types-of-Negation-of-Triple-and-its-Elements-and-an-Ex",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-09 17:33:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d65c9de4-9130-4e74-9a1d-4478a069ea0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d65c9de4-9130-4e74-9a1d-4478a069ea0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:33:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "triple reasoning",
+    "negation",
+    "fuzzy logic",
+    "counterfactual reasoning",
+    "knowledge representation",
+    "semantic entailment"
+   ],
+   "field": "知识表示与语义推理",
+   "innovations": [
+    "提出三元组及元素层面的矛盾否定、反对否定、中介否定三种否定类型",
+    "基于 LCOI+PLCOI 逻辑提出 TCOI triple 扩展并建立 TCOI-entailment 语义蕴含体系",
+    "设计面向三类否定的连续真值推理算法并应用于反事实推理示例"
+   ],
+   "benchmarks": [
+    "无公开基准，采用人工示例（水温/热度）进行连续真值推演"
+   ]
+  }
+ }
 }

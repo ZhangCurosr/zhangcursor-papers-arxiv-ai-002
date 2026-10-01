@@ -4,5 +4,10 @@
  "title": "Style-Over-Substance-Content-Invariant-Wrappers-Flip-LLM-Saf",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-09 07:04:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/1008b17d-dca4-4768-8205-31c5f7fdc9a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/1008b17d-dca4-4768-8205-31c5f7fdc9a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:30:35",
+  "chunks": 1
+ }
 }

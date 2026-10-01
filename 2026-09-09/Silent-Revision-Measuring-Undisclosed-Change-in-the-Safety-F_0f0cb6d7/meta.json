@@ -4,5 +4,31 @@
  "title": "Silent-Revision-Measuring-Undisclosed-Change-in-the-Safety-F",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-09 17:32:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54f93f62-fd9a-4e29-9de2-a95d21c6c0a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54f93f62-fd9a-4e29-9de2-a95d21c6c0a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:29:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI安全框架",
+    "透明度",
+    "内容分析",
+    "静默修订率",
+    "政策评估",
+    "监管科学"
+   ],
+   "field": "AI治理与政策评估",
+   "innovations": [
+    "定义静默修订率（SRR）测量框架修订中未披露承诺变更的比例",
+    "发现承诺弱化比强化更易被静默处理（OR=2.93, p=0.002）",
+    "揭示修订说明形式（叙事vs枚举）比长度更能预测静默率"
+   ],
+   "benchmarks": [
+    "Stelling et al. 2025 65项标准",
+    "Midas Project AI Safety Watchtower",
+    "Foundation Model Transparency Index"
+   ]
+  }
+ }
 }

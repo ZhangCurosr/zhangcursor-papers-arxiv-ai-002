@@ -4,5 +4,29 @@
  "title": "Sparse-Data-Augmentation-for-Optimization-with-Provable-Guar",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-09 07:05:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54ee8920-1e18-4d99-b6f2-381f4bb13764.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54ee8920-1e18-4d99-b6f2-381f4bb13764.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:30:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "data augmentation",
+    "group symmetry",
+    "nonconvex optimization",
+    "one-shot sampling",
+    "spectral approximation",
+    "group oracle complexity"
+   ],
+   "field": "几何机器学习与群对称优化",
+   "innovations": [
+    "提出 One-shot 单次采样增强范式，将分组采样 Oracle 复杂度从 O(1/ε⁴) 降至 O(log|G|/ε²)",
+    "基于群诱导酉算子的谱逼近建立统一梯度逼近界，解决固定子集与迭代轨迹的耦合依赖",
+    "在光滑非凸设定下证明一次采样复用仍可为全量增强目标提供 ε-平稳点保证"
+   ],
+   "benchmarks": [
+    "Permutation-invariant sum regression on S_6"
+   ]
+  }
+ }
 }

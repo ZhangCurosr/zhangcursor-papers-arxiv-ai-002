@@ -4,5 +4,33 @@
  "title": "TRAINING-FREE-TASK-VECTORS-FOR-LLM-BEHAVIORAL-CONTROL",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-09 17:32:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/64e16eeb-44ff-4498-9ec7-f07f30d5cbca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/64e16eeb-44ff-4498-9ec7-f07f30d5cbca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:32:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Task Vectors",
+    "Model Editing",
+    "Activation Steering",
+    "Post-training Control",
+    "LLM Behavioral Control",
+    "Training-Free Method"
+   ],
+   "field": "LLM后训练行为控制与模型编辑",
+   "innovations": [
+    "将激活空间导向向量映射为秩一权重更新，无需微调即可实现持久化行为编辑",
+    "构造满足范数匹配、导向对齐和线性组合性质的训练免费任务向量",
+    "在训练自由方法中实现最强的特性控制与效用保持trade-off，支持加法、减法及多特性组合"
+   ],
+   "benchmarks": [
+    "Persona Vectors",
+    "MMLU",
+    "GSM8K",
+    "Moral Stories",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

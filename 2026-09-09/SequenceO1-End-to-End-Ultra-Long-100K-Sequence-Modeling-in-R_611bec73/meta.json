@@ -4,5 +4,29 @@
  "title": "SequenceO1-End-to-End-Ultra-Long-100K-Sequence-Modeling-in-R",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-09 07:04:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/3a4c1e2c-92dd-4351-ba26-ca62e4c720d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/3a4c1e2c-92dd-4351-ba26-ca62e4c720d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:29:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推荐系统",
+    "长序列建模",
+    "Sketch Attention",
+    "端到端排序",
+    "低秩缓存"
+   ],
+   "field": "工业推荐系统长序列建模",
+   "innovations": [
+    "原型侧归一化的Sketch Attention实现可缓存固定大小sketch",
+    "双时间尺度STCA推理（近期10K+超长sketch）",
+    "训练-serving端KVCache+MRLB使100K路径开销降至O(1)"
+   ],
+   "benchmarks": [
+    "Douyin离线AUC/UAUC",
+    "Douyin/Douyin Lite在线A/B（Finish, Activeness, Duration）"
+   ]
+  }
+ }
 }

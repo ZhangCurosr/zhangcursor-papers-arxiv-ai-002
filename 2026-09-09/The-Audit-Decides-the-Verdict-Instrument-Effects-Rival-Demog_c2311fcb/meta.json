@@ -4,5 +4,30 @@
  "title": "The-Audit-Decides-the-Verdict-Instrument-Effects-Rival-Demog",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-09 07:06:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/e408e2b6-d09e-418c-bd4b-64975cc6c77c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/e408e2b6-d09e-418c-bd4b-64975cc6c77c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:32:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM公平性审计",
+    "审计格式效应",
+    "人口统计偏差",
+    "对应审计",
+    "位置偏差",
+    "等价检验"
+   ],
+   "field": "LLM公平性与审计",
+   "innovations": [
+    "系统性检验并否定慈善援助领域的格式反转效应在受监管领域的推广",
+    "揭示审计构型（位置、措辞）效应超越人口统计效应",
+    "通过因子化设计分离人口统计信号与审计噪声"
+   ],
+   "benchmarks": [
+    "AgentFairBench",
+    "FairFund-Bench"
+   ]
+  }
+ }
 }

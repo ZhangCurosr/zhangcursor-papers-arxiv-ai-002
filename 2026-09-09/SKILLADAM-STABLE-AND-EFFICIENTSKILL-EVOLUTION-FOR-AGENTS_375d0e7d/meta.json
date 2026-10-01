@@ -4,5 +4,34 @@
  "title": "SKILLADAM-STABLE-AND-EFFICIENTSKILL-EVOLUTION-FOR-AGENTS",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-09 17:32:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f032ee89-36aa-463d-993a-dec36d846ba5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f032ee89-36aa-463d-993a-dec36d846ba5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:28:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skill",
+    "Skill Self-Evolution",
+    "Prompt Optimization",
+    "Discrete Optimization",
+    "LLM Agent"
+   ],
+   "field": "智能体技能优化",
+   "innovations": [
+    "将 Adam 一阶矩二阶矩思想功能性地类比到离散技能空间，实现稳定高效优化",
+    "设计进化问题跟踪器（EIT）作为优化记忆，累积跨迭代证据稳定方向",
+    "设计波动驱动的编辑预算，基于改进一致性自适应控制修改幅度"
+   ],
+   "benchmarks": [
+    "SearchQA",
+    "SpreadsheetBench",
+    "OfficeQA",
+    "DocVQA",
+    "LiveMathematicianBench",
+    "ALFWorld",
+    "DeepPlanning"
+   ]
+  }
+ }
 }

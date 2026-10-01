@@ -4,5 +4,29 @@
  "title": "Style-Over-Substance-Content-Invariant-Wrappers-Flip-LLM-Saf",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-09 17:33:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/1008b17d-dca4-4768-8205-31c5f7fdc9a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/1008b17d-dca4-4768-8205-31c5f7fdc9a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:30:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "safety judge",
+    "jailbreak evaluation",
+    "adversarial robustness",
+    "LLM alignment",
+    "style bias",
+    "content-invariant wrapper"
+   ],
+   "field": "大语言模型安全评估",
+   "innovations": [
+    "提出内容不变的风格包装攻击协议，将攻击目标从模型转向安全裁判",
+    "建立跨裁判翻转率测量体系（配对检验+bootstrap+noise floor）",
+    "证明StrongREJECT-style prompt可降攻击效果10倍，揭示脆弱性源于裁判设计而非模型能力"
+   ],
+   "benchmarks": [
+    "JailbreakBench"
+   ]
+  }
+ }
 }

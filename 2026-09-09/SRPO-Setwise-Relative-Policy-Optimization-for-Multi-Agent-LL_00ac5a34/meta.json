@@ -4,5 +4,41 @@
  "title": "SRPO-Setwise-Relative-Policy-Optimization-for-Multi-Agent-LL",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-09 07:04:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/34eea97e-1326-4843-9319-51258e879a86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/34eea97e-1326-4843-9319-51258e879a86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:28:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent RL",
+    "policy optimization",
+    "setwise optimization",
+    "active set",
+    "GRPO",
+    "LLM agents"
+   ],
+   "field": "多智能体大模型强化学习",
+   "innovations": [
+    "以活跃集定义工作流无关的 MAS 动作，统一分工与联合协同演化",
+    "基数归一化（sqrt(K)）的集合相对策略目标并单次裁剪",
+    "事件原子批处理的可训练统一接口"
+   ],
+   "benchmarks": [
+    "AIME'24",
+    "AIME'25",
+    "AMC'23",
+    "MATH500",
+    "Minerva",
+    "OlympiadBench",
+    "NQ",
+    "TriviaQA",
+    "PopQA",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue",
+    "Bamboogle"
+   ]
+  }
+ }
 }

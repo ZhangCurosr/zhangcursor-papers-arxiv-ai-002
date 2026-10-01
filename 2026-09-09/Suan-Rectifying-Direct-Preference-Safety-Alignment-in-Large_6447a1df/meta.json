@@ -4,5 +4,39 @@
  "title": "Suan-Rectifying-Direct-Preference-Safety-Alignment-in-Large",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-09 17:32:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2bc443aa-7423-4d1e-887f-07716b87b0ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2bc443aa-7423-4d1e-887f-07716b87b0ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:30:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Direct Preference Optimization",
+    "Safety Alignment",
+    "Large Language Models",
+    "Over-refusal",
+    "Likelihood Displacement",
+    "Gradient Design"
+   ],
+   "field": "大模型安全对齐",
+   "innovations": [
+    "直接在梯度层面设计偏好优化目标，绕过变分推导",
+    "引入有界正则化梯度项抑制过拒绝和似然偏移"
+   ],
+   "benchmarks": [
+    "Malicious Instruct",
+    "HarmBench",
+    "AdvBench",
+    "SORRY-Bench",
+    "XS-Test",
+    "OR-Bench",
+    "AlpacaEval",
+    "ArenaHard",
+    "MT-Bench",
+    "ARC",
+    "MMLU",
+    "NoveltyBench"
+   ]
+  }
+ }
 }

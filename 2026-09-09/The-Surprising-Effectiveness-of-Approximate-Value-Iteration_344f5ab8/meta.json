@@ -4,5 +4,33 @@
  "title": "The-Surprising-Effectiveness-of-Approximate-Value-Iteration",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-09 17:32:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/25e9422c-86f3-4b5f-ac0c-ab43a3242978.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/25e9422c-86f3-4b5f-ac0c-ab43a3242978.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:32:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Approximate Value Iteration",
+    "self-play",
+    "Monte Carlo Tree Search",
+    "game-playing AI",
+    "value function learning",
+    "negamax"
+   ],
+   "field": "博弈强化学习",
+   "innovations": [
+    "在可解博弈中系统证明AVI价值函数比AlphaZero更准确且训练稳定",
+    "一步贪心策略在极低推理预算下匹敌MCTS策略质量",
+    "AVI价值函数嵌入MCTS可提升搜索性能"
+   ],
+   "benchmarks": [
+    "Connect Four",
+    "Hex(7x7)",
+    "F-Games",
+    "Othello",
+    "Go(9x9)"
+   ]
+  }
+ }
 }

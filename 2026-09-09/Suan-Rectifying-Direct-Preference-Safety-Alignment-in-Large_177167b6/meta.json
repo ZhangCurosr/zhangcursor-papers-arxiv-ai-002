@@ -4,5 +4,40 @@
  "title": "Suan-Rectifying-Direct-Preference-Safety-Alignment-in-Large",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-09 07:05:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f7415f81-fbff-4f02-9559-3d7835b16d5f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f7415f81-fbff-4f02-9559-3d7835b16d5f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:30:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "安全对齐",
+    "直接偏好优化",
+    "过拒绝",
+    "似然位移",
+    "大语言模型",
+    "Suan"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "从梯度层面重新设计偏好优化目标，避免 DPO 类方法的似然位移与过拒绝",
+    "引入单调可解释的正则超参 β，实现参考策略距离的稳定控制",
+    "无需安全标签过滤即实现安全性与帮助性的综合最优权衡"
+   ],
+   "benchmarks": [
+    "Malicious Instruct",
+    "HarmBench",
+    "AdvBench",
+    "SORRY-Bench",
+    "XS-Test",
+    "OR-Bench",
+    "AlpacaEval",
+    "MT-Bench",
+    "ArenaHard",
+    "MMLU",
+    "ARC",
+    "NoveltyBench"
+   ]
+  }
+ }
 }
